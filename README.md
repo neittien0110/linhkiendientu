@@ -8,6 +8,7 @@
 
 ### Dây diện
 
- - Dây 30 awg, nhỏ, mảnh, dai, xỏ xuyên lô của PCB thoải mái.
+ - Dây 30 awg, đơn lõi, nhỏ, mảnh, dai, xỏ xuyên lô của PCB thoải mái, phù hợp để hàn
    ![30 awg](https://github.com/neittien0110/linhkiendientu/assets/8079397/3bc621a0-3e66-40fb-b1ad-07e7855f7ad2)
+   ![xỏ lỗ](https://github.com/neittien0110/linhkiendientu/assets/8079397/95bc8f20-d05e-466a-a6ad-7b5a020a9eb9)
    [Mua sắm](https://shopee.vn/Cu%E1%BB%99n-d%C3%A2y-%C4%91%E1%BB%93ng-c%C3%A1ch-nhi%E1%BB%87t-280m-30awg-B-30-1000-chuy%C3%AAn-d%E1%BB%A5ng-i.201091220.5642271126)
