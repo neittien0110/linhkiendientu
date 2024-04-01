@@ -12,3 +12,10 @@
    ![30 awg](https://github.com/neittien0110/linhkiendientu/assets/8079397/3bc621a0-3e66-40fb-b1ad-07e7855f7ad2)
    ![xỏ lỗ](https://github.com/neittien0110/linhkiendientu/assets/8079397/95bc8f20-d05e-466a-a6ad-7b5a020a9eb9)
    [Mua sắm](https://shopee.vn/Cu%E1%BB%99n-d%C3%A2y-%C4%91%E1%BB%93ng-c%C3%A1ch-nhi%E1%BB%87t-280m-30awg-B-30-1000-chuy%C3%AAn-d%E1%BB%A5ng-i.201091220.5642271126)
+
+### MPU
+
+-  MPU**9250** / MPU**6500** /  
+  ![20240218_095519](https://github.com/neittien0110/linhkiendientu/assets/8079397/b4d4cd04-8c82-48e1-9c96-baf6b5fa8c58)
+  - [Mua MPU 6500, mặc dù tên là 9250, nhưng thực tế là 6500](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-9-Tr%E1%BB%A5c-MPU-9250-GY-9250-I2C-SPI-Chuy%C3%AAn-D%E1%BB%A5ng-i.578443443.22041043458)
+
