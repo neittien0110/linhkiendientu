@@ -27,16 +27,34 @@
 
 - Đo lượng oxi và nhịp tim MAX102 \
   ![max30102](https://github.com/neittien0110/linhkiendientu/assets/8079397/a59436a9-4e5e-4eee-bc49-09aef0d442ab)
-```
-Cảm biến nhịp tim và oxy trong máu MAX30102
-IC chính: MAX30102
-Đo được nhịp tim và nồng độ Oxy trong máu.
-Điện áp sử dụng: 3.3~5VDC.
-Nhỏ gọn, siêu tiết kiệm năng lượng, thích hợp cho các thiết bị đo nhỏ gọn, Wearable Devices.
-Giao tiếp: I2C, mức tín hiệu TTL.
-Kích thước: 1.4 cm x 1.4 cm x 0.3 cm
-```  
+  ```
+  Cảm biến nhịp tim và oxy trong máu MAX30102
+  IC chính: MAX30102
+  Đo được nhịp tim và nồng độ Oxy trong máu.
+  Điện áp sử dụng: 3.3~5VDC.
+  Nhỏ gọn, siêu tiết kiệm năng lượng, thích hợp cho các thiết bị đo nhỏ gọn, Wearable Devices.
+  Giao tiếp: I2C, mức tín hiệu TTL.
+  Kích thước: 1.4 cm x 1.4 cm x 0.3 cm
+  ```  
   - [Mua sắm pcb tím](https://shopee.vn/B%E1%BA%A3ng-m%E1%BA%A1ch-c%E1%BA%A3m-bi%E1%BA%BFn-max30102-max30100-cho-Arduino-Not-max30100-i.81431289.2337919080)
   - [Mua sắm MH-ET Live pcb đen](https://shopee.vn/product/148048328/6415419258?gad_source=1&gclid=EAIaIQobChMIjerb3saihQMVhqNmAh0uYgB4EAYYASABEgJ2B_D_BwE)
   - [3d case 1](https://www.thingiverse.com/thing:4395147)
   - [3d case 2](https://www.thingiverse.com/thing:4847827)
+
+- Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
+  ```plain
+  1. Điện áp vào: AC85V-AC220V
+  2. Tần số sóng điều khiển: 433 MHz
+  3. Dải tần RF: Super 315mhz-433.92
+  4. Mức độ nhạy bộ thu: -107dBm
+  5. Khoảng cách điều khiển:> 100 m (trong điều kiện trống trải)
+  6. Phương pháp giải mã: Giải mã bằng phần mềm trong MCU
+  7. Số kênh điều khiển có thể lưu: 16
+  8. Phương pháp điều khiển: mã cố định, hoặc học mã
+  9. Kênh: 1CH
+  10. Các chế độ hoạt động: (Jog / Non-Locked, Inter-lock / Latched, Self-lock / Self-Locked)
+  11. Rated load: 10A 250VAC / 10A 125VAC
+                   10A 30VDC / 10A 28VDC 
+  12. Kích thước: 5.4 cm * 3.1 cm * 1.4 cm
+  ```
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367)
