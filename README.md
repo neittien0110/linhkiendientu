@@ -26,6 +26,17 @@
 ### Khác
 
 - Đo lượng oxi và nhịp tim MAX102 \
-    ![max30102](https://github.com/neittien0110/linhkiendientu/assets/8079397/a59436a9-4e5e-4eee-bc49-09aef0d442ab)
-  - [Mua sắm MH-ET Live pcb đen](https://shopee.vn/product/148048328/6415419258?gad_source=1&gclid=EAIaIQobChMIjerb3saihQMVhqNmAh0uYgB4EAYYASABEgJ2B_D_BwE)  
+  ![max30102](https://github.com/neittien0110/linhkiendientu/assets/8079397/a59436a9-4e5e-4eee-bc49-09aef0d442ab)
+```
+Cảm biến nhịp tim và oxy trong máu MAX30102
+IC chính: MAX30102
+Đo được nhịp tim và nồng độ Oxy trong máu.
+Điện áp sử dụng: 3.3~5VDC.
+Nhỏ gọn, siêu tiết kiệm năng lượng, thích hợp cho các thiết bị đo nhỏ gọn, Wearable Devices.
+Giao tiếp: I2C, mức tín hiệu TTL.
+Kích thước: 1.4 cm x 1.4 cm x 0.3 cm
+```  
   - [Mua sắm pcb tím](https://shopee.vn/B%E1%BA%A3ng-m%E1%BA%A1ch-c%E1%BA%A3m-bi%E1%BA%BFn-max30102-max30100-cho-Arduino-Not-max30100-i.81431289.2337919080)
+  - [Mua sắm MH-ET Live pcb đen](https://shopee.vn/product/148048328/6415419258?gad_source=1&gclid=EAIaIQobChMIjerb3saihQMVhqNmAh0uYgB4EAYYASABEgJ2B_D_BwE)
+  - [3d case 1](https://www.thingiverse.com/thing:4395147)
+  - [3d case 2](https://www.thingiverse.com/thing:4847827)
