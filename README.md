@@ -54,3 +54,12 @@
   12. Kích thước: 5.4 cm * 3.1 cm * 1.4 cm
   ```
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367)
+
+- Ky-023 Joystick Nút Điều Khiển JoyStick PS2 STM32 Cho Tay Cầm Chơi Game \
+  ![Ky-023](https://github.com/neittien0110/linhkiendientu/assets/8079397/b2ae4aa5-44e2-4f26-aab2-f59fbf2aab3a)\
+  ```plain
+  1. Điện áp hoạt dộng: DC 3.3V~5V
+  2. Pin JRX và JRY: 2 chân analog, là 2 biến trở cho biết mức độ kéo theo phương X và phương Y.
+  3. Pin SW: =1 nếu Joystick được bấm. 
+  ```
+  - [Mua sắm]([https://shopee.vn/M%C3%B4-%C4%90un-N%C3%BAt-%C4%90i%E1%BB%81u-Khi%E1%BB%83n-JoyStick-PS2-STM32-Cho-Tay-C%E1%BA%A7m-Ch%C6%A1i-Game-i.395117932.16228600603](https://shopee.vn/M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-5-pin-tr%E1%BB%A5c-k%C3%A9p-X-Y-cho-tay-c%E1%BA%A7m-ch%C6%A1i-game-Ps2-Ky-023-i.148048328.7241683324))
