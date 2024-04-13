@@ -74,3 +74,8 @@
     ![Cách mặc mạch](https://github.com/neittien0110/linhkiendientu/assets/8079397/d7ff5a29-b269-4eae-b5e0-96e900c24c3f)
      
   - [Mua sắm](https://shopee.vn/Set-1206-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-Tect6000-B%E1%BA%A3o-V%E1%BB%87-M%C3%B4i-Tr%C6%B0%E1%BB%9Dng-TEMT6000X01-i.972724310.22849595571)
+
+- Module cảm biến rung \
+  ![Module cảm biến rung](https://github.com/neittien0110/linhkiendientu/assets/8079397/f7f86d6f-51d5-4432-9f28-a93878fa076d)
+  - Vcc = 3.3~5V  
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-rung-3.3v-5v-chuy%C3%AAn-d%E1%BB%A5ng-d%C3%A0nh-cho-arduino-uno-r3-i.325406709.8705690745)
