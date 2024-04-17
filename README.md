@@ -73,3 +73,15 @@
   ![Module cảm biến rung](https://github.com/neittien0110/linhkiendientu/assets/8079397/f7f86d6f-51d5-4432-9f28-a93878fa076d)
   - Vcc = 3.3~5V  
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-rung-3.3v-5v-chuy%C3%AAn-d%E1%BB%A5ng-d%C3%A0nh-cho-arduino-uno-r3-i.325406709.8705690745)
+
+- Module SR-04 đo khoảng cách
+  - Ý nghĩa: đo khoảng cách bằng siêu âm\
+    ![HC SR-04](https://github.com/neittien0110/linhkiendientu/assets/8079397/7b263874-db23-4676-bda1-30a88b290205)
+  - Thông số:
+    - Điện áp hoạt động: 3.3-5V
+    - Góc hoạt động: 15*
+    - Khoảng cách: 2-200cm
+    - Độ chính xác: 3mm (nhìn chung là thấp)
+    - Không ảnh hưởng bởi mặt trời như cách đo bằng hồng ngoài, nên phù hợp với đo ngoài trời
+  - Lập trình tham khảo: <https://nshopvn.com/product/cam-bien-sieu-am-hc-sr04/>
+  - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-m%E1%BA%A1ch-ph%C3%A1t-hi%E1%BB%87n-s%C3%B3ng-si%C3%AAu-%C3%A2m-hc-sr04-hc-sr-04-cho-Arduino-i.395117932.9923497155)  
