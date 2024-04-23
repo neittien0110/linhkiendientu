@@ -5,7 +5,8 @@
 1. [Các shield mở rộng cho board dạng D1 mini](./D1mini.md)
 2. [Các loại motor](./Motors.md)
 3. [Các module truyền thông](./Communications.md)
-4. [Các linh vật tư phụ kiện như mạch in, dây dẫn, thiếc](./noname.md)
+4. [Các màn hình hiển thị](./Screens.md)
+5. [Các linh vật tư phụ kiện như mạch in, dây dẫn, thiếc](./noname.md)
 
 ### MPU
 
