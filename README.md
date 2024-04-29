@@ -7,6 +7,7 @@
 3. [Các module truyền thông](./Communications.md)
 4. [Các màn hình hiển thị](./Screens.md)
 5. [Các linh vật tư phụ kiện như mạch in, dây dẫn, thiếc](./noname.md)
+6. [Linh kiện PCB để thiết kế board](./EasyEDA_Library.md)
 
 ### MPU
 
