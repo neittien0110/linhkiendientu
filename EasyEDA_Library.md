@@ -29,11 +29,11 @@
 
 ## Module MCU
 
-|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
+|Hình ảnh|Ảnh footprint|Thư viện Footprint|Ghi chú|
 |--|--|--|--|
-|H|G|T|M|
-|H|G|T|M|
-|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
+|![ESP32-S2 D1 Mini](https://github.com/neittien0110/linhkiendientu/assets/8079397/4e9b5747-fa4b-4e62-8780-49103144120f)|![ESP32-S2 D1 Mini Footprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/224ba35f-2d46-4779-98d9-4be6bf4d5a3f)|[Hướng dẫn sử dụng](https://github.com/neittien0110/MCU/blob/master/ESP32/Lolin_S2_mini.md)|<https://easyeda.com/components/WEMOS-S2-MINI_6ef43e8170c04296aa95d7137b398daf>||
+|H|F|T|G|
+|Hình ảnh|Ảnh footprint|Thư viện Footprint|Ghi chú|
 
 ## Module cảm biến, chấp hành
 
