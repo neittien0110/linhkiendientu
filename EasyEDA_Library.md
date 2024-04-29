@@ -49,8 +49,8 @@
 
 ## Mạch sạc
 
-|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
-|--|--|--|--|
-|![LX-LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/669912ed-90d6-4065-8315-ed398e0b679b)|LX-LBC3, sạc pin Lithium, đầu ra 5V | LX-LBC3 ![LX-LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/b7dba5cf-dc4f-444c-9675-24fc3a66a166)|<https://shopee.vn/ZIQQUCU-18650-M%C3%B4-%C4%91un-S%E1%BA%A1c-Pin-lithium-C%E1%BB%95ng-type-c-4.2V-4.35V-5V-i.880593108.22552543642>|
+|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
+|--|--|--|--|--|--|
+|![LX-LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/669912ed-90d6-4065-8315-ed398e0b679b)|![LX-LBC3 Schematic](https://github.com/neittien0110/linhkiendientu/assets/8079397/0c22b791-1c5f-4ac9-8812-d8701d00dd13)|![LX-LBC3 Footprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/6b51f648-e510-441b-90e7-1788d7607365)|LX-LBC3, sạc pin Lithium, đầu ra 5V | LX-LBC3 ![LX-LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/b7dba5cf-dc4f-444c-9675-24fc3a66a166)|[Shopee](https://shopee.vn/ZIQQUCU-18650-M%C3%B4-%C4%91un-S%E1%BA%A1c-Pin-lithium-C%E1%BB%95ng-type-c-4.2V-4.35V-5V-i.880593108.22552543642)|
 |H|G|T|M|
 |Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
