@@ -8,6 +8,7 @@
 4. [Các màn hình hiển thị](./Screens.md)
 5. [Các linh vật tư phụ kiện như mạch in, dây dẫn, thiếc](./noname.md)
 6. [Linh kiện PCB để thiết kế board](./EasyEDA_Library.md)
+7. [Mạch sạc pin Lithium](https://neittien0110.github.io/linhkiendientu/EasyEDA_Library.html#m%E1%BA%A1ch-s%E1%BA%A1c)
 
 ### MPU
 
