@@ -13,4 +13,6 @@
   - Màu hiển thị: Trắng / Xanh Dương.
   - Giao tiếp: I2C
   - Driver: SH1106
+  - Thư viện lập trình: **U8x8lib**
 - [Mua sắm](https://nshopvn.com/product/man-hinh-oled-1-3-inch-giao-tiep-i2c-blue/)
+- Tham khảo: <https://github.com/neittien0110/GamePad>
