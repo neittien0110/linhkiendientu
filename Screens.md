@@ -12,6 +12,9 @@
   - Màu hiển thị: Trắng / Xanh Dương.
   - Giao tiếp: I2C
   - Driver: **SSD1306**
+  - Thư viện lập trình: **Adafruit SSD1306**\
+    ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/db1fab6c-e897-4ec3-bca3-1d0575c7e943)
+
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-M%C3%A0n-H%C3%ACnh-OLED-0.91-Inch-0.91-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-quot-M%C3%B4-%C4%91un-Hi%E1%BB%83n-Th%E1%BB%8B-M%C3%A0n-H%C3%ACnh-LED-LCD-128X32-OLED-Tr%E1%BA%AFng-Xanh-D%C6%B0%C6%A1ng-Cho-Ardunio-i.812409307.19722703781)
 - Tham khảo: <https://github.com/neittien0110/MIMO_Scale/tree/bf2adffcc280d4697f2eaf1d4f0bf76230a588c6>
 
@@ -28,6 +31,7 @@
   - Màu hiển thị: Trắng / Xanh Dương.
   - Giao tiếp: I2C
   - Driver: **SH1106**  (Chú ý rằng không phải SSD1306 như đa số các OLED cỡ nhỏ khác)
-  - Thư viện lập trình: **U8x8lib**
+  - Thư viện lập trình: **U8g2** \
+    ![U8g2](https://github.com/neittien0110/linhkiendientu/assets/8079397/2f046a60-5e7f-440e-a1b7-b5454e75b7e9)
 - [Mua sắm](https://nshopvn.com/product/man-hinh-oled-1-3-inch-giao-tiep-i2c-blue/)
 - Tham khảo: <https://github.com/neittien0110/GamePad>
