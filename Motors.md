@@ -1,5 +1,11 @@
 # ĐỘNG CƠ
 
+## Mục luc
+
+1. [Motor bước 28BYJ-48 5V](#motor-bước-28byj-48-5v)
+2. [Motor rung](#motor-rung)
+3. [Động cơ DC 130 kèm hộp số](#động-cơ-dc-130-kèm-hộp-số)
+
 ## Motor bước 28BYJ-48 5V
 
 - Cấu trúc\
@@ -53,5 +59,16 @@
   |![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/8a0a8b80-1c07-45b8-80cc-3822fe628779)|[Motor phi 8 mm, có băng dinh 3M để dán lên board](https://shopee.vn/Set-10-%C4%90%E1%BB%99ng-C%C6%A1-Rung-DC3V-0834-Cho-%C4%90i%E1%BB%87n-Tho%E1%BA%A1i-i.81431289.16385816403)|
   |![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/5cd06926-f962-4ebc-98f3-a5a53ad44321)|[Motor rung dạng trụ 4x11mm 3VDC rất khỏe](https://shopee.vn/5Pcs-New-Arrival-Micro-Coreless-Vibration-Motor-Mini-DC-Motor-High-Speed-Vibrating-Motor-for-Professional-RC-4x11mm-DC-1.5V-3V-i.81431289.4134754620)|
 
-  
-  
+## Động cơ DC 130 kèm hộp số
+
+![DC Gear Motor TT](https://github.com/neittien0110/linhkiendientu/assets/8079397/7ac7a0b0-cbba-4488-a8aa-d6a76c4f93a4)
+
+- English: DC Gear Motor TT - 130 RPM
+- Thông số:
+  - Tỷ lệ hộp số: 1:90
+  - Nguồn điện: 3-6V
+  - Tốc độ đầu ra: 110RPM (Vòng/phút) ~ 2 vòng/giây
+  - Bắt vít M3 vào chính giữa trục để giữ bánh xe
+  - Bánh răng kim loại\
+![Cấu trúc DC Gear Motor TT 130](https://ae01.alicdn.com/kf/Sebeed03bd90f42299dafab84be57fa6c4.jpg)
+![Mở nắp](https://github.com/neittien0110/linhkiendientu/assets/8079397/ee4d7f32-90f1-41e9-a3c7-f0b6d18b3e99)
