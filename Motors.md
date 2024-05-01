@@ -72,3 +72,7 @@
   - Bánh răng kim loại\
 ![Cấu trúc DC Gear Motor TT 130](https://ae01.alicdn.com/kf/Sebeed03bd90f42299dafab84be57fa6c4.jpg)
 ![Mở nắp](https://github.com/neittien0110/linhkiendientu/assets/8079397/ee4d7f32-90f1-41e9-a3c7-f0b6d18b3e99)
+
+- In 3D:
+  - [Ke L gá hộp số](https://www.thingiverse.com/thing:1169412)
+  - [Hộp gá vào Lego, chuyển đổi trục bánh xe giảm tốc thành trục + của Lego](https://www.thingiverse.com/thing:5140209)
