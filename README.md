@@ -3,7 +3,9 @@
 ## Mục lục
 
 - [Góc, gia tốc, la bàn](#mpu)
-- [Nhịp tim và SpO2](#nhịp_tim_và_spo2)
+- [Nhịp tim và SpO2](#nhịp-tim-và-spo2)
+- [Phím bấm, bàn phim](#bàn-phím)
+- [Đo khoảng cách](#đo-khoảng-cách)
 - [Khác](#khác)
 
 Và tham chiếu tới các trang khác:
@@ -79,25 +81,7 @@ Và tham chiếu tới các trang khác:
   - [3d case 1](https://www.thingiverse.com/thing:4395147)
   - [3d case 2](https://www.thingiverse.com/thing:4847827)
 
-## Khác
-- Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
-  ```plain
-  1. Điện áp vào: AC85V-AC220V
-  2. Tần số sóng điều khiển: 433 MHz
-  3. Dải tần RF: Super 315mhz-433.92
-  4. Mức độ nhạy bộ thu: -107dBm
-  5. Khoảng cách điều khiển:> 100 m (trong điều kiện trống trải)
-  6. Phương pháp giải mã: Giải mã bằng phần mềm trong MCU
-  7. Số kênh điều khiển có thể lưu: 16
-  8. Phương pháp điều khiển: mã cố định, hoặc học mã
-  9. Kênh: 1CH
-  10. Các chế độ hoạt động: (Jog / Non-Locked, Inter-lock / Latched, Self-lock / Self-Locked)
-  11. Rated load: 10A 250VAC / 10A 125VAC
-                   10A 30VDC / 10A 28VDC 
-  12. Kích thước: 5.4 cm * 3.1 cm * 1.4 cm
-  ```
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367)
-
+### Bàn phím
 - Ky-023 Joystick Nút Điều Khiển JoyStick PS2 STM32 Cho Tay Cầm Chơi Game \
   ![Ky-023](https://github.com/neittien0110/linhkiendientu/assets/8079397/b2ae4aa5-44e2-4f26-aab2-f59fbf2aab3a)\
   ```plain
@@ -118,11 +102,8 @@ Và tham chiếu tới các trang khác:
      
   - [Mua sắm](https://shopee.vn/Set-1206-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-Tect6000-B%E1%BA%A3o-V%E1%BB%87-M%C3%B4i-Tr%C6%B0%E1%BB%9Dng-TEMT6000X01-i.972724310.22849595571)
 
-- Module cảm biến rung \
-  ![Module cảm biến rung](https://github.com/neittien0110/linhkiendientu/assets/8079397/f7f86d6f-51d5-4432-9f28-a93878fa076d)
-  - Vcc = 3.3~5V  
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-rung-3.3v-5v-chuy%C3%AAn-d%E1%BB%A5ng-d%C3%A0nh-cho-arduino-uno-r3-i.325406709.8705690745)
 
+## Đo khoảng cách
 - Module SR-04 đo khoảng cách
   - Ý nghĩa: đo khoảng cách bằng siêu âm\
     ![HC SR-04](https://github.com/neittien0110/linhkiendientu/assets/8079397/7b263874-db23-4676-bda1-30a88b290205)
@@ -134,3 +115,24 @@ Và tham chiếu tới các trang khác:
     - Không ảnh hưởng bởi mặt trời như cách đo bằng hồng ngoài, nên phù hợp với đo ngoài trời
   - Lập trình tham khảo: <https://nshopvn.com/product/cam-bien-sieu-am-hc-sr04/>
   - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-m%E1%BA%A1ch-ph%C3%A1t-hi%E1%BB%87n-s%C3%B3ng-si%C3%AAu-%C3%A2m-hc-sr04-hc-sr-04-cho-Arduino-i.395117932.9923497155)  
+
+## Khác
+- Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
+  ```plain
+  1. Điện áp vào: AC85V-AC220V
+  2. Tần số sóng điều khiển: 433 MHz
+  3. Dải tần RF: Super 315mhz-433.92
+  4. Mức độ nhạy bộ thu: -107dBm
+  5. Khoảng cách điều khiển:> 100 m (trong điều kiện trống trải)
+  6. Phương pháp giải mã: Giải mã bằng phần mềm trong MCU
+  7. Số kênh điều khiển có thể lưu: 16
+  8. Phương pháp điều khiển: mã cố định, hoặc học mã
+  9. Kênh: 1CH
+  10. Các chế độ hoạt động: (Jog / Non-Locked, Inter-lock / Latched, Self-lock / Self-Locked)
+  11. Rated load: 10A 250VAC / 10A 125VAC
+                   10A 30VDC / 10A 28VDC 
+  12. Kích thước: 5.4 cm * 3.1 cm * 1.4 cm
+  ```
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367)
+
+
