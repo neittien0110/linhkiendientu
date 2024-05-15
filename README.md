@@ -12,9 +12,10 @@
 
 ### MPU
 
--  MPU**9250** / MPU**6500** /  
-  ![20240218_095519](https://github.com/neittien0110/linhkiendientu/assets/8079397/b4d4cd04-8c82-48e1-9c96-baf6b5fa8c58)
-  - [Mua MPU 6500, mặc dù tên là 9250, nhưng thực tế là 6500](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-9-Tr%E1%BB%A5c-MPU-9250-GY-9250-I2C-SPI-Chuy%C3%AAn-D%E1%BB%A5ng-i.578443443.22041043458)
+-  MPU**9250** / MPU**6500** / \
+  ![20240218_095519](https://github.com/neittien0110/linhkiendientu/assets/8079397/14b33c4d-9f34-4473-ab0b-366a25a4f8c2)
+
+- [Mua MPU 6500, mặc dù tên là 9250, nhưng thực tế là 6500](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-9-Tr%E1%BB%A5c-MPU-9250-GY-9250-I2C-SPI-Chuy%C3%AAn-D%E1%BB%A5ng-i.578443443.22041043458)
 
 ### Nhịp tim và SpO2
 
@@ -31,11 +32,13 @@
   - VIN: in, Nguòn cấp 3.3V hoặc 5V)
   - SCL: in, tín hiệu đồng hồ của I2C
   - SDA: inout, tín hiệu dữ liệu của I2C
-  - INT: out, báo ngắt
-  - IRD: out, chân dữ liệu của cảm biến hồng ngoại 
-  - RD:  out, Red LED data pin, dùng để đo dộ bão hòa oxy *SpO2) và nhịp tim (HR)
+  - INT: out, báo ngắt tích cực mức *thấp*, và duy trì mức *thấp* cho tới khi được xóa bởi phần mềm. Nếu muốn sử dụng thì phải enable tính năng này trước đó.
+  - IRD: in, dùng để điều khiển led hồng ngoại. Nếu muốn tự kiểm soát led hồng ngoại thì hãy sử dụng, ngược lại thì bỏ qua chân này.
+  - RD:  in, Red LED data pin, dùng để đo dộ bão hòa oxy *SpO2) và nhịp tim (HR). Cách sử dụng tương tự như chân IRD.
   - GND: Ground
-- Giải thích chi tiết: <https://www.instructables.com/Guide-to-Using-MAX30102-Heart-Rate-and-Oxygen-Sens/> \
+- Giải thích chi tiết:
+  - Tiếng Anh: <https://lastminuteengineers.com/max30102-pulse-oximeter-heart-rate-sensor-arduino-tutorial/>
+  - Tiếng Việt: <https://mecsu.vn/ho-tro-ky-thuat/may-do-oxy-xung-max30102-va-cam-bien-nhip-tim-voi-arduino.Db4>
   ![Phóng to 1](https://github.com/neittien0110/linhkiendientu/assets/8079397/75c3a16a-25bf-4e63-99cf-b7185b7d1ae2) \
   ![Mặt sau](https://github.com/neittien0110/linhkiendientu/assets/8079397/8ebe584e-ed53-4c8a-8086-63597cfd8810) 
 - Video hướng dẫn: [xem 1](https://www.youtube.com/watch?v=0rsHJbog6dk), [xem 2](https://www.youtube.com/watch?v=cEtyMkubXj4)
@@ -45,11 +48,14 @@
   3. **Ambient Light Cancellation**:  kích hoạt khi chức năng hủy sự can thiệp của ánh sáng môi trường của diot quang SpO2/HR đã đạt cực đại và có thể gây ảnh hưởng tới kết quả đo đầu ra.
   4. **Temperature Ready**: Báo hiệu rằng dữ liệu nhiệt độ gần nhất đã sẵn sàng để đọc. 
   5. **FIFO Almost Full:**: Bộ đệm FIFO đã đầy. Bên ngoài cần đọc thông tin sớm để tránh bị MAX30102 đo tiếp và ghi đè.
+- [Tài liệu datasheet pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30102.pdf)
 - Lập trình:
   ```Arduino
     #define BLACK_MAX30102_WRITE_ADDRESS 0xAE  # Địa chỉ để thực hiện ghi dữ liệu vào device
     #define BLACK_MAX30102_WRITE_ADDRESS 0xAF  # Địa chỉ để thực hiện đọc dữ liệu từ device
   ```
+  [Code mẫu EN](https://lastminuteengineers.com/max30102-pulse-oximeter-heart-rate-sensor-arduino-tutorial/)
+  [Code mẫu VN](https://mecsu.vn/ho-tro-ky-thuat/may-do-oxy-xung-max30102-va-cam-bien-nhip-tim-voi-arduino.Db4)
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nh%E1%BB%8Bp-Tim-MAX30102-MAX30100-i.820808044.16479616248)
 
 
