@@ -2,6 +2,11 @@
 
 ## Mục lục
 
+- [Góc, gia tốc, la bàn](#mpu)
+- [Nhịp tim và SpO2](#nhịp_tim_và_spo2)
+- [Khác](#khác)
+
+Và tham chiếu tới các trang khác:
 1. [Các shield mở rộng cho board dạng D1 mini](./D1mini.md)
 2. [Các loại motor](./Motors.md)
 3. [Các module truyền thông](./Communications.md)
@@ -10,16 +15,16 @@
 6. [Linh kiện PCB để thiết kế board](./EasyEDA_Library.md)
 7. [Mạch sạc pin Lithium](https://neittien0110.github.io/linhkiendientu/EasyEDA_Library.html#m%E1%BA%A1ch-s%E1%BA%A1c)
 
-### MPU
+## MPU
 
 -  MPU**9250** / MPU**6500** / \
   ![20240218_095519](https://github.com/neittien0110/linhkiendientu/assets/8079397/14b33c4d-9f34-4473-ab0b-366a25a4f8c2)
 
 - [Mua MPU 6500, mặc dù tên là 9250, nhưng thực tế là 6500](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-9-Tr%E1%BB%A5c-MPU-9250-GY-9250-I2C-SPI-Chuy%C3%AAn-D%E1%BB%A5ng-i.578443443.22041043458)
 
-### Nhịp tim và SpO2
+## Nhịp tim và SpO2
 
-- ĐEN: Đo lượng oxi và nhịp tim MAX102 \
+### MH-ET MAX30102: Đo lượng oxi và nhịp tim MAX102 màu đen\
   ![MAX30102 đen](https://github.com/neittien0110/linhkiendientu/assets/8079397/c281ac94-5d9c-4267-9074-5f8640a22af4)
 - Nguyên lý: \
   ![nguyên lý đo nhịp tim và oxigen ](https://content.instructables.com/FPN/5MOB/LIHFO7XZ/FPN5MOBLIHFO7XZ.png?auto=webp&frame=1&fit=bounds&md=2543704f07f04af01c6d973041556e3f)
@@ -58,8 +63,7 @@
   [Code mẫu VN](https://mecsu.vn/ho-tro-ky-thuat/may-do-oxy-xung-max30102-va-cam-bien-nhip-tim-voi-arduino.Db4)
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nh%E1%BB%8Bp-Tim-MAX30102-MAX30100-i.820808044.16479616248)
 
-
-- TÍM: Đo lượng oxi và nhịp tim MAX102 \
+### TÍM: Đo lượng oxi và nhịp tim MAX102
   ![max30102](https://github.com/neittien0110/linhkiendientu/assets/8079397/a59436a9-4e5e-4eee-bc49-09aef0d442ab)
   ```
   Cảm biến nhịp tim và oxy trong máu MAX30102
@@ -75,7 +79,7 @@
   - [3d case 1](https://www.thingiverse.com/thing:4395147)
   - [3d case 2](https://www.thingiverse.com/thing:4847827)
 
-### Khác
+## Khác
 - Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
   ```plain
   1. Điện áp vào: AC85V-AC220V
@@ -108,7 +112,7 @@
   - [Hướng dẫn lập trình](http://arduino.vn/bai-viet/915-huong-dan-su-dung-module-ban-phim-4x4-voi-arduino)
   - [Mua sắm](https://shopee.vn/B%C3%A0n-Ph%C3%ADm-16-Ph%C3%ADm-4x4-4x4-4-*-4-Matrix-Array-Matrix-i.81431289.20537984830)
 
-- Tect6000 - Transistor ánh sáng  nồi đồng cối đá
+- Tect6000 - Transistor ánh sáng nồi đồng cối đá
   - Phải mắc thêm trở như hình dưới\
     ![Cách mặc mạch](https://github.com/neittien0110/linhkiendientu/assets/8079397/d7ff5a29-b269-4eae-b5e0-96e900c24c3f)
      
