@@ -16,9 +16,44 @@
   ![20240218_095519](https://github.com/neittien0110/linhkiendientu/assets/8079397/b4d4cd04-8c82-48e1-9c96-baf6b5fa8c58)
   - [Mua MPU 6500, mặc dù tên là 9250, nhưng thực tế là 6500](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-9-Tr%E1%BB%A5c-MPU-9250-GY-9250-I2C-SPI-Chuy%C3%AAn-D%E1%BB%A5ng-i.578443443.22041043458)
 
-### Khác
+### Nhịp tim và SpO2
 
-- Đo lượng oxi và nhịp tim MAX102 \
+- ĐEN: Đo lượng oxi và nhịp tim MAX102 \
+  ![MAX30102 đen](https://github.com/neittien0110/linhkiendientu/assets/8079397/c281ac94-5d9c-4267-9074-5f8640a22af4)
+- Nguyên lý: \
+  ![nguyên lý đo nhịp tim và oxigen ](https://content.instructables.com/FPN/5MOB/LIHFO7XZ/FPN5MOBLIHFO7XZ.png?auto=webp&frame=1&fit=bounds&md=2543704f07f04af01c6d973041556e3f)
+- Thông số:
+  - Giao tiếp I2C sử dụng mức điên áp mặc định là 3.3V. Tuy nhiên, được phép sử dụng mức điện áp 1.8V nếu hàn dính 2 chân pad cấu hình điện áp ở mặt sau.
+  - Tiêu thụ năng lượng ở mứ 600uA khi đo, và chỉ còn 0.7uA khi standby.
+  - Có bộ nhớ đệm FIFO cho phép lưu 32~256 mẫu tùy theo setting và được ghi xoay vòng.
+- Các chân giao tiếp:\ 
+  ![Chân pin](https://content.instructables.com/FD7/1XUC/LIHFO82L/FD71XUCLIHFO82L.jpg?auto=webp&frame=1&fit=bounds&md=e9b4d49ff1fadeda8876c9a8feb7a90e)
+  - VIN: in, Nguòn cấp 3.3V hoặc 5V)
+  - SCL: in, tín hiệu đồng hồ của I2C
+  - SDA: inout, tín hiệu dữ liệu của I2C
+  - INT: out, báo ngắt
+  - IRD: out, chân dữ liệu của cảm biến hồng ngoại 
+  - RD:  out, Red LED data pin, dùng để đo dộ bão hòa oxy *SpO2) và nhịp tim (HR)
+  - GND: Ground
+- Giải thích chi tiết: <https://www.instructables.com/Guide-to-Using-MAX30102-Heart-Rate-and-Oxygen-Sens/> \
+  ![Phóng to 1](https://github.com/neittien0110/linhkiendientu/assets/8079397/75c3a16a-25bf-4e63-99cf-b7185b7d1ae2) \
+  ![Mặt sau](https://github.com/neittien0110/linhkiendientu/assets/8079397/8ebe584e-ed53-4c8a-8086-63597cfd8810) 
+- Video hướng dẫn: [xem 1](https://www.youtube.com/watch?v=0rsHJbog6dk), [xem 2](https://www.youtube.com/watch?v=cEtyMkubXj4)
+- Cơ chế hoạt động của chân ngắt **Interrupt**: có 5 nguyên nhân khiên chân ngắt tích cực là:
+  1. **Power Ready**: khi device được cấp điện trở lại, device sẽ mất một thơi gian ngắt để đi vào trạng thái hoạt động. Vậy ngắt được sinh ra để báo rằng device đã sẵn sàng để đo nhịp tim.
+  2. **New Data Ready**: báo hiệu đã có dữ liệu đo SpO2 và Nhịp tim ở bộ đệm FIFO.
+  3. **Ambient Light Cancellation**:  kích hoạt khi chức năng hủy sự can thiệp của ánh sáng môi trường của diot quang SpO2/HR đã đạt cực đại và có thể gây ảnh hưởng tới kết quả đo đầu ra.
+  4. **Temperature Ready**: Báo hiệu rằng dữ liệu nhiệt độ gần nhất đã sẵn sàng để đọc. 
+  5. **FIFO Almost Full:**: Bộ đệm FIFO đã đầy. Bên ngoài cần đọc thông tin sớm để tránh bị MAX30102 đo tiếp và ghi đè.
+- Lập trình:
+  ```Arduino
+    #define BLACK_MAX30102_WRITE_ADDRESS 0xAE  # Địa chỉ để thực hiện ghi dữ liệu vào device
+    #define BLACK_MAX30102_WRITE_ADDRESS 0xAF  # Địa chỉ để thực hiện đọc dữ liệu từ device
+  ```
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nh%E1%BB%8Bp-Tim-MAX30102-MAX30100-i.820808044.16479616248)
+
+
+- TÍM: Đo lượng oxi và nhịp tim MAX102 \
   ![max30102](https://github.com/neittien0110/linhkiendientu/assets/8079397/a59436a9-4e5e-4eee-bc49-09aef0d442ab)
   ```
   Cảm biến nhịp tim và oxy trong máu MAX30102
@@ -34,6 +69,7 @@
   - [3d case 1](https://www.thingiverse.com/thing:4395147)
   - [3d case 2](https://www.thingiverse.com/thing:4847827)
 
+### Khác
 - Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
   ```plain
   1. Điện áp vào: AC85V-AC220V
