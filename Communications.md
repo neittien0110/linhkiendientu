@@ -30,7 +30,7 @@ NRF24L01 có các đặc tính gồm
     ![Loại có antenna ngoài](https://github.com/neittien0110/linhkiendientu/assets/8079397/f3381c85-4f95-4d1e-b57c-57d6b0e46a04)\
   - Mini: có 8 chân SMT 1.27mm\
     ![Loại có 8 chân siêu nhỏ](https://github.com/neittien0110/linhkiendientu/assets/8079397/fb93ba72-3feb-4d96-b5eb-f20c87608d7c)\
-    [Xem thêm tài liệu]([https://www.robotics.org.za/NRF24L01-MINI](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/#:~:text=The%20pins%20CSN%20and%20CE,t%20have%20to%20be%20used.)
+    [Xem thêm tài liệu](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/#:~:text=The%20pins%20CSN%20and%20CE,t%20have%20to%20be%20used.)
 
 
 - Mô hình kết nôi. \
