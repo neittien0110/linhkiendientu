@@ -12,3 +12,8 @@
    ![xỏ lỗ](https://github.com/neittien0110/linhkiendientu/assets/8079397/95bc8f20-d05e-466a-a6ad-7b5a020a9eb9)
    [Mua sắm](https://shopee.vn/Cu%E1%BB%99n-d%C3%A2y-%C4%91%E1%BB%93ng-c%C3%A1ch-nhi%E1%BB%87t-280m-30awg-B-30-1000-chuy%C3%AAn-d%E1%BB%A5ng-i.201091220.5642271126)
 
+## Jumper
+
+ - Jumper 1x4, cao 5.7mm, khoảng cách giữa 2 lỗ = 2.54mm
+   - Chú ý rằng loại phổ thông cao 8mm. Và vẫn còn loại lùn hơn chỉ cao 2.5 mm
+   - [Mua sắm](https://shopee.vn/Jump-c%C3%A1i-%C4%91%C6%A1n-2.54mm-1x4P-Ch%C3%A2n-th%E1%BA%B3ng-cao-5.7mm-i.501501433.23269252180)
