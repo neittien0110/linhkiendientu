@@ -97,6 +97,11 @@ Và tham chiếu tới các trang khác:
   - [Hướng dẫn lập trình](http://arduino.vn/bai-viet/915-huong-dan-su-dung-module-ban-phim-4x4-voi-arduino)
   - [Mua sắm](https://shopee.vn/B%C3%A0n-Ph%C3%ADm-16-Ph%C3%ADm-4x4-4x4-4-*-4-Matrix-Array-Matrix-i.81431289.20537984830)
 
+- Nắp nút nhấn 6x6
+  - Đường kính vỏ nhựa ngoài: 6mm
+  - Đường kính lỗ trong: 3mm
+  - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%E1%BA%AFp-n%C3%BAt-nh%E1%BA%A5n-6x6-tr%C3%B2n-%C4%90%E1%BB%8F-V%C3%A0ng-Xanh-Tr%E1%BA%AFng-%C4%90en-i.501501433.14397655804)
+
 - Tect6000 - Transistor ánh sáng nồi đồng cối đá
   - Phải mắc thêm trở như hình dưới\
     ![Cách mặc mạch](https://github.com/neittien0110/linhkiendientu/assets/8079397/d7ff5a29-b269-4eae-b5e0-96e900c24c3f)
