@@ -1,4 +1,4 @@
-# BẢNG TRA LINH KIỆN PCB
+![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/0bfeb9ef-2809-4b49-a317-c3776f703722)# BẢNG TRA LINH KIỆN PCB
 
 > Phù hợp với điều kiện tìm kiếm, mua sắm ở VN
 
@@ -12,11 +12,13 @@
 
 ## Connector - Jumper
 
-|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
-|--|--|--|--|
-|![XH2.54 4P](https://github.com/neittien0110/linhkiendientu/assets/8079397/4fb304f9-42be-41ef-a70d-c83914bdec6c)|phù hợp kết nối module I2C|<https://www.lcsc.com/product-detail/Wire-To-Board-Connector_BOOMELE-Boom-Precision-Elec--XH-4A_C37815.html>|<https://shopee.vn/Gói-50-jack-cắm-XH2.54-đực-hàn-board-4-pin-i.84912502.6635950531>|
-|XH2.54 2P chân thẳng |||M|
-|![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/7a0ad27e-63ae-4f47-b7ba-dffc598d0321) P2.0 2P chân thẳng|Kết nối pin 18650|![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/6e23ad3d-8aca-4046-b8b1-8a34b481a057)|<https://banlinhkien.com/header-2p-ph2.02p-duc-cong-10-chiec-p22279892.html>|
+STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
+--|--|--|--|--|
+1|![XH2.54 4P](https://github.com/neittien0110/linhkiendientu/assets/8079397/4fb304f9-42be-41ef-a70d-c83914bdec6c)|phù hợp kết nối module I2C|<https://www.lcsc.com/product-detail/Wire-To-Board-Connector_BOOMELE-Boom-Precision-Elec--XH-4A_C37815.html>|<https://shopee.vn/Gói-50-jack-cắm-XH2.54-đực-hàn-board-4-pin-i.84912502.6635950531>|
+2|XH2.54 2P chân thẳng ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/83545c15-c3ed-4c73-af0b-1068c0d1b6ac)||CONN-TH_XH-2A ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/d786ecc8-be79-49a7-b4ba-44ec8b8efcb3)|[Màu trắng](https://shopee.vn/Header-%C4%91%E1%BB%B1c-2P-XH2.54-2P-ch%C3%A2n-th%E1%BA%B3ng-(10c)-i.501501433.19280261890), [Màu sắc](https://shopee.vn/Header-%C4%91%E1%BB%B1c-2P-XH2.54-2P-ch%C3%A2n-th%E1%BA%B3ng-(10c)-i.1001293349.17295325979)|
+3|XH2.54 2P chân cong ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/14e14c53-49cb-4d10-a5fb-d95c524a04fa)||CONN-TH_2P-P2.50_XH-2AW ![CONN-TH_2P-P2.50_XH-2AW](https://github.com/neittien0110/linhkiendientu/assets/8079397/ff92d462-6faf-4727-9407-5538c081a75c)|<https://shopee.vn/-50pcs-Header-Tr%E1%BA%AFng-2P-XH2.54-2P-%C4%90%E1%BB%B1c-Cong-i.153690045.9679231430>|
+4|![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/7a0ad27e-63ae-4f47-b7ba-dffc598d0321) P2.0 2P chân thẳng|Kết nối pin 18650|CONN-TH_PH-2A ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/6e23ad3d-8aca-4046-b8b1-8a34b481a057)|<https://shopee.vn/Header-%C4%91%E1%BB%B1c-2P-XH2.54-2P-ch%C3%A2n-th%E1%BA%B3ng-(10c)-i.768230254.20776212487>|
+5|Header đực 2.0mm PH2.0 ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/74c0c0b9-e488-488d-9744-fbd8fa8622dd)|Kết nối pin 18650|CONN-TH_PH-2AW ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/6511f35a-e9a5-4a10-b897-1a9b783aaba0)|<https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-Header-%C4%91%E1%BB%B1c-2.0mm-PH2.0-2-3-4-5-6-8P-ch%C3%A2n-cong-i.501501433.22923149628>|
 |Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
 
