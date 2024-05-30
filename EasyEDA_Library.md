@@ -1,4 +1,4 @@
-![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/0bfeb9ef-2809-4b49-a317-c3776f703722)# BẢNG TRA LINH KIỆN PCB
+# BẢNG TRA LINH KIỆN PCB
 
 > Phù hợp với điều kiện tìm kiếm, mua sắm ở VN
 
