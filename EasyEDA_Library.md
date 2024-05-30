@@ -15,8 +15,8 @@
 |Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 |--|--|--|--|
 |![XH2.54 4P](https://github.com/neittien0110/linhkiendientu/assets/8079397/4fb304f9-42be-41ef-a70d-c83914bdec6c)|phù hợp kết nối module I2C|<https://www.lcsc.com/product-detail/Wire-To-Board-Connector_BOOMELE-Boom-Precision-Elec--XH-4A_C37815.html>|<https://shopee.vn/Gói-50-jack-cắm-XH2.54-đực-hàn-board-4-pin-i.84912502.6635950531>|
-|H|G|T|M|
-|H|G|T|M|
+|XH2.54 2P chân thẳng |||M|
+|![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/7a0ad27e-63ae-4f47-b7ba-dffc598d0321) P2.0 2P chân thẳng|Kết nối pin 18650|![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/6e23ad3d-8aca-4046-b8b1-8a34b481a057)|<https://banlinhkien.com/header-2p-ph2.02p-duc-cong-10-chiec-p22279892.html>|
 |Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
 
