@@ -139,6 +139,7 @@ Và tham chiếu tới các trang khác:
                    10A 30VDC / 10A 28VDC 
   12. Kích thước: 5.4 cm * 3.1 cm * 1.4 cm
   ```
+  - Nhược điểm: không lắp được nắp vào thân, vì relay cao quá. Khi dóng nắp thì ko thể bấm nút cấu hình, vì nút thấp ==> thay thế bằng nút có cán dài 11 mm
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367)
 
 
