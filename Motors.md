@@ -5,6 +5,7 @@
 1. [Motor bước 28BYJ-48 5V](#motor-bước-28byj-48-5v)
 2. [Motor rung](#motor-rung)
 3. [Động cơ DC 130 kèm hộp số](#động-cơ-dc-130-kèm-hộp-số)
+4. [Servo MG945](#servo-mg945)
 
 ## Motor bước 28BYJ-48 5V
 
@@ -76,3 +77,25 @@
 - In 3D:
   - [Ke L gá hộp số](https://www.thingiverse.com/thing:1169412)
   - [Hộp gá vào Lego, chuyển đổi trục bánh xe giảm tốc thành trục + của Lego](https://www.thingiverse.com/thing:5140209)
+
+## Servo MG945
+
+  ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/1158d628-0a7b-4356-820a-c79b81509118)
+  ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/2b5790b7-5af2-4c72-9541-3ebc4a6a41ae)
+  
+  [Video](https://youtu.be/t-BilDaseac?si=BBe57glP0zpceQmM)
+
+- Thông số:
+  - Góc quay 180*/360*
+  - Bánh răng: chỉ có 1 bánh răng kim loại
+  - Cùng kích cỡ với MG995
+- Không nên mua, chẳng khác gì MG995, rất dễ bị trật bánh răng.
+- [Mua sắm](https://shopee.vn/%C4%90%E1%BB%99ng-C%C6%A1-Servo-SG90-MG90S-MG945-MG946-MG995-MG996-Cho-M%C3%A1y-Bay-%C4%90i%E1%BB%81u-Khi%E1%BB%83n-Arduino-UNO-DIY-MG946R-MG996R-i.832347222.19878584195)
+
+## Servo MG996
+
+  ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/9814af4d-8e4c-4e5b-a2fe-c21a7058d0bc)
+- Thông số:
+  - Góc quay 180*, hoặc 360*. Trường hợp góc 360 thì dùng [Thiết bị kiểm tra servo](https://shopee.vn/product/176393725/6601794079?gad_source=1&gclid=EAIaIQobChMIi_Dzq4-6hgMV69QWBR3ogw-xEAYYAiABEgKgXPD_BwE) vẫn được, nhưng lại không khiển được bằng [RC FlySky i6](https://bizweb.dktcdn.net/thumb/grande/100/040/530/products/bo-dieu-khien-flysky-fs-i6rx-nang-cap-ia6b-3411-77349224-0e76feacd3c4e5afdc463a2368b23285-catalog-233.jpg?v=1670064529347).
+  - 
+- [Mua sắm](https://shopee.vn/%C4%90%E1%BB%99ng-C%C6%A1-Servo-SG90-MG90S-MG945-MG946-MG995-MG996-Cho-M%C3%A1y-Bay-%C4%90i%E1%BB%81u-Khi%E1%BB%83n-Arduino-UNO-DIY-MG946R-MG996R-i.832347222.19878584195)
