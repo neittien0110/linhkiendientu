@@ -92,22 +92,20 @@ Và tham chiếu tới các trang khác:
   ```
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-5-pin-tr%E1%BB%A5c-k%C3%A9p-X-Y-cho-tay-c%E1%BA%A7m-ch%C6%A1i-game-Ps2-Ky-023-i.148048328.7241683324)
 
-- Bàn phím ma trận 4x5, 4x4, 4x3
-  - ![Bàn phím ma trận](https://github.com/neittien0110/linhkiendientu/assets/8079397/93ed6070-e95a-4c00-bcd4-20367764aa88)
+- Bàn phím ma trận 4x5, 4x4, 4x3\
+  ![Bàn phím ma trận](https://github.com/neittien0110/linhkiendientu/assets/8079397/93ed6070-e95a-4c00-bcd4-20367764aa88)
   - [Hướng dẫn lập trình](http://arduino.vn/bai-viet/915-huong-dan-su-dung-module-ban-phim-4x4-voi-arduino)
   - [Mua sắm](https://shopee.vn/B%C3%A0n-Ph%C3%ADm-16-Ph%C3%ADm-4x4-4x4-4-*-4-Matrix-Array-Matrix-i.81431289.20537984830)
 
-- Nắp nút nhấn 6x6
+- Nắp nút nhấn B3F\
+  ![Nắp nút nhấn B3F](https://github.com/neittien0110/linhkiendientu/assets/8079397/7379a7eb-b5bb-437f-bb3d-f6ef69ae43ec)
+  - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%E1%BA%AFp-n%C3%BAt-nh%E1%BA%A5n-B3F-tr%C3%B2n-Xanh-V%C3%A0ng-i.501501433.23969870578)
+
+- Nắp nút nhấn 6x6\
+  ![Nắp nút nhấn](https://github.com/neittien0110/linhkiendientu/assets/8079397/232df378-91a4-46c1-985b-03a192abebee)
   - Đường kính vỏ nhựa ngoài: 6mm
   - Đường kính lỗ trong: 3mm
   - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%E1%BA%AFp-n%C3%BAt-nh%E1%BA%A5n-6x6-tr%C3%B2n-%C4%90%E1%BB%8F-V%C3%A0ng-Xanh-Tr%E1%BA%AFng-%C4%90en-i.501501433.14397655804)
-
-- Tect6000 - Transistor ánh sáng nồi đồng cối đá
-  - Phải mắc thêm trở như hình dưới\
-    ![Cách mặc mạch](https://github.com/neittien0110/linhkiendientu/assets/8079397/d7ff5a29-b269-4eae-b5e0-96e900c24c3f)
-     
-  - [Mua sắm](https://shopee.vn/Set-1206-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-Tect6000-B%E1%BA%A3o-V%E1%BB%87-M%C3%B4i-Tr%C6%B0%E1%BB%9Dng-TEMT6000X01-i.972724310.22849595571)
-
 
 ## Đo khoảng cách
 - Module SR-04 đo khoảng cách
@@ -142,4 +140,9 @@ Và tham chiếu tới các trang khác:
   - Nhược điểm: không lắp được nắp vào thân, vì relay cao quá. Khi dóng nắp thì ko thể bấm nút cấu hình, vì nút thấp ==> thay thế bằng nút có cán dài 11 mm
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367)
 
+- Tect6000 - Transistor ánh sáng nồi đồng cối đá
+  - Phải mắc thêm trở như hình dưới\
+    ![Cách mặc mạch](https://github.com/neittien0110/linhkiendientu/assets/8079397/d7ff5a29-b269-4eae-b5e0-96e900c24c3f)
+     
+  - [Mua sắm](https://shopee.vn/Set-1206-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-Tect6000-B%E1%BA%A3o-V%E1%BB%87-M%C3%B4i-Tr%C6%B0%E1%BB%9Dng-TEMT6000X01-i.972724310.22849595571)
 
