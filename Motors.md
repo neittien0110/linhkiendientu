@@ -83,7 +83,7 @@
 
 ## Tùy chỉnh thư viện Servo của Arduino
 
-Cho phép khai báo chồng lên các khai bao sau trong [<Servo> của Arduino](https://www.arduino.cc/reference/en/libraries/servo/)
+Cho phép khai báo chồng lên các khai báo sau trong [<Servo> của Arduino](https://www.arduino.cc/reference/en/libraries/servo/)
 
 ```C
 #define MIN_PULSE_WIDTH       544     // Độ rộng xung, tính theo us, tương ứng với góc quay bé nhất
@@ -92,6 +92,10 @@ Cho phép khai báo chồng lên các khai bao sau trong [<Servo> của Arduino]
 #define REFRESH_INTERVAL    20000     // minimum time to refresh servos in microseconds
 ```
 > File <https://github.com/arduino-libraries/Servo/blob/master/src/Servo.h>
+hoặc sử dụng hàm attach để khai báo góc bé nhất/lớn nhât
+```C
+servo.attach(pin, min, max)
+```
 
 ## Servo MG945
 
