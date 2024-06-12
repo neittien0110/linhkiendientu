@@ -5,7 +5,10 @@
 1. [Motor bước 28BYJ-48 5V](#motor-bước-28byj-48-5v)
 2. [Motor rung](#motor-rung)
 3. [Động cơ DC 130 kèm hộp số](#động-cơ-dc-130-kèm-hộp-số)
-4. [Servo MG945](#servo-mg945)
+4. [Tùy chỉnh thư viện Servo của Arduino](#tùy-chỉnh-thư-viện-servo-của-arduino)
+5. [Servo MG945](#servo-mg945)
+6. [Servo MG996](#servo-mg996)
+7. [Servo TD-8120mg](#servo-td-8120mg)
 
 ## Motor bước 28BYJ-48 5V
 
@@ -78,6 +81,18 @@
   - [Ke L gá hộp số](https://www.thingiverse.com/thing:1169412)
   - [Hộp gá vào Lego, chuyển đổi trục bánh xe giảm tốc thành trục + của Lego](https://www.thingiverse.com/thing:5140209)
 
+## Tùy chỉnh thư viện Servo của Arduino
+
+Cho phép khai báo chồng lên các khai bao sau trong [<Servo> của Arduino](https://www.arduino.cc/reference/en/libraries/servo/)
+
+```C
+#define MIN_PULSE_WIDTH       544     // Độ rộng xung, tính theo us, tương ứng với góc quay bé nhất
+#define MAX_PULSE_WIDTH      2400     // Độ rộng xung, tính theo us, tương ứng với góc quay lớn nhất
+#define DEFAULT_PULSE_WIDTH  1500     //  Độ rộng xung, tính theo us, tương ứng với góc chính giữa
+#define REFRESH_INTERVAL    20000     // minimum time to refresh servos in microseconds
+```
+> File <https://github.com/arduino-libraries/Servo/blob/master/src/Servo.h>
+
 ## Servo MG945
 
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/1158d628-0a7b-4356-820a-c79b81509118)
@@ -88,7 +103,7 @@
 - Thông số:
   - Góc quay 180*/360*
   - Bánh răng: chỉ có 1 bánh răng kim loại
-  - Cùng kích cỡ với MG995, 996
+  - Cùng kích cỡ với MG945, MG995, MG996, TD-8120mg, TD-8125mg
 - Không nên mua, chẳng khác gì MG995, rất dễ bị trật bánh răng.
 - [Mua sắm](https://shopee.vn/%C4%90%E1%BB%99ng-C%C6%A1-Servo-SG90-MG90S-MG945-MG946-MG995-MG996-Cho-M%C3%A1y-Bay-%C4%90i%E1%BB%81u-Khi%E1%BB%83n-Arduino-UNO-DIY-MG946R-MG996R-i.832347222.19878584195)
 
@@ -97,6 +112,31 @@
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/9814af4d-8e4c-4e5b-a2fe-c21a7058d0bc)
 - Thông số:
   - Góc quay 180*, hoặc 360*. Trường hợp góc 360 thì dùng [Thiết bị kiểm tra servo](https://shopee.vn/product/176393725/6601794079?gad_source=1&gclid=EAIaIQobChMIi_Dzq4-6hgMV69QWBR3ogw-xEAYYAiABEgKgXPD_BwE) vẫn được, nhưng lại không khiển được bằng [RC FlySky i6](https://bizweb.dktcdn.net/thumb/grande/100/040/530/products/bo-dieu-khien-flysky-fs-i6rx-nang-cap-ia6b-3411-77349224-0e76feacd3c4e5afdc463a2368b23285-catalog-233.jpg?v=1670064529347).
-  - Cùng kích cỡ với MG945, MG995
+  - Cùng kích cỡ với MG945, MG995, MG996, TD-8120mg, TD-8125mg
 
 - [Mua sắm](https://shopee.vn/%C4%90%E1%BB%99ng-C%C6%A1-Servo-SG90-MG90S-MG945-MG946-MG995-MG996-Cho-M%C3%A1y-Bay-%C4%90i%E1%BB%81u-Khi%E1%BB%83n-Arduino-UNO-DIY-MG946R-MG996R-i.832347222.19878584195)
+
+## Servo TD-8120mg
+   ![ảnh 1](https://bizweb.dktcdn.net/100/190/540/files/td8120mg-1.png?v=1562724656942)
+- Thông số:
+  - TD-81**20mg**: momen 20kg.1cm
+  - Điện áp: 4.8V - 8.4V
+  - Cường độ dòng tiêu thụ tối đa: 2.7A
+  - Bánh răng nối đĩa: Spline 25T (25 teeth/25 răng)
+    ![ảnh 2](https://bizweb.dktcdn.net/100/190/540/files/td8120mg-2.png?v=1562724672885)
+- Cùng kích cỡ với MG945, MG995, MG996, TD-8120mg, TD-8125mg
+- Waveform điều khiển góc quay:
+  Góc | Chu kỳ | Độ rộng xung
+  --|--|--
+  90&deg;|20 ms| 1 ~ 2 ms
+  180&deg;|20 ms| 0.5 ~ 2.5 ms
+  270&deg;|20 ms| 0.5 ~ 2.5 ms
+  300&deg;|20 ms| 0.5 ~ 2.5 ms
+  300&deg; xoay tròn liên tục|20 ms| 1 ~ 2 ms
+  
+  Tham khảo [Tùy chỉnh thư viện Servo của Arduino](#tùy-chỉnh-thư-viện-servo-của-arduino)
+  
+- [Datasheet](https://www.tinytronics.nl/index.php?route=product/product/get_file&file=2316/Data%20Sheet%20of%20TD-8120MG%20Digital%20Servo%20Motor.pdf)
+- Mua sắm:
+  - [Shopee](https://shopee.vn/%C4%90%E1%BB%99ng-C%C6%A1-Servo-TD-8120MG-TD-8125MG-Ch%E1%BB%91ng-Th%E1%BA%A5m-N%C6%B0%E1%BB%9Bc-20kg-25KG-180-%C4%90%E1%BB%99-Cho-Xe-%C4%90i%E1%BB%81u-Khi%E1%BB%83n-T%E1%BB%AB-Xa-i.869927552.18967205624?xptdk=c181ea3a-975a-4477-8111-3e9fd9a2c57d)
+  - [AliEx](https://vi.aliexpress.com/item/1005004532499687.html)
