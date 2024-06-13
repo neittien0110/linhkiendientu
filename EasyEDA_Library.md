@@ -5,7 +5,6 @@
 ## Mục lục
 
 - [Các cổng, jump kết nối](#connector---jumper)
-- [Linh kiện thụ động](#linh-kiện-thụ-động)
 - [Module MCU](#module-mcu)
 - [Module cảm biến, chấp hành](#module-cảm-biến-chấp-hành)
 - [Mạch sạc](#mạch-sạc)
@@ -22,14 +21,6 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 |Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
 
-## Linh kiện thụ động
-
-|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
-|--|--|--|--|
-|H|G|T|M|
-|H|G|T|M|
-|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
-
 ## Module MCU
 
 |Hình ảnh|Ảnh footprint|Thư viện Footprint|Ghi chú|
@@ -40,10 +31,11 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 |H|F|T|G| 
 |Hình ảnh|Ảnh footprint|Thư viện Footprint|Ghi chú|
 
-## Module cảm biến, chấp hành
+## Module cảm biến chấp hành
 
 |Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 |--|--|--|--|
+|![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/835cdc40-4fbf-428b-9484-05a0a894fc6a)|Còi Buzzer MLT-8530|https://jlcpcb.com/partdetail/Jiangsu_HuanengElec-MLT8530/C94599|[Mua](https://linhkien.cxt.vn/2723-mlt-8530-buzzer-passive-36v.html)|
 |H|G|T|M|
 |H|G|T|M|
 |Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
