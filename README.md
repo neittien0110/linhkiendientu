@@ -6,6 +6,7 @@
 - [Nhịp tim và SpO2](#nhịp-tim-và-spo2)
 - [Phím bấm, bàn phim](#bàn-phím)
 - [Đo khoảng cách](#đo-khoảng-cách)
+- [Loa, còi](#loa-còi)
 - [Khác](#khác)
 
 Và tham chiếu tới các trang khác:
@@ -119,6 +120,17 @@ Và tham chiếu tới các trang khác:
     - Không ảnh hưởng bởi mặt trời như cách đo bằng hồng ngoài, nên phù hợp với đo ngoài trời
   - Lập trình tham khảo: <https://nshopvn.com/product/cam-bien-sieu-am-hc-sr04/>
   - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-m%E1%BA%A1ch-ph%C3%A1t-hi%E1%BB%87n-s%C3%B3ng-si%C3%AAu-%C3%A2m-hc-sr04-hc-sr-04-cho-Arduino-i.395117932.9923497155)  
+
+## Loa còi
+
+- Còi Buzz dạng SMD:
+  - Thông số:
+    - Điện áp tối đa: 3.6V
+    - Điện áp hoạt động: 2.5 ~ 4.5 V
+    - Phát âm thanh ở tần số: 2.7kHz
+  - [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811151451_Jiangsu-Huaneng-Elec-MLT-8530_C94599.pdf)
+  - [Trong thư viện JLCPCB](https://jlcpcb.com/partdetail/Jiangsu_HuanengElec-MLT8530/C94599)
+  - [Mua sắm](https://shopee.vn/MLT-8530-Buzzer-passive-3.6V-2700Hz-8.5x8.5x3mm-i.501501433.23671510680)
 
 ## Khác
 - Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
