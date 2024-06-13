@@ -123,7 +123,8 @@ Và tham chiếu tới các trang khác:
 
 ## Loa còi
 
-- Còi Buzz dạng SMD:
+- Còi Buzzer passive dạng SMD: MLT-8530
+  ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/30b6f6f7-93e1-41c9-a539-da11b584c6bb)
   - Thông số:
     - Điện áp tối đa: 3.6V
     - Điện áp hoạt động: 2.5 ~ 4.5 V
