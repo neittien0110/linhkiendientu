@@ -128,6 +128,7 @@ Và tham chiếu tới các trang khác:
     - Điện áp tối đa: 3.6V
     - Điện áp hoạt động: 2.5 ~ 4.5 V
     - Phát âm thanh ở tần số: 2.7kHz
+  > Khoảng cách giữa 2 chân tin hiệu trùng khớp với loại còi Buzzer chân DIP thông thường
   - [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811151451_Jiangsu-Huaneng-Elec-MLT-8530_C94599.pdf)
   - [Trong thư viện JLCPCB](https://jlcpcb.com/partdetail/Jiangsu_HuanengElec-MLT8530/C94599)
   - [Mua sắm](https://shopee.vn/MLT-8530-Buzzer-passive-3.6V-2700Hz-8.5x8.5x3mm-i.501501433.23671510680)
