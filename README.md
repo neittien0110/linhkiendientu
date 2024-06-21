@@ -136,6 +136,9 @@ Và tham chiếu tới các trang khác:
 
 ## Khác
 - Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
+  ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/edf27568-3740-4564-ac54-600d3c5373d5)
+  ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/dc7ef50f-6d9f-4c1b-8601-bfc1fe0a542d)
+
   ```plain
   1. Điện áp vào: AC85V-AC220V
   2. Tần số sóng điều khiển: 433 MHz
@@ -151,8 +154,21 @@ Và tham chiếu tới các trang khác:
                    10A 30VDC / 10A 28VDC 
   12. Kích thước: 5.4 cm * 3.1 cm * 1.4 cm
   ```
+
+  - 3 chế độ hoạt động
+    - Chế độ Jog: Bấm giữ là khóa, nhả tay là mở.
+    - Chế độ Self-lock / Self-Latched:  Bấm 1 lần là khóa, bấm lần nữa là mở khóa (cùng một nút)
+    - Chế độ intersperre / Latched: Bâmt 1 nút để khóa, bấm nút khác để mở
+  - Xóa & Học Mã:
+    1. Chức năng xóa - Sau khi nhấn nút "KEY" 8 lần, đèn LED tắt và tất cả dữ liệu điều khiển từ xa trong bộ nhớ. Khi đèn LED nhấp nháy 5 lần, điều đó cho biết chức năng xóa đã hoàn tất.
+    2. chức năng học - nhấp vào nút học "KEY", đèn báo LED cho biết bộ vi xử lý đã vào trạng thái học mã, nhấn nút điều khiển từ xa không dây thích hợp, đèn LED nhấp nháy 3 lần sau đó bật nó có nghĩa là mã thành công.
+    3. Đèn LED nhấp nháy để xác định chức năng đã chọn.
+    * nhấp nháy 1 lần chức năng chạy bộ
+    * nhấp nháy 2 lần chức năng tự khóa
+    * nhấp nháy 3 lần chức năng liên động
+  
   - Nhược điểm: không lắp được nắp vào thân, vì relay cao quá. Khi dóng nắp thì ko thể bấm nút cấu hình, vì nút thấp ==> thay thế bằng nút có cán dài 11 mm
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367)
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367), Mua kèm với [bộ điều khiển từ xa 433MHz](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-kh%C3%B4ng-d%C3%A2y-4-k%C3%AAnh-4-Module-kh%C3%B4ng-d%C3%A2y-433MHZ-IC2262-2272-i.201091220.5212508592)
 
 - Tect6000 - Transistor ánh sáng nồi đồng cối đá
   - Phải mắc thêm trở như hình dưới\
