@@ -58,3 +58,8 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 |![Mô đun sạc pin Lithium Tp4056 18650 5V 1A TypeC](https://github.com/neittien0110/linhkiendientu/assets/8079397/3929543c-2dd3-49b1-a7bf-557f3faf034b)|![Schematic](https://github.com/neittien0110/linhkiendientu/assets/8079397/54ea15af-da87-4dc0-978c-decedcd35993)|![Footprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/bbc2121a-ab65-4f88-a0db-13ccbe7c3587)|USB TYPE C, Điện áp đầu vào: 5V; Sạc điện áp cắt: 4.2V ± 1%; Dòng sạc tối đa: 1A; Điện áp bảo vệ quá xả pin: 2,5V; Pin bảo vệ quá dòng hiện tại: 3A;Kích thước bảng: 2,6 * 1,7cm; *Lưu ý: Tải trên thiết bị đầu cuối OUT phải được ngắt kết nối khi sạc*; [Video](https://youtu.be/rJP0L_w1v5M?si=X-niyRYnf_FPU62k)|Thư viện BATTERY-CHARGER-TP4056 ![Thư viện](https://github.com/neittien0110/linhkiendientu/assets/8079397/a61443cf-e102-4fbb-8670-6680cf63f0ff)|[Shopee](https://shopee.vn/M%C3%B4-%C4%91un-s%E1%BA%A1c-pin-Lithium-Tp4056-18650-5V-1A-i.395117932.9396576479)|
 |![Mô-đun sạc pin Lithium TP4056 18650 Type-c/Micro/Mini USB 5V 1A với chức năng bảo vệ kép](https://github.com/neittien0110/linhkiendientu/assets/8079397/ff8d2dee-dcfc-4408-b0e7-6e262bcca57f)|Schematic|Footprint|Mô-đun sạc pin Lithium TP4056 18650 Type-c/Micro/Mini USB 5V 1A với chức năng bảo vệ kép|Thư viện|[Shopee](https://shopee.vn/-lsha-5-B%E1%BA%A3ng-M%E1%BA%A1ch-S%E1%BA%A1c-5v-1a-type-c-micro-usb-18650-tc4056a-tp4056-M%E1%BB%9Bi-i.1091624025.14799826663)|
 |Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
+
+Mạch sạc, xả, bảo vệ pin lithium 1 cell, cổng usb type-C
+Có led báo input: trắng
+
+[Mua sắm](https://vn.shp.ee/U41J8Mi)
