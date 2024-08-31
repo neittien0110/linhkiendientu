@@ -41,7 +41,7 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 |Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
 
-## Mạch sạc
+## Mạch sạc 1/2
 
 ![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)
 
@@ -59,7 +59,13 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 |![Mô-đun sạc pin Lithium TP4056 18650 Type-c/Micro/Mini USB 5V 1A với chức năng bảo vệ kép](https://github.com/neittien0110/linhkiendientu/assets/8079397/ff8d2dee-dcfc-4408-b0e7-6e262bcca57f)|Schematic|Footprint|Mô-đun sạc pin Lithium TP4056 18650 Type-c/Micro/Mini USB 5V 1A với chức năng bảo vệ kép|Thư viện|[Shopee](https://shopee.vn/-lsha-5-B%E1%BA%A3ng-M%E1%BA%A1ch-S%E1%BA%A1c-5v-1a-type-c-micro-usb-18650-tc4056a-tp4056-M%E1%BB%9Bi-i.1091624025.14799826663)|
 |Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 
-Mạch sạc, xả, bảo vệ pin lithium 1 cell, cổng usb type-C
-Có led báo input: trắng
 
-[Mua sắm](https://vn.shp.ee/U41J8Mi)
+## Mạch sạc 2/2
+
+- Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C
+  - Có led báo có nguồn vào, màu trắng \
+  - Có 4 chân out, nhưng thực chất là từng cặp 2 pin được nối với nhau và đấu sẵn dây để nối pin lithium 1 cell. Điện áp sạc 4.0~4.2V
+  ![Mặt trước](https://github.com/user-attachments/assets/2380024b-18dc-442a-809f-6d27fc04010a) \
+  ![Mặt sau](https://github.com/user-attachments/assets/cb8b3304-9575-4929-a528-08e374275941) \
+  - Lưu ý: chỉ để sạc pin. Không có chức năng ổn định điển áp xả
+  - [Mua sắm](https://vn.shp.ee/U41J8Mi)
