@@ -7,7 +7,7 @@
 - [Các cổng, jump kết nối](#connector---jumper)
 - [Module MCU](#module-mcu)
 - [Module cảm biến, chấp hành](#module-cảm-biến-chấp-hành)
-- [Mạch sạc](#mạch-sạc)
+- [Mạch sạc](#mạch-sạc-1/2)
 
 ## Connector - Jumper
 
