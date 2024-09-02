@@ -7,7 +7,7 @@
 - [Các cổng, jump kết nối](#connector---jumper)
 - [Module MCU](#module-mcu)
 - [Module cảm biến, chấp hành](#module-cảm-biến-chấp-hành)
-- [Mạch sạc](#mạch-sạc-1/2)
+- [Mạch sạc](#mạch-sạc-1-2)
 
 ## Connector - Jumper
 
@@ -18,7 +18,13 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 3|XH2.54 2P chân cong ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/14e14c53-49cb-4d10-a5fb-d95c524a04fa)||CONN-TH_2P-P2.50_XH-2AW ![CONN-TH_2P-P2.50_XH-2AW](https://github.com/neittien0110/linhkiendientu/assets/8079397/ff92d462-6faf-4727-9407-5538c081a75c)|<https://shopee.vn/-50pcs-Header-Tr%E1%BA%AFng-2P-XH2.54-2P-%C4%90%E1%BB%B1c-Cong-i.153690045.9679231430>|
 4|![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/7a0ad27e-63ae-4f47-b7ba-dffc598d0321) P2.0 2P chân thẳng|Kết nối pin 18650|CONN-TH_PH-2A ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/6e23ad3d-8aca-4046-b8b1-8a34b481a057)|<https://shopee.vn/Header-%C4%91%E1%BB%B1c-2P-XH2.54-2P-ch%C3%A2n-th%E1%BA%B3ng-(10c)-i.768230254.20776212487>|
 5|Header đực 2.0mm PH2.0 ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/74c0c0b9-e488-488d-9744-fbd8fa8622dd)|Kết nối pin 18650|CONN-TH_PH-2AW ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/6511f35a-e9a5-4a10-b897-1a9b783aaba0)|<https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-Header-%C4%91%E1%BB%B1c-2.0mm-PH2.0-2-3-4-5-6-8P-ch%C3%A2n-cong-i.501501433.22923149628>|
-|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
+6|![F](https://github.com/user-attachments/assets/6903f5f7-da01-41bd-bd3b-84a6ae94cdfc)|Header cái 1x4 chân cong, cao 8.5mm|[hanxia HX PM2.54-1x4P WC-Y](https://www.lcsc.com/product-detail/Female-Headers_hanxia-HX-PM2-54-1x4P-WC-Y_C22438145.html)|Mua sắm|
+7|![image](https://github.com/user-attachments/assets/38339eb7-a682-421a-a46c-24945ff60ac6)|Header cái 1x3 chân thẳng, cao 8.5mm|[ZHOURI PM2.54-1*3](https://www.lcsc.com/product-detail/Female-Headers_ZHOURI-PM2-54-1-3_C5116529.html)|Mua sắm|
+8|![image](https://github.com/user-attachments/assets/638fe80c-7eb1-4fea-b0f1-d22f4746cc58)| Jump led cái 1x8 chân tròn thẳng | [XKB Connection X5511FV-05-C30D743-0743](https://www.lcsc.com/product-detail/span-style-background-color-ff0-Female-span-Headers_XKB-Connection-X5511FV-05-C30D743-0743_C5146765.html)|Mua sắm|
+9|![image](https://github.com/user-attachments/assets/39c5467d-f1c7-42ff-b3b7-984c4a6f1e82)|Jump cái đơn 2.54mm 1x4P Chân thẳng **cao 5.7mm**|[BOOMELE(Boom Precision Elec) 2.54-1*40P5.7](https://www.lcsc.com/product-detail/span-style-background-color-ff0-Female-span-Headers_BOOMELE-Boom-Precision-Elec-2-54-1-40P5-7_C47940.html)|[Mua sắm](https://shopee.vn/Jump-c%C3%A1i-%C4%91%C6%A1n-2.54mm-1x4P-Ch%C3%A2n-th%E1%BA%B3ng-cao-5.7mm-i.501501433.23269252180)|
+
+
+STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
 
 ## Module MCU
