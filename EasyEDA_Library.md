@@ -76,3 +76,13 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
   ![Mặt sau](https://github.com/user-attachments/assets/cb8b3304-9575-4929-a528-08e374275941) \
   - Lưu ý: chỉ để sạc pin. Không có chức năng ổn định điển áp xả
   - [Mua sắm](https://vn.shp.ee/U41J8Mi)
+
+- Mô đun tăng áp 0.9-5V sang 5V
+  ![Mô đun tăng áp 0.9-5V sang 5V](https://github.com/user-attachments/assets/4b04538b-44b5-4156-b5a8-f5dd588fd862)
+  - Vào: điện áp từ 0.9 tới 5V (nhưng không quá 5V)
+  - Ra: 5V, dòng tối đa 480mA
+  - Nếu áp đầu vào 0.8V thì đầu ra chỉ có 7mA
+  - Tần số hoạt động: 150KHz
+  - Hiệu suất chuyển đổi điển hình: 85%
+  - Kích thước: 11 * 10,5 * 7,5mm
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-t%C4%83ng-%C3%A1p-0.9-5V-sang-5V-1.5V-1.8V-2.5V-3V-3.3V-3.7V-4.2V-sang-5V-thay-th%E1%BA%BF-ti%E1%BB%87n-d%E1%BB%A5ng-i.578443443.11667335774)
