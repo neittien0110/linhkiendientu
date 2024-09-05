@@ -77,7 +77,7 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
   - Lưu ý: chỉ để sạc pin. Không có chức năng ổn định điển áp xả
   - [Mua sắm](https://vn.shp.ee/U41J8Mi)
 
-- Mô đun tăng áp 0.9-5V sang 5V
+- Mô đun tăng áp 0.9-5V sang 5V \
   ![Mô đun tăng áp 0.9-5V sang 5V](https://github.com/user-attachments/assets/4b04538b-44b5-4156-b5a8-f5dd588fd862)
   - Vào: điện áp từ 0.9 tới 5V (nhưng không quá 5V)
   - Ra: 5V, dòng tối đa 480mA
@@ -86,3 +86,20 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
   - Hiệu suất chuyển đổi điển hình: 85%
   - Kích thước: 11 * 10,5 * 7,5mm
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-t%C4%83ng-%C3%A1p-0.9-5V-sang-5V-1.5V-1.8V-2.5V-3V-3.3V-3.7V-4.2V-sang-5V-thay-th%E1%BA%BF-ti%E1%BB%87n-d%E1%BB%A5ng-i.578443443.11667335774)
+ 
+- Module hạ áp mini360 mini-360 DC thấp hơn LM2596 \
+  ![image](https://github.com/user-attachments/assets/0d4f52e5-a5a0-45c9-9b15-31bb1eb5e340)
+
+  - Thuộc tính mô-đun: Không bị cô lập 
+  - Chỉnh lưu: Chỉnh lưu đồng bộ 
+  - Điện áp đầu vào: 4,75V-23V 
+  - Điện áp đầu ra: 1.0V-17V 
+  - Dòng điện đầu ra: Giảm mức 3A, dài 1.8A 
+  - Hiệu suất chuyển đổi: 96% (tối đa) 
+  - Tần số chuyển đổi: 340KHz 
+  - Độ gợn sóng đầu ra: 30mV (không tải) 
+  - Điều chỉnh tải: ± 0,5% 
+  - Điều chỉnh điện áp: ± 2,5% 
+  - Nhiệt độ hoạt động: -40 độ C đến +85 độ C 
+  - Đặc điểm: Sử dụng cuộn cảm ứng điện được đúc nguyên khối và chip điều khiển bộ chỉnh lưu đồng bộ, nhỏ hơn và hiệu quả hơn
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
