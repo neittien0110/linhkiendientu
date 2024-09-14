@@ -1,5 +1,7 @@
 # NGUỒN CẤP
 
+[Xem thêm các module nguồn có thư viện easyeda, lcsc](./EasyEDA_Library.md)
+
 ## Module chuyển đổi AC 220V --> DC 5V/0.7A
 
   ![Mô đun hạ áp 5V 700mA (3.5W) ](https://github.com/neittien0110/linhkiendientu/assets/8079397/f3d0672b-4d9d-41c3-8161-97430e645f51)
@@ -49,12 +51,17 @@
 
 ## Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C
 
-- Có led báo có nguồn vào, màu trắng
-- Có 4 chân out, nhưng thực chất là từng cặp 2 pin được nối với nhau và đấu sẵn dây để nối pin lithium 1 cell. Điện áp sạc 4.0~4.2V
  ![Mặt trước](https://github.com/user-attachments/assets/2380024b-18dc-442a-809f-6d27fc04010a) \
  ![Mặt sau](https://github.com/user-attachments/assets/cb8b3304-9575-4929-a528-08e374275941) \
+
+- Có led báo tải đầu ra, màu trắng mờ là không tải, trắng sáng là tải cao.
+- Có 4 chân out, nhưng thực chất là từng cặp 2 pin được nối với nhau và đấu sẵn dây để nối pin lithium 1 cell. Điện áp sạc 4.0~4.2V
+  ![trước](https://github.com/user-attachments/assets/a2aa2509-1192-416d-9f1b-86398889dac3)
+  ![sau](https://github.com/user-attachments/assets/207bd6ed-3916-4cbe-b895-dbbfd462ad64)
+
 - Lưu ý: chỉ để sạc pin. Không có chức năng ổn định điển áp xả
 - [Mua sắm](https://vn.shp.ee/U41J8Mi)
+
 
 ## Mô đun tăng áp 0.9-5V sang 5V
 
@@ -85,3 +92,5 @@
 - Nhiệt độ hoạt động: -40 độ C đến +85 độ C
 - Đặc điểm: Sử dụng cuộn cảm ứng điện được đúc nguyên khối và chip điều khiển bộ chỉnh lưu đồng bộ, nhỏ hơn và hiệu quả hơn
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
+
+[Xem thêm các module nguồn có thư viện easyeda ,lcsc](./EasyEDA_Library.md)
