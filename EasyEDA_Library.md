@@ -48,11 +48,11 @@ Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
 ## Mạch sạc
 
-[Xem thêm các module sạc không có thư viện easyeda, lcsc](#powersupply.md)
+[Xem thêm các module sạc không có thư viện easyeda, lcsc](./powersupply.md)
 
 ![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)
 
-[Xem thêm các module sạc không có thư viện easyeda, lcsc](#powersupply.md)
+[Xem thêm các module sạc không có thư viện easyeda, lcsc](./powersupply.md)
 
 STT|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 --|--|--|--|--|--|--|
@@ -68,4 +68,4 @@ STT|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 8|![Mô-đun sạc pin Lithium TP4056 18650 Type-c/Micro/Mini USB 5V 1A với chức năng bảo vệ kép](https://github.com/neittien0110/linhkiendientu/assets/8079397/ff8d2dee-dcfc-4408-b0e7-6e262bcca57f)|Schematic|Footprint|Mô-đun sạc pin Lithium TP4056 18650 Type-c/Micro/Mini USB 5V 1A với chức năng bảo vệ kép|Thư viện|[Shopee](https://shopee.vn/-lsha-5-B%E1%BA%A3ng-M%E1%BA%A1ch-S%E1%BA%A1c-5v-1a-type-c-micro-usb-18650-tc4056a-tp4056-M%E1%BB%9Bi-i.1091624025.14799826663)|
 |Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 
-[Xem thêm các module sạc không có thư viện easyeda, lcsc](#powersupply.md)
+[Xem thêm các module sạc không có thư viện easyeda, lcsc](./powersupply.md)
