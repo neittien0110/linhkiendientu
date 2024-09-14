@@ -7,7 +7,7 @@
 - [Các cổng, jump kết nối](#connector---jumper)
 - [Module MCU](#module-mcu)
 - [Module cảm biến, chấp hành](#module-cảm-biến-chấp-hành)
-- [Mạch sạc](#mạch-sạc-1-2)
+- [Mạch sạc](#mạch-sạc)
 
 ## Connector - Jumper
 
@@ -27,30 +27,32 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
 STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
-
 ## Module MCU
 
-|Hình ảnh|Ảnh footprint|Thư viện Footprint|Ghi chú|
-|--|--|--|--|
-|![ESP32-S2 D1 Mini](https://github.com/neittien0110/linhkiendientu/assets/8079397/4e9b5747-fa4b-4e62-8780-49103144120f)|![ESP32-S2 D1 Mini Footprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/224ba35f-2d46-4779-98d9-4be6bf4d5a3f)|<https://easyeda.com/components/WEMOS-S2-MINI_6ef43e8170c04296aa95d7137b398daf>|[Sử dụng ESP32-S2 D1 Mini](https://github.com/neittien0110/MCU/blob/master/ESP32/Lolin_S2_mini.md)|
-|![ESP32 D1 Mini Type-C](https://github.com/neittien0110/linhkiendientu/assets/8079397/e5a2e476-cb73-4236-a307-250a452aa546)|![ESP32 D1 Mini Type-C footprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/668c3897-4636-46e7-81be-d23b44305b78)|![Cách tìm kiếm](https://github.com/neittien0110/linhkiendientu/assets/8079397/b293199e-4f8d-41a9-876a-cefa23f93ff0)|[Sử dụng ESP32 D1 Mini Type-C](https://github.com/neittien0110/MCU/blob/master/ESP8266/Wemosd1r2mini.md)|
-|![NodeMCU v3](https://github.com/neittien0110/linhkiendientu/assets/8079397/32e58892-788d-4cc4-9f57-1a56a35f8a62)|![NodeMCU footprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/22ae451e-4cd0-4777-8656-f47b7e751539)|![EasyEDA Lib](https://github.com/neittien0110/linhkiendientu/assets/8079397/53958d1d-0714-44ba-b5cb-2a8f0fcbef88)|[Sử dụng NodeMCU](https://github.com/neittien0110/MCU/blob/master/ESP8266/NodeMCU_V3.md)|
-|![Hình ảnh](https://neittien0110.github.io/MCU/assets/ESP32-C3_SuperMini.png)|![footprint](https://github.com/user-attachments/assets/c9cf92de-e616-4de2-a36d-33d345a4b8c9)|![lib](https://github.com/user-attachments/assets/b5bd4ab6-a5d3-4f2e-9807-c8df9c87776f)\[3D Footprint ESP32C3-SuperMini] ![image](https://github.com/user-attachments/assets/c97ee7c7-b6f7-430d-a2c6-37d994d5a638)|[Sử dụng ESP32-C3 Super mini](https://neittien0110.github.io/MCU/ESP32/ESP32-C3_SuperMini.html)| 
-|Hình ảnh|Ảnh footprint|Thư viện Footprint|Ghi chú|
+Hình ảnh|Ảnh footprint|Thư viện Footprint|Ghi chú|
+--|--|--|--|
+![ESP32-S2 D1 Mini](https://github.com/neittien0110/linhkiendientu/assets/8079397/4e9b5747-fa4b-4e62-8780-49103144120f)|![ESP32-S2 D1 Mini Footprint]https://github.com/neittien0110/linhkiendientu/assets/8079397/224ba35f-2d46-4779-98d9-4be6bf4d5a3f)|<https://easyeda.com/components/EMOS-S2-MINI_6ef43e8170c04296aa95d7137b398daf>|[Sử dụng ESP32-S2 D1 Mini](https://github.com/neittien0110/MCU/blob/master/ESP32/Lolin_S2_mini.md)|
+![ESP32 D1 Mini Type-C](https://github.com/neittien0110/linhkiendientu/assets/8079397/e5a2e476-cb73-4236-a307-250a452aa546)|![ESP32 D1 Mini Type-C ootprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/668c3897-4636-46e7-81be-d23b44305b78)|![Cách tìm kiếm](https://github.com/eittien0110/linhkiendientu/assets/8079397/b293199e-4f8d-41a9-876a-cefa23f93ff0)|[Sử dụng ESP32 D1 Mini Type-C](https://github.com/neittien0110/MCU/blob/aster/ESP8266/Wemosd1r2mini.md)|
+![NodeMCU v3](https://github.com/neittien0110/linhkiendientu/assets/8079397/32e58892-788d-4cc4-9f57-1a56a35f8a62)|![NodeMCU footprint](https://github.om/neittien0110/linhkiendientu/assets/8079397/22ae451e-4cd0-4777-8656-f47b7e751539)|![EasyEDA Lib](https://github.com/neittien0110/linhkiendientu/ssets/8079397/53958d1d-0714-44ba-b5cb-2a8f0fcbef88)|[Sử dụng NodeMCU](https://github.com/neittien0110/MCU/blob/master/ESP8266/NodeMCU_V3.md)|
+![Hình ảnh](https://neittien0110.github.io/MCU/assets/ESP32-C3_SuperMini.png)|![footprint](https://github.com/user-attachments/assets/9cf92de-e616-4de2-a36d-33d345a4b8c9)|![lib](https://github.com/user-attachments/assets/b5bd4ab6-a5d3-4f2e-9807-c8df9c87776f)\[3D Footprint SP32C3-SuperMini] ![image](https://github.com/user-attachments/assets/c97ee7c7-b6f7-430d-a2c6-37d994d5a638)|[Sử dụng ESP32-C3 Super mini](https://eittien0110.github.io/MCU/ESP32/ESP32-C3_SuperMini.html)| 
+Hình ảnh|Ảnh footprint|Thư viện Footprint|Ghi chú|
 
 ## Module cảm biến chấp hành
 
-|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
-|--|--|--|--|
-|![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/835cdc40-4fbf-428b-9484-05a0a894fc6a)|Còi Buzzer MLT-8530. Khoảng cách giữa 2 chân trùng với loại còi Buzzer DIP thông thường|https://jlcpcb.com/partdetail/Jiangsu_HuanengElec-MLT8530/C94599|[Mua](https://linhkien.cxt.vn/2723-mlt-8530-buzzer-passive-36v.html)|
-|H|G|T|M|
-|H|G|T|M|
-|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
+Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
+--|--|--|--|
+![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/835cdc40-4fbf-428b-9484-05a0a894fc6a)|Còi Buzzer MLT-8530. Khoảng cách giữa 2 hân trùng với loại còi Buzzer DIP thông thường|https://jlcpcb.com/partdetail/Jiangsu_HuanengElec-MLT8530/C94599|[Mua](https://linhkien.cxt.vn/723-mlt-8530-buzzer-passive-36v.html)|
+H|G|T|M|
+H|G|T|M|
+Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
+## Mạch sạc
 
-## Mạch sạc 1/2
+[Xem thêm các module sạc không có thư viện easyeda, lcsc](#powersupply.md)
 
 ![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)
+
+[Xem thêm các module sạc không có thư viện easyeda, lcsc](#powersupply.md)
 
 STT|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 --|--|--|--|--|--|--|
@@ -66,40 +68,4 @@ STT|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 8|![Mô-đun sạc pin Lithium TP4056 18650 Type-c/Micro/Mini USB 5V 1A với chức năng bảo vệ kép](https://github.com/neittien0110/linhkiendientu/assets/8079397/ff8d2dee-dcfc-4408-b0e7-6e262bcca57f)|Schematic|Footprint|Mô-đun sạc pin Lithium TP4056 18650 Type-c/Micro/Mini USB 5V 1A với chức năng bảo vệ kép|Thư viện|[Shopee](https://shopee.vn/-lsha-5-B%E1%BA%A3ng-M%E1%BA%A1ch-S%E1%BA%A1c-5v-1a-type-c-micro-usb-18650-tc4056a-tp4056-M%E1%BB%9Bi-i.1091624025.14799826663)|
 |Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 
-
-## Mạch sạc 2/2
-
-- Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C
-  - Có led báo có nguồn vào, màu trắng \
-  - Có 4 chân out, nhưng thực chất là từng cặp 2 pin được nối với nhau và đấu sẵn dây để nối pin lithium 1 cell. Điện áp sạc 4.0~4.2V
-  ![Mặt trước](https://github.com/user-attachments/assets/2380024b-18dc-442a-809f-6d27fc04010a) \
-  ![Mặt sau](https://github.com/user-attachments/assets/cb8b3304-9575-4929-a528-08e374275941) \
-  - Lưu ý: chỉ để sạc pin. Không có chức năng ổn định điển áp xả
-  - [Mua sắm](https://vn.shp.ee/U41J8Mi)
-
-- Mô đun tăng áp 0.9-5V sang 5V \
-  ![Mô đun tăng áp 0.9-5V sang 5V](https://github.com/user-attachments/assets/4b04538b-44b5-4156-b5a8-f5dd588fd862)
-  - Vào: điện áp từ 0.9 tới 5V (nhưng không quá 5V)
-  - Ra: 5V, dòng tối đa 480mA
-  - Nếu áp đầu vào 0.8V thì đầu ra chỉ có 7mA
-  - Tần số hoạt động: 150KHz
-  - Hiệu suất chuyển đổi điển hình: 85%
-  - Kích thước: 11 * 10,5 * 7,5mm
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-t%C4%83ng-%C3%A1p-0.9-5V-sang-5V-1.5V-1.8V-2.5V-3V-3.3V-3.7V-4.2V-sang-5V-thay-th%E1%BA%BF-ti%E1%BB%87n-d%E1%BB%A5ng-i.578443443.11667335774)
- 
-- Module hạ áp mini360 mini-360 DC thấp hơn LM2596 \
-  ![image](https://github.com/user-attachments/assets/0d4f52e5-a5a0-45c9-9b15-31bb1eb5e340)
-
-  - Thuộc tính mô-đun: Không bị cô lập 
-  - Chỉnh lưu: Chỉnh lưu đồng bộ 
-  - Điện áp đầu vào: 4,75V-23V 
-  - Điện áp đầu ra: 1.0V-17V 
-  - Dòng điện đầu ra: Giảm mức 3A, dài 1.8A 
-  - Hiệu suất chuyển đổi: 96% (tối đa) 
-  - Tần số chuyển đổi: 340KHz 
-  - Độ gợn sóng đầu ra: 30mV (không tải) 
-  - Điều chỉnh tải: ± 0,5% 
-  - Điều chỉnh điện áp: ± 2,5% 
-  - Nhiệt độ hoạt động: -40 độ C đến +85 độ C 
-  - Đặc điểm: Sử dụng cuộn cảm ứng điện được đúc nguyên khối và chip điều khiển bộ chỉnh lưu đồng bộ, nhỏ hơn và hiệu quả hơn
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
+[Xem thêm các module sạc không có thư viện easyeda, lcsc](#powersupply.md)
