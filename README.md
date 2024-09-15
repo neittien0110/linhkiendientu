@@ -121,7 +121,7 @@ Và tham chiếu tới các trang khác:
   - Lập trình tham khảo: <https://nshopvn.com/product/cam-bien-sieu-am-hc-sr04/>
   - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-m%E1%BA%A1ch-ph%C3%A1t-hi%E1%BB%87n-s%C3%B3ng-si%C3%AAu-%C3%A2m-hc-sr04-hc-sr-04-cho-Arduino-i.395117932.9923497155)  
 
-- ><span style="color:red">Khi SR-04 bị hỏng, khoảng cách distance trả về luôn = 0.</span>
+<span style="color:red;">Khi SR-04 bị hỏng, khoảng cách distance trả về luôn = 0.</span>
 
 ## Loa còi
 
