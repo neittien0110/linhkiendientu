@@ -1,6 +1,8 @@
 # MÀN HÌNH
 
 - [Công cụ gen ma trận điểm từ ảnh](https://javl.github.io/image2cpp/)
+- Tính tọa độ với hàm display.setCursor. [Nguồn tham khảo](https://makeabilitylab.github.io/physcomp/advancedio/oled.html) \
+  ![Tọa độ](https://makeabilitylab.github.io/physcomp/advancedio/assets/images/AdafruitOLEDDisplay_CoordinateSystemAndPixels_ByJonFroehlich.png)
 
 ## Màn OLED 0.91"
 
