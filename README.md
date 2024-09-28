@@ -8,6 +8,7 @@
 - [Đo khoảng cách](#đo-khoảng-cách)
 - [Loa, còi](#loa-còi)
 - [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)
+- [Tia UV](#tia-uv)
 - [Khác](#khác)
 
 Và tham chiếu tới các trang khác:
@@ -158,7 +159,7 @@ Và tham chiếu tới các trang khác:
        ```
    - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-V%C3%A0-%C4%90%E1%BB%99-%E1%BA%A8m-%C4%90%E1%BB%99-Ch%C3%ADnh-X%C3%A1c-Cao-aht10-aht20-aht30-i2c-sht20-i.578443443.15990161525)
 
-## Nhiệt độ Độ ẩm
+## Tia UV
 
  - Module cảm biến tia UV MCU-6075 I2C- CC3
      ![Mặt trước](https://github.com/user-attachments/assets/2be9052a-5fd1-4d27-a5b8-2123aa5a8886)
