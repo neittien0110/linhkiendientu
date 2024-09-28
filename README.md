@@ -155,7 +155,7 @@ Và tham chiếu tới các trang khác:
      9. Nhiệt độ làm việc: -40°C - 85°C
    - Lập trình:
        ```C
-         #define I2C_ADDRESS_UV  0x38
+         #define I2C_ADDRESS_AHT  0x38
          adafruit/Adafruit AHTX0@^2.0.5      ;https://github.com/adafruit/Adafruit_AHTX0
        ```
    - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-V%C3%A0-%C4%90%E1%BB%99-%E1%BA%A8m-%C4%90%E1%BB%99-Ch%C3%ADnh-X%C3%A1c-Cao-aht10-aht20-aht30-i2c-sht20-i.578443443.15990161525)
