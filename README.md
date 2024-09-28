@@ -153,8 +153,9 @@ Và tham chiếu tới các trang khác:
      7. Độ chính xác nhiệt độ: điển hình ± 0,3 ° C
      8. Độ phân giải nhiệt độ: Tiêu chuẩn 0,01 °C
      9. Nhiệt độ làm việc: -40°C - 85°C
-   - Thư viện:
+   - Lập trình:
        ```C
+         #define I2C_ADDRESS_UV  0x38
          adafruit/Adafruit AHTX0@^2.0.5      ;https://github.com/adafruit/Adafruit_AHTX0
        ```
    - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-V%C3%A0-%C4%90%E1%BB%99-%E1%BA%A8m-%C4%90%E1%BB%99-Ch%C3%ADnh-X%C3%A1c-Cao-aht10-aht20-aht30-i2c-sht20-i.578443443.15990161525)
@@ -163,6 +164,16 @@ Và tham chiếu tới các trang khác:
 
  - Module cảm biến tia UV MCU-6075 I2C- CC3
      ![Mặt trước](https://github.com/user-attachments/assets/2be9052a-5fd1-4d27-a5b8-2123aa5a8886)
+   - Thông số:
+     1. Điện áp hoạt động: 3 – 5VDC
+     2. Điện áp giao tiếp I2C: 3 – 5VDC
+     3. Giao tiếp I2C, địa chỉ **0x10**
+     4. Độ nhạy cao với tia UVA (320-400 nm) và UVB (280-320 nm)
+   - Lập trình:
+       ```C
+         #define I2C_ADDRESS_UV  0x10
+         adafruit/Adafruit AHTX0@^2.0.5      ;https://github.com/adafruit/Adafruit_AHTX0
+       ```
    - Mua sắm](https://shopee.vn/Module-c%E1%BA%A3m-bi%E1%BA%BFn-tia-UV-MCU-6075-I2C-CC3-i.310609561.8904452121)
 
 ## Khác
