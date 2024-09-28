@@ -172,7 +172,7 @@ Và tham chiếu tới các trang khác:
    - Lập trình:
        ```C
          #define I2C_ADDRESS_UV  0x10
-         adafruit/Adafruit AHTX0@^2.0.5      ;https://github.com/adafruit/Adafruit_AHTX0
+         adafruit/Adafruit VEML6075 Library@^2.2.2      ;https://github.com/adafruit/Adafruit_VEML6075
        ```
    - Mua sắm](https://shopee.vn/Module-c%E1%BA%A3m-bi%E1%BA%BFn-tia-UV-MCU-6075-I2C-CC3-i.310609561.8904452121)
 
