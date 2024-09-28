@@ -7,6 +7,7 @@
 - [Phím bấm, bàn phim](#bàn-phím)
 - [Đo khoảng cách](#đo-khoảng-cách)
 - [Loa, còi](#loa-còi)
+- [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)
 - [Khác](#khác)
 
 Và tham chiếu tới các trang khác:
@@ -135,6 +136,33 @@ Và tham chiếu tới các trang khác:
   - [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811151451_Jiangsu-Huaneng-Elec-MLT-8530_C94599.pdf)
   - [Trong thư viện JLCPCB](https://jlcpcb.com/partdetail/Jiangsu_HuanengElec-MLT8530/C94599)
   - [Mua sắm](https://shopee.vn/MLT-8530-Buzzer-passive-3.6V-2700Hz-8.5x8.5x3mm-i.501501433.23671510680)
+
+## Nhiệt độ Độ ẩm
+
+ - Mô Đun Cảm Biến Nhiệt Độ Và Độ Ẩm Độ Chính Xác Cao aht10 aht20 aht30
+     ![Mặt trước](https://github.com/user-attachments/assets/e1ba86c2-1a0d-4c61-a17c-387fae4a88ce)
+     ![Mặt sau](https://github.com/user-attachments/assets/0d7a8347-51e7-4fd0-925d-e8af597059cd)
+   - Thông số:
+     1. Kích thước mô-đun: 16 * 11 mm
+     2. Loại giao diện: I2C
+     3. Điện áp làm việc: 1,8-6,0 V
+     4. Kích thước giao diện: 4 * 2,54mm cao độ
+     5. Độ ẩm chính xác: ± 2% điển hình
+     6. Độ phân giải độ ẩm: 0,024%
+     7. Độ chính xác nhiệt độ: điển hình ± 0,3 ° C
+     8. Độ phân giải nhiệt độ: Tiêu chuẩn 0,01 °C
+     9. Nhiệt độ làm việc: -40°C - 85°C
+   - Thư viện:
+       ```C
+         adafruit/Adafruit AHTX0@^2.0.5      ;https://github.com/adafruit/Adafruit_AHTX0
+       ```
+   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-V%C3%A0-%C4%90%E1%BB%99-%E1%BA%A8m-%C4%90%E1%BB%99-Ch%C3%ADnh-X%C3%A1c-Cao-aht10-aht20-aht30-i2c-sht20-i.578443443.15990161525)
+
+## Nhiệt độ Độ ẩm
+
+ - Module cảm biến tia UV MCU-6075 I2C- CC3
+     ![Mặt trước](https://github.com/user-attachments/assets/2be9052a-5fd1-4d27-a5b8-2123aa5a8886)
+   - Mua sắm](https://shopee.vn/Module-c%E1%BA%A3m-bi%E1%BA%BFn-tia-UV-MCU-6075-I2C-CC3-i.310609561.8904452121)
 
 ## Khác
 - Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
