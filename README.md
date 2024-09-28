@@ -174,6 +174,7 @@ Và tham chiếu tới các trang khác:
          #define I2C_ADDRESS_UV  0x10
          adafruit/Adafruit VEML6075 Library@^2.2.2      ;https://github.com/adafruit/Adafruit_VEML6075
        ```
+   - Lưu ý: vì lý do nào đó mà việc quét các địa chỉ I2C sẽ không phát hiện ra module này.
    - [Video![gif](https://i.ytimg.com/an_webp/WXK3HuP39Ig/mqdefault_6s.webp?du=3000&sqp=CLjO37cG&rs=AOn4CLDGpdSQArCTYYThJ9VMxZA_IJb5Mg)](https://youtu.be/WXK3HuP39Ig?si=hJhnxBdJ1F7y43LO)
    - Mua sắm](https://shopee.vn/Module-c%E1%BA%A3m-bi%E1%BA%BFn-tia-UV-MCU-6075-I2C-CC3-i.310609561.8904452121)
 
