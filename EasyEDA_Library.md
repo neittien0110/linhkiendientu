@@ -69,3 +69,15 @@ STT|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 |Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 
 [Xem thêm các module sạc không có thư viện easyeda, lcsc](./powersupply.md)
+
+
+## Module USB To Serial
+
+### CH340E + USB Type C
+ 
+ - [Xem chi tiết](https://github.com/neittien0110/linhkiendientu/edit/master/Communications.md)
+ - Footprint: <b>CH340E USB-TTL</b>
+    ![image](https://github.com/user-attachments/assets/df096895-0d4b-4c2a-ba06-ce1ca9a6970b)
+ - Thư viện:\
+   ![image](https://github.com/user-attachments/assets/f45fc27f-4b63-4f25-891e-14a6a898d024)
+ - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Chuy%E1%BB%83n-%C4%90%E1%BB%95i-CH340E-CH340C-CH9340C-USB-Sang-TTL-5V-3.3V-CH340G-Chuy%C3%AAn-D%E1%BB%A5ng-Cho-Mini-i.578443443.16598012132)
