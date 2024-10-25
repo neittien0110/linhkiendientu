@@ -24,8 +24,20 @@ STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 9|![image](https://github.com/user-attachments/assets/39c5467d-f1c7-42ff-b3b7-984c4a6f1e82)|Jump cái đơn 2.54mm 1x4P Chân thẳng **cao 5.7mm**|[BOOMELE(Boom Precision Elec) 2.54-1*40P5.7](https://www.lcsc.com/product-detail/span-style-background-color-ff0-Female-span-Headers_BOOMELE-Boom-Precision-Elec-2-54-1-40P5-7_C47940.html)|[Mua sắm](https://shopee.vn/Jump-c%C3%A1i-%C4%91%C6%A1n-2.54mm-1x4P-Ch%C3%A2n-th%E1%BA%B3ng-cao-5.7mm-i.501501433.23269252180)|
 10|![image](https://github.com/user-attachments/assets/b04fca7a-edcd-4583-882a-802fcfd16b43)|Jump cái đơn 2.54mm 1x4 chân cong 2 bên **cao 3.5mm**|[Yxcon F136-1104S3CMUB2](https://www.lcsc.com/product-detail/Female-Headers_Yxcon-F136-1104S3CMUB2_C20071191.html)|[Mua sắm](https://shopee.vn/5-Chi%E1%BA%BFc-H%C3%A0ng-%C4%90%C6%A1n-Di-Chuy%E1%BB%83n-Nam-N%E1%BB%AF-PCB-Pin-%C4%90%E1%BA%A7u-%E1%BB%94-C%E1%BA%AFm-%C4%90%E1%BA%A7u-N%E1%BB%91i-Pinheader-1x40P-1x50P-SMT-1.27-2.0-2.54-Mm-Cho-Arduino-i.1137800761.25161375293)|
 12|![image](https://github.com/user-attachments/assets/95aa0611-0620-4e99-b19a-271d6abf5b8d)|Jump đơn đôi 2.54mm 2x4 chân cong|[CJT(Changjiang Connectors) A2541WR-2x4P](https://www.lcsc.com/product-detail/Pin-Headers_CJT-Changjiang-Connectors-A2541WR-2x4P_C239335.html), [ZHOURI PZ2.54-2*4-WZ](https://www.lcsc.com/product-detail/Pin-Headers_ZHOURI-PZ2-54-2-4-WZ_C5360908.html)|Mua sắm|
-
 STT|Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
+
+ - Công tắc gạt SK12D07
+   - Thông số:
+     - 3 chân pin + 2 ngàm giữ
+     - chân cong
+     - khoảng cách 2 pin: **2.0mm**
+   - Footprint: \
+     ![image](https://github.com/user-attachments/assets/178ed339-b2c6-47ed-9bbb-966dbc547d3d)
+   - 3d model đã có sẵn \
+     ![image](https://github.com/user-attachments/assets/abf5cb07-5cb9-43e5-b774-a7c52cba224d)
+   - [LSCS](https://www.lcsc.com/product-detail/Slide-Switches_SHOU-HAN-SK12D07VG4_C393937.html)
+   - [Schematic](https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf)
+   - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-SK12D07-C%C3%B4ng-t%E1%BA%AFc-g%E1%BA%A1t-3P-ch%C3%A2n-cong-thanh-g%E1%BA%A1t-5mm-DIP-i.501501433.22545770618?sp_atk=6feb8faf-59d5-49a6-9d81-bce2ad76a20c&xptdk=6feb8faf-59d5-49a6-9d81-bce2ad76a20c)
 
 ## Module MCU
 
