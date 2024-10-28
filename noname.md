@@ -17,3 +17,13 @@
  - Jumper 1x4, cao 5.7mm, khoảng cách giữa 2 lỗ = 2.54mm
    - Chú ý rằng loại phổ thông cao 8mm. Và vẫn còn loại lùn hơn chỉ cao 2.5 mm
    - [Mua sắm](https://shopee.vn/Jump-c%C3%A1i-%C4%91%C6%A1n-2.54mm-1x4P-Ch%C3%A2n-th%E1%BA%B3ng-cao-5.7mm-i.501501433.23269252180)
+
+## USB Led
+
+- Schematic, Footprint, 3D
+  ![image](https://github.com/user-attachments/assets/7731f8ab-21fa-42f2-a6cc-f29997b00522)
+  ![image](https://github.com/user-attachments/assets/a02fb100-9d4d-4871-a740-ad79c233f502)
+  ![image](https://github.com/user-attachments/assets/e01c7189-dab8-4508-b034-1844a5063aae)
+- [Mua sắm](https://shopee.vn/10-C%C3%A1i-l%E1%BB%91c-C%E1%BA%AFm-Tr%E1%BA%A1i-%C4%90%C3%AAm-%C4%90i-B%E1%BB%99-%C4%90%C6%B0%E1%BB%9Dng-D%C3%A0i-L%E1%BB%81u-%C4%90%C3%A8n-Ngo%C3%A0i-Tr%E1%BB%9Di-Di-%C4%90%E1%BB%99ng-Ti%E1%BA%BFt-Ki%E1%BB%87m-N%C4%83ng-L%C6%B0%E1%BB%A3ng-%C4%90%C3%A8n-Pin-Mini-Si%C3%AAu-M%E1%BB%8Fng-Di-%C4%90%E1%BB%99ng-USB-LED-M%C3%B3c-Kh%C3%B3a-i.578443443.29108145969)
+  
+
