@@ -95,3 +95,22 @@ STT|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
  - Thư viện:\
    ![image](https://github.com/user-attachments/assets/f45fc27f-4b63-4f25-891e-14a6a898d024)
  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Chuy%E1%BB%83n-%C4%90%E1%BB%95i-CH340E-CH340C-CH9340C-USB-Sang-TTL-5V-3.3V-CH340G-Chuy%C3%AAn-D%E1%BB%A5ng-Cho-Mini-i.578443443.16598012132)
+
+
+## USB Led
+
+- Schematic, Footprint, 3D
+  ![image](https://github.com/user-attachments/assets/7731f8ab-21fa-42f2-a6cc-f29997b00522)
+  ![image](https://github.com/user-attachments/assets/a02fb100-9d4d-4871-a740-ad79c233f502)
+  ![image](https://github.com/user-attachments/assets/e01c7189-dab8-4508-b034-1844a5063aae)
+  - [Mua sắm](https://shopee.vn/10-C%C3%A1i-l%E1%BB%91c-C%E1%BA%AFm-Tr%E1%BA%A1i-%C4%90%C3%AAm-%C4%90i-B%E1%BB%99-%C4%90%C6%B0%E1%BB%9Dng-D%C3%A0i-L%E1%BB%81u-%C4%90%C3%A8n-Ngo%C3%A0i-Tr%E1%BB%9Di-Di-%C4%90%E1%BB%99ng-Ti%E1%BA%BFt-Ki%E1%BB%87m-N%C4%83ng-L%C6%B0%E1%BB%A3ng-%C4%90%C3%A8n-Pin-Mini-Si%C3%AAu-M%E1%BB%8Fng-Di-%C4%90%E1%BB%99ng-USB-LED-M%C3%B3c-Kh%C3%B3a-i.578443443.29108145969)
+  
+
+## Module nguôn ổn áp dùng AMS1117
+
+- Schematic, Footprint\
+  ![Schematic](https://github.com/user-attachments/assets/4ecc98be-0662-41ac-967b-cc05c7ad4a40))
+  ![pcb](https://github.com/user-attachments/assets/709aae76-57b3-48d1-8913-a9e84563c85d)
+
+  [easyeda](https://easyeda.com/editor#id=83ae564cc18f40ada42dd9197d966455|508dd84037644c9a8733925a4745d4fd|7176a7f8643d4ade9dfa48dc8249514c)
+  - [Mua sắm](https://shopee.vn/Ams1117-1.2V-1.5V-1.8V-2.5V-3.3V-5V-M%C3%B4-%C4%91un-c%E1%BA%A5p-ngu%E1%BB%93n-AMS1117-5.0V-M%C3%B4-%C4%91un-ngu%E1%BB%93n-AMS1117-3.3V-Cho-b%E1%BB%99-t%E1%BB%B1-l%C3%A0m-i.578443443.25185784279?sp_atk=12c5d8f2-042e-404b-ba21-18e91ceacc1b&xptdk=12c5d8f2-042e-404b-ba21-18e91ceacc1b)
