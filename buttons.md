@@ -17,6 +17,13 @@
    - ![easyeda](https://github.com/user-attachments/assets/81b4f8b5-d5ed-4760-97b0-1b2c27ec149a)
    - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-4-ch%C3%A2n-6x6x3.4mm-%C4%91%E1%BA%A7u-%C4%91%E1%BB%8F-i.501501433.20881026304)
 
+- Nút nhấn SMD 2P 3x6x2.5mm
+  - Chú ý: dài 6mm không bao gồm phần thòi của 2 pin. Nên dộ dài thực tế phải tầm 8.5m
+  - ![real](https://github.com/user-attachments/assets/c87c94cc-0d56-4816-854e-dc70bacc4ff4)
+  - ![easyeda](https://github.com/user-attachments/assets/94650507-5919-4119-984b-d278679139ac)
+  - [Mua sắm nút trắng](https://shopee.vn/-D%C3%A2y-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-2P-3x6x2.5mm-tr%E1%BA%AFng-(%C4%91%C3%B3ng-d%C3%A2y)-i.501501433.20776433118?sp_atk=98647a4e-87bb-4900-ba9b-b15481fd6b63&xptdk=98647a4e-87bb-4900-ba9b-b15481fd6b63)
+  - [Mua sắm nút đỏ](https://shopee.vn/-D%C3%A2y-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-2-ch%C3%A2n-3x6x2.5mm-%C4%91%E1%BB%8F-(%C4%91%C3%B3ng-d%C3%A2y)-i.501501433.19081005300?sp_atk=d2497873-716f-4b51-b0cb-c0eec173dae8&xptdk=d2497873-716f-4b51-b0cb-c0eec173dae8)
+
 - B3U-1000P Nút nhấn SMD 2 chân 3x2.5x1.6mm 
   - ![real](https://github.com/user-attachments/assets/69fc6210-b5b0-4ebc-a08e-fc5ffa19028f)
   - ![easyeda](https://github.com/user-attachments/assets/dfc1ae8a-4443-4a6f-8901-9847db4247e0)
