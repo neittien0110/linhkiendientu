@@ -18,16 +18,23 @@
    - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-4-ch%C3%A2n-6x6x3.4mm-%C4%91%E1%BA%A7u-%C4%91%E1%BB%8F-i.501501433.20881026304)
 
 - Nút nhấn SMD 2P 3x6x2.5mm
-  - Chú ý: dài 6mm không bao gồm phần thòi của 2 pin. Nên dộ dài thực tế phải tầm 8.5m
+  - Chú ý: dài 6mm không bao gồm phần thòi của 2 pin. Nếu bao gồm thì độ dài 8.5mm
   - ![real](https://github.com/user-attachments/assets/c87c94cc-0d56-4816-854e-dc70bacc4ff4)
   - ![easyeda](https://github.com/user-attachments/assets/94650507-5919-4119-984b-d278679139ac)
   - [Mua sắm nút trắng](https://shopee.vn/-D%C3%A2y-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-2P-3x6x2.5mm-tr%E1%BA%AFng-(%C4%91%C3%B3ng-d%C3%A2y)-i.501501433.20776433118?sp_atk=98647a4e-87bb-4900-ba9b-b15481fd6b63&xptdk=98647a4e-87bb-4900-ba9b-b15481fd6b63)
   - [Mua sắm nút đỏ](https://shopee.vn/-D%C3%A2y-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-2-ch%C3%A2n-3x6x2.5mm-%C4%91%E1%BB%8F-(%C4%91%C3%B3ng-d%C3%A2y)-i.501501433.19081005300?sp_atk=d2497873-716f-4b51-b0cb-c0eec173dae8&xptdk=d2497873-716f-4b51-b0cb-c0eec173dae8)
 
-- B3U-1000P Nút nhấn SMD 2 chân 3x2.5x1.6mm 
+- B3U-1000P Nút nhấn SMD 2 chân 3x2.5x1.6mm
+  - Chú ý, dài 2.5 mm không bao gồm phần thòi của 2 pin. Nếu bao gồm thì độ dài 4.2mm
   - ![real](https://github.com/user-attachments/assets/69fc6210-b5b0-4ebc-a08e-fc5ffa19028f)
   - ![easyeda](https://github.com/user-attachments/assets/dfc1ae8a-4443-4a6f-8901-9847db4247e0)
   - [Mua sắm](https://shopee.vn/B3U-1000P-N%C3%BAt-nh%E1%BA%A5n-SMD-2-ch%C3%A2n-3x2.5x1.6mm-i.501501433.17695115463)
+
+- SMD 2P 3x4x2H mm 
+  - ![real](https://github.com/user-attachments/assets/6c88ef79-e14b-458c-ab2f-5206805e4f32)
+  - ![easyeda](https://github.com/user-attachments/assets/563bf4be-2c86-4cd9-abdb-87cc3239cd16)
+  - [Mua sắm nút trắng](https://shopee.vn/N%C3%BAt-nh%E1%BA%A5n-SMD-2P-2.9x3.9x2H-mm-%C4%90%E1%BA%A7u-tr%E1%BA%AFng-i.501501433.29500435053?sp_atk=6f209486-897c-4ebf-8cc4-5b0900ceb3a5&xptdk=6f209486-897c-4ebf-8cc4-5b0900ceb3a5)
+  - [Mua sắm nút đen](https://shopee.vn/-D%C3%A2y-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-2-ch%C3%A2n-3x4x2.5mm-n%C3%BAt-nh%E1%BA%A5n-3x4-i.501501433.18176448815?sp_atk=a975f816-4e6b-47af-b6f2-e2b1f04d04da&xptdk=a975f816-4e6b-47af-b6f2-e2b1f04d04da)
 
 ## Nút bấm nhấn giữ 
 
