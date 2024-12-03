@@ -16,10 +16,11 @@ Và tham chiếu tới các trang khác:
 2. [Các loại motor](./Motors.md)
 3. [Các module truyền thông](./Communications.md)
 4. [Các màn hình hiển thị](./Screens.md)
-5. [Các linh vật tư phụ kiện như mạch in, dây dẫn, thiếc](./noname.md)
-6. [Linh kiện PCB để thiết kế board](./EasyEDA_Library.md)
-7. [Mạch sạc pin Lithium](https://neittien0110.github.io/linhkiendientu/EasyEDA_Library.html#m%E1%BA%A1ch-s%E1%BA%A1c)
-8. [Module nguồn cấp](./powersupply.md)
+5. [Nút bấm](./buttons.md)
+6. [Các linh vật tư phụ kiện như mạch in, dây dẫn, thiếc](./noname.md)
+7. [Linh kiện PCB để thiết kế board](./EasyEDA_Library.md)
+8. [Mạch sạc pin Lithium](https://neittien0110.github.io/linhkiendientu/EasyEDA_Library.html#m%E1%BA%A1ch-s%E1%BA%A1c)
+9. [Module nguồn cấp](./powersupply.md)
 
 ## MPU
 
