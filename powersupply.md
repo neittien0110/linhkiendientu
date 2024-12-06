@@ -1,6 +1,7 @@
 # NGUỒN CẤP
 
-[Xem thêm các module nguồn có thư viện easyeda, lcsc](./EasyEDA_Library.md)
+- [Xem thêm các module nguồn có thư viện easyeda, lcsc](./EasyEDA_Library.md)
+- [Pin và đế cắm](#đế-pin-và-pin)
 
 ## Module chuyển đổi AC 220V --> DC 5V/0.7A
 
@@ -94,3 +95,46 @@
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
 
 [Xem thêm các module nguồn có thư viện easyeda ,lcsc](./EasyEDA_Library.md)
+
+## Đế pin và pin
+
+![image](https://github.com/user-attachments/assets/71c1a7c8-7325-456d-ae82-8f3f0f1a87ef)
+![image](https://github.com/user-attachments/assets/257f6f5a-7bfc-4fc6-8cde-1f24c6ab5e9c)
+
+
+### Pin 10440 và đế. Pin AAA
+
+  ![Pin 10440](https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1s76w602c3j4e@resize_w450_nl.webp)
+  
+- [Mua pin 10440](https://shopee.vn/Pin-s%E1%BA%A1c-size-10440-(-AAA)-3.7v-1000mAh-d%C3%B9ng-cho-%C4%91%C3%A8n-led-xe-%C4%91%E1%BB%93-ch%C6%A1i-i.1086477386.28460105821)
+- [Mua sắm đế 10440 đấu dây và có sẵn công tắc](https://shopee.vn/%C4%90%C3%AA%CC%81-pin-con-tho%CC%89-AAA-c%C6%A1%CC%83-nho%CC%89-loa%CC%A3i-1pin-2-pin-3-pin-4-pin-co%CC%81-n%C4%83%CC%81p-co%CC%81-c%C3%B4ng-t%C4%83%CC%81c-ON-OFF-Pin-con-tho%CC%89-xi%CC%A3n-i.1032535693.22147972594?sp_atk=5caa4bb6-7ce0-4f70-8efe-f46cb05cf0da&xptdk=5caa4bb6-7ce0-4f70-8efe-f46cb05cf0da)
+- [Mua sắm đề 10400 đấu dây](https://shopee.vn/%C4%90%E1%BA%BF-pin-%C4%91%C5%A9a-AAA-1-2-3-4-cell-m%E1%BA%AFc-n%E1%BB%91i-ti%E1%BA%BFp-H%E1%BB%99p-%C4%91%E1%BB%B1ng-pin-ti%E1%BB%83u-AAA-d%C3%A2y-h%C3%A0n-s%E1%BA%B5n-v%C3%A0-l%E1%BB%97-b%E1%BA%AFt-v%C3%ADt-lo%E1%BA%A1i-1-2-3-4-ng%C4%83n-i.281350512.20358421991?sp_atk=1f4b6e5e-a6e2-4e2d-a419-a87d270f33a3&xptdk=1f4b6e5e-a6e2-4e2d-a419-a87d270f33a3)
+
+### Pin 14250 và đế.
+
+  ![Pin 14250](https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1s7a4z94g9f86@resize_w450_nl.webp)
+  
+- [Mua pin 14250](https://shopee.vn/Pin-s%E1%BA%A1c-nhi%E1%BB%81u-l%E1%BA%A7n-3.7v-14250-d%C3%B9ng-cho-m%C3%A1y-laze-%C4%91%C3%A8n-laze-%C4%91%E1%BA%A1i-b%C3%A0ng-m%C3%A1y-%C4%91o-kho%E1%BA%A3ng-c%C3%A1ch-dung-l%C6%B0%E1%BB%A3ng-i.1086477386.29160180468)
+- [Mua sắm đế 14250 chân hàn](https://shopee.vn/5x1-2AA-14250-Pin-L%C6%B0u-Tr%E1%BB%AF-K%E1%BA%B9p-H%E1%BB%99p-%C4%90%E1%BB%B1ng-3.6V-V%E1%BB%9Bi-PCB-Pin-H%C3%A0n-ch%C3%AC-i.183696794.29304863025)
+
+### Pin 14500 và đế. Pin AA
+
+  ![Pin 14500](https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lzoi9pk0n0b120.webp)
+  
+- [Mua pin 14500 chân hàn](https://shopee.vn/Pin-Sony-14500-AA-3.7V-680mAh-Pin-Chuy%C3%AAn-D%C3%B9ng-Cho-B%C3%A0n-Ch%E1%BA%A3i-%C4%90i%E1%BB%87n-Philips-Sonicare-i.1086477386.28659691274)
+- [Mua sắm đế 14500 nối dây](https://shopee.vn/%C4%90%E1%BA%BF-Pin-AAA-Kh%C3%B4ng-N%E1%BA%AFp-1-Pin-2-Pin-3-Pin-4-Pin-%C4%90%E1%BA%BF-Pin-Ti%E1%BB%83u-AAA-(C%E1%BB%A1-Pin-Con-Th%E1%BB%8F-Lo%E1%BA%A1i-B%C3%A9)-(G%E1%BB%ACI-%C4%90%C6%A0N-T%E1%BB%AA-20K)-Pin-1-5V-i.1032535693.22773460473?sp_atk=a715e5c3-f695-4156-b910-b1c1f25e4444&xptdk=a715e5c3-f695-4156-b910-b1c1f25e4444)
+
+  ### Pin 16430 và đế. 
+
+  ![Pin 16340](https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1s74pr2uqmra3@resize_w450_nl.webp)
+  
+- [Mua pin 16340](https://shopee.vn/Cr123a-16340-17335-lir123a-PCB-m%E1%BB%99t-ph%E1%BA%A7n-c%C3%B3-Pin-H%E1%BB%99p-Pin-Gi%C3%A1-%C4%91%E1%BB%A1-Pin-Lithium-3V-i.821639995.26706689693)
+- [Mua sắm đế 16340](https://shopee.vn/Cr123a-16340-17335-lir123a-PCB-m%E1%BB%99t-ph%E1%BA%A7n-c%C3%B3-Pin-H%E1%BB%99p-Pin-Gi%C3%A1-%C4%91%E1%BB%A1-Pin-Lithium-3V-i.821639995.26706689693)
+
+### Pin 18650 và đế. 
+
+  ![Pin 18650](https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxoa5g4kq5ej61@resize_w450_nl.webp)
+  
+- [Mua pin 18650](https://shopee.vn/Cell-pin-EVE-18650-25P-dung-l%C6%B0%E1%BB%A3ng-2500mah-X%E1%BA%A3-12C-30A-Pin-Th%C3%A1o-kh%E1%BB%91i-ch%C3%ADnh-h%C3%A3ng-%C4%90%E1%BA%B9p-nh%C6%B0-m%E1%BB%9Bi-i.95243985.20313052510?sp_atk=a523534f-10e2-461b-836b-9e549ad8ce07&xptdk=a523534f-10e2-461b-836b-9e549ad8ce07)
+- [Mua sắm đế 18650 hàn](https://shopee.vn/%C4%90%E1%BA%BF-Pin-18650-1-2-3-4-Pin-Ch%C3%A2n-H%C3%A0n-%C4%90%E1%BA%BF-1-Pin-18650-%C4%90%E1%BA%BF-2-Pin-18650-%C4%90%E1%BA%BF-3-Pin-18650-%C4%90%E1%BA%BF-4-Pin-18650-i.998840499.18284093774?sp_atk=5302faee-fe8a-4238-9277-5ca992019806&xptdk=5302faee-fe8a-4238-9277-5ca992019806)
+  
