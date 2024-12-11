@@ -1,7 +1,29 @@
 # NGUỒN CẤP
 
 - [Xem thêm các module nguồn có thư viện easyeda, lcsc](./EasyEDA_Library.md)
+- [IC nguồn AMS1117 và các module liên quan](#ic-nguồn-ams1117-và-các-module-liên-quan)
 - [Pin và đế cắm](#đế-pin-và-pin)
+
+## IC nguồn AMS1117 và các module liên quan
+
+  ![image](https://github.com/user-attachments/assets/2e4109d8-ff87-4a24-9fa3-deb7e6ec5f16)
+
+- Mô tả:
+  - Có thể hàn trực tiếp AMS1117 lên PCB cắm vì khoảng cách giữa 3 pin là 2.23mm (~2.54mm). Trường hợp tệ nữa thì bỏ qua tụ lọc, cứ hàn duy nhất AMS1117.
+  - Đã ghi nhận module AMS1117 có sẵn trên các module ổn áp không đúng. Phải replace thì module mới chạy được.
+
+- [Mua sắm AMS1117 3v3](https://shopee.vn/B%E1%BB%99-50-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-AMS1117-LDO-SOT-223-AMS1117-3.3V-1.2V-1.5V-1.8V-2.5V-5.0V-ADJ-AMS1117-LM1117-11117-i.762880341.19239851949)
+- [Mua sắm AMS1117 5v](https://shopee.vn/B%E1%BB%99-50-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-AMS1117-LDO-SOT-223-AMS1117-3.3V-1.2V-1.5V-1.8V-2.5V-5.0V-ADJ-AMS1117-LM1117-11117-i.762880341.19239851949)
+
+### Module nguôn ổn áp dùng AMS1117
+
+- Schematic, Footprint\
+  ![Schematic](https://github.com/user-attachments/assets/4ecc98be-0662-41ac-967b-cc05c7ad4a40))
+  ![pcb](https://github.com/user-attachments/assets/709aae76-57b3-48d1-8913-a9e84563c85d)
+
+  [easyeda](https://easyeda.com/editor#id=83ae564cc18f40ada42dd9197d966455|508dd84037644c9a8733925a4745d4fd|7176a7f8643d4ade9dfa48dc8249514c)
+  - [Mua sắm](https://shopee.vn/Ams1117-1.2V-1.5V-1.8V-2.5V-3.3V-5V-M%C3%B4-%C4%91un-c%E1%BA%A5p-ngu%E1%BB%93n-AMS1117-5.0V-M%C3%B4-%C4%91un-ngu%E1%BB%93n-AMS1117-3.3V-Cho-b%E1%BB%99-t%E1%BB%B1-l%C3%A0m-i.578443443.25185784279?sp_atk=12c5d8f2-042e-404b-ba21-18e91ceacc1b&xptdk=12c5d8f2-042e-404b-ba21-18e91ceacc1b)
+   > Lưu ý: Đã ghi nhận module AMS1117 có sẵn trên các module ổn áp không đúng. Phải replace thì module mới chạy được.
 
 ## Module chuyển đổi AC 220V --> DC 5V/0.7A
 
