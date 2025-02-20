@@ -75,6 +75,21 @@ NRF24L01 có các đặc tính gồm
 - [Code mẫu](https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-12-long-range-wireless-communication-module/)
 - [Mua sắm](https://shopee.vn/1-M%C3%B4-%C4%90un-433mhz-hc-12-si4463-Kh%C3%B4ng-D%C3%A2y-bluetooth-1000m-M%E1%BB%9Bi-i.81431289.18486007983)
 
+## Bộ điều khiển từ xa không dây 4 kênh 4 Module không dây 433MHZ IC2262 / 2272
+
+  ![Ảnh minh họa](https://down-vn.img.susercontent.com/file/7e2c6c7ab361b8449ff05bbee8660e0f.webp)
+ - Thông số
+    1.Điện áp hoạt động: 5V
+    2.Dòng điện hoạt điện: 10mA @ 12V
+    3. Công suất tăng: 10 mw @ 12V
+    4. Chế độ điều chế: ASK (Điều chế biên độ)
+    5. Tần số truyền: 433MHZ
+    6. Khoảng cách truyền tín hiệu: 50-100M (không gian mở, độ nhạy của máy thu là -100dbm)
+    7. Mã: mã cố định
+- Bộ điều khiển nhựa là đầu phát. Mạch PCB có mã YK-04 là bộ thu. 4 nút trên bộ điều khiển khi bấm sẽ tương ứng với 4 chân D0-D3 trên bộ thu
+   ![Ảnh mua sản phẩm](https://down-vn.img.susercontent.com/file/vn-11134103-7r98o-ltgf5k69uwi297.webp)
+- [Mua sắm](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-kh%C3%B4ng-d%C3%A2y-4-k%C3%AAnh-4-Module-kh%C3%B4ng-d%C3%A2y-433MHZ-IC2262-2272-i.201091220.5212508592)
+
 ## Module CH340E BTE17-06B
   ![image](https://github.com/user-attachments/assets/7e47a6a2-754b-4d04-b720-af1ff082dcb8)
 
