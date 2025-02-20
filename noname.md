@@ -22,10 +22,13 @@
 
 - Hộp Nhựa kích thước ngoài 56x58x28mm kín 6 mặt:
   ![Ảnh minh họa](https://down-vn.img.susercontent.com/file/e93b996e1e56211d5a49264d056bb8d0.webp)
-  - [Mua sắm](https://shopee.vn/H%E1%BB%99p-Nh%E1%BB%B1a-56x58x28mm-i.311128107.6081070722)
+  ![Đóng hộp gắn PCB](https://github.com/user-attachments/assets/aea1f259-7f1d-4223-9cb2-23a2e9352580)
   - [Thiết kế PCB breadboard tương ứng](https://easyeda.com/editor#id=4f5acb913bdd49cf999f7bf0f1ffecfd|45d3db24edba45449707f6a16cd4ec3f) \
     ![Ảnh thiết kế PCB](https://github.com/user-attachments/assets/56ce0fae-7444-478b-bed8-b83a1ad0b36e)
-
+  - [Mua sắm](https://shopee.vn/H%E1%BB%99p-Nh%E1%BB%B1a-56x58x28mm-i.311128107.6081070722)
 - Hộp nhựa kích thước ngoài:\
   ![Ảnh minh họa](https://down-vn.img.susercontent.com/file/2c729b739fe25598cc3d17d0c000d95a.webp)
-  - [Mua sắm](https://shopee.vn/H%E1%BB%99p-Nh%E1%BB%B1a-70x45x30mm-i.311128107.9834811764)
+  ![Đóng hộp gắn PCB](https://github.com/user-attachments/assets/13bfe92d-4002-47d4-a24a-ce0493d56c5c)
+  - [Thiết kế PCB breadboard tương ứng](https://easyeda.com/editor#id=d9d9a45130e240bb980734934fb2cc7f)
+     ![Ảnh thiết kế PCB](https://github.com/user-attachments/assets/1386fb15-ff09-4a86-9ce3-b75d43c86e26)
+  - [Mua sắm](https://shopee.vn/H%E1%BB%99p-Nh%E1%BB%B1a-70x45x30mm-i.311128107.9834811764)    
