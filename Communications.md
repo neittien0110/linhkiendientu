@@ -40,6 +40,40 @@ NRF24L01 có các đặc tính gồm
 
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-truy%E1%BB%81n-d%E1%BB%AF-li%E1%BB%87u-kh%C3%B4ng-d%C3%A2y-NRF24L01-2.4G-2.4GHz-NRF24L01-phi%C3%AAn-b%E1%BA%A3n-n%C3%A2ng-c%E1%BA%A5p-NRF24L01-PA-LNA-1000-GT24-i.812409307.20422229589).  Lưu ý cố thể mua loại SMD không hàn pin, để tiện hàn lên PCB nhưng loại này sử dụng chân 1.25 mm
 
+## Module HC-12 RF UART 433Mhz
+
+  ![image](https://github.com/user-attachments/assets/b4852145-e92e-44f5-b1b2-8677865bb842)
+- Thông số:
+  - Khoảng cách tối đa: 1000m
+  - Điện áp hoạt động:	3.3V - 5V
+  - Dòng tiêu thụ chế độ chờ:	16mA
+  - Công suất:	80mW -200mW, có thể cài đặt
+  - Chuẩn giao tiếp:	UART
+  - Tốc độ: 5 kbps
+  - Tần số: 433.4 - 473.0MHz
+  - Kích thước: 27.8mm × 14.4mm × 4mm
+- Các chân pin:
+  - Vcc  : Cấp nguồn 3.3V – 5V.
+  - GND: Cấp nguồn 0V
+  - RXD : Nhận dữ liệu UART
+  - TXD : Truyền dữ liệu UART
+  - SET : Thiết lập các thông số
+  - ANT1 : Gắn anen dây rời SMA
+  - GND: Cấp nguồn 0V
+  - ANT2 : Hàn anten lò xo
+  - GND: Cấp nguồn 0V
+  - NC : Không kết nối
+- Cách sử dụng:
+  - Các module phải có cùng kênh sóng, địa chỉ, kênh và địa chỉ phải khác 0.
+  - Để cài đặt module, đưa module vào chế độ AT command: nối chân SET xuống mass trước khi cấp nguồn, sau đó cấp nguồn, module sẽ tự động reset về các thông số gốc: Baurate: 9600, stop bits:1, parity: none.
+  - Để cài đặt Baurate của module dùng lệnh: AT+Bxxxx (trong đó xxxx là số baudrate, ví dụ 9600, 38400, 115200, ... )
+  - Để cài đặt kênh sóng dùng: AT+Cxxx (trong đó xxx là số kênh từ 000 đến 127)
+  - Để cài đặt địa chỉ dùng: AT+Axxx (trong đó xxx là địa chỉ từ 000 đến 255)
+  - Để cài đặt công suất phát sóng dùng: AT+Px (trong đó x từ 1 đến 8, mặc định là 8 ~ 10 dBm)
+  - Sau khi cài đặt xong nối chân SET lên VCC hoặc để hở để về chế độ hoạt động bình thường: tất cả dữ liệu truyền qua UART vào module sẽ được truyền đến tất cả các module khác có cùng kênh sóng và địa chỉ, và truyền ra bằng UART.
+- [Tài liệu hướng dẫn từ Nshop](https://hshop.vn/mach-thu-phat-rf-uart-si4463-433mhzkhoang-coch-1km)
+- [Code mẫu](https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-12-long-range-wireless-communication-module/)
+- [Mua sắm](https://shopee.vn/1-M%C3%B4-%C4%90un-433mhz-hc-12-si4463-Kh%C3%B4ng-D%C3%A2y-bluetooth-1000m-M%E1%BB%9Bi-i.81431289.18486007983)
 
 ## Module CH340E BTE17-06B
   ![image](https://github.com/user-attachments/assets/7e47a6a2-754b-4d04-b720-af1ff082dcb8)
