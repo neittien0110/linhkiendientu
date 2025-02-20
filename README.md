@@ -112,6 +112,7 @@ Và tham chiếu tới các trang khác:
   - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%E1%BA%AFp-n%C3%BAt-nh%E1%BA%A5n-6x6-tr%C3%B2n-%C4%90%E1%BB%8F-V%C3%A0ng-Xanh-Tr%E1%BA%AFng-%C4%90en-i.501501433.14397655804)
 
 ## Đo khoảng cách
+
 - Module SR-04 đo khoảng cách
   - Ý nghĩa: đo khoảng cách bằng siêu âm\
     ![HC SR-04](https://github.com/neittien0110/linhkiendientu/assets/8079397/7b263874-db23-4676-bda1-30a88b290205)
@@ -126,6 +127,10 @@ Và tham chiếu tới các trang khác:
 
 <span style="color:red;">Khi SR-04 bị hỏng, khoảng cách distance trả về luôn = 0.</span>
 
+- Module cảm biến vật cản Radar RCWL-0516
+  ![Ảnh radar RCWL-516](https://nshopvn.com/wp-content/uploads/2019/03/tren-tay-module-cam-bien-vat-can-radar-rcwl-0516-qzl0-1-600x600.jpg)
+  - [Tài liệu, video hướng dẫn từ Nshop](https://nshopvn.com/product/module-cam-bien-vat-can-radar-rcwl-0516/)
+ 
 ## Loa còi
 
 - Còi Buzzer passive dạng SMD: MLT-8530
