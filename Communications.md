@@ -147,6 +147,24 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
 
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-truy%E1%BB%81n-ph%C3%A1t-RF-315-MHz-433-MHz-M%C3%B4-%C4%91un-truy%E1%BB%81n-%C4%91%E1%BB%99ng-%C4%90i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-kh%C3%B4ng-d%C3%A2y-Truy%E1%BB%81n-d%E1%BA%ABn-%C4%91%C6%B0%E1%BB%9Dng-d%C3%A0i-H34P-H34S-H34C-H34A-i.81431289.28500865201?sp_atk=ac554eae-2979-42d5-be5d-1b55448c985f&xptdk=ac554eae-2979-42d5-be5d-1b55448c985f)
 
+## JDY-41
+
+![front](https://github.com/user-attachments/assets/5a0075e3-35aa-4c98-9076-63d2bc41f06a)
+![rear](https://github.com/user-attachments/assets/472ab972-bfd5-4e1f-9001-919c74e13383)
+
+- Thông số:
+  - Sóng mang: 2.4GHz
+
+- [Datasheet](https://www.rcscomponents.kiev.ua/datasheets/JDY-40-datasheet.pdf)
+  
+![layout](https://github.com/user-attachments/assets/34a6fa4d-ea2d-44ba-b0d6-323e37e07f80)
+
+- [JDY-41 Shield](https://easyeda.com/editor#id=14db2118aee146ca99ca9489d7a761b9|85960bbc2d5c4422a18e05993adbe9b9)
+![Schematic](https://github.com/user-attachments/assets/3b0f69d8-b91b-4f27-8b1e-8977342b3108)
+![PCB](https://github.com/user-attachments/assets/7b6a13cc-7e3f-42cd-a130-23ba62fd04e6)
+
+
+
 ## Module CH340E BTE17-06B
   ![image](https://github.com/user-attachments/assets/7e47a6a2-754b-4d04-b720-af1ff082dcb8)
 
