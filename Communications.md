@@ -155,7 +155,7 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
 - Thông số:
   - Sóng mang: 2.4GHz
 
-- [Datasheet](https://www.rcscomponents.kiev.ua/datasheets/JDY-40-datasheet.pdf)
+- [Datasheet](https://www.postavrobota.cz/fotky46704/fotov/_ps_2370JDY-41-Manual.pdf)
   
 ![layout](https://github.com/user-attachments/assets/34a6fa4d-ea2d-44ba-b0d6-323e37e07f80)
 
