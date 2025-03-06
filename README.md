@@ -167,6 +167,16 @@ Và tham chiếu tới các trang khác:
        ```
    - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-V%C3%A0-%C4%90%E1%BB%99-%E1%BA%A8m-%C4%90%E1%BB%99-Ch%C3%ADnh-X%C3%A1c-Cao-aht10-aht20-aht30-i2c-sht20-i.578443443.15990161525)
 
+- Gy-906 MLX90614ESF - Module cảm biến nhiệt độ không tiếp xúc
+  ![image](https://github.com/user-attachments/assets/0195e8fb-ed97-404a-b1b1-bd2dc088bfb5)
+
+  - Ứng dụng: đo nhiệt độ cơ thể người bằng cách đí gần trán
+  - Thông số:
+    - Độ phân giải đo: 0,02 ° C
+    - Giao tiếp: I2C
+  - [Hướng dẫn từ Nshop](https://nshopvn.com/product/cam-bien-nhiet-do-hong-ngoai-khong-tiep-xuc-gy-906-mx90614/)
+  - [Mua sắm](https://shopee.vn/Gy-906-MLX90614ESF-M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-nhi%E1%BB%87t-%C4%91%E1%BB%99-kh%C3%B4ng-ti%E1%BA%BFp-x%C3%BAc-MLX90614-m%E1%BB%9Bi-cho-t%C6%B0%C6%A1ng-th%C3%ADch-Arduino-i.578443443.28358962552)
+
 ## Tia UV
 
  - Module cảm biến tia UV MCU-6075 I2C- CC3
