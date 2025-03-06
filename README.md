@@ -6,10 +6,11 @@
 - [Nhịp tim và SpO2](#nhịp-tim-và-spo2)
 - [Phím bấm, bàn phim](#bàn-phím)
 - [Đo khoảng cách](#đo-khoảng-cách)
+- [Đo tốc độ](#đo-tốc-độ)
 - [Loa, còi](#loa-còi)
 - [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)
 - [Tia UV](#tia-uv)
-- [Thẻ NFC, RFID](#the-nfc-rfid)
+- [Thẻ NFC, RFID](#thẻ-nfc-rfid)
 - [Khác](#khác)
 
 Và tham chiếu tới các trang khác:
@@ -131,6 +132,26 @@ Và tham chiếu tới các trang khác:
 - Module cảm biến vật cản Radar RCWL-0516
   ![Ảnh radar RCWL-516](https://nshopvn.com/wp-content/uploads/2019/03/tren-tay-module-cam-bien-vat-can-radar-rcwl-0516-qzl0-1-600x600.jpg)
   - [Tài liệu, video hướng dẫn từ Nshop](https://nshopvn.com/product/module-cam-bien-vat-can-radar-rcwl-0516/)
+
+## Đo tốc độ
+
+- HB100 - Phát hiện và đo vận tốc chuyển động bằng microwave Doppler Radar
+  ![image](https://github.com/user-attachments/assets/c57a4aba-c76f-4d45-a75d-b0a5fec52eaa)
+
+  - Thông số:
+    - tần số truyền: 10,525 GHz
+    - Độ chính xác cài đặt tần số: 3MHz
+    - Công suất đầu ra (tối thiểu): 13dBm EIRP
+    - Điện áp hoạt động: 5V ± 0,25V
+    - Dòng hoạt động (CW): tối đa 60mA, 37mA điển hình
+    - phát sóng hài: < -10dBm
+    - Chế độ xung:
+    - dòng điện trung bình (5% DC): 2mA typ. chiều rộng 9 xung (Tối thiểu): 5uSec
+    - chu kỳ tải (Tối thiểu): 1%
+    ![image](https://github.com/user-attachments/assets/1b5d1354-4e16-480c-a4cd-069d83c0f535)
+  - [Minh họa với Arduino](https://medium.com/@benjamindavidfraser/arduino-intrusion-monitoring-system-5e2d8cacf82e)
+  - [Giải thích nguyên lý hoạt động và lắp breadboard](https://www.instructables.com/Easy-HB100-Amplifier/)
+  - [Mua sắm](https://shopee.vn/Hb100-Microwave-Doppler-Radar-M%C3%B4-%C4%91un-kh%C3%B4ng-d%C3%A2y-C%E1%BA%A3m-bi%E1%BA%BFn-chuy%E1%BB%83n-%C4%91%E1%BB%99ng-HB100-C%E1%BA%A3m-bi%E1%BA%BFn-chuy%E1%BB%83n-%C4%91%E1%BB%99ng-l%C3%B2-vi-s%C3%B3ng-M%C3%A1y-d%C3%B2-chuy%E1%BB%83n-%C4%91%E1%BB%99ng-i.578443443.28419956894)
  
 ## Loa còi
 
