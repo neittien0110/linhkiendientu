@@ -9,6 +9,7 @@
 - [Loa, còi](#loa-còi)
 - [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)
 - [Tia UV](#tia-uv)
+- [Thẻ NFC, RFID](#the-nfc-rfid)
 - [Khác](#khác)
 
 Và tham chiếu tới các trang khác:
@@ -184,6 +185,21 @@ Và tham chiếu tới các trang khác:
    - [Video![gif](https://i.ytimg.com/an_webp/WXK3HuP39Ig/mqdefault_6s.webp?du=3000&sqp=CLjO37cG&rs=AOn4CLDGpdSQArCTYYThJ9VMxZA_IJb5Mg)](https://youtu.be/WXK3HuP39Ig?si=hJhnxBdJ1F7y43LO)
    - Mua sắm](https://shopee.vn/Module-c%E1%BA%A3m-bi%E1%BA%BFn-tia-UV-MCU-6075-I2C-CC3-i.310609561.8904452121)
 
+## Thẻ NFC RFID
+
+- RDM6300 - module đọc RFID 125Khz
+  - ![RDM6300](https://github.com/user-attachments/assets/d048636a-307d-4f5a-84ae-526e5a35391c)
+  - Thông số:
+    - Tần số thẻ RFID: __125KHz__
+    - Khoảng cách phát hiện: 2cm-5cm
+    - Giao tiếp: UART/Serial, 9600 bps
+    - Điện áp hoạt động: 5V
+    - Pin: ![image](https://github.com/user-attachments/assets/3f9aee53-54e3-4f3a-af4d-e136280307fd)
+    - Kết nối MCU: ![image](https://github.com/user-attachments/assets/a60ec624-418b-4b57-9f44-e1e6f95283e8)   
+  - [Hướng dẫn sử dụng từ Nshop](https://nshopvn.com/product/module-thu-phat-rfid-rdm6300-rf-125khz-uart-noi-tiep-dau-ra/)
+  - [Schematic](https://www.makershop.de/download/RDM-6300.pdf)
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-%C4%90%E1%BB%8Dc-RFID-125Khz-RDM6300-UART-Cho-arduino-i.578443443.20706992299)
+ 
 ## Khác
 - Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/edf27568-3740-4564-ac54-600d3c5373d5)
