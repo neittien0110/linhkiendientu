@@ -9,9 +9,10 @@
 - [Đo tốc độ](#đo-tốc-độ)
 - [Loa, còi](#loa-còi)
 - [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)
-- [Tia UV](#tia-uv)
+- [Anh sáng, hồng ngoại, uv](#ánh-sáng-hồng-ngoại-uv)
 - [Thẻ NFC, RFID](#thẻ-nfc-rfid)
-- [Khác](#khác)
+- [Relay](#relay)
+
 
 Và tham chiếu tới các trang khác:
 1. [Các shield mở rộng cho board dạng D1 mini](./D1mini.md)
@@ -169,10 +170,10 @@ Và tham chiếu tới các trang khác:
 
 ## Nhiệt độ Độ ẩm
 
- - Mô Đun Cảm Biến Nhiệt Độ Và Độ Ẩm Độ Chính Xác Cao aht10 aht20 aht30
+- Mô Đun Cảm Biến Nhiệt Độ Và Độ Ẩm Độ Chính Xác Cao aht10 aht20 aht30
      ![Mặt trước](https://github.com/user-attachments/assets/e1ba86c2-1a0d-4c61-a17c-387fae4a88ce)
      ![Mặt sau](https://github.com/user-attachments/assets/0d7a8347-51e7-4fd0-925d-e8af597059cd)
-   - Thông số:
+  - Thông số:
      1. Kích thước mô-đun: 16 * 11 mm
      2. Loại giao diện: I2C
      3. Điện áp làm việc: 1,8-6,0 V
@@ -182,12 +183,14 @@ Và tham chiếu tới các trang khác:
      7. Độ chính xác nhiệt độ: điển hình ± 0,3 ° C
      8. Độ phân giải nhiệt độ: Tiêu chuẩn 0,01 °C
      9. Nhiệt độ làm việc: -40°C - 85°C
-   - Lập trình:
-       ```C
-         #define I2C_ADDRESS_AHT  0x38
-         adafruit/Adafruit AHTX0@^2.0.5      ;https://github.com/adafruit/Adafruit_AHTX0
-       ```
-   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-V%C3%A0-%C4%90%E1%BB%99-%E1%BA%A8m-%C4%90%E1%BB%99-Ch%C3%ADnh-X%C3%A1c-Cao-aht10-aht20-aht30-i2c-sht20-i.578443443.15990161525)
+  - Lập trình:
+
+    ```C
+      #define I2C_ADDRESS_AHT  0x38
+      adafruit/Adafruit AHTX0@^2.0.5      ;https://github.com/adafruit/Adafruit_AHTX0
+    ```
+
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-V%C3%A0-%C4%90%E1%BB%99-%E1%BA%A8m-%C4%90%E1%BB%99-Ch%C3%ADnh-X%C3%A1c-Cao-aht10-aht20-aht30-i2c-sht20-i.578443443.15990161525)
 
 - Gy-906 MLX90614ESF - Module cảm biến nhiệt độ không tiếp xúc
   ![image](https://github.com/user-attachments/assets/0195e8fb-ed97-404a-b1b1-bd2dc088bfb5)
@@ -199,23 +202,46 @@ Và tham chiếu tới các trang khác:
   - [Hướng dẫn từ Nshop](https://nshopvn.com/product/cam-bien-nhiet-do-hong-ngoai-khong-tiep-xuc-gy-906-mx90614/)
   - [Mua sắm](https://shopee.vn/Gy-906-MLX90614ESF-M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-nhi%E1%BB%87t-%C4%91%E1%BB%99-kh%C3%B4ng-ti%E1%BA%BFp-x%C3%BAc-MLX90614-m%E1%BB%9Bi-cho-t%C6%B0%C6%A1ng-th%C3%ADch-Arduino-i.578443443.28358962552)
 
-## Tia UV
+- Thiết bị gia nhiệt đốt nóng 
 
- - Module cảm biến tia UV MCU-6075 I2C- CC3
+   ![image](https://github.com/user-attachments/assets/393cdabb-d450-43a5-967e-fc19d7a00769)  ![image](https://github.com/user-attachments/assets/ee633705-5506-4531-87e0-ad67a2bf1e3f)  ![image](https://github.com/user-attachments/assets/38db4c11-80c4-4839-ba9f-d5dbddbf42de)
+
+  -![Video](https://down-zl-sg.vod.susercontent.com/api/v4/11110103/mms/vn-11110103-6khw6-m6aieyv8yfwj28.16000051739670033.mp4)
+  - Ứng dụng Sử dụng để  tự chế cháo các loại thiết bị đốt nóng, thay thế lõi mayso
+  - Cấu trúc: Đây điện trở nhiệt Vonfram có tác dụng chuyển điện năng thành nhiệt năng trong quá trình cản trở dòng điện, để đốt làm nóng đỏ bộ phận đốt.
+  - Thông số:
+    - Điện áp: 3.7v-5v (có thể lấy trực tiếp từ pin lithium
+    - Dòng: 1.5 ~ 2.5A
+    - Công suất: 9-11W
+    - Chất liệu: Sứ, đồng,  (Wolfram)
+    - Kích thước: 15mm x 10mm
+    - Trọng lượng: 1.2g
+  - [Mua sắm](https://shopee.vn/Thi%E1%BA%BFt-b%E1%BB%8B-gia-nhi%E1%BB%87t-%C4%91%E1%BB%91t-n%C3%B3ng-ch%C3%A1y-DIY-d%C3%B9ng-pin-3.7v-5v-d%C3%B2ng-ra-tr%C3%AAn-2A-i.523359606.25740281518)
+
+## Ánh sáng, hồng ngoại. uv
+
+- Module cảm biến tia UV MCU-6075 I2C- CC3
      ![Mặt trước](https://github.com/user-attachments/assets/2be9052a-5fd1-4d27-a5b8-2123aa5a8886)
-   - Thông số:
+  - Thông số:
      1. Điện áp hoạt động: 3 – 5VDC
      2. Điện áp giao tiếp I2C: 3 – 5VDC
      3. Giao tiếp I2C, địa chỉ **0x10**
      4. Độ nhạy cao với tia UVA (320-400 nm) và UVB (280-320 nm)
-   - Lập trình:
-       ```C
-         #define I2C_ADDRESS_UV  0x10
-         adafruit/Adafruit VEML6075 Library@^2.2.2      ;https://github.com/adafruit/Adafruit_VEML6075
-       ```
-   - Lưu ý: vì lý do nào đó mà việc quét các địa chỉ I2C sẽ không phát hiện ra module này.
-   - [Video![gif](https://i.ytimg.com/an_webp/WXK3HuP39Ig/mqdefault_6s.webp?du=3000&sqp=CLjO37cG&rs=AOn4CLDGpdSQArCTYYThJ9VMxZA_IJb5Mg)](https://youtu.be/WXK3HuP39Ig?si=hJhnxBdJ1F7y43LO)
-   - Mua sắm](https://shopee.vn/Module-c%E1%BA%A3m-bi%E1%BA%BFn-tia-UV-MCU-6075-I2C-CC3-i.310609561.8904452121)
+  - Lập trình:
+  
+    ```C
+      #define I2C_ADDRESS_UV  0x10
+      adafruit/Adafruit VEML6075 Library@^2.2.2      ;https://github.com/adafruit/Adafruit_VEML6075
+    ```
+
+  - Lưu ý: vì lý do nào đó mà việc quét các địa chỉ I2C sẽ không phát hiện ra module này.
+  - [Video![gif](https://i.ytimg.com/an_webp/WXK3HuP39Ig/mqdefault_6s.webp?du=3000&sqp=CLjO37cG&rs=AOn4CLDGpdSQArCTYYThJ9VMxZA_IJb5Mg)](https://youtu.be/WXK3HuP39Ig?si=hJhnxBdJ1F7y43LO)
+  - Mua sắm](https://shopee.vn/Module-c%E1%BA%A3m-bi%E1%BA%BFn-tia-UV-MCU-6075-I2C-CC3-i.310609561.8904452121)
+
+- Tect6000 - Transistor ánh sáng nồi đồng cối đá
+  - Phải mắc thêm trở như hình dưới\
+    ![Cách mặc mạch](https://github.com/neittien0110/linhkiendientu/assets/8079397/d7ff5a29-b269-4eae-b5e0-96e900c24c3f)
+  - [Mua sắm](https://shopee.vn/Set-1206-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-Tect6000-B%E1%BA%A3o-V%E1%BB%87-M%C3%B4i-Tr%C6%B0%E1%BB%9Dng-TEMT6000X01-i.972724310.22849595571)
 
 ## Thẻ NFC RFID
 
@@ -231,8 +257,8 @@ Và tham chiếu tới các trang khác:
   - [Hướng dẫn sử dụng từ Nshop](https://nshopvn.com/product/module-thu-phat-rfid-rdm6300-rf-125khz-uart-noi-tiep-dau-ra/)
   - [Schematic](https://www.makershop.de/download/RDM-6300.pdf)
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-%C4%90%E1%BB%8Dc-RFID-125Khz-RDM6300-UART-Cho-arduino-i.578443443.20706992299)
- 
-## Khác
+
+## Relay
 - Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/edf27568-3740-4564-ac54-600d3c5373d5)
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/dc7ef50f-6d9f-4c1b-8601-bfc1fe0a542d)
@@ -267,10 +293,3 @@ Và tham chiếu tới các trang khác:
   
   - Nhược điểm: không lắp được nắp vào thân, vì relay cao quá. Khi dóng nắp thì ko thể bấm nút cấu hình, vì nút thấp ==> thay thế bằng nút có cán dài 11 mm
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367), Mua kèm với [bộ điều khiển từ xa 433MHz](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-kh%C3%B4ng-d%C3%A2y-4-k%C3%AAnh-4-Module-kh%C3%B4ng-d%C3%A2y-433MHZ-IC2262-2272-i.201091220.5212508592)
-
-- Tect6000 - Transistor ánh sáng nồi đồng cối đá
-  - Phải mắc thêm trở như hình dưới\
-    ![Cách mặc mạch](https://github.com/neittien0110/linhkiendientu/assets/8079397/d7ff5a29-b269-4eae-b5e0-96e900c24c3f)
-     
-  - [Mua sắm](https://shopee.vn/Set-1206-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-Tect6000-B%E1%BA%A3o-V%E1%BB%87-M%C3%B4i-Tr%C6%B0%E1%BB%9Dng-TEMT6000X01-i.972724310.22849595571)
-
