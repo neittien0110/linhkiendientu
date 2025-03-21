@@ -1,5 +1,11 @@
 # CÔNG CỤ
 
+Mục lục:
+
+- [Đo nguồn cấp từ USB Type-C có waveform](#đo-nguồn-cấp-từ-usb-type-c-có-waveform)
+- [Aptomat có WiFi và màn hình](#aptomat-có-wifi-và-màn-hình)
+- [Fnirsi DSO-TC4 Đồng hồ đa năng/phát xung/hiện sóng 10 MHz 48Ms](#fnirsi-dso-tc4-đồng-hồ-đa-năngphát-xunghiện-sóng-10-mhz-48ms)
+
 ## Đo nguồn cấp từ USB Type-C có waveform
 
 ![image](https://github.com/user-attachments/assets/712d53e4-c609-45fc-be0b-a989ab758234)
@@ -37,3 +43,10 @@ will turn black and white)
   - Kích thước sản phẩm: 82 * 50 * 24mm
 - [Tài liệu giới thiệu](https://www.nikom.biz/pic_info/A578019/KWS-303.pdf)
 - [Mua sắm](https://shopee.vn/Diymore-KWS-303-0-96-Inch-M%C3%A0n-H%C3%ACnh-M%C3%A0u-TFT-8-Trong-1-M%C3%A1y-%C4%90o-AC-%C4%90a-N%C4%83ng-Hai-Pha-%C4%90i%E1%BB%87n-%C3%81p-D%C3%B2ng-%C4%90i%E1%BB%87n-%C4%90%E1%BB%93ng-H%E1%BB%93-%C4%90o-Ngu%E1%BB%93n-AC-85-~-290V-0-~-40A-i.208062055.26315877579)
+
+## Fnirsi DSO-TC4 Đồng hồ đa năng/phát xung/hiện sóng 10 MHz 48Ms
+
+![image](https://github.com/user-attachments/assets/9bec93dd-3ca2-4a63-b7a1-45c88f93e3ba)\
+[Video](https://down-bs-sg.vod.susercontent.com/api/v4/11110105/mms/sg-11110105-6kioy-m76ambgh42yj47.16000081741594026.mp4)
+
+- [Mua săm](https://shopee.vn/Fnirsi-DSO-TC4-N%C3%A2ng-c%E1%BA%A5p-dao-%C4%91%E1%BB%99ng-k%E1%BB%B9-thu%E1%BA%ADt-s%E1%BB%91-3-trong-1-10-MHz-48Ms-s-Transistor-Tester-Thi%E1%BA%BFt-b%E1%BB%8B-ki%E1%BB%83m-tra-linh-ki%E1%BB%87n-%C4%91i%E1%BB%87n-t%E1%BB%AD-D%E1%BB%A5ng-c%E1%BB%A5-s%E1%BA%A1c-USB-i.1028315277.29129039852)
