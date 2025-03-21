@@ -9,6 +9,7 @@
 - [Module hạ áp mini360 mini-360 DC thấp hơn LM2596](#module-hạ-áp-mini360-mini-360-dc-thấp-hơn-lm2596)
 - [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử)
+- [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử Rifbar Turbo](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử-rifbar-turbo)
 - [Mạch sạc Lithium có màn hình nhỏ](#mạch-sạc-lithium-có-màn-hình-nhỏ)
 - [Mạch sạc Lithium có màn hình nhỏ 2](#mạch-sạc-lithium-có-màn-hình-nhỏ-2)
 - [Đế pin và pin](#đế-pin-và-pin)
@@ -134,7 +135,6 @@
 - Lưu ý: chỉ để sạc pin. Không có chức năng ổn định điển áp xả
 - [Mua sắm](https://vn.shp.ee/U41J8Mi)
 
-
 ## Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử
 
   ![image](https://github.com/user-attachments/assets/771d7522-3ade-4b06-93b2-af6c7c79852b)\
@@ -147,6 +147,20 @@
   - Có time lapse
 - Chú ý: hàng tháo lắp từ máy móc nào đó, không có nguồn gốc, khả năng cao là mạch sạc châm thuốc lá điện tử
 - [Mua sắm](https://shopee.vn/m%E1%BA%A1ch-linh-ki%E1%BB%87n-%C4%91i%E1%BB%87n-t%E1%BB%AD-c%C3%B3-m%C3%A0n-h%C3%ACnh-ko-r%C3%B5-th%C3%B4ng-s%E1%BB%91-gi%C3%A1-b%C3%A1n-cho-a.e-nghi%C3%AAn-c%E1%BB%A9u.-i.523359606.26520937742)
+
+## Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử Rifbar Turbo
+
+  ![image](https://github.com/user-attachments/assets/b2806c31-2e30-4fe9-81d3-ebf6fd15869a)
+  ![image](https://github.com/user-attachments/assets/319e6e8a-0d39-4221-8b33-64256152e7cd)\
+  [video](https://down-ws-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6khwg-m6yyplg6oiw194.16000071741150273.mp4)
+
+- Thông số
+  - dành cho pin __3.7v /0.5A__ sạc đầy là 4.2v / 18650 . lithium . lipo...
+  - dòng sạc 0.5 A
+  - có công tắc gạt để tắt/bật
+  - 1 motor rung
+
+- [Mua sắm](https://shopee.vn/m%E1%BA%A1ch-s%E1%BA%A1c-pin-c%C3%B3-m%C3%A0n-h%C3%ACnh-hi%E1%BB%83n-th%E1%BB%8B-s%E1%BA%A1c-pin-3.7v-ch%C3%A2n-s%E1%BA%A1c-type-c-i.523359606.24042209767)
 
 ## Mạch sạc Lithium có màn hình nhỏ
 
@@ -169,8 +183,8 @@
 
 ## Mạch sạc Lithium có màn hình nhỏ 2
 
-  ![image](https://github.com/user-attachments/assets/5d401d8b-3bb7-42b3-9479-14b652fea47d)
-  \[Video](https://down-bs-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6khwh-m3x2lmqs1meg72.16000071734498017.mp4)
+  ![image](https://github.com/user-attachments/assets/5d401d8b-3bb7-42b3-9479-14b652fea47d)\
+  [Video](https://down-bs-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6khwh-m3x2lmqs1meg72.16000071734498017.mp4)
 
 - Thông số
   - dành cho pin __3.7v /0.5A__ sạc đầy là 4.2v / 18650 . lithium . lipo...
