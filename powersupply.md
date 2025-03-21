@@ -1,8 +1,23 @@
 # NGUỒN CẤP
 
-- [Xem thêm các module nguồn có thư viện easyeda, lcsc](./EasyEDA_Library.md)
 - [IC nguồn AMS1117 và các module liên quan](#ic-nguồn-ams1117-và-các-module-liên-quan)
-- [Pin và đế cắm](#đế-pin-và-pin)
+  - [Module nguồn ổn áp dùng AMS1117](#module-nguồn-ổn-áp-dùng-ams1117)
+- [Module chuyển đổi AC 220V --> DC 5V/0.7A](#module-chuyển-đổi-ac-220v----dc-5v07a)
+- [HW-626 module tăng áp 5V](#hw-626-module-tăng-áp-5v)
+- [Mini-360 module hạ áp có điều chỉnh bằng chiết áp](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp)
+- [Mô đun tăng áp 0.9-5V sang 5V](#module-tăng-áp-09-5v-sang-5v)
+- [Module hạ áp mini360 mini-360 DC thấp hơn LM2596](#module-hạ-áp-mini360-mini-360-dc-thấp-hơn-lm2596)
+- [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
+- [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử)
+- [## Mạch sạc Lithium có màn hình nhỏ](#mạch-sạc-lithium-có-màn-hình-nhỏ)
+- [Đế pin và pin](#đế-pin-và-pin)
+  - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
+  - [Pin 14250 và đế.](#pin-14250-và-đế)
+  - [Pin 14500 và đế. Pin AA](#pin-14500-và-đế-pin-aa)
+  - [Pin 16430 và đế.](#pin-16430-và-đế)
+  - [Pin 18650 và đế](#pin-18650-và-đế)
+
+[Xem thêm các module nguồn có thư viện easyeda, lcsc](./EasyEDA_Library.md)
 
 ## IC nguồn AMS1117 và các module liên quan
 
@@ -72,21 +87,7 @@
   - Nhiệt độ hoạt động: -40 độ C đến +85 độ C
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
 
-## Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C
-
- ![Mặt trước](https://github.com/user-attachments/assets/2380024b-18dc-442a-809f-6d27fc04010a) \
- ![Mặt sau](https://github.com/user-attachments/assets/cb8b3304-9575-4929-a528-08e374275941) \
-
-- Có led báo tải đầu ra, màu trắng mờ là không tải, trắng sáng là tải cao.
-- Có 4 chân out, nhưng thực chất là từng cặp 2 pin được nối với nhau và đấu sẵn dây để nối pin lithium 1 cell. Điện áp sạc 4.0~4.2V
-  ![trước](https://github.com/user-attachments/assets/a2aa2509-1192-416d-9f1b-86398889dac3)
-  ![sau](https://github.com/user-attachments/assets/207bd6ed-3916-4cbe-b895-dbbfd462ad64)
-
-- Lưu ý: chỉ để sạc pin. Không có chức năng ổn định điển áp xả
-- [Mua sắm](https://vn.shp.ee/U41J8Mi)
-
-
-## Mô đun tăng áp 0.9-5V sang 5V
+## Module tăng áp 0.9-5V sang 5V
 
   ![Mô đun tăng áp 0.9-5V sang 5V](https://github.com/user-attachments/assets/4b04538b-44b5-4156-b5a8-f5dd588fd862)
 
@@ -118,7 +119,22 @@
 
 [Xem thêm các module nguồn có thư viện easyeda ,lcsc](./EasyEDA_Library.md)
 
-## Mạch sạc Lithium bao gồm màn hình 
+
+## Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C
+
+ ![Mặt trước](https://github.com/user-attachments/assets/2380024b-18dc-442a-809f-6d27fc04010a) \
+ ![Mặt sau](https://github.com/user-attachments/assets/cb8b3304-9575-4929-a528-08e374275941) \
+
+- Có led báo tải đầu ra, màu trắng mờ là không tải, trắng sáng là tải cao.
+- Có 4 chân out, nhưng thực chất là từng cặp 2 pin được nối với nhau và đấu sẵn dây để nối pin lithium 1 cell. Điện áp sạc 4.0~4.2V
+  ![trước](https://github.com/user-attachments/assets/a2aa2509-1192-416d-9f1b-86398889dac3)
+  ![sau](https://github.com/user-attachments/assets/207bd6ed-3916-4cbe-b895-dbbfd462ad64)
+
+- Lưu ý: chỉ để sạc pin. Không có chức năng ổn định điển áp xả
+- [Mua sắm](https://vn.shp.ee/U41J8Mi)
+
+
+## Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử
 
   ![image](https://github.com/user-attachments/assets/771d7522-3ade-4b06-93b2-af6c7c79852b)\
   [Video](https://cvf.shopee.vn/file/api/v4/11110107/mms/vn-11110107-6khwe-m3w6qtvxfkqk3c.16000071734444452.mp4)
@@ -131,12 +147,29 @@
 - Chú ý: hàng tháo lắp từ máy móc nào đó, không có nguồn gốc, khả năng cao là mạch sạc châm thuốc lá điện tử
 - [Mua sắm](https://shopee.vn/m%E1%BA%A1ch-linh-ki%E1%BB%87n-%C4%91i%E1%BB%87n-t%E1%BB%AD-c%C3%B3-m%C3%A0n-h%C3%ACnh-ko-r%C3%B5-th%C3%B4ng-s%E1%BB%91-gi%C3%A1-b%C3%A1n-cho-a.e-nghi%C3%AAn-c%E1%BB%A9u.-i.523359606.26520937742)
 
+## Mạch sạc Lithium có màn hình nhỏ
+
+  ![image](https://github.com/user-attachments/assets/1c521e39-459b-420d-b957-0b3285d9f53b)
+  [Video](https://down-zl-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6khw8-m4rgbbl9g3n4f1.16000071736337108.mp4)
+  
+- Thông số
+  - dành cho pin __3.7v /0.5A__ sạc đầy là 4.2v / 18650 . lithium . lipo...
+  - tự ngắt khi đầy pin
+  - khi gần đầy pin mạch sẽ tự động hạ dòng sạc để bảo vệ pin không bị chai
+  - USB Type-C
+- Sử dụng:
+  - Đấu nối dây đen đỏ và cực pin là sạc được luôn
+  - KHÔNG xả pin
+  - Có chân D+, D- nên khả năng là có giao tiếp USB 2.0\
+    ![image](https://github.com/user-attachments/assets/040c09c6-421c-42a3-acaf-fab74358dcf6)
+  - Và có 3 chân M+, MG, M- chưa rõ mục đích\
+    ![image](https://github.com/user-attachments/assets/bcc3a520-b6e7-4a08-82a0-0b40247433d9)
+- [Mua sắm](https://shopee.vn/m%E1%BA%A1ch-s%E1%BA%A1c-pin-c%C3%B3-m%C3%A0n-h%C3%ACnh-hi%E1%BB%83n-th%E1%BB%8B-pin-3.7v-0.5A-ch%C3%A2n-s%E1%BA%A1c-type-c.-i.523359606.24840283168)
 
 ## Đế pin và pin
 
 ![image](https://github.com/user-attachments/assets/71c1a7c8-7325-456d-ae82-8f3f0f1a87ef)
 ![image](https://github.com/user-attachments/assets/257f6f5a-7bfc-4fc6-8cde-1f24c6ab5e9c)
-
 
 ### Pin 10440 và đế. Pin AAA
 
@@ -160,14 +193,14 @@
 - [Mua pin 14500 chân hàn](https://shopee.vn/Pin-Sony-14500-AA-3.7V-680mAh-Pin-Chuy%C3%AAn-D%C3%B9ng-Cho-B%C3%A0n-Ch%E1%BA%A3i-%C4%90i%E1%BB%87n-Philips-Sonicare-i.1086477386.28659691274)
 - [Mua sắm đế 14500 nối dây](https://shopee.vn/%C4%90%E1%BA%BF-Pin-AAA-Kh%C3%B4ng-N%E1%BA%AFp-1-Pin-2-Pin-3-Pin-4-Pin-%C4%90%E1%BA%BF-Pin-Ti%E1%BB%83u-AAA-(C%E1%BB%A1-Pin-Con-Th%E1%BB%8F-Lo%E1%BA%A1i-B%C3%A9)-(G%E1%BB%ACI-%C4%90%C6%A0N-T%E1%BB%AA-20K)-Pin-1-5V-i.1032535693.22773460473?sp_atk=a715e5c3-f695-4156-b910-b1c1f25e4444&xptdk=a715e5c3-f695-4156-b910-b1c1f25e4444)
 
-  ### Pin 16430 và đế. 
+  ### Pin 16430 và đế
 
   ![Pin 16340](https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1s74pr2uqmra3@resize_w450_nl.webp)
   
 - [Mua pin 16340](https://shopee.vn/Cr123a-16340-17335-lir123a-PCB-m%E1%BB%99t-ph%E1%BA%A7n-c%C3%B3-Pin-H%E1%BB%99p-Pin-Gi%C3%A1-%C4%91%E1%BB%A1-Pin-Lithium-3V-i.821639995.26706689693)
 - [Mua sắm đế 16340](https://shopee.vn/Cr123a-16340-17335-lir123a-PCB-m%E1%BB%99t-ph%E1%BA%A7n-c%C3%B3-Pin-H%E1%BB%99p-Pin-Gi%C3%A1-%C4%91%E1%BB%A1-Pin-Lithium-3V-i.821639995.26706689693)
 
-### Pin 18650 và đế. 
+### Pin 18650 và đế
 
   ![Pin 18650](https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxoa5g4kq5ej61@resize_w450_nl.webp)
   
