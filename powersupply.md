@@ -118,6 +118,20 @@
 
 [Xem thêm các module nguồn có thư viện easyeda ,lcsc](./EasyEDA_Library.md)
 
+## Mạch sạc Lithium bao gồm màn hình 
+
+  ![image](https://github.com/user-attachments/assets/771d7522-3ade-4b06-93b2-af6c7c79852b)\
+  [Video](https://cvf.shopee.vn/file/api/v4/11110107/mms/vn-11110107-6khwe-m3w6qtvxfkqk3c.16000071734444452.mp4)
+  
+- Thông số
+  - kích thước mạch 7cm x 2cm cao 0.5cm
+  - màn hình 2.8 x 1.4cm
+  - Có điều chỉnh được công suất
+  - Có time lapse
+- Chú ý: hàng tháo lắp từ máy móc nào đó, không có nguồn gốc, khả năng cao là mạch sạc châm thuốc lá điện tử
+- [Mua sắm](https://shopee.vn/m%E1%BA%A1ch-linh-ki%E1%BB%87n-%C4%91i%E1%BB%87n-t%E1%BB%AD-c%C3%B3-m%C3%A0n-h%C3%ACnh-ko-r%C3%B5-th%C3%B4ng-s%E1%BB%91-gi%C3%A1-b%C3%A1n-cho-a.e-nghi%C3%AAn-c%E1%BB%A9u.-i.523359606.26520937742)
+
+
 ## Đế pin và pin
 
 ![image](https://github.com/user-attachments/assets/71c1a7c8-7325-456d-ae82-8f3f0f1a87ef)
