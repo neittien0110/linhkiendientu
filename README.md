@@ -195,14 +195,14 @@ Và tham chiếu tới các trang khác:
 - Gy-906 MLX90614ESF - Module cảm biến nhiệt độ không tiếp xúc
   ![image](https://github.com/user-attachments/assets/0195e8fb-ed97-404a-b1b1-bd2dc088bfb5)
 
-  - Ứng dụng: đo nhiệt độ cơ thể người bằng cách đí gần trán
+  - Ứng dụng: đo nhiệt độ cơ thể người bằng cách dí gần trán
   - Thông số:
     - Độ phân giải đo: 0,02 ° C
     - Giao tiếp: I2C
   - [Hướng dẫn từ Nshop](https://nshopvn.com/product/cam-bien-nhiet-do-hong-ngoai-khong-tiep-xuc-gy-906-mx90614/)
   - [Mua sắm](https://shopee.vn/Gy-906-MLX90614ESF-M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-nhi%E1%BB%87t-%C4%91%E1%BB%99-kh%C3%B4ng-ti%E1%BA%BFp-x%C3%BAc-MLX90614-m%E1%BB%9Bi-cho-t%C6%B0%C6%A1ng-th%C3%ADch-Arduino-i.578443443.28358962552)
 
-- Thiết bị gia nhiệt đốt nóng 
+- Module đốt nóng
 
    ![image](https://github.com/user-attachments/assets/393cdabb-d450-43a5-967e-fc19d7a00769)  ![image](https://github.com/user-attachments/assets/ee633705-5506-4531-87e0-ad67a2bf1e3f)  ![image](https://github.com/user-attachments/assets/38db4c11-80c4-4839-ba9f-d5dbddbf42de)
 
@@ -217,6 +217,16 @@ Và tham chiếu tới các trang khác:
     - Kích thước: 15mm x 10mm
     - Trọng lượng: 1.2g
   - [Mua sắm](https://shopee.vn/Thi%E1%BA%BFt-b%E1%BB%8B-gia-nhi%E1%BB%87t-%C4%91%E1%BB%91t-n%C3%B3ng-ch%C3%A1y-DIY-d%C3%B9ng-pin-3.7v-5v-d%C3%B2ng-ra-tr%C3%AAn-2A-i.523359606.25740281518)
+
+- Thiết bị đốt nóng Type-C
+  
+  ![image](https://github.com/user-attachments/assets/6d731265-5d89-4528-81e8-b8d3734591d5)
+  [Video](https://cvf.shopee.vn/file/api/v4/11110107/mms/vn-11110107-6khwd-m3ee6t4p68x4f7.16000071733367351.mp4)
+  - Thông số:
+    - Chân nguồn: USB Type-C
+    - Có 1 nút bấm nhấn/nhả để tắt bật, nhưng dễ bị gẫy khi vận chuyển
+  - Chú ý: cần bỏ 1 con trở 103 ở phần đầu nguồn mới dùng được như trong video trên (shop thường gỡ trước khi bán)
+  - [Mua săm](https://shopee.vn/s%E1%BA%A3n-ph%E1%BA%A9m-b%E1%BB%99-l%C3%A0m-n%C3%B3ng-ch%C3%A2n-ngu%E1%BB%93n-type-c-i.523359606.28269702790)
 
 ## Ánh sáng, hồng ngoại. uv
 
@@ -236,7 +246,7 @@ Và tham chiếu tới các trang khác:
 
   - Lưu ý: vì lý do nào đó mà việc quét các địa chỉ I2C sẽ không phát hiện ra module này.
   - [Video![gif](https://i.ytimg.com/an_webp/WXK3HuP39Ig/mqdefault_6s.webp?du=3000&sqp=CLjO37cG&rs=AOn4CLDGpdSQArCTYYThJ9VMxZA_IJb5Mg)](https://youtu.be/WXK3HuP39Ig?si=hJhnxBdJ1F7y43LO)
-  - Mua sắm](https://shopee.vn/Module-c%E1%BA%A3m-bi%E1%BA%BFn-tia-UV-MCU-6075-I2C-CC3-i.310609561.8904452121)
+  - [Mua sắm](https://shopee.vn/Module-c%E1%BA%A3m-bi%E1%BA%BFn-tia-UV-MCU-6075-I2C-CC3-i.310609561.8904452121)
 
 - Tect6000 - Transistor ánh sáng nồi đồng cối đá
   - Phải mắc thêm trở như hình dưới\
@@ -259,6 +269,7 @@ Và tham chiếu tới các trang khác:
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-%C4%90%E1%BB%8Dc-RFID-125Khz-RDM6300-UART-Cho-arduino-i.578443443.20706992299)
 
 ## Relay
+
 - Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/edf27568-3740-4564-ac54-600d3c5373d5)
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/dc7ef50f-6d9f-4c1b-8601-bfc1fe0a542d)
