@@ -228,6 +228,20 @@ Và tham chiếu tới các trang khác:
   - Chú ý: cần bỏ 1 con trở 103 ở phần đầu nguồn mới dùng được như trong video trên (shop thường gỡ trước khi bán)
   - [Mua săm](https://shopee.vn/s%E1%BA%A3n-ph%E1%BA%A9m-b%E1%BB%99-l%C3%A0m-n%C3%B3ng-ch%C3%A2n-ngu%E1%BB%93n-type-c-i.523359606.28269702790)
 
+- Tấm nhiệt làm nóng 3v-5v hình tròn 3.5cm
+  
+  ![image](https://github.com/user-attachments/assets/9ca42c43-0f80-42ab-b362-8805bb6ba09d)
+  - Thông số:
+    - Điện trở 16 ohm
+    - Gồm 3 lớp xếp chồng
+      1. Băng dính xanh 
+      2. Lớp nhiệt trở
+      3. Băng dính 3M
+    - Có sẵn header PH2.0 mm cái
+    - Điện áp vào 5v thì tấm cho nhiệt khoảng 30-40 độ, tiêu thụ 0.3A \
+      Điện áp vào 3v3 lấy trực tiếp từ pin lithium thì chỉ ấm một chút, hợp với sưởi ấm cơ thể
+  - [Mua sắm](https://shopee.vn/t%E1%BA%A5m-nhi%E1%BB%87t-l%C3%A0m-n%C3%B3ng-3v-5v-h%C3%ACnh-tr%C3%B2n-3.5cm-i.523359606.25014804130)  
+
 ## Ánh sáng, hồng ngoại. uv
 
 - Module cảm biến tia UV MCU-6075 I2C- CC3
