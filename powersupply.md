@@ -1,7 +1,7 @@
 # NGUỒN CẤP
 
 - [IC nguồn AMS1117 và các module liên quan](#ic-nguồn-ams1117-và-các-module-liên-quan)
-  - [Module nguồn ổn áp dùng AMS1117](#module-nguồn-ổn-áp-dùng-ams1117)
+  - [Module nguồn ổn áp dùng AMS1117](#module-nguôn-ổn-áp-dùng-ams1117)
 - [Module chuyển đổi AC 220V --> DC 5V/0.7A](#module-chuyển-đổi-ac-220v----dc-5v07a)
 - [HW-626 module tăng áp 5V](#hw-626-module-tăng-áp-5v)
 - [Mini-360 module hạ áp có điều chỉnh bằng chiết áp](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp)
@@ -9,7 +9,8 @@
 - [Module hạ áp mini360 mini-360 DC thấp hơn LM2596](#module-hạ-áp-mini360-mini-360-dc-thấp-hơn-lm2596)
 - [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử)
-- [## Mạch sạc Lithium có màn hình nhỏ](#mạch-sạc-lithium-có-màn-hình-nhỏ)
+- [Mạch sạc Lithium có màn hình nhỏ](#mạch-sạc-lithium-có-màn-hình-nhỏ)
+- [Mạch sạc Lithium có màn hình nhỏ 2](#mạch-sạc-lithium-có-màn-hình-nhỏ-2)
 - [Đế pin và pin](#đế-pin-và-pin)
   - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
   - [Pin 14250 và đế.](#pin-14250-và-đế)
@@ -165,6 +166,24 @@
   - Và có 3 chân M+, MG, M- chưa rõ mục đích\
     ![image](https://github.com/user-attachments/assets/bcc3a520-b6e7-4a08-82a0-0b40247433d9)
 - [Mua sắm](https://shopee.vn/m%E1%BA%A1ch-s%E1%BA%A1c-pin-c%C3%B3-m%C3%A0n-h%C3%ACnh-hi%E1%BB%83n-th%E1%BB%8B-pin-3.7v-0.5A-ch%C3%A2n-s%E1%BA%A1c-type-c.-i.523359606.24840283168)
+
+## Mạch sạc Lithium có màn hình nhỏ 2
+
+  ![image](https://github.com/user-attachments/assets/5d401d8b-3bb7-42b3-9479-14b652fea47d)
+  \[Video](https://down-bs-sg.vod.susercontent.com/api/v4/11110107/mms/vn-11110107-6khwh-m3x2lmqs1meg72.16000071734498017.mp4)
+
+- Thông số
+  - dành cho pin __3.7v /0.5A__ sạc đầy là 4.2v / 18650 . lithium . lipo...
+  - tự ngắt khi đầy pin
+  - khi gần đầy pin mạch sẽ tự động hạ dòng sạc để bảo vệ pin không bị chai
+  - USB Type-C
+  - Có motor rung
+  - Có 2 dây H+, H-
+- Sử dụng:
+  - Đấu nối dây đen đỏ và cực pin là sạc được luôn
+  - KHÔNG xả pin  
+- [Mua sắm](https://shopee.vn/m%E1%BA%A1ch-s%E1%BA%A1c-pin-c%C3%B3-m%C3%A0n-h%C3%ACnh-hi%E1%BB%83n-th%E1%BB%8B-pin-3.7v-0.5A-ch%C3%A2n-s%E1%BA%A1c-type-c-i.523359606.28020978193)
+
 
 ## Đế pin và pin
 
