@@ -4,6 +4,8 @@
 2. [Nút bấm nhấn giữ](#nút-bấm-nhấn-giữ)
 3. [Công tắc gạt](#công-tắc-gạt)
 
+![Nút bấm hoạt động](https://components101.com/sites/default/files/component_pin/Push-button-Pinout.gif)
+> Nguồn: <https://components101.com/switches/push-button>
 
 ## Nút bấm nhấn nhả
 
