@@ -9,7 +9,7 @@
 - [Đo tốc độ](#đo-tốc-độ)
 - [Loa, còi](#loa-còi)
 - [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)
-- [Anh sáng, hồng ngoại, uv](#ánh-sáng-hồng-ngoại-uv)
+- [Ánh sáng, hồng ngoại, uv](#ánh-sáng-hồng-ngoại-uv)
 - [Thẻ NFC, RFID](#thẻ-nfc-rfid)
 - [Relay](#relay)
 
@@ -266,6 +266,21 @@ Và tham chiếu tới các trang khác:
   - Phải mắc thêm trở như hình dưới\
     ![Cách mặc mạch](https://github.com/neittien0110/linhkiendientu/assets/8079397/d7ff5a29-b269-4eae-b5e0-96e900c24c3f)
   - [Mua sắm](https://shopee.vn/Set-1206-C%E1%BA%A3m-Bi%E1%BA%BFn-Nhi%E1%BB%87t-%C4%90%E1%BB%99-Tect6000-B%E1%BA%A3o-V%E1%BB%87-M%C3%B4i-Tr%C6%B0%E1%BB%9Dng-TEMT6000X01-i.972724310.22849595571)
+
+- Led WS2812B RGB 5050 4 chân 5.0x5.0mm \
+  ![Hình thực tế](https://github.com/user-attachments/assets/db460c6e-b8ef-4263-9963-dba6d9eda929)
+  ![Nguyên lý](https://github.com/user-attachments/assets/964a476a-974b-4e78-9276-ea1362ae1518)
+  - [Mua sắm](https://shopee.vn/WS2812B-4-Led-RGB-5050-4-ch%C3%A2n-5.0x5.0mm-i.501501433.20276445920)
+
+- Led WS2812B RGB 5050 4 chân 5.0x5.0mm dạng module led đơn \
+  ![Front](https://github.com/user-attachments/assets/fe414bd7-9a8f-4dd6-808b-09ae44320ccf)
+  ![Rear](https://github.com/user-attachments/assets/188b6027-9f9b-4a6b-87d2-76406d3db65d)
+  - [Mua sắm](https://shopee.vn/Set-10-chip-%C4%91%C3%A8n-led-Dc-5v-3mm-X-10mm-Ws2812B-Smd-5050-Ic-Ws2812-i.81431289.11137056635)
+
+- Led WS2812B RGB 5050 4 chân 5.0x5.0mm dạng module vuông, tròn \
+  ![image](https://github.com/user-attachments/assets/a67bb2d9-0ca7-4465-9963-9587c6ed6fb0)
+   - [Mua sắm](https://shopee.vn/Rgb-V%C3%B2ng-%C4%90%C3%A8n-led-1-3-4-7-8-9-12-16-24-32-Bit-ws2812-5050-rgb-T%E1%BB%B1-L%E1%BA%AFp-R%C3%A1p-arduino-i.972724310.22355750623?sp_atk=42bb5391-8d7c-40f4-923c-713457118980&xptdk=42bb5391-8d7c-40f4-923c-713457118980)
+  - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-%C4%90%C3%A8n-LED-Nhi%E1%BB%81u-M%C3%A0u-S%E1%BA%AFc-4-16-25-64-bit-WS2812-5050-RGB-i.869927552.23538525625)
 
 ## Thẻ NFC RFID
 
