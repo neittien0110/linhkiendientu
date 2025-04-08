@@ -281,7 +281,10 @@ Và tham chiếu tới các trang khác:
 
 - Led WS2812B RGB 5050 4 chân 5.0x5.0mm dạng module vuông, tròn \
   ![image](https://github.com/user-attachments/assets/a67bb2d9-0ca7-4465-9963-9587c6ed6fb0)
-   - [Mua sắm](https://shopee.vn/Rgb-V%C3%B2ng-%C4%90%C3%A8n-led-1-3-4-7-8-9-12-16-24-32-Bit-ws2812-5050-rgb-T%E1%BB%B1-L%E1%BA%AFp-R%C3%A1p-arduino-i.972724310.22355750623?sp_atk=42bb5391-8d7c-40f4-923c-713457118980&xptdk=42bb5391-8d7c-40f4-923c-713457118980)
+  - Thông số:
+    - Loại module vòng tròn có 4 chân kết nối theo thứ tự là: DI / 5V / 0V /DO
+    - Loại module hình vuông có 3 chân kết nối theo thứ tự là: V- /  IN / V +
+  - [Mua sắm](https://shopee.vn/Rgb-V%C3%B2ng-%C4%90%C3%A8n-led-1-3-4-7-8-9-12-16-24-32-Bit-ws2812-5050-rgb-T%E1%BB%B1-L%E1%BA%AFp-R%C3%A1p-arduino-i.972724310.22355750623?sp_atk=42bb5391-8d7c-40f4-923c-713457118980&xptdk=42bb5391-8d7c-40f4-923c-713457118980)
   - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-%C4%90%C3%A8n-LED-Nhi%E1%BB%81u-M%C3%A0u-S%E1%BA%AFc-4-16-25-64-bit-WS2812-5050-RGB-i.869927552.23538525625)
 
 ## Thẻ NFC RFID
