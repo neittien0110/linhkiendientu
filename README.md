@@ -270,6 +270,8 @@ Và tham chiếu tới các trang khác:
 - Led WS2812B RGB 5050 4 chân 5.0x5.0mm \
   ![Hình thực tế](https://github.com/user-attachments/assets/db460c6e-b8ef-4263-9963-dba6d9eda929)
   ![Nguyên lý](https://github.com/user-attachments/assets/964a476a-974b-4e78-9276-ea1362ae1518)
+  - Thóng số:
+    - Điện áp hoạt động: 3v5-5v3
   - [Mua sắm](https://shopee.vn/WS2812B-4-Led-RGB-5050-4-ch%C3%A2n-5.0x5.0mm-i.501501433.20276445920)
 
 - Led WS2812B RGB 5050 4 chân 5.0x5.0mm dạng module led đơn \
