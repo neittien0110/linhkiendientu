@@ -12,6 +12,7 @@
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử Rifbar Turbo](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử-rifbar-turbo)
 - [Mạch sạc Lithium có màn hình nhỏ](#mạch-sạc-lithium-có-màn-hình-nhỏ)
 - [Mạch sạc Lithium có màn hình nhỏ 2](#mạch-sạc-lithium-có-màn-hình-nhỏ-2)
+- [Mạch sạc MH-CD42 có nút Key nhưng không usb](#mạch-sạc-mh-cd42-có-nút-key-nhưng-không-usb)
 - [Đế pin và pin](#đế-pin-và-pin)
   - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
   - [Pin 14250 và đế.](#pin-14250-và-đế)
@@ -60,7 +61,7 @@
   - Điện áp vào: 0.9V ~ 5V (Nếu quá 5V sẽ cháy)
   - Điện áp ra: 5V
   - Cường độ dòng xả: 480 mA
-  - Kích thước: 11 * 10,5 * 7,5mm
+  - Kích thước: 11 *10,5* 7,5mm
   - Hiệu suất: 85%
   - Tần số biến đổi điện áp: 150kHz
 - Sử dụng:\
@@ -75,17 +76,17 @@
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/7daa1d98-b675-4837-a487-94a8532c80c5)
 
 - Thông số:
-  - Tên model: Mini-360 (mô-đun buck chỉnh lưu đồng bộ kích thước cực nhỏ DC-DC) 
-  - Thuộc tính mô-đun: Không bị cô lập 
-  - Chỉnh lưu: Chỉnh lưu đồng bộ 
-  - Điện áp đầu vào: 4,75V-23V 
-  - Điện áp đầu ra: 1.0V-17V 
-  - Dòng điện đầu ra: Giảm mức 3A, dài 1.8A 
-  - Hiệu suất chuyển đổi: 96% (tối đa) 
-  - Tần số chuyển đổi: 340KHz 
-  - Độ gợn sóng đầu ra: 30mV (không tải) 
-  - Điều chỉnh tải: ± 0,5% 
-  - Điều chỉnh điện áp: ± 2,5% 
+  - Tên model: Mini-360 (mô-đun buck chỉnh lưu đồng bộ kích thước cực nhỏ DC-DC)
+  - Thuộc tính mô-đun: Không bị cô lập
+  - Chỉnh lưu: Chỉnh lưu đồng bộ
+  - Điện áp đầu vào: 4,75V-23V
+  - Điện áp đầu ra: 1.0V-17V
+  - Dòng điện đầu ra: Giảm mức 3A, dài 1.8A
+  - Hiệu suất chuyển đổi: 96% (tối đa)
+  - Tần số chuyển đổi: 340KHz
+  - Độ gợn sóng đầu ra: 30mV (không tải)
+  - Điều chỉnh tải: ± 0,5%
+  - Điều chỉnh điện áp: ± 2,5%
   - Nhiệt độ hoạt động: -40 độ C đến +85 độ C
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
 
@@ -109,7 +110,7 @@
 - Chỉnh lưu: Chỉnh lưu đồng bộ
 - Điện áp đầu vào: 4,75V-23V
 - Điện áp đầu ra: 1.0V-17V
-- Dòng điện đầu ra: Giảm mức 3A, dài 1.8A 
+- Dòng điện đầu ra: Giảm mức 3A, dài 1.8A
 - Hiệu suất chuyển đổi: 96% (tối đa)
 - Tần số chuyển đổi: 340KHz
 - Độ gợn sóng đầu ra: 30mV (không tải)
@@ -120,7 +121,6 @@
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
 
 [Xem thêm các module nguồn có thư viện easyeda ,lcsc](./EasyEDA_Library.md)
-
 
 ## Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C
 
@@ -198,6 +198,32 @@
   - KHÔNG xả pin  
 - [Mua sắm](https://shopee.vn/m%E1%BA%A1ch-s%E1%BA%A1c-pin-c%C3%B3-m%C3%A0n-h%C3%ACnh-hi%E1%BB%83n-th%E1%BB%8B-pin-3.7v-0.5A-ch%C3%A2n-s%E1%BA%A1c-type-c-i.523359606.28020978193)
 
+## Mạch sạc MH-CD42 có nút Key nhưng không usb
+
+![module](https://github.com/neittien0110/linhkiendientu/assets/8079397/c848dfda-a559-4a2f-9240-a1ca9779ec2f)
+
+- Thông số:
+  - 3 cặp lỗ PCB để Vào 5V
+  - có 4 led chỉ định mức pin;
+  - có __nút bấm K__ và  __pad K tự hàn__
+  - công suất vẫn __KHÔNG ĐỦ__ để nuôi 1 serve sg90 cho thùng rác
+  - Điện áp đầu vào: DC 4v5 ~ 5v5
+  - Điện áp đầu ra:  DC __5v__
+  - Dòng sạc : 02.1A
+  - Dòng xả pin : 03.5A
+  - Điện áp khi đầy pin: 4.2VDC
+  - Hiệu suất : 96%
+  - Điện áp đầu ra : 5VDC
+  - Dòng áp ra : 02.4A
+  - Nhiệt độ : -20~85 độ
+  - Kích thước : 16x25mm
+- CÓ 2 PHIÊN BẢN:
+  1. Phiên bản Tiêu Chuẩn màu đen: nếu tải nhỏ hơn 50mA, đầu ra (OUT 5V) sẽ bị tắt sau 30 giây: nếu tải lớn hơn 50mA, đầu ra sẽ được bật liên tục. Để bỏ chức năng này cho một số mạch tiết kiệm năng lượng (như Vi điều khiển ở chế độ Sleep) cứ sau chu kỳ <20s ta dùng chân IO kích 1 xung LOW (duy trì 100ms) vào chân Key (tương đương 1 cái nhấn - nhả)...hoặc mua Phiên bản Cải Tiến để tránh mất thời gian.
+  2. __Phiên bản Cải Tiến màu trắng: Dù có tải hay không tải thì vẫn luôn xuất ra nguồn 5V__. 
+
+- [Video](https://youtu.be/7wipikQeQaM?si=ZpH4JvTmLkixtUVS)
+- [Mua sắm bản tiêu chuẩn](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-T%C4%83ng-%C3%81p-DC-5V-2.1A-4.2V-3.7V-lithium-18650-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-i.578443443.17381782504)
+- [Mua sắm bản cải tiến](https://shopee.vn/Mh-cd42-DC-5V-2.1A-B%E1%BA%A3ng-t%E1%BB%B1-l%C3%A0m-ngu%E1%BB%93n-di-%C4%91%E1%BB%99ng-4.2V-S%E1%BA%A1c-X%E1%BA%A3-(t%C4%83ng-c%C6%B0%E1%BB%9Dng)-b%E1%BA%A3o-v%E1%BB%87-pin-m%C3%B4-%C4%91un-ch%E1%BB%89-b%C3%A1o-3.7V-lithium-18650-i.176393725.24721940429?xptdk=b1f6753d-0e7d-4416-b580-6cadfabc4557)
 
 ## Đế pin và pin
 
@@ -212,7 +238,7 @@
 - [Mua sắm đế 10440 đấu dây và có sẵn công tắc](https://shopee.vn/%C4%90%C3%AA%CC%81-pin-con-tho%CC%89-AAA-c%C6%A1%CC%83-nho%CC%89-loa%CC%A3i-1pin-2-pin-3-pin-4-pin-co%CC%81-n%C4%83%CC%81p-co%CC%81-c%C3%B4ng-t%C4%83%CC%81c-ON-OFF-Pin-con-tho%CC%89-xi%CC%A3n-i.1032535693.22147972594?sp_atk=5caa4bb6-7ce0-4f70-8efe-f46cb05cf0da&xptdk=5caa4bb6-7ce0-4f70-8efe-f46cb05cf0da)
 - [Mua sắm đề 10400 đấu dây](https://shopee.vn/%C4%90%E1%BA%BF-pin-%C4%91%C5%A9a-AAA-1-2-3-4-cell-m%E1%BA%AFc-n%E1%BB%91i-ti%E1%BA%BFp-H%E1%BB%99p-%C4%91%E1%BB%B1ng-pin-ti%E1%BB%83u-AAA-d%C3%A2y-h%C3%A0n-s%E1%BA%B5n-v%C3%A0-l%E1%BB%97-b%E1%BA%AFt-v%C3%ADt-lo%E1%BA%A1i-1-2-3-4-ng%C4%83n-i.281350512.20358421991?sp_atk=1f4b6e5e-a6e2-4e2d-a419-a87d270f33a3&xptdk=1f4b6e5e-a6e2-4e2d-a419-a87d270f33a3)
 
-### Pin 14250 và đế.
+### Pin 14250 và đế
 
   ![Pin 14250](https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1s7a4z94g9f86@resize_w450_nl.webp)
   
