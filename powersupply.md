@@ -14,6 +14,7 @@
 - [Mạch sạc Lithium có màn hình nhỏ 2](#mạch-sạc-lithium-có-màn-hình-nhỏ-2)
 - [Mạch sạc MH-CD42 có nút Key nhưng không usb](#mạch-sạc-mh-cd42-có-nút-key-nhưng-không-usb)
 - [Mạch sạc LX-LBC3 5v](#mạch-sạc-lx-lbc3)
+- [Sạc pin lithium cổng USB Type C ra 5V 2A có nút K](#sạc-pin-lithium-cổng-usb-type-c-ra-5v-2a-có-nút-k)
 - [Đế pin và pin](#đế-pin-và-pin)
   - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
   - [Pin 14250 và đế.](#pin-14250-và-đế)
@@ -248,6 +249,29 @@
   - Đèn báo: Xanh lá khi ở chế độ sạc pin, xanh dương ở chế độ xả.
   - Kích thước: 16x12mm
 
+## Sạc pin lithium cổng USB Type C ra 5V 2A có nút K
+
+![sạc có đèn báo và nút bấm](https://github.com/neittien0110/linhkiendientu/assets/8079397/b1e6b720-bc40-4d8d-b745-112071fdaaa4)
+![Giải thích pin](https://github.com/user-attachments/assets/bdc90a9b-c49d-4db3-b775-cf90bb596fa9)
+[Video](https://youtu.be/mD2fCQCn4aY?si=OcyU8dAayVQjNBef)
+
+- Thông số:
+  - Vào Usb TypeC 5V, hoặc cặp cặp lỗ PCB vào/ra pin;
+  - Điện áp sạc pin: 4.2V. Dòng sạc: 2.4A ±5%
+  - có 4 led chỉ định mức pin. _tự ngắt mạch sau khoảng 15 không có tải._
+  - __Ra cặp lỗ PCB 5V__
+  - __có nút bấm K tự hàn__. 
+  - không bảo vệ ngược dòng
+  - Kích thước 4.4mm(H) x 20.3mm (W) x 25.4 mm(26.3 nếu tính cả phần usb thòi ra) (L)
+  - 2 lỗ 5V cắm vừa PCB (2x2.54mm), nhưng 2 lỗ đấu pin thì ko vừa và phải hàn phủ lên pcb.
+  - Đầu ra: hàn chân hoặc đầu USB A cái
+  - Điện áp ra: 5~ 5.15V
+  - Dòng đầu ra: có thể đạt 2A
+  - Hiệu suất chuyển đổi: 92.5% ( đối với đầu vào 3.6V, đầu ra 5V 2A)
+  
+- [Thông số ở NShop](https://nshopvn.com/product/mach-sac-xa-pin-18650-cong-type-c-co-den-bao)
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-s%E1%BA%A1c-pin-lithium-c%E1%BB%95ng-USB-Type-C-5V-2A-DIY-i.578443443.14279169398)
+
 ## Đế pin và pin
 
 ![image](https://github.com/user-attachments/assets/71c1a7c8-7325-456d-ae82-8f3f0f1a87ef)
@@ -288,4 +312,3 @@
   
 - [Mua pin 18650](https://shopee.vn/Cell-pin-EVE-18650-25P-dung-l%C6%B0%E1%BB%A3ng-2500mah-X%E1%BA%A3-12C-30A-Pin-Th%C3%A1o-kh%E1%BB%91i-ch%C3%ADnh-h%C3%A3ng-%C4%90%E1%BA%B9p-nh%C6%B0-m%E1%BB%9Bi-i.95243985.20313052510?sp_atk=a523534f-10e2-461b-836b-9e549ad8ce07&xptdk=a523534f-10e2-461b-836b-9e549ad8ce07)
 - [Mua sắm đế 18650 hàn](https://shopee.vn/%C4%90%E1%BA%BF-Pin-18650-1-2-3-4-Pin-Ch%C3%A2n-H%C3%A0n-%C4%90%E1%BA%BF-1-Pin-18650-%C4%90%E1%BA%BF-2-Pin-18650-%C4%90%E1%BA%BF-3-Pin-18650-%C4%90%E1%BA%BF-4-Pin-18650-i.998840499.18284093774?sp_atk=5302faee-fe8a-4238-9277-5ca992019806&xptdk=5302faee-fe8a-4238-9277-5ca992019806)
-  
