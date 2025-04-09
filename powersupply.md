@@ -225,6 +225,28 @@
 - [Mua sắm bản tiêu chuẩn](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-T%C4%83ng-%C3%81p-DC-5V-2.1A-4.2V-3.7V-lithium-18650-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-i.578443443.17381782504)
 - [Mua sắm bản cải tiến](https://shopee.vn/Mh-cd42-DC-5V-2.1A-B%E1%BA%A3ng-t%E1%BB%B1-l%C3%A0m-ngu%E1%BB%93n-di-%C4%91%E1%BB%99ng-4.2V-S%E1%BA%A1c-X%E1%BA%A3-(t%C4%83ng-c%C6%B0%E1%BB%9Dng)-b%E1%BA%A3o-v%E1%BB%87-pin-m%C3%B4-%C4%91un-ch%E1%BB%89-b%C3%A1o-3.7V-lithium-18650-i.176393725.24721940429?xptdk=b1f6753d-0e7d-4416-b580-6cadfabc4557)
 
+## Mạch sạc LX-LBC3
+
+![LX-LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/669912ed-90d6-4065-8315-ed398e0b679b)
+![2d](https://github.com/user-attachments/assets/e7b58488-76d5-483f-bed6-aeeb7b490a3c)
+
+- EasyEDA Library:
+  - ![LX-LBC3 Schematic](https://github.com/neittien0110/linhkiendientu/assets/8079397/0c22b791-1c5f-4ac9-8812-d8701d00dd13)
+  - ![LX-LBC3 Footprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/6b51f648-e510-441b-90e7-1788d7607365)
+  - ![LX-LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/b7dba5cf-dc4f-444c-9675-24fc3a66a166)|[Shopee](https://shopee.vn/ZIQQUCU-18650-M%C3%B4-%C4%91un-S%E1%BA%A1c-Pin-lithium-C%E1%BB%95ng-type-c-4.2V-4.35V-5V-i.880593108.22552543642)|
+
+- Mô tả:
+  - Sạc pin Lithium/18650, 
+  - Điện áp đầu ra: 5V ở dạng type-c và 2 chân pin 2.0mm đấu nối trực tiếp với VBUS và GND của type C
+  - Điện áp đầu vào: 4.5 ~ 5.5V
+  - Sạc điện áp cắt: 4.2V
+  - Dòng sạc: 1.2A
+  - Tự động chuyển đổi đầu vào và đầu ra. Khi không có điện áp đầu vào tự động chuyển đổi thành đầu ra.
+  - Điện áp ra: 5V, dòng xả: 450mA
+  - Bảo vệ quá xả: 2.9V
+  - Đèn báo: Xanh lá khi ở chế độ sạc pin, xanh dương ở chế độ xả.
+  - Kích thước: 16x12mm
+
 ## Đế pin và pin
 
 ![image](https://github.com/user-attachments/assets/71c1a7c8-7325-456d-ae82-8f3f0f1a87ef)
