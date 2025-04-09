@@ -68,8 +68,6 @@ Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
 STT|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 --|--|--|--|--|--|--|
-1|![sạc có đèn báo và nút bấm](https://github.com/neittien0110/linhkiendientu/assets/8079397/b1e6b720-bc40-4d8d-b745-112071fdaaa4)|Schematic|Footprint|Vào Usb TypeC 5V, cặp lỗ PCB vào/ra pin; **Ra cặp lỗ PCB 5V**; có 4 led chỉ định mức pin; <br> **có nút bấm K tự hàn**; <br> không bảo vệ ngược dòng; Kích thước 4.4mm(H) x 20.3mm (W) x 25.4 mm(26.3 nếu tính cả phần usb thòi ra) (L); 2 lỗ 5V cắm vừa PCB, nhưng 2 lỗ đấu pin thì ko vừa và phải hàn phủ lên pcb.<br> Đầu vào: Cổng Type C 5 ~ 5.5VDC <br> Điện áp sạc pin: 4.2V <br> Dòng sạc: 2.4A ±5% <br> Đầu ra: hàn chân hoặc đầu USB A cái <br> Điện áp ra: 5~ 5.15V <br> Dòng đầu ra: có thể đạt 2A <br> Hiệu suất chuyển đổi: 92.5% ( đối với đầu vào 3.6V, đầu ra 5V 2A) <br> [Video](https://youtu.be/mD2fCQCn4aY?si=OcyU8dAayVQjNBef) <br> [Thông số ở NShop](https://nshopvn.com/product/mach-sac-xa-pin-18650-cong-type-c-co-den-bao) |Thư viện LCSC|[Shopee](https://shopee.vn/M%C3%B4-%C4%91un-s%E1%BA%A1c-pin-lithium-c%E1%BB%95ng-USB-Type-C-5V-2A-DIY-i.578443443.14279169398)|
-|--|--|--|--|--|--|
 3|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 4|![Sạc kèm tăng áp tự điều chỉnh](https://github.com/neittien0110/linhkiendientu/assets/8079397/f826dbce-6c0b-44af-b8a3-fbdcc2a2796d)|Schematic|Footprint|HW-357 V3.0; Sạc kèm tăng áp tự điều chỉnh từ **4.3V->27V**; vào USB hoặc 2 lỗ PCB từ 4.5~8V; Kích thước: 3,3x2,3cm / 1,3x0,91"; |Thư viện LCSC|[Shopee](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-S%E1%BA%A1c-Pin-Lithium-Li-ion-18650-3.7V-4.2V-TP4056-Chuy%C3%AAn-D%E1%BB%A5ng-i.578443443.16942863022)|
  |--|--|--|--|--|--|
