@@ -13,9 +13,8 @@
 - [Mạch sạc Lithium có màn hình nhỏ](#mạch-sạc-lithium-có-màn-hình-nhỏ)
 - [Mạch sạc Lithium có màn hình nhỏ 2](#mạch-sạc-lithium-có-màn-hình-nhỏ-2)
 - [Mạch sạc MH-CD42 có nút Key nhưng không usb](#mạch-sạc-mh-cd42-có-nút-key-nhưng-không-usb)
-- [Mạch sạc LX-LBC3 5v](#mạch-sạc-lx-lbc3)
+- [Mạch sạc LBC3 5v](#mạch-sạc-lbc3)
 - [Sạc pin lithium cổng USB Type C ra 5V 2A có nút K](#sạc-pin-lithium-cổng-usb-type-c-ra-5v-2a-có-nút-k)
-- [LX-LBC3 sạc Pin lithium Cổng type-c 5V](#lx-lbc3-sạc-pin-lithium-cổng-type-c-42v-435v-5v)
 - [Đế pin và pin](#đế-pin-và-pin)
   - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
   - [Pin 14250 và đế.](#pin-14250-và-đế)
@@ -228,15 +227,18 @@
 - [Mua sắm bản tiêu chuẩn](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-T%C4%83ng-%C3%81p-DC-5V-2.1A-4.2V-3.7V-lithium-18650-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-i.578443443.17381782504)
 - [Mua sắm bản cải tiến](https://shopee.vn/Mh-cd42-DC-5V-2.1A-B%E1%BA%A3ng-t%E1%BB%B1-l%C3%A0m-ngu%E1%BB%93n-di-%C4%91%E1%BB%99ng-4.2V-S%E1%BA%A1c-X%E1%BA%A3-(t%C4%83ng-c%C6%B0%E1%BB%9Dng)-b%E1%BA%A3o-v%E1%BB%87-pin-m%C3%B4-%C4%91un-ch%E1%BB%89-b%C3%A1o-3.7V-lithium-18650-i.176393725.24721940429?xptdk=b1f6753d-0e7d-4416-b580-6cadfabc4557)
 
-## Mạch sạc LX-LBC3
+## Mạch sạc LBC3
 
-![LX-LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/669912ed-90d6-4065-8315-ed398e0b679b)
+![image](https://github.com/user-attachments/assets/7b1f1bca-bbc6-42c8-8d39-bcc2e21e24b4)
+![image](https://github.com/user-attachments/assets/ee02f746-2b6c-409e-b8a4-fcd25109f93f)
+
+![LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/669912ed-90d6-4065-8315-ed398e0b679b)
 ![image](https://github.com/user-attachments/assets/4bf46b76-748b-4c88-8f50-7e3f239aecc1)
 
 - EasyEDA Library:
-  - ![LX-LBC3 Schematic](https://github.com/neittien0110/linhkiendientu/assets/8079397/0c22b791-1c5f-4ac9-8812-d8701d00dd13)
-  - ![LX-LBC3 Footprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/6b51f648-e510-441b-90e7-1788d7607365)
-  - ![LX-LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/b7dba5cf-dc4f-444c-9675-24fc3a66a166)|[Shopee](https://shopee.vn/ZIQQUCU-18650-M%C3%B4-%C4%91un-S%E1%BA%A1c-Pin-lithium-C%E1%BB%95ng-type-c-4.2V-4.35V-5V-i.880593108.22552543642)|
+  - ![LBC3 Schematic](https://github.com/neittien0110/linhkiendientu/assets/8079397/0c22b791-1c5f-4ac9-8812-d8701d00dd13)
+  - ![LBC3 Footprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/6b51f648-e510-441b-90e7-1788d7607365)
+  - ![LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/b7dba5cf-dc4f-444c-9675-24fc3a66a166)|[Shopee](https://shopee.vn/ZIQQUCU-18650-M%C3%B4-%C4%91un-S%E1%BA%A1c-Pin-lithium-C%E1%BB%95ng-type-c-4.2V-4.35V-5V-i.880593108.22552543642)|
 
 - Mô tả:
   - Sạc pin Lithium/18650, 
