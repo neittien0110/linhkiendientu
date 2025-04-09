@@ -13,6 +13,7 @@
 - [Mạch sạc Lithium có màn hình nhỏ](#mạch-sạc-lithium-có-màn-hình-nhỏ)
 - [Mạch sạc Lithium có màn hình nhỏ 2](#mạch-sạc-lithium-có-màn-hình-nhỏ-2)
 - [Mạch sạc MH-CD42 có nút Key nhưng không usb](#mạch-sạc-mh-cd42-có-nút-key-nhưng-không-usb)
+- [Mạch sạc LX-LBC3 5v](#mạch-sạc-lx-lbc3)
 - [Đế pin và pin](#đế-pin-và-pin)
   - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
   - [Pin 14250 và đế.](#pin-14250-và-đế)
@@ -228,7 +229,6 @@
 ## Mạch sạc LX-LBC3
 
 ![LX-LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/669912ed-90d6-4065-8315-ed398e0b679b)
-![2d](https://github.com/user-attachments/assets/e7b58488-76d5-483f-bed6-aeeb7b490a3c)
 
 - EasyEDA Library:
   - ![LX-LBC3 Schematic](https://github.com/neittien0110/linhkiendientu/assets/8079397/0c22b791-1c5f-4ac9-8812-d8701d00dd13)
