@@ -15,6 +15,7 @@
 - [Mạch sạc MH-CD42 có nút Key nhưng không usb](#mạch-sạc-mh-cd42-có-nút-key-nhưng-không-usb)
 - [Mạch sạc LX-LBC3 5v](#mạch-sạc-lx-lbc3)
 - [Sạc pin lithium cổng USB Type C ra 5V 2A có nút K](#sạc-pin-lithium-cổng-usb-type-c-ra-5v-2a-có-nút-k)
+- [LX-LBC3 sạc Pin lithium Cổng type-c 5V](#lx-lbc3-sạc-pin-lithium-cổng-type-c-42v-435v-5v)
 - [Đế pin và pin](#đế-pin-và-pin)
   - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
   - [Pin 14250 và đế.](#pin-14250-và-đế)
@@ -248,6 +249,35 @@
   - Bảo vệ quá xả: 2.9V
   - Đèn báo: Xanh lá khi ở chế độ sạc pin, xanh dương ở chế độ xả.
   - Kích thước: 16x12mm
+
+- Thông số:
+  1. Kích thước nhỏ, chiều dài, chiều rộng và chiều cao chỉ 16 * 12 * 4,4mm.
+  2. Áp dụng cho pin liti một cell (kết nối song song không giới hạn)
+  3. Dòng sạc tối đa 1.2A, dòng điện 1A ổn định có thể được sử dụng theo yêu cầu.
+  4. Dòng xả: 0.45A
+  5. Bảo vệ quá tải 2.9v, điện áp cắt sạc 4.2V
+  6. USB Type-C là cồng nguồn sạc đầu vào, nhưng sẽ tự động chuyển sang chế độ đầu ra khi không có điện áp. Thời gian chuyển đổi từ 1-2 giây. Nói cách khác là USB Type-C vừa là cổng nguồn vào, vừa là cổng nguồn ra.
+  7. Hỗ trợ dòng điện nhỏ, đầu ra 5V, đầu ra hỗ trợ khoảng 450ma. Nếu đầu ra là 1A, điện áp sẽ khoảng 4,9V-4,5V tùy theo điều kiện nguồn.
+  8. Đèn xanh nhấp nháy khi sạc. Đèn xanh luôn sáng khi sạc đầy. 
+  9. Công suất tiêu thụ ở chế độ chờ khoảng 0,8mA.
+
+- Hướng dẫn:
+  - Mô-đun có thể được sử dụng bằng cách kết nối các điện cực âm và dương của pin liti 3.7V. Bản thân mô-đun có tính năng bảo vệ quá tải và quá tải, đồng thời pin liti cũng có thể được trang bị bảng bảo vệ.
+  - Cổng Type-c, lỗ hàn và giao diện đầu vào và đầu ra dành riêng ở mặt sau là ba bộ giao diện giống nhau và được kết nối trực tiếp trên đường truyền, vì vậy không có sự khác biệt giữa ba Bộ giao diện.
+  - Theo hệ thống dây nhận dạng (các bộ phận có cùng màu được kết nối vật lý), có thể sử dụng đầu vào cổng C hoặc đầu vào dây. Pin sạc, nếu có nhiều, thì phải đấu song song vì đây là sạc 1S. Dây cần được hàn, và dây không được quá mỏng, nếu không dây sẽ không hoạt động bình thường. 
+  -__Không thể đảo ngược pin.__
+  
+- Các tính năng:
+  - Chu kỳ sạc tự động kết thúc khi dòng điện sạc giảm xuống 100mA sau khi đạt đến điện áp phao cuối cùng.
+  - Khi điện áp pin thấp hơn 2,9V, pin sẽ được sạc trước với dòng điện 200mA.
+  - Có bo mạch bảo vệ, bảo vệ quá áp, bảo vệ quá xả, bảo vệ quá dòng. Giá trị bảo vệ quá xả: 2.9V.
+  - Lần đầu tiên sử dụng pin, cần kết nối nguồn điện để kích hoạt bo mạch bảo vệ.
+- Các biện pháp phòng ngừa:
+  - Không kết nối ngược lại pin và kết nối với bo mạch chống cháy.
+  - Kết nối đầu sạc trước khi kết nối pin và kiểm tra xem đèn sạc của mô-đun có bình thường hay không.
+  - Dây không được quá mỏng, nếu không dòng điện cấp nguồn không thể theo kịp và phải hàn dây.
+
+- [Mua sắm](https://shopee.vn/ZIQQUCU-18650-M%C3%B4-%C4%91un-S%E1%BA%A1c-Pin-lithium-C%E1%BB%95ng-type-c-4.2V-4.35V-5V-i.880593108.22552543642)
 
 ## Sạc pin lithium cổng USB Type C ra 5V 2A có nút K
 
