@@ -1,5 +1,7 @@
 # NGUỒN CẤP
 
+![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)
+
 - [IC nguồn AMS1117 và các module liên quan](#ic-nguồn-ams1117-và-các-module-liên-quan)
   - [Module nguồn ổn áp dùng AMS1117](#module-nguôn-ổn-áp-dùng-ams1117)
 - [Module chuyển đổi AC 220V --> DC 5V/0.7A](#module-chuyển-đổi-ac-220v----dc-5v07a)
