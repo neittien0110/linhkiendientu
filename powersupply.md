@@ -243,6 +243,10 @@
   - ![LBC3 Footprint](https://github.com/neittien0110/linhkiendientu/assets/8079397/6b51f648-e510-441b-90e7-1788d7607365)
   - ![LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/b7dba5cf-dc4f-444c-9675-24fc3a66a166)|[Shopee](https://shopee.vn/ZIQQUCU-18650-M%C3%B4-%C4%91un-S%E1%BA%A1c-Pin-lithium-C%E1%BB%95ng-type-c-4.2V-4.35V-5V-i.880593108.22552543642)|
 
+- Casestudy:
+   - Khi pin lithium sụt về 3.7v thì
+     - cắm trực tiếp pin vào Esp32+BLE thì vẫn chạy thành công
+     - cắm pin vào mạch LX-LBC3 thì đầu ra vẫn đạt 5V. Qua mạch giảm áp Mini-360 thì vẫn có V đầu ra 3.7v nhưng khi có tải là nhảy áp liên tục.
 - Mô tả:
   - Sạc pin Lithium/18650, 
   - Điện áp đầu ra: 5V ở dạng type-c và 2 chân pin 2.0mm đấu nối trực tiếp với VBUS và GND của type C. __Vào/ra 2 chiều__
