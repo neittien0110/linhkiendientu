@@ -229,6 +229,7 @@
 ## Mạch sạc LX-LBC3
 
 ![LX-LBC3](https://github.com/neittien0110/linhkiendientu/assets/8079397/669912ed-90d6-4065-8315-ed398e0b679b)
+![image](https://github.com/user-attachments/assets/4bf46b76-748b-4c88-8f50-7e3f239aecc1)
 
 - EasyEDA Library:
   - ![LX-LBC3 Schematic](https://github.com/neittien0110/linhkiendientu/assets/8079397/0c22b791-1c5f-4ac9-8812-d8701d00dd13)
