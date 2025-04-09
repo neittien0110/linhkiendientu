@@ -60,12 +60,6 @@ Hình ảnh|Ghi chú|Thư viện LCSC|Mua sắm|
 
 ## Mạch sạc
 
-[Xem thêm các module sạc không có thư viện easyeda, lcsc](./powersupply.md)
-
-![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)
-
-[Xem thêm các module sạc không có thư viện easyeda, lcsc](./powersupply.md)
-
 STT|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
 --|--|--|--|--|--|--|
 3|Hình ảnh|Schematic|Footprint|Ghi chú|Thư viện LCSC|Mua sắm|
