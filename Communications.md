@@ -165,9 +165,20 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
 
 
 
-## Module CH340E BTE17-06B
+## Module CH340E BTE17-06B 
   ![image](https://github.com/user-attachments/assets/7e47a6a2-754b-4d04-b720-af1ff082dcb8)
 
 - Thông số:
   - Có 2 chân nguồn cấp vào là VDD và 3v3. Trong đó VDD cho phép điện áp **3.3v tới 5v**, trong khi chân 3.3v có thẻ dùng để cấp cho mạch ngoài nhưng dòng tối đa 50mA.
+
+- EasyEDA lib:
+  - Footprint: __CH340E USB-TTL__\
+    ![image](https://github.com/user-attachments/assets/df096895-0d4b-4c2a-ba06-ce1ca9a6970b)
+  - 3D model: __ImageToStl.com_ch340e (anytoutcourt)__\
+    ![image](https://github.com/user-attachments/assets/1ad7cc83-465a-4636-bc9c-0e23cfe8f36c)
+  - Thư viện:\
+    ![image](https://github.com/user-attachments/assets/f45fc27f-4b63-4f25-891e-14a6a898d024)
+
 - [Mua sắm, chọn đúng loại CH340E màu tím](https://shopee.vn/M%C3%B4-%C4%90un-Chuy%E1%BB%83n-%C4%90%E1%BB%95i-CH340E-CH340C-CH9340C-USB-Sang-TTL-5V-3.3V-CH340G-Chuy%C3%AAn-D%E1%BB%A5ng-Cho-Mini-i.578443443.16598012132). Lưu ý rằng loại CH340C màu đen thì có hiện tượng giao tiếp Serial với ESP32 được, nhưng không thể nạp code được
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Chuy%E1%BB%83n-%C4%90%E1%BB%95i-CH340E-CH340C-CH9340C-USB-Sang-TTL-5V-3.3V-CH340G-Chuy%C3%AAn-D%E1%BB%A5ng-Cho-Mini-i.578443443.16598012132)
+
