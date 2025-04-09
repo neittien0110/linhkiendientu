@@ -14,6 +14,7 @@
 - [Mạch sạc Lithium có màn hình nhỏ 2](#mạch-sạc-lithium-có-màn-hình-nhỏ-2)
 - [Mạch sạc MH-CD42 có nút Key nhưng không usb](#mạch-sạc-mh-cd42-có-nút-key-nhưng-không-usb)
 - [Mạch sạc LX-LBC3 5v](#mạch-sạc-lbc3)
+- [Mạch sạc pin type-C 3.7v](#mạch-sạc-pin-type-c-37v)
 - [Sạc pin lithium cổng USB Type C ra 5V 2A có nút K](#sạc-pin-lithium-cổng-usb-type-c-ra-5v-2a-có-nút-k)
 - [Đế pin và pin](#đế-pin-và-pin)
   - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
@@ -227,7 +228,7 @@
 - [Mua sắm bản tiêu chuẩn](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-T%C4%83ng-%C3%81p-DC-5V-2.1A-4.2V-3.7V-lithium-18650-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-i.578443443.17381782504)
 - [Mua sắm bản cải tiến](https://shopee.vn/Mh-cd42-DC-5V-2.1A-B%E1%BA%A3ng-t%E1%BB%B1-l%C3%A0m-ngu%E1%BB%93n-di-%C4%91%E1%BB%99ng-4.2V-S%E1%BA%A1c-X%E1%BA%A3-(t%C4%83ng-c%C6%B0%E1%BB%9Dng)-b%E1%BA%A3o-v%E1%BB%87-pin-m%C3%B4-%C4%91un-ch%E1%BB%89-b%C3%A1o-3.7V-lithium-18650-i.176393725.24721940429?xptdk=b1f6753d-0e7d-4416-b580-6cadfabc4557)
 
-## Mạch sạc LBC3
+## Mạch sạc LX-LBC3
 
 ![image](https://github.com/user-attachments/assets/7b1f1bca-bbc6-42c8-8d39-bcc2e21e24b4)
 ![image](https://github.com/user-attachments/assets/ee02f746-2b6c-409e-b8a4-fcd25109f93f)
@@ -242,7 +243,7 @@
 
 - Mô tả:
   - Sạc pin Lithium/18650, 
-  - Điện áp đầu ra: 5V ở dạng type-c và 2 chân pin 2.0mm đấu nối trực tiếp với VBUS và GND của type C
+  - Điện áp đầu ra: 5V ở dạng type-c và 2 chân pin 2.0mm đấu nối trực tiếp với VBUS và GND của type C. __Vào/ra 2 chiều__
   - Điện áp đầu vào: 4.5 ~ 5.5V
   - Sạc điện áp cắt: 4.2V
   - Dòng sạc: 1.2A
@@ -258,7 +259,7 @@
   3. Dòng sạc tối đa 1.2A, dòng điện 1A ổn định có thể được sử dụng theo yêu cầu.
   4. Dòng xả: 0.45A
   5. Bảo vệ quá tải 2.9v, điện áp cắt sạc 4.2V
-  6. USB Type-C là cồng nguồn sạc đầu vào, nhưng sẽ tự động chuyển sang chế độ đầu ra khi không có điện áp. Thời gian chuyển đổi từ 1-2 giây. Nói cách khác là USB Type-C vừa là cổng nguồn vào, vừa là cổng nguồn ra.
+  6. USB Type-C, cùng với 2 chân pin, là cồng nguồn sạc đầu vào, nhưng sẽ tự động chuyển sang chế độ đầu ra khi không có điện áp. Thời gian chuyển đổi từ 1-2 giây. Nói cách khác là USB Type-C vừa là cổng nguồn vào, vừa là cổng nguồn ra.
   7. Hỗ trợ dòng điện nhỏ, đầu ra 5V, đầu ra hỗ trợ khoảng 450ma. Nếu đầu ra là 1A, điện áp sẽ khoảng 4,9V-4,5V tùy theo điều kiện nguồn.
   8. Đèn xanh nhấp nháy khi sạc. Đèn xanh luôn sáng khi sạc đầy. 
   9. Công suất tiêu thụ ở chế độ chờ khoảng 0,8mA.
@@ -279,6 +280,26 @@
   - Kết nối đầu sạc trước khi kết nối pin và kiểm tra xem đèn sạc của mô-đun có bình thường hay không.
   - Dây không được quá mỏng, nếu không dòng điện cấp nguồn không thể theo kịp và phải hàn dây.
 
+- [Mua sắm](https://shopee.vn/ZIQQUCU-18650-M%C3%B4-%C4%91un-S%E1%BA%A1c-Pin-lithium-C%E1%BB%95ng-type-c-4.2V-4.35V-5V-i.880593108.22552543642)
+
+## Mạch sạc pin type-C 3.7v
+
+![siêu nhỏ](https://github.com/neittien0110/linhkiendientu/assets/8079397/4c13fa2d-04d9-4a24-b7ce-17c3bc5618ee)
+![image](https://github.com/user-attachments/assets/0e8a728c-ffc8-4efd-8bdb-c13e7d74b602)
+![image](https://github.com/user-attachments/assets/4c917abd-81ac-4d98-9c6b-53fa569ed330)
+
+- Thông số:
+  - Nguồn vào: usb typeC, 2 chân pin In+, In-
+  - Ra 4.2V; 
+  - Cần kích hoạt khi dùng lần đầu;
+  - Đèn đỏ đang sạc và đèn xanh đã đầy.
+  
+- EasyEDA lib:
+  - Thư viện tp4056 mini from neittien0110\
+    ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/0c853180-5ec5-4429-9358-4821e98c0b64)|
+  - ![Schematic](https://github.com/neittien0110/linhkiendientu/assets/8079397/7f493957-2a8f-4fb7-92be-038cc5914ca6)
+  - ![Footprint mini](https://github.com/neittien0110/linhkiendientu/assets/8079397/325dcbf4-7300-4426-b4be-407d7a0d65cc)
+- [Mua sắm](https://shopee.vn/M%E1%BA%A1ch-S%E1%BA%A1c-Pin-Si%C3%AAu-Nh%E1%BB%8F-4.2V-1A-Ch%C3%A2n-S%E1%BA%A1c-Type-C-C%C3%B3-B%E1%BA%A3o-V%E1%BB%87-Pin-i.456730649.22554426428)|
 - [Mua sắm](https://shopee.vn/ZIQQUCU-18650-M%C3%B4-%C4%91un-S%E1%BA%A1c-Pin-lithium-C%E1%BB%95ng-type-c-4.2V-4.35V-5V-i.880593108.22552543642)
 
 ## Sạc pin lithium cổng USB Type C ra 5V 2A có nút K
