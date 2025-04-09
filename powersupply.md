@@ -289,6 +289,7 @@
 ![siêu nhỏ](https://github.com/neittien0110/linhkiendientu/assets/8079397/4c13fa2d-04d9-4a24-b7ce-17c3bc5618ee)
 ![image](https://github.com/user-attachments/assets/0e8a728c-ffc8-4efd-8bdb-c13e7d74b602)
 ![image](https://github.com/user-attachments/assets/4c917abd-81ac-4d98-9c6b-53fa569ed330)
+![kich thuoc](https://github.com/user-attachments/assets/ca3e740e-5e5c-4f87-ba94-8386ce126bc2)
 
 - Thông số:
   - Nguồn vào: usb typeC, 2 chân pin In+, In-
