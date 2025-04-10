@@ -18,6 +18,8 @@
 - [Mạch sạc LX-LBC3 5v](#mạch-sạc-lbc3)
 - [Mạch sạc pin type-C 3.7v](#mạch-sạc-pin-type-c-37v)
 - [Sạc pin lithium cổng USB Type C ra 5V 2A có nút K](#sạc-pin-lithium-cổng-usb-type-c-ra-5v-2a-có-nút-k)
+- [LX-LCBST sạc pin lithium và kiêm xả pin có điều chỉnh điện áp](#lx-lcbst-sạc-pin-lithium-và-kiêm-xả-pin-có-điều-chỉnh-điện-áp)
+- [HW-357 Sạc pin lithium và kiêm tăng áp booster](#hw-357-sạc-pin-lithium-và-kiêm-tăng-áp-booster)
 - [Đế pin và pin](#đế-pin-và-pin)
   - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
   - [Pin 14250 và đế.](#pin-14250-và-đế)
@@ -331,6 +333,29 @@
   
 - [Thông số ở NShop](https://nshopvn.com/product/mach-sac-xa-pin-18650-cong-type-c-co-den-bao)
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-s%E1%BA%A1c-pin-lithium-c%E1%BB%95ng-USB-Type-C-5V-2A-DIY-i.578443443.14279169398)
+
+## LX-LCBST sạc pin lithium và kiêm xả pin có điều chỉnh điện áp
+
+![image](https://github.com/user-attachments/assets/bb655304-1d70-48d6-b6b7-81287c6d6de5)
+![image](https://github.com/user-attachments/assets/e4e38919-0904-43c2-97db-c4f2d307d72c)
+
+- [Mua sắm](https://shopee.vn/Tp4056-3.7V-4.2V-9V-5V-2A-C%C3%B3-Th%E1%BB%83-%C4%90i%E1%BB%81u-Ch%E1%BB%89nh-B%C6%B0%E1%BB%9Bc-L%C3%AAn-M%C3%B4-%C4%90un-18650-Lithium-Li-ion-Pin-S%E1%BA%A1c-X%E1%BA%A3-B%E1%BA%A3ng-%C4%90i%E1%BB%87n-DIY-B%E1%BB%99-i.176393725.25922921429?xptdk=88b502ac-a364-463e-acea-a8a09ce0a260)
+
+## HW-357 Sạc pin lithium và kiêm tăng áp booster
+
+![image](https://github.com/user-attachments/assets/ba8142cc-ecb4-4352-a94f-1de9b59c2479)
+![image](https://github.com/user-attachments/assets/f84cb5b2-5f97-460f-bc3c-1f353099b723)
+
+> Nhược điểm: vị trí 2 lỗ cấp điện áp ra rất tệ vì cùng phía với cổng USB, dường như để cấp áp ra ngoài thiết bị. Dùng module [LX-LCBST](#) tốt hơn. Ngoài ra, tích hợp thêm tăng áp trên 4v nên không thể cấp trực tiếp cho MCU.
+> 
+- Thông số:
+  - Điện áp đầu vào: 4.5~8V từ USB Type-C hoặc 2 lỗ PCB
+  - Điện áp đầu ra: __4.0-27V DC__ (Có thể điều chỉnh liên tục, đã test)
+  - Điện áp sạc pin lithium: 4.2V DC
+  - Dòng sạc pin lithium: Max. 1a
+  - Dòng xả: Max. 2a
+- [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-S%E1%BA%A1c-Pin-Lithium-Li-ion-18650-3.7V-4.2V-TP4056-Chuy%C3%AAn-D%E1%BB%A5ng-i.578443443.16942863022)
+- [Mua sắm](https://shopee.vn/3.7v-9V-5V-2A-C%C3%B3-Th%E1%BB%83-%C4%90i%E1%BB%81u-Ch%E1%BB%89nh-B%C6%B0%E1%BB%9Bc-L%C3%AAn-Boost-18650-Pin-Lithium-S%E1%BA%A1c-M%C3%B4-%C4%90un-T%C3%ADch-H%E1%BB%A3p-4.3-27V-i.176393725.25221943887?xptdk=8afbbd9e-a9e2-4c5b-9a03-6b6297a9a4c8)
 
 ## Đế pin và pin
 
