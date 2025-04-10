@@ -249,6 +249,9 @@
    - Khi pin lithium sụt về 3.7v thì
      - cắm trực tiếp pin vào Esp32+BLE thì vẫn chạy thành công
      - cắm pin vào mạch LX-LBC3 thì đầu ra vẫn đạt 5V. Qua mạch giảm áp Mini-360 thì vẫn có V đầu ra 3.7v nhưng khi có tải là nhảy áp liên tục.
+     - cắm pin vào mạch LX-LBC3 thì đầu ra vẫn đạt 5V. Qua mạch giảm áp Mini-360 điều chỉnh ở mức 3.2v thì khi có tải sẽ dùng được lâu hơn.
+      ![image](https://github.com/user-attachments/assets/67d65ffc-3ba4-4315-a1db-9d4e35186d34)
+
 - Mô tả:
   - Sạc pin Lithium/18650, 
   - Điện áp đầu ra: 5V ở dạng type-c và 2 chân pin 2.0mm đấu nối trực tiếp với VBUS và GND của type C. __Vào/ra 2 chiều__
