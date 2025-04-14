@@ -8,6 +8,7 @@
 - [HW-626 module tăng áp 5V](#hw-626-module-tăng-áp-5v)
 - [Mini-360 module hạ áp có điều chỉnh bằng chiết áp](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp)
 - [Mini560 buck hạ áp đầu ra 3.3V](#mini560-buck-hạ-áp-đầu-ra-33v)
+- [MP1584EN buck hạ áp từ 24V/12V/9V ra 3v3~5V Đầu ra có thể điều chỉnh (hoặc cố định áp) ](#mp1584en-buck-hạ-áp-từ-24v12v9v-ra-3v35v-đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp)
 - [Mô đun tăng áp 0.9-5V sang 5V](#module-tăng-áp-09-5v-sang-5v)
 - [Module hạ áp mini360 mini-360 DC thấp hơn LM2596](#module-hạ-áp-mini360-mini-360-dc-thấp-hơn-lm2596)
 - [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
@@ -112,6 +113,23 @@
   - Nhiệt độ làm việc: -40℃Đến + 85℃
   - Chế độ chỉnh lưu: Bộ chỉnh lưu đồng bộ
  - [Mua sắm](https://shopee.vn/Dc-dc-mini560-DC-Buck-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-Hi%E1%BB%87u-su%E1%BA%A5t-cao-%C4%90%E1%BA%A7u-ra-3.3V-5V-9V-12V-5A-i.1456687807.25840639942)
+
+## MP1584EN buck hạ áp từ 24V/12V/9V ra 3v3~5V Đầu ra có thể điều chỉnh (hoặc cố định áp) 
+
+![image](https://github.com/user-attachments/assets/3c3fb27f-82fb-482a-9a9a-fd37ddfa95e3)
+![image](https://github.com/user-attachments/assets/08e93326-bf0d-49f7-9af5-4e6a446c401f)
+
+- Ưu điểm: board có chân [Castellated Holes](https://morepcb.com/wp-content/uploads/2023/07/PCB-Edges-and-Castellated-Holes.png) để tiện dán trực tiếp lên board khác
+- Thông số:
+  - Điện áp đầu vào: 5.3V-26V
+  - Điện áp đầu ra: 3.3V
+  - Dòng điện đầu ra: < 3A. Kiểm soát làm việc trong thời gian dài trong vòng 1.8A
+  - Hiệu suất chuyển đổi: 96% (Đỉnh)
+  - Chênh lệch điện áp Vin-Vou > 2V. Càng nhỏ, Hiệu quả càng cao
+  - Ripple đầu ra: < 30mV
+  - Nhiệt độ làm việc: -40°C ~ + 85°C
+  - Kích thước mô-đun: 22,3 * 17 * 4,2mm
+- [Mua sắm](https://shopee.vn/Dc-dc-B%E1%BA%A3ng-b%C6%B0%E1%BB%9Bc-xu%E1%BB%91ng-3A-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-24V-12V-9V-%C4%91%E1%BA%BFn-3.3V5V-%C4%90%E1%BA%A7u-ra-c%C3%B3-th%E1%BB%83-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-MP1584EN-i.1456687807.27374129575)
 
 ## Module tăng áp 0.9-5V sang 5V
 
