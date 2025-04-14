@@ -18,6 +18,7 @@
 - [Mạch sạc Lithium có màn hình nhỏ](#mạch-sạc-lithium-có-màn-hình-nhỏ)
 - [Mạch sạc Lithium có màn hình nhỏ 2](#mạch-sạc-lithium-có-màn-hình-nhỏ-2)
 - [Mạch sạc MH-CD42 có nút Key nhưng không usb](#mạch-sạc-mh-cd42-có-nút-key-nhưng-không-usb)
+- [Module sạc xả pin Lithium với đầu ra 4.2v](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)
 - [Mạch sạc LX-LBC3 5v](#mạch-sạc-lbc3)
 - [Mạch sạc pin type-C 3.7v](#mạch-sạc-pin-type-c-37v)
 - [Sạc pin lithium cổng USB Type C ra 5V 2A có nút K](#sạc-pin-lithium-cổng-usb-type-c-ra-5v-2a-có-nút-k)
@@ -285,10 +286,29 @@ Phiên bản cải tiến, không tự tắt
 - CÓ 2 PHIÊN BẢN:
   1. Phiên bản Tiêu Chuẩn màu đen: nếu tải nhỏ hơn 50mA, đầu ra (OUT 5V) sẽ bị tắt sau 30 giây: nếu tải lớn hơn 50mA, đầu ra sẽ được bật liên tục. Để bỏ chức năng này cho một số mạch tiết kiệm năng lượng (như Vi điều khiển ở chế độ Sleep) cứ sau chu kỳ <20s ta dùng chân IO kích 1 xung LOW (duy trì 100ms) vào chân Key (tương đương 1 cái nhấn - nhả)...hoặc mua Phiên bản Cải Tiến để tránh mất thời gian.
   2. __Phiên bản Cải Tiến màu trắng: Dù có tải hay không tải thì vẫn luôn xuất ra nguồn 5V__. 
-
 - [Video](https://youtu.be/7wipikQeQaM?si=ZpH4JvTmLkixtUVS)
 - [Mua sắm bản tiêu chuẩn](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-T%C4%83ng-%C3%81p-DC-5V-2.1A-4.2V-3.7V-lithium-18650-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-i.578443443.17381782504)
 - [Mua sắm bản cải tiến](https://shopee.vn/Mh-cd42-DC-5V-2.1A-B%E1%BA%A3ng-t%E1%BB%B1-l%C3%A0m-ngu%E1%BB%93n-di-%C4%91%E1%BB%99ng-4.2V-S%E1%BA%A1c-X%E1%BA%A3-(t%C4%83ng-c%C6%B0%E1%BB%9Dng)-b%E1%BA%A3o-v%E1%BB%87-pin-m%C3%B4-%C4%91un-ch%E1%BB%89-b%C3%A1o-3.7V-lithium-18650-i.176393725.24721940429?xptdk=b1f6753d-0e7d-4416-b580-6cadfabc4557)
+
+
+## Module sạc xả pin Lithium với đầu ra 4.2v
+
+![image](https://github.com/user-attachments/assets/53c5e4e7-f397-4f6a-b60b-c1738999ce44)
+![image](https://github.com/user-attachments/assets/d94ebe18-1672-4b40-81d2-f124e1d07e02)
+> Rất giống [MH-CD42]() nhưng bé hơn
+
+- Thông số:
+  - Lắp pin ngược cực sẽ bị cháy board.
+  - Công tắc đồng bộ 2a để sạc hiệu quả
+  - Dòng điện đầu ra tối đa 2.4a
+  - Đầu ra cố định Thường mở 5v, có hỗ trợ bù tổn thất đường dây
+  - Hỗ trợ trong khi sạc và đặt
+  - Có 4 led chỉ thị mức độ pin sạc
+  - Mức tiêu thụ nguồn ở chế độ chờ: < 150μA
+  - Có bảo vệ ngắt sạc Pin khi đầy, quá tải, bảo vệ xả quá dòng
+-  Các chân Gnd bao gồm của Đầu vào, của Đầu ra, của pin âm bản đều được nối thông với nhau.
+
+- [Mua sắm](https://shopee.vn/3.7v-4.2V-18650-Pin-Lithium-T%C4%83ng-C%C6%B0%E1%BB%9Dng-S%E1%BA%A1c-B%E1%BA%A3ng-%C4%90i%E1%BB%87n-B%E1%BA%A3o-V%E1%BB%87-5V-2.4-S%E1%BA%A1c-X%E1%BA%A3-M%C3%B4-%C4%90un-T%C3%ADch-H%E1%BB%A3p-i.1456687807.28224156185)
 
 ## Mạch sạc LX-LBC3
 
