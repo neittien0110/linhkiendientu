@@ -11,6 +11,7 @@
 - [MP1584EN buck hạ áp từ 24V/12V/9V ra 3v3~5V Đầu ra có thể điều chỉnh (hoặc cố định áp) ](#mp1584en-buck-hạ-áp-từ-24v12v9v-ra-3v35v-đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp)
 - [Mô đun tăng áp 0.9-5V sang 5V](#module-tăng-áp-09-5v-sang-5v)
 - [Module hạ áp mini360 mini-360 DC thấp hơn LM2596](#module-hạ-áp-mini360-mini-360-dc-thấp-hơn-lm2596)
+- [Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở](#mô-đun-sạc-pin-lithium-giảm-xả-5v2a--24a--có-đầu-vàođầu-ra-thường-mở)
 - [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử Rifbar Turbo](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử-rifbar-turbo)
@@ -130,6 +131,25 @@
   - Nhiệt độ làm việc: -40°C ~ + 85°C
   - Kích thước mô-đun: 22,3 * 17 * 4,2mm
 - [Mua sắm](https://shopee.vn/Dc-dc-B%E1%BA%A3ng-b%C6%B0%E1%BB%9Bc-xu%E1%BB%91ng-3A-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-24V-12V-9V-%C4%91%E1%BA%BFn-3.3V5V-%C4%90%E1%BA%A7u-ra-c%C3%B3-th%E1%BB%83-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-MP1584EN-i.1456687807.27374129575)
+
+## Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở
+
+![image](https://github.com/user-attachments/assets/19d85885-f9e4-41f8-9ae3-c11831f962cf)
+![image](https://github.com/user-attachments/assets/f047be6d-123e-4f35-8f51-146a27b6ee49)
+
+- Thông số:
+  1. Đầu vào và đầu ra với cùng một cổng/cặp pin
+  2. Nếu không sạc thì cổng in/out sẽ có điện áp 5V
+  3. Mô-đun có bảo vệ hai lớp (Chip điều khiển chính + IC bảo vệ).
+  4. Điện áp sạc: DC4.5V-5.5V (Khuyến nghị DC5V)
+  5. Dòng sạc: 0-2.1A.
+  6. Điện áp sạc khi đủ và điện áp cắt: 4.2V Đất 1%;
+  7. Dòng xả: 5V / 2.4A
+  8. Dòng tĩnh: 80μA;
+  9. Hiệu quả xả: < 96%;
+  10. Nhiệt độ môi trường: -20°C ~ + 85°C;
+- Có các chức năng bảo vệ quá dòng (0CP), Bảo vệ quá áp (0VP), Bảo vệ ngắn mạch (SCP), Bảo vệ quá nhiệt (0TP), Mô-đun đi kèm với chức năng bảo vệ pin Lithium (Thích hợp cho pin Lithium, Polyme, 18650... mà không cần bảo vệ có mạch bảo vệ).
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-s%E1%BA%A1c-pin-Lithium-gi%E1%BA%A3m-x%E1%BA%A3-5V2A-2.4A-th%E1%BB%B1c-t%E1%BA%BF-c%E1%BB%95ng-type-c-c%C3%B3-th%E1%BB%83-%C4%91%E1%BA%A7u-v%C3%A0o-%C4%91%E1%BA%A7u-ra-th%C6%B0%E1%BB%9Dng-m%E1%BB%9F-i.1456687807.28074129517)
 
 ## Module tăng áp 0.9-5V sang 5V
 
@@ -381,25 +401,6 @@ Phiên bản cải tiến, không tự tắt
 ![image](https://github.com/user-attachments/assets/e4e38919-0904-43c2-97db-c4f2d307d72c)
 
 - [Mua sắm](https://shopee.vn/Tp4056-3.7V-4.2V-9V-5V-2A-C%C3%B3-Th%E1%BB%83-%C4%90i%E1%BB%81u-Ch%E1%BB%89nh-B%C6%B0%E1%BB%9Bc-L%C3%AAn-M%C3%B4-%C4%90un-18650-Lithium-Li-ion-Pin-S%E1%BA%A1c-X%E1%BA%A3-B%E1%BA%A3ng-%C4%90i%E1%BB%87n-DIY-B%E1%BB%99-i.176393725.25922921429?xptdk=88b502ac-a364-463e-acea-a8a09ce0a260)
-
-## Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở
-
-![image](https://github.com/user-attachments/assets/19d85885-f9e4-41f8-9ae3-c11831f962cf)
-![image](https://github.com/user-attachments/assets/f047be6d-123e-4f35-8f51-146a27b6ee49)
-
-- Thông số:
-  1. Đầu vào và đầu ra với cùng một cổng/cặp pin
-  2. Nếu không sạc thì cổng in/out sẽ có điện áp 5V
-  3. Mô-đun có bảo vệ hai lớp (Chip điều khiển chính + IC bảo vệ).
-  4. Điện áp sạc: DC4.5V-5.5V (Khuyến nghị DC5V)
-  5. Dòng sạc: 0-2.1A.
-  6. Điện áp sạc khi đủ và điện áp cắt: 4.2V Đất 1%;
-  7. Dòng xả: 5V / 2.4A
-  8. Dòng tĩnh: 80μA;
-  9. Hiệu quả xả: < 96%;
-  10. Nhiệt độ môi trường: -20°C ~ + 85°C;
-- Có các chức năng bảo vệ quá dòng (0CP), Bảo vệ quá áp (0VP), Bảo vệ ngắn mạch (SCP), Bảo vệ quá nhiệt (0TP), Mô-đun đi kèm với chức năng bảo vệ pin Lithium (Thích hợp cho pin Lithium, Polyme, 18650... mà không cần bảo vệ có mạch bảo vệ).
-- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-s%E1%BA%A1c-pin-Lithium-gi%E1%BA%A3m-x%E1%BA%A3-5V2A-2.4A-th%E1%BB%B1c-t%E1%BA%BF-c%E1%BB%95ng-type-c-c%C3%B3-th%E1%BB%83-%C4%91%E1%BA%A7u-v%C3%A0o-%C4%91%E1%BA%A7u-ra-th%C6%B0%E1%BB%9Dng-m%E1%BB%9F-i.1456687807.28074129517)
 
 ## HW-357 Sạc pin lithium và kiêm tăng áp booster
 
