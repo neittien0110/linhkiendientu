@@ -26,6 +26,7 @@
 - [Sạc pin lithium cổng USB Type C ra 5V 2A có nút K](#sạc-pin-lithium-cổng-usb-type-c-ra-5v-2a-có-nút-k)
 - [LX-LCBST sạc pin lithium và kiêm xả pin có điều chỉnh điện áp](#lx-lcbst-sạc-pin-lithium-và-kiêm-xả-pin-có-điều-chỉnh-điện-áp)
 - [HW-357 Sạc pin lithium và kiêm tăng áp booster](#hw-357-sạc-pin-lithium-và-kiêm-tăng-áp-booster)
+- [Board điều khiển đèn pin sạc](#board-điều-khiển-đèn-pin-sạc)
 - [Đế pin và pin](#đế-pin-và-pin)
   - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
   - [Pin 14250 và đế.](#pin-14250-và-đế)
@@ -115,7 +116,6 @@
 
 - [Mua sắm](https://shopee.vn/Dc-dc-3A-Mini-Buck-M%C3%B4-%C4%91un-Ngu%E1%BB%93n-%C4%91i%E1%BB%87n-%C3%B4-t%C3%B4-6V9V12V-30V-%C4%91%E1%BA%BFn-3.3V-5V-%C4%90%E1%BA%A7u-ra-i.1456687807.27374003733)
 
-- 
 ## Mini560 buck hạ áp đầu ra 3.3V
 
 ![image](https://github.com/user-attachments/assets/5cd83fb0-cfc2-433f-9b21-8bb3a2958cf7)
@@ -473,6 +473,20 @@ Phiên bản cải tiến, không tự tắt
   - Dòng xả: Max. 2a
 - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-S%E1%BA%A1c-Pin-Lithium-Li-ion-18650-3.7V-4.2V-TP4056-Chuy%C3%AAn-D%E1%BB%A5ng-i.578443443.16942863022)
 - [Mua sắm](https://shopee.vn/3.7v-9V-5V-2A-C%C3%B3-Th%E1%BB%83-%C4%90i%E1%BB%81u-Ch%E1%BB%89nh-B%C6%B0%E1%BB%9Bc-L%C3%AAn-Boost-18650-Pin-Lithium-S%E1%BA%A1c-M%C3%B4-%C4%90un-T%C3%ADch-H%E1%BB%A3p-4.3-27V-i.176393725.25221943887?xptdk=8afbbd9e-a9e2-4c5b-9a03-6b6297a9a4c8)
+
+
+## Board điều khiển đèn pin sạc
+
+![image](https://github.com/user-attachments/assets/b993f9f0-ff34-47cf-b33d-ff10cc77d66f)
+![image](https://github.com/user-attachments/assets/74caccb8-a1a7-4351-b5d3-e076354de6af)
+
+- Thông số:
+  - Một bảng tích hợp công tắc Tact
+  - Điện áp đầu vào: 3,7 ~ 4,2V (Một pin)
+  - Cổng sạc: USB Type-C.
+  - Chiều dài bên bảng điều khiển: Khoảng 17,5mm
+- Thích hợp cho việc sử dụng hạt đèn pin công suất 10w.- 
+- [Mua sắm](https://shopee.vn/%C4%90%C3%A8n-pin-m%E1%BA%A1nh-B%E1%BA%A3ng-m%E1%BA%A1ch-truy%E1%BB%81n-%C4%91%E1%BB%99ng-B%E1%BA%A3ng-m%E1%BA%A1ch-Ph%E1%BB%A5-ki%E1%BB%87n-t%E1%BB%B1-l%C3%A0m-B%E1%BA%A3ng-m%E1%BA%A1ch-typec-C%E1%BB%95ng-s%E1%BA%A1c-X%E1%BA%A3-s%E1%BA%A1c-M%C3%B4-%C4%91un-t%C3%ADch-h%E1%BB%A3p-i.1456687807.29674146507)
 
 ## Đế pin và pin
 
