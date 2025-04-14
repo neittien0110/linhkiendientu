@@ -9,8 +9,10 @@
 - [Mini-360 module hạ áp có điều chỉnh bằng chiết áp](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp)
 - [Mini560 buck hạ áp đầu ra 3.3V](#mini560-buck-hạ-áp-đầu-ra-33v)
 - [MP1584EN buck hạ áp từ 24V/12V/9V ra 3v3~5V Đầu ra có thể điều chỉnh (hoặc cố định áp) ](#mp1584en-buck-hạ-áp-từ-24v12v9v-ra-3v35v-đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp)
+- [Buck vào 6,5 ~ 16V ra 5V Mô-đun điều chỉnh điện áp Chân 4A 18V Giá trị đỉnh 6A](#buck-vào-65--16v-ra-5v-mô-đun-điều-chỉnh-điện-áp-chân-4a-18v-giá-trị-đỉnh-6a)
 - [Mô đun tăng áp 0.9-5V sang 5V](#module-tăng-áp-09-5v-sang-5v)
 - [Module hạ áp mini360 mini-360 DC thấp hơn LM2596](#module-hạ-áp-mini360-mini-360-dc-thấp-hơn-lm2596)
+- [Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)
 - [Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở](#mô-đun-sạc-pin-lithium-giảm-xả-5v2a--24a--có-đầu-vàođầu-ra-thường-mở)
 - [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử)
@@ -86,6 +88,8 @@
 
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/7daa1d98-b675-4837-a487-94a8532c80c5)
 
+  > Xem thêm module có vẻ hay hơn [Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)
+
 - Thông số:
   - Tên model: Mini-360 (mô-đun buck chỉnh lưu đồng bộ kích thước cực nhỏ DC-DC)
   - Thuộc tính mô-đun: Không bị cô lập
@@ -101,7 +105,17 @@
   - Nhiệt độ hoạt động: -40 độ C đến +85 độ C
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
 
+## Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)
 
+![image](https://github.com/user-attachments/assets/fa353b46-ae82-486b-b2b5-7173c4d7dd4c)
+![image](https://github.com/user-attachments/assets/1ce9f5bb-41bc-4927-8c81-20b641a3c8aa)
+![image](https://github.com/user-attachments/assets/1d9e0b8d-a4b1-4ad9-aec5-dfb58f6f5b77)
+
+- Ưu điểm: board có chân [Castellated Holes](https://morepcb.com/wp-content/uploads/2023/07/PCB-Edges-and-Castellated-Holes.png) để tiện dán trực tiếp lên board khác
+
+- [Mua sắm](https://shopee.vn/Dc-dc-3A-Mini-Buck-M%C3%B4-%C4%91un-Ngu%E1%BB%93n-%C4%91i%E1%BB%87n-%C3%B4-t%C3%B4-6V9V12V-30V-%C4%91%E1%BA%BFn-3.3V-5V-%C4%90%E1%BA%A7u-ra-i.1456687807.27374003733)
+
+- 
 ## Mini560 buck hạ áp đầu ra 3.3V
 
 ![image](https://github.com/user-attachments/assets/5cd83fb0-cfc2-433f-9b21-8bb3a2958cf7)
@@ -132,6 +146,28 @@
   - Nhiệt độ làm việc: -40°C ~ + 85°C
   - Kích thước mô-đun: 22,3 * 17 * 4,2mm
 - [Mua sắm](https://shopee.vn/Dc-dc-B%E1%BA%A3ng-b%C6%B0%E1%BB%9Bc-xu%E1%BB%91ng-3A-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-24V-12V-9V-%C4%91%E1%BA%BFn-3.3V5V-%C4%90%E1%BA%A7u-ra-c%C3%B3-th%E1%BB%83-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-MP1584EN-i.1456687807.27374129575)
+
+## Buck vào 6,5 ~ 16V ra 5V Mô-đun điều chỉnh điện áp Chân 4A 18V Giá trị đỉnh 6A
+
+- Thông số:
+  - Điện áp vào: 5v - 18V
+  - Dòng ra hiện tại tối đa 5A
+  - Chênh lệch điện áp **Vin-Vout: > 1V**
+  - Dòng tĩnh 0,2ma
+  - Hiệu suất chuyển đổi lên đến 95%  
+  - Bảo vệ ngắn mạch đầu ra gợn sóng thấp 400khz
+- Về vấn đề nhiệt độ:
+  - Phạm vi nhiệt độ hoạt động: -40°C đến + 150°C
+  - Tích hợp bảo vệ quá nhiệt
+  - Dòng cực đại 6A, có thể liên tục đầu ra 5A trong thời gian ngắn (Chip sẽ bảo hiểm quá nhiệt) và nên có thêm thanh tản nhiệt
+  - Nếu ko có tản nhiệt, điện áp ra ổn định ở mức 3.3V 3,8A
+- Độ dày của bảng là 4,5mm.
+- Với module đầu ra 3v3, hoặc 5v thì sử dụng điện cảm 3R3 (Sẽ có một số lỗi trong các lô điện cảm khác nhau)
+- Giao diện của bảng mạch:
+  - Trong IN +: Đầu vào Dc Tích cực 4,5V-18V
+  + Cực âm đầu vào In-, cực âm đầu ra, đều được nối thông với nhau
+  + Sử dụng **dây đồng đấu nối phải đủ dày** để chịu dược dòng cao
+ - [Mua sắm](https://shopee.vn/Dc-dc-Buck-M%C3%B4-%C4%91un-ngu%E1%BB%93n-%C4%90%E1%BA%A7u-v%C3%A0o-6-5-~-16V-%C4%91%E1%BA%BFn-5V-M%C3%B4-%C4%91un-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-Ch%C3%A2n-4A-18V-Gi%C3%A1-tr%E1%BB%8B-%C4%91%E1%BB%89nh-6A-i.1456687807.28324156443)
 
 ## Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở
 
