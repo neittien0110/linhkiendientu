@@ -207,7 +207,11 @@
 
 ## Mạch sạc MH-CD42 có nút Key nhưng không usb
 
-![module](https://github.com/neittien0110/linhkiendientu/assets/8079397/c848dfda-a559-4a2f-9240-a1ca9779ec2f)
+Phiên bản chuẩn, tự tắt nếu dòng tải thấp (Footkeyboard là không đủ 50mA, vẫn bị tắt)
+![Phiên bản chuẩn](https://github.com/neittien0110/linhkiendientu/assets/8079397/c848dfda-a559-4a2f-9240-a1ca9779ec2f)
+
+Phiên bản cải tiến, không tự tắt
+![Phiên bản cải tiến](https://github.com/user-attachments/assets/fb7a3294-caf9-496a-ad42-ffa75ae81ed7)
 
 - Thông số:
   - 3 cặp lỗ PCB để Vào 5V
