@@ -382,6 +382,25 @@ Phiên bản cải tiến, không tự tắt
 
 - [Mua sắm](https://shopee.vn/Tp4056-3.7V-4.2V-9V-5V-2A-C%C3%B3-Th%E1%BB%83-%C4%90i%E1%BB%81u-Ch%E1%BB%89nh-B%C6%B0%E1%BB%9Bc-L%C3%AAn-M%C3%B4-%C4%90un-18650-Lithium-Li-ion-Pin-S%E1%BA%A1c-X%E1%BA%A3-B%E1%BA%A3ng-%C4%90i%E1%BB%87n-DIY-B%E1%BB%99-i.176393725.25922921429?xptdk=88b502ac-a364-463e-acea-a8a09ce0a260)
 
+## Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở
+
+![image](https://github.com/user-attachments/assets/19d85885-f9e4-41f8-9ae3-c11831f962cf)
+![image](https://github.com/user-attachments/assets/f047be6d-123e-4f35-8f51-146a27b6ee49)
+
+- Thông số:
+  1. Đầu vào và đầu ra với cùng một cổng/cặp pin
+  2. Nếu không sạc thì cổng in/out sẽ có điện áp 5V
+  3. Mô-đun có bảo vệ hai lớp (Chip điều khiển chính + IC bảo vệ).
+  4. Điện áp sạc: DC4.5V-5.5V (Khuyến nghị DC5V)
+  5. Dòng sạc: 0-2.1A.
+  6. Điện áp sạc khi đủ và điện áp cắt: 4.2V Đất 1%;
+  7. Dòng xả: 5V / 2.4A
+  8. Dòng tĩnh: 80μA;
+  9. Hiệu quả xả: < 96%;
+  10. Nhiệt độ môi trường: -20°C ~ + 85°C;
+- Có các chức năng bảo vệ quá dòng (0CP), Bảo vệ quá áp (0VP), Bảo vệ ngắn mạch (SCP), Bảo vệ quá nhiệt (0TP), Mô-đun đi kèm với chức năng bảo vệ pin Lithium (Thích hợp cho pin Lithium, Polyme, 18650... mà không cần bảo vệ có mạch bảo vệ).
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-s%E1%BA%A1c-pin-Lithium-gi%E1%BA%A3m-x%E1%BA%A3-5V2A-2.4A-th%E1%BB%B1c-t%E1%BA%BF-c%E1%BB%95ng-type-c-c%C3%B3-th%E1%BB%83-%C4%91%E1%BA%A7u-v%C3%A0o-%C4%91%E1%BA%A7u-ra-th%C6%B0%E1%BB%9Dng-m%E1%BB%9F-i.1456687807.28074129517)
+
 ## HW-357 Sạc pin lithium và kiêm tăng áp booster
 
 ![image](https://github.com/user-attachments/assets/ba8142cc-ecb4-4352-a94f-1de9b59c2479)
