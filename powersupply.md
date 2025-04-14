@@ -7,6 +7,7 @@
 - [Module chuyển đổi AC 220V --> DC 5V/0.7A](#module-chuyển-đổi-ac-220v----dc-5v07a)
 - [HW-626 module tăng áp 5V](#hw-626-module-tăng-áp-5v)
 - [Mini-360 module hạ áp có điều chỉnh bằng chiết áp](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp)
+- [Mini560 buck hạ áp đầu ra 3.3V](#mini560-buck-hạ-áp-đầu-ra-33v)
 - [Mô đun tăng áp 0.9-5V sang 5V](#module-tăng-áp-09-5v-sang-5v)
 - [Module hạ áp mini360 mini-360 DC thấp hơn LM2596](#module-hạ-áp-mini360-mini-360-dc-thấp-hơn-lm2596)
 - [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
@@ -96,6 +97,21 @@
   - Điều chỉnh điện áp: ± 2,5%
   - Nhiệt độ hoạt động: -40 độ C đến +85 độ C
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
+
+
+## Mini560 buck hạ áp đầu ra 3.3V
+
+![image](https://github.com/user-attachments/assets/5cd83fb0-cfc2-433f-9b21-8bb3a2958cf7)
+
+- Thông số:
+  - Điện áp đầu vào: 5V-20V
+  - Đầu ra: 3.3v, < 5A (Khoảng cách dài chạy trên 4A cần để thêm tản nhiệt)
+  - Chênh lệch điện áp In-Out: > 1.7V
+  - Tần số chuyển đổi: 500KHz
+  - Hiệu suất chuyển đổi: 99% (Cao nhất)
+  - Nhiệt độ làm việc: -40℃Đến + 85℃
+  - Chế độ chỉnh lưu: Bộ chỉnh lưu đồng bộ
+ - [Mua sắm](https://shopee.vn/Dc-dc-mini560-DC-Buck-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-Hi%E1%BB%87u-su%E1%BA%A5t-cao-%C4%90%E1%BA%A7u-ra-3.3V-5V-9V-12V-5A-i.1456687807.25840639942)
 
 ## Module tăng áp 0.9-5V sang 5V
 
