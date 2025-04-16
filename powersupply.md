@@ -137,15 +137,19 @@
   - Hiệu suất chuyển đổi: 99% (Cao nhất)
   - Nhiệt độ làm việc: -40℃Đến + 85℃
   - Chế độ chỉnh lưu: Bộ chỉnh lưu đồng bộ
-- Module mini360 màu đen bên trái ở giữa\
+- Module mini360 màu đen ở góc trái trên\
   ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)
 - [Mua sắm](https://shopee.vn/Dc-dc-mini560-DC-Buck-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-Hi%E1%BB%87u-su%E1%BA%A5t-cao-%C4%90%E1%BA%A7u-ra-3.3V-5V-9V-12V-5A-i.1456687807.25840639942)
 
 ## MP1584EN buck hạ áp từ 24V/12V/9V/5V ra 3v3 - Đầu ra có thể điều chỉnh (hoặc cố định áp) 
 
-
 ![image](https://github.com/user-attachments/assets/3c3fb27f-82fb-482a-9a9a-fd37ddfa95e3)
 ![image](https://github.com/user-attachments/assets/08e93326-bf0d-49f7-9af5-4e6a446c401f)
+Ảnh chụp thật
+![image](https://github.com/user-attachments/assets/58e93057-4762-427b-beeb-8ac002d6e4e2)
+![image](https://github.com/user-attachments/assets/79292227-364d-42b0-bba8-ba81fa670d5b)
+- Module MP1584EN màu đen bên phải ở giữa\
+  ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)
 - Ưu điểm: board có chân [Castellated Holes](https://morepcb.com/wp-content/uploads/2023/07/PCB-Edges-and-Castellated-Holes.png) để tiện dán trực tiếp lên board khác
 - Nhược điểm: khoảng cách giữa các cụm 2 chân pin là không chẵn cho 2.54mm nên cắm Breadboard được, không căm lên PCB Test được.\
   ![image](https://github.com/user-attachments/assets/3309925a-f4c3-45d8-ae2a-c92a46011ab5)
