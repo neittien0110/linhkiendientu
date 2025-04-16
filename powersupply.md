@@ -143,11 +143,14 @@
 
 ## MP1584EN buck hạ áp từ 24V/12V/9V/5V ra 3v3 - Đầu ra có thể điều chỉnh (hoặc cố định áp) 
 
-  (đã test ok khi kết hợp với module sạc và xả tăng áp 5v, để có đầu ra 3v3)
+
 ![image](https://github.com/user-attachments/assets/3c3fb27f-82fb-482a-9a9a-fd37ddfa95e3)
 ![image](https://github.com/user-attachments/assets/08e93326-bf0d-49f7-9af5-4e6a446c401f)
-
 - Ưu điểm: board có chân [Castellated Holes](https://morepcb.com/wp-content/uploads/2023/07/PCB-Edges-and-Castellated-Holes.png) để tiện dán trực tiếp lên board khác
+- Nhược điểm: khoảng cách giữa các cụm 2 chân pin là không chẵn cho 2.54mm nên cắm Breadboard được, không căm lên PCB Test được.\
+  ![image](https://github.com/user-attachments/assets/3309925a-f4c3-45d8-ae2a-c92a46011ab5)
+- đã test ok khi kết hợp với module sạc và xả tăng áp 5v, để có đầu ra 3v3)\
+  ![image](https://github.com/user-attachments/assets/6fca43ec-89c3-43e7-9299-8c4ed460b10a)
 - Thông số:
   - Điện áp đầu vào: 5.3V-26V
   - Điện áp đầu ra: 3.3V
