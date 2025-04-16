@@ -1,6 +1,13 @@
 # NGUỒN CẤP
 
+Lượt mua 1\
 ![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)
+Lượt mua 2\
+  [trái trên](#mp1584en-buck-hạ-áp-từ-24v12v9v5v-ra-3v3---đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp), phải trên\
+  trái giữa, [phải giữa](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)\
+  trái dưới, phải dưới\
+  ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc) \
+  
 
 - [IC nguồn AMS1117 và các module liên quan](#ic-nguồn-ams1117-và-các-module-liên-quan)
   - [Module nguồn ổn áp dùng AMS1117](#module-nguôn-ổn-áp-dùng-ams1117)
@@ -148,7 +155,7 @@
 Ảnh chụp thật
 ![image](https://github.com/user-attachments/assets/58e93057-4762-427b-beeb-8ac002d6e4e2)
 ![image](https://github.com/user-attachments/assets/79292227-364d-42b0-bba8-ba81fa670d5b)
-- Module MP1584EN màu đen bên phải ở giữa\
+- Module MP1584EN màu đen bên trái ở trên\
   ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)
 - Ưu điểm: board có chân [Castellated Holes](https://morepcb.com/wp-content/uploads/2023/07/PCB-Edges-and-Castellated-Holes.png) để tiện dán trực tiếp lên board khác
 - Nhược điểm: khoảng cách giữa các cụm 2 chân pin là không chẵn cho 2.54mm nên cắm Breadboard được, không căm lên PCB Test được.\
