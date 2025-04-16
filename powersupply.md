@@ -4,8 +4,8 @@ Lượt mua 1\
 ![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)\
 Lượt mua 2\
   [trái trên](#mp1584en-buck-hạ-áp-từ-24v12v9v5v-ra-3v3---đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp), [phải trên](#mô-đun-sạc-pin-lithium-giảm-xả-5v2a--24a--có-đầu-vàođầu-ra-thường-mở)\
-  trái giữa, [phải giữa](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)\
-  trái dưới, [phải dưới](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)\
+  [trái giữa](mini560-buck-hạ-áp-đầu-ra-33v), [phải giữa](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)\
+  [trái dưới](#buck-vào-65--16v-ra-5v-mô-đun-điều-chỉnh-điện-áp-chân-4a-18v-giá-trị-đỉnh-6a), [phải dưới](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)\
   ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)\
   
 - [IC nguồn AMS1117 và các module liên quan](#ic-nguồn-ams1117-và-các-module-liên-quan)
