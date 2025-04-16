@@ -175,8 +175,9 @@ Lượt mua 2\
 
 ![image](https://github.com/user-attachments/assets/c535385d-8c10-444f-92d6-34ddae2524c3)
 
- - Đã test thử với đầu vào từ USB Type-C 5v thì cho đầu ra 3v4.
-  
+ - Đã test thử với đầu vào từ USB Type-C 5v thì cho đầu ra 3v4.\
+   ![image](https://github.com/user-attachments/assets/c75e688d-d310-4d68-a308-18392fee7434)
+
 - Ưu điểm:
   - board có chân [Castellated Holes](https://morepcb.com/wp-content/uploads/2023/07/PCB-Edges-and-Castellated-Holes.png) để tiện dán trực tiếp lên board khác
   - 2 chân pin theo chiều ngang thì chẵn theo 2.54mm
@@ -339,8 +340,7 @@ Phiên bản cải tiến, không tự tắt
   - 4 led hiển thị tự tắt sau tầm 30 giây.
 - Nhược điểm
   -  Nút K chỉ có tác dụng bật đèn hiển thị, không tác động lên quá trình tắt nguồn. Nút K tích cực mức thấp với 3 chân tin hiệu ra và 3 chân nối GND
-     Đã thử nghiệm: có đấu nối nút K ngoài bằng cách lấy dây GND nối vào chân ở gần lỗ khoét bắt vít.
-
+     Đã thử nghiệm: có đấu nối nút K ngoài bằng cách lấy dây GND nối vào chân ở gần lỗ khoét bắt vít. ![vị trí đấu nút K](https://github.com/user-attachments/assets/af294863-6f87-4461-87cb-f73e67e06931)
 - Thông số:
   - Lắp pin ngược cực sẽ bị cháy board.
   - Công tắc đồng bộ 2a để sạc hiệu quả
