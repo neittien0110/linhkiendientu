@@ -8,11 +8,10 @@
 - [HW-626 module tăng áp 5V](#hw-626-module-tăng-áp-5v)
 - [Mini-360 module hạ áp có điều chỉnh bằng chiết áp](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp)
 - [Mini560 buck hạ áp đầu ra 3.3V](#mini560-buck-hạ-áp-đầu-ra-33v)
+- [Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)
 - [MP1584EN buck hạ áp từ 24V/12V/9V ra 3v3~5V Đầu ra có thể điều chỉnh (hoặc cố định áp) ](#mp1584en-buck-hạ-áp-từ-24v12v9v-ra-3v35v-đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp)
 - [Buck vào 6,5 ~ 16V ra 5V Mô-đun điều chỉnh điện áp Chân 4A 18V Giá trị đỉnh 6A](#buck-vào-65--16v-ra-5v-mô-đun-điều-chỉnh-điện-áp-chân-4a-18v-giá-trị-đỉnh-6a)
 - [Mô đun tăng áp 0.9-5V sang 5V](#module-tăng-áp-09-5v-sang-5v)
-- [Module hạ áp mini360 mini-360 DC thấp hơn LM2596](#module-hạ-áp-mini360-mini-360-dc-thấp-hơn-lm2596)
-- [Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)
 - [Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở](#mô-đun-sạc-pin-lithium-giảm-xả-5v2a--24a--có-đầu-vàođầu-ra-thường-mở)
 - [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử)
@@ -88,8 +87,9 @@
 ## Mini-360 module hạ áp có điều chỉnh bằng chiết áp
 
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/7daa1d98-b675-4837-a487-94a8532c80c5)
+  ![image](https://github.com/user-attachments/assets/0d4f52e5-a5a0-45c9-9b15-31bb1eb5e340)
 
-  > Xem thêm module có vẻ hay hơn [Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)
+  > Xem thêm module có vẻ hay hơn [Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác), kích thước y hệt
 
 - Thông số:
   - Tên model: Mini-360 (mô-đun buck chỉnh lưu đồng bộ kích thước cực nhỏ DC-DC)
@@ -105,6 +105,7 @@
   - Điều chỉnh điện áp: ± 2,5%
   - Nhiệt độ hoạt động: -40 độ C đến +85 độ C
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
+- [Xem thêm các module nguồn có thư viện easyeda ,lcsc](./EasyEDA_Library.md)
 
 ## Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)
 
@@ -113,6 +114,14 @@
 ![image](https://github.com/user-attachments/assets/1d9e0b8d-a4b1-4ad9-aec5-dfb58f6f5b77)
 
 - Ưu điểm: board có chân [Castellated Holes](https://morepcb.com/wp-content/uploads/2023/07/PCB-Edges-and-Castellated-Holes.png) để tiện dán trực tiếp lên board khác
+
+- So sánh mini360 màu xanh và mini360 biến thể màu đen
+  ![so sánh 1](https://github.com/user-attachments/assets/0119689f-fc1b-4934-a8ed-177c8ef5b997)
+  ![so sánh mặt trên](https://github.com/user-attachments/assets/1abfe4b1-5d3f-44a7-a3cd-47b330370f2e)
+  ![so sánh mặt đáy](https://github.com/user-attachments/assets/947b4683-d454-4d7f-9bf9-cbade7282ab9)
+
+- Module mini360 màu đen bên phải ở giữa\
+  ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)
 
 - [Mua sắm](https://shopee.vn/Dc-dc-3A-Mini-Buck-M%C3%B4-%C4%91un-Ngu%E1%BB%93n-%C4%91i%E1%BB%87n-%C3%B4-t%C3%B4-6V9V12V-30V-%C4%91%E1%BA%BFn-3.3V-5V-%C4%90%E1%BA%A7u-ra-i.1456687807.27374003733)
 
@@ -199,26 +208,6 @@
 - Hiệu suất chuyển đổi điển hình: 85%
 - Kích thước: 11*10,5*7,5mm
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-t%C4%83ng-%C3%A1p-0.9-5V-sang-5V-1.5V-1.8V-2.5V-3V-3.3V-3.7V-4.2V-sang-5V-thay-th%E1%BA%BF-ti%E1%BB%87n-d%E1%BB%A5ng-i.578443443.11667335774)
-
-## Module hạ áp mini360 mini-360 DC thấp hơn LM2596
-
-  ![image](https://github.com/user-attachments/assets/0d4f52e5-a5a0-45c9-9b15-31bb1eb5e340)
-
-- Thuộc tính mô-đun: Không bị cô lập
-- Chỉnh lưu: Chỉnh lưu đồng bộ
-- Điện áp đầu vào: 4,75V-23V
-- Điện áp đầu ra: 1.0V-17V
-- Dòng điện đầu ra: Giảm mức 3A, dài 1.8A
-- Hiệu suất chuyển đổi: 96% (tối đa)
-- Tần số chuyển đổi: 340KHz
-- Độ gợn sóng đầu ra: 30mV (không tải)
-- Điều chỉnh tải: ± 0,5% \
-- Điều chỉnh điện áp: ± 2,5%
-- Nhiệt độ hoạt động: -40 độ C đến +85 độ C
-- Đặc điểm: Sử dụng cuộn cảm ứng điện được đúc nguyên khối và chip điều khiển bộ chỉnh lưu đồng bộ, nhỏ hơn và hiệu quả hơn
-- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-h%E1%BA%A1-%C3%A1p-mini360-mini-360-DC-th%E1%BA%A5p-h%C6%A1n-LM2596-i.578443443.12390124552)
-
-[Xem thêm các module nguồn có thư viện easyeda ,lcsc](./EasyEDA_Library.md)
 
 ## Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C
 
