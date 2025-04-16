@@ -28,7 +28,18 @@
   - [Mua sắm](https://shopee.vn/H%E1%BB%99p-Nh%E1%BB%B1a-56x58x28mm-i.311128107.6081070722)
 - Hộp nhựa kích thước ngoài:\
   ![Ảnh minh họa](https://down-vn.img.susercontent.com/file/2c729b739fe25598cc3d17d0c000d95a.webp)
-  ![Đóng hộp gắn PCB](https://github.com/user-attachments/assets/13bfe92d-4002-47d4-a24a-ce0493d56c5c)
   - [Thiết kế PCB breadboard tương ứng](https://easyeda.com/editor#id=d9d9a45130e240bb980734934fb2cc7f)
      ![Ảnh thiết kế PCB](https://github.com/user-attachments/assets/1386fb15-ff09-4a86-9ce3-b75d43c86e26)
   - [Mua sắm](https://shopee.vn/H%E1%BB%99p-Nh%E1%BB%B1a-70x45x30mm-i.311128107.9834811764)    
+
+- Hộp nhựa nắp trong 85x58x33 chống thấm nước\
+  - Kích thước ngoài: 85 (dài) x 58 (rộng) x 33 (cao)
+  - Kích thước trong òng: 76.6 (dài) x 51.6 (rộng) 
+  ![Đóng hộp gắn PCB](https://github.com/user-attachments/assets/13bfe92d-4002-47d4-a24a-ce0493d56c5c)
+  ![ảnh chụp thực tế](https://github.com/user-attachments/assets/d5875863-c7d2-4239-8ca1-ab5a020f47b8)
+  ![ảnh chụp thực tế](https://github.com/user-attachments/assets/7634601c-ab5f-4976-b2f1-0ba2a03f6423)
+  ![image](https://github.com/user-attachments/assets/76cced94-d304-4b04-96a8-3d75ad64b43e)
+  ![image](https://github.com/user-attachments/assets/a410be14-b266-4cb1-a0af-10ffea7b9813)
+
+
+  - [Mua sắm](https://shopee.vn/Eatopyour-85x58x33-V%E1%BB%8F-trong-su%E1%BB%91t-ch%E1%BB%91ng-th%E1%BA%A5m-n%C6%B0%E1%BB%9Bc-H%E1%BB%99p-d%E1%BB%B1-%C3%A1n-c%C3%A1p-%C4%91i%E1%BB%87n-t%E1%BB%AD-V%E1%BB%8F-b%E1%BB%8Dc-m%E1%BB%9Bi-i.1263054945.25583588993)
