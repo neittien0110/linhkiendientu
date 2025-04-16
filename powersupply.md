@@ -1,11 +1,11 @@
 # NGUỒN CẤP
 
 Lượt mua 1\
-![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)
+![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)\
 Lượt mua 2\
   [trái trên](#mp1584en-buck-hạ-áp-từ-24v12v9v5v-ra-3v3---đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp), phải trên\
   trái giữa, [phải giữa](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)\
-  trái dưới, phải dưới\
+  trái dưới, [phải dưới](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)\
   ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc) \
   
 
@@ -338,7 +338,19 @@ Phiên bản cải tiến, không tự tắt
 
 ![image](https://github.com/user-attachments/assets/53c5e4e7-f397-4f6a-b60b-c1738999ce44)
 ![image](https://github.com/user-attachments/assets/d94ebe18-1672-4b40-81d2-f124e1d07e02)
-> Rất giống [MH-CD42]() nhưng bé hơn
+\Ảnh chụp thật\
+![image](https://github.com/user-attachments/assets/49be39ff-51a2-48f3-8719-398b54b9f182)
+![image](https://github.com/user-attachments/assets/30e6d040-fba2-4c99-8365-a3ba36d0f0ba)
+
+> Rất giống [MH-CD42], bằng chiều rộng, nhưng ngắn hơn về chiều dài.
+
+- __Ưu điểm__
+  - 6 chân pin và giãn cách đều khớp với 2.54m. vì vậy cắm tốt trên breadboard và cả pcb test
+  - Luôn xả 5v kể cả khi không có tải và kể cả khi xả từ pin
+  - 4 led hiển thị tự tắt sau tầm 30 giây.
+- Nhược điểm
+  -  Nút K chỉ có tác dụng bật đèn hiển thị, không tác động lên quá trình tắt nguồn. Nút K tích cực mức thấp với 3 chân tin hiệu ra và 3 chân nối GND
+     Đã thử nghiệm: có đấu nối nút K ngoài bằng cách lấy dây GND nối vào chân ở gần lỗ khoét bắt vít.
 
 - Thông số:
   - Lắp pin ngược cực sẽ bị cháy board.
