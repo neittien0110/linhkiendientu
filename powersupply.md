@@ -3,12 +3,11 @@
 Lượt mua 1\
 ![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)\
 Lượt mua 2\
-  [trái trên](#mp1584en-buck-hạ-áp-từ-24v12v9v5v-ra-3v3---đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp), phải trên\
+  [trái trên](#mp1584en-buck-hạ-áp-từ-24v12v9v5v-ra-3v3---đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp), [phải trên](#mô-đun-sạc-pin-lithium-giảm-xả-5v2a--24a--có-đầu-vàođầu-ra-thường-mở)\
   trái giữa, [phải giữa](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)\
   trái dưới, [phải dưới](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)\
-  ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc) \
+  ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)\
   
-
 - [IC nguồn AMS1117 và các module liên quan](#ic-nguồn-ams1117-và-các-module-liên-quan)
   - [Module nguồn ổn áp dùng AMS1117](#module-nguôn-ổn-áp-dùng-ams1117)
 - [Module chuyển đổi AC 220V --> DC 5V/0.7A](#module-chuyển-đổi-ac-220v----dc-5v07a)
@@ -19,7 +18,6 @@ Lượt mua 2\
 - [MP1584EN buck hạ áp từ 24V/12V/9V/5V ra 3v3 - Đầu ra có thể điều chỉnh (hoặc cố định áp)](#mp1584en-buck-hạ-áp-từ-24v12v9v5v-ra-3v3---đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp)
 - [Buck vào 6,5 ~ 16V ra 5V Mô-đun điều chỉnh điện áp Chân 4A 18V Giá trị đỉnh 6A](#buck-vào-65--16v-ra-5v-mô-đun-điều-chỉnh-điện-áp-chân-4a-18v-giá-trị-đỉnh-6a)
 - [Mô đun tăng áp 0.9-5V sang 5V](#module-tăng-áp-09-5v-sang-5v)
-- [Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở](#mô-đun-sạc-pin-lithium-giảm-xả-5v2a--24a--có-đầu-vàođầu-ra-thường-mở)
 - [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử Rifbar Turbo](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử-rifbar-turbo)
@@ -27,6 +25,7 @@ Lượt mua 2\
 - [Mạch sạc Lithium có màn hình nhỏ 2](#mạch-sạc-lithium-có-màn-hình-nhỏ-2)
 - [Mạch sạc MH-CD42 có nút Key nhưng không usb](#mạch-sạc-mh-cd42-có-nút-key-nhưng-không-usb)
 - [Module sạc xả pin Lithium với đầu ra 4.2v](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)
+- [Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở](#mô-đun-sạc-pin-lithium-giảm-xả-5v2a--24a--có-đầu-vàođầu-ra-thường-mở)
 - [Mạch sạc LX-LBC3 5v](#mạch-sạc-lbc3)
 - [Mạch sạc pin type-C 3.7v](#mạch-sạc-pin-type-c-37v)
 - [Sạc pin lithium cổng USB Type C ra 5V 2A có nút K](#sạc-pin-lithium-cổng-usb-type-c-ra-5v-2a-có-nút-k)
@@ -196,25 +195,6 @@ Lượt mua 2\
   + Sử dụng **dây đồng đấu nối phải đủ dày** để chịu dược dòng cao
  - [Mua sắm](https://shopee.vn/Dc-dc-Buck-M%C3%B4-%C4%91un-ngu%E1%BB%93n-%C4%90%E1%BA%A7u-v%C3%A0o-6-5-~-16V-%C4%91%E1%BA%BFn-5V-M%C3%B4-%C4%91un-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-Ch%C3%A2n-4A-18V-Gi%C3%A1-tr%E1%BB%8B-%C4%91%E1%BB%89nh-6A-i.1456687807.28324156443)
 
-## Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở
-
-![image](https://github.com/user-attachments/assets/19d85885-f9e4-41f8-9ae3-c11831f962cf)
-![image](https://github.com/user-attachments/assets/f047be6d-123e-4f35-8f51-146a27b6ee49)
-
-- Thông số:
-  1. Đầu vào và đầu ra với cùng một cổng/cặp pin
-  2. Nếu không sạc thì cổng in/out sẽ có điện áp 5V
-  3. Mô-đun có bảo vệ hai lớp (Chip điều khiển chính + IC bảo vệ).
-  4. Điện áp sạc: DC4.5V-5.5V (Khuyến nghị DC5V)
-  5. Dòng sạc: 0-2.1A.
-  6. Điện áp sạc khi đủ và điện áp cắt: 4.2V Đất 1%;
-  7. Dòng xả: 5V / 2.4A
-  8. Dòng tĩnh: 80μA;
-  9. Hiệu quả xả: < 96%;
-  10. Nhiệt độ môi trường: -20°C ~ + 85°C;
-- Có các chức năng bảo vệ quá dòng (0CP), Bảo vệ quá áp (0VP), Bảo vệ ngắn mạch (SCP), Bảo vệ quá nhiệt (0TP), Mô-đun đi kèm với chức năng bảo vệ pin Lithium (Thích hợp cho pin Lithium, Polyme, 18650... mà không cần bảo vệ có mạch bảo vệ).
-- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-s%E1%BA%A1c-pin-Lithium-gi%E1%BA%A3m-x%E1%BA%A3-5V2A-2.4A-th%E1%BB%B1c-t%E1%BA%BF-c%E1%BB%95ng-type-c-c%C3%B3-th%E1%BB%83-%C4%91%E1%BA%A7u-v%C3%A0o-%C4%91%E1%BA%A7u-ra-th%C6%B0%E1%BB%9Dng-m%E1%BB%9F-i.1456687807.28074129517)
-
 ## Module tăng áp 0.9-5V sang 5V
 
   ![Mô đun tăng áp 0.9-5V sang 5V](https://github.com/user-attachments/assets/4b04538b-44b5-4156-b5a8-f5dd588fd862)
@@ -364,6 +344,40 @@ Phiên bản cải tiến, không tự tắt
 -  Các chân Gnd bao gồm của Đầu vào, của Đầu ra, của pin âm bản đều được nối thông với nhau.
 
 - [Mua sắm](https://shopee.vn/3.7v-4.2V-18650-Pin-Lithium-T%C4%83ng-C%C6%B0%E1%BB%9Dng-S%E1%BA%A1c-B%E1%BA%A3ng-%C4%90i%E1%BB%87n-B%E1%BA%A3o-V%E1%BB%87-5V-2.4-S%E1%BA%A1c-X%E1%BA%A3-M%C3%B4-%C4%90un-T%C3%ADch-H%E1%BB%A3p-i.1456687807.28224156185)
+
+## Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở
+
+![image](https://github.com/user-attachments/assets/19d85885-f9e4-41f8-9ae3-c11831f962cf)
+![image](https://github.com/user-attachments/assets/f047be6d-123e-4f35-8f51-146a27b6ee49)
+
+- Ưu điểm:
+- __Ưu điểm__
+  - 4 chân pin và giãn cách đều khớp với 2.54m, với 3 pin empty ở giữa. vì vậy cắm tốt trên breadboard và cả pcb test
+  - Luôn xả 5v kể cả khi không có tải và kể cả khi xả từ pin
+  - 4 led hiển thị tự tắt sau tầm 5 giây, sáng yếu
+- Nhược điểm
+  -  Nút K chỉ có tác dụng bật đèn hiển thị, không tác động lên quá trình tắt nguồn. Nút K tích cực mức thấp với 3 chân tin hiệu ra và 3 chân nối GND. Tác động lên nút bấm ở góc như ảnh dưới đây để active.
+  ![image](https://github.com/user-attachments/assets/27a11d91-166d-45cb-9034-aea5bfbc69c2)
+
+- Ảnh chụp thật:\
+  Sạc cho pin với điện áp 4v2\
+  ![image](https://github.com/user-attachments/assets/21e33b7e-9039-484a-8c6b-be1df6d3019a)
+  Pin xả và tăng áp ra cổng Out/In kết hợp, điện áp chỉ đạt xấp xỉ 5v\
+  ![image](https://github.com/user-attachments/assets/ccab6204-2eb7-4340-854f-e4e0118c59be)
+
+- Thông số:
+  1. Đầu vào và đầu ra với cùng một cổng/cặp pin
+  2. Nếu không sạc thì cổng in/out sẽ có điện áp 5V
+  3. Mô-đun có bảo vệ hai lớp (Chip điều khiển chính + IC bảo vệ).
+  4. Điện áp sạc: DC4.5V-5.5V (Khuyến nghị DC5V)
+  5. Dòng sạc: 0-2.1A.
+  6. Điện áp sạc khi đủ và điện áp cắt: 4.2V Đất 1%;
+  7. Dòng xả: 5V / 2.4A
+  8. Dòng tĩnh: 80μA;
+  9. Hiệu quả xả: < 96%;
+  10. Nhiệt độ môi trường: -20°C ~ + 85°C;
+- Có các chức năng bảo vệ quá dòng (0CP), Bảo vệ quá áp (0VP), Bảo vệ ngắn mạch (SCP), Bảo vệ quá nhiệt (0TP), Mô-đun đi kèm với chức năng bảo vệ pin Lithium (Thích hợp cho pin Lithium, Polyme, 18650... mà không cần bảo vệ có mạch bảo vệ).
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-s%E1%BA%A1c-pin-Lithium-gi%E1%BA%A3m-x%E1%BA%A3-5V2A-2.4A-th%E1%BB%B1c-t%E1%BA%BF-c%E1%BB%95ng-type-c-c%C3%B3-th%E1%BB%83-%C4%91%E1%BA%A7u-v%C3%A0o-%C4%91%E1%BA%A7u-ra-th%C6%B0%E1%BB%9Dng-m%E1%BB%9F-i.1456687807.28074129517)
 
 ## Mạch sạc LX-LBC3
 
