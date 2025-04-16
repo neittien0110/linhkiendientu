@@ -9,7 +9,7 @@
 - [Mini-360 module hạ áp có điều chỉnh bằng chiết áp](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp)
 - [Mini560 buck hạ áp đầu ra 3.3V](#mini560-buck-hạ-áp-đầu-ra-33v)
 - [Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)
-- [MP1584EN buck hạ áp từ 24V/12V/9V ra 3v3~5V Đầu ra có thể điều chỉnh (hoặc cố định áp) ](#mp1584en-buck-hạ-áp-từ-24v12v9v-ra-3v35v-đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp)
+- [MP1584EN buck hạ áp từ 24V/12V/9V/5V ra 3v3 - Đầu ra có thể điều chỉnh (hoặc cố định áp)](#mp1584en-buck-hạ-áp-từ-24v12v9v5v-ra-3v3---đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp)
 - [Buck vào 6,5 ~ 16V ra 5V Mô-đun điều chỉnh điện áp Chân 4A 18V Giá trị đỉnh 6A](#buck-vào-65--16v-ra-5v-mô-đun-điều-chỉnh-điện-áp-chân-4a-18v-giá-trị-đỉnh-6a)
 - [Mô đun tăng áp 0.9-5V sang 5V](#module-tăng-áp-09-5v-sang-5v)
 - [Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A  có đầu vào/đầu ra thường mở](#mô-đun-sạc-pin-lithium-giảm-xả-5v2a--24a--có-đầu-vàođầu-ra-thường-mở)
@@ -141,8 +141,9 @@
   ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)
 - [Mua sắm](https://shopee.vn/Dc-dc-mini560-DC-Buck-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-Hi%E1%BB%87u-su%E1%BA%A5t-cao-%C4%90%E1%BA%A7u-ra-3.3V-5V-9V-12V-5A-i.1456687807.25840639942)
 
-## MP1584EN buck hạ áp từ 24V/12V/9V ra 3v3~5V Đầu ra có thể điều chỉnh (hoặc cố định áp) 
+## MP1584EN buck hạ áp từ 24V/12V/9V/5V ra 3v3 - Đầu ra có thể điều chỉnh (hoặc cố định áp) 
 
+  (đã test ok khi kết hợp với module sạc và xả tăng áp 5v, để có đầu ra 3v3)
 ![image](https://github.com/user-attachments/assets/3c3fb27f-82fb-482a-9a9a-fd37ddfa95e3)
 ![image](https://github.com/user-attachments/assets/08e93326-bf0d-49f7-9af5-4e6a446c401f)
 
@@ -156,6 +157,7 @@
   - Ripple đầu ra: < 30mV
   - Nhiệt độ làm việc: -40°C ~ + 85°C
   - Kích thước mô-đun: 22,3 * 17 * 4,2mm
+- Ở đầu vào, đã test cắm ngược cực In+, In- thì mạch sẽ bị nóng, nhưng không hỏng.
 - [Mua sắm](https://shopee.vn/Dc-dc-B%E1%BA%A3ng-b%C6%B0%E1%BB%9Bc-xu%E1%BB%91ng-3A-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-24V-12V-9V-%C4%91%E1%BA%BFn-3.3V5V-%C4%90%E1%BA%A7u-ra-c%C3%B3-th%E1%BB%83-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-MP1584EN-i.1456687807.27374129575)
 
 ## Buck vào 6,5 ~ 16V ra 5V Mô-đun điều chỉnh điện áp Chân 4A 18V Giá trị đỉnh 6A
