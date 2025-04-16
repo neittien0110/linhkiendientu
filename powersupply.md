@@ -137,7 +137,9 @@
   - Hiệu suất chuyển đổi: 99% (Cao nhất)
   - Nhiệt độ làm việc: -40℃Đến + 85℃
   - Chế độ chỉnh lưu: Bộ chỉnh lưu đồng bộ
- - [Mua sắm](https://shopee.vn/Dc-dc-mini560-DC-Buck-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-Hi%E1%BB%87u-su%E1%BA%A5t-cao-%C4%90%E1%BA%A7u-ra-3.3V-5V-9V-12V-5A-i.1456687807.25840639942)
+- Module mini360 màu đen bên trái ở giữa\
+  ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)
+- [Mua sắm](https://shopee.vn/Dc-dc-mini560-DC-Buck-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-Hi%E1%BB%87u-su%E1%BA%A5t-cao-%C4%90%E1%BA%A7u-ra-3.3V-5V-9V-12V-5A-i.1456687807.25840639942)
 
 ## MP1584EN buck hạ áp từ 24V/12V/9V ra 3v3~5V Đầu ra có thể điều chỉnh (hoặc cố định áp) 
 
