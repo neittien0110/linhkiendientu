@@ -173,6 +173,17 @@ Lượt mua 2\
 
 ## Buck vào 6,5 ~ 16V ra 5V Mô-đun điều chỉnh điện áp Chân 4A 18V Giá trị đỉnh 6A
 
+![image](https://github.com/user-attachments/assets/c535385d-8c10-444f-92d6-34ddae2524c3)
+
+ - Đã test thử với đầu vào từ USB Type-C 5v thì cho đầu ra 3v4.
+  
+- Ưu điểm:
+  - board có chân [Castellated Holes](https://morepcb.com/wp-content/uploads/2023/07/PCB-Edges-and-Castellated-Holes.png) để tiện dán trực tiếp lên board khác
+  - 2 chân pin theo chiều ngang thì chẵn theo 2.54mm
+  - 2 chân pin theo chiều dọc thì phải 1 lỗ tròn và một lỗ Castellated mới chẵn theo 2.54mm.
+- Nhược điểm:
+  - Chỉ phù hợp với áp vào cao. 5v đã là thấp rồi.
+
 - Thông số:
   - Điện áp vào: 5v - 18V
   - Dòng ra hiện tại tối đa 5A
