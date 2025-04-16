@@ -354,6 +354,7 @@ Phiên bản cải tiến, không tự tắt
   - Có 4 led chỉ thị mức độ pin sạc
   - Mức tiêu thụ nguồn ở chế độ chờ: < 150μA
   - Có bảo vệ ngắt sạc Pin khi đầy, quá tải, bảo vệ xả quá dòng
+  - Kích thước: 16.2 mm x 16.2 mm
 -  Các chân Gnd bao gồm của Đầu vào, của Đầu ra, của pin âm bản đều được nối thông với nhau.
 
 - [Mua sắm](https://shopee.vn/3.7v-4.2V-18650-Pin-Lithium-T%C4%83ng-C%C6%B0%E1%BB%9Dng-S%E1%BA%A1c-B%E1%BA%A3ng-%C4%90i%E1%BB%87n-B%E1%BA%A3o-V%E1%BB%87-5V-2.4-S%E1%BA%A1c-X%E1%BA%A3-M%C3%B4-%C4%90un-T%C3%ADch-H%E1%BB%A3p-i.1456687807.28224156185)
