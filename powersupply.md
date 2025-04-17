@@ -525,7 +525,7 @@ Phiên bản cải tiến, không tự tắt
 ## Board điều khiển đèn pin sạc
 
 ![image](https://github.com/user-attachments/assets/b993f9f0-ff34-47cf-b33d-ff10cc77d66f)
-![image](https://github.com/user-attachments/assets/74caccb8-a1a7-4351-b5d3-e076354de6af)
+![image](https://github.com/user-attachments/assets/0f1a650a-924d-43d8-80bd-24d0f955de25)
 
 - Thông số:
   - Một bảng tích hợp công tắc Tact
@@ -534,6 +534,8 @@ Phiên bản cải tiến, không tự tắt
   - Chiều dài bên bảng điều khiển: Khoảng 17,5mm
 - Thích hợp cho việc sử dụng hạt đèn pin công suất 10w.- 
 - [Mua sắm](https://shopee.vn/%C4%90%C3%A8n-pin-m%E1%BA%A1nh-B%E1%BA%A3ng-m%E1%BA%A1ch-truy%E1%BB%81n-%C4%91%E1%BB%99ng-B%E1%BA%A3ng-m%E1%BA%A1ch-Ph%E1%BB%A5-ki%E1%BB%87n-t%E1%BB%B1-l%C3%A0m-B%E1%BA%A3ng-m%E1%BA%A1ch-typec-C%E1%BB%95ng-s%E1%BA%A1c-X%E1%BA%A3-s%E1%BA%A1c-M%C3%B4-%C4%91un-t%C3%ADch-h%E1%BB%A3p-i.1456687807.29674146507)
+
+
 
 ## Đế pin và pin
 
