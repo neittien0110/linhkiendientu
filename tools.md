@@ -48,5 +48,6 @@ will turn black and white)
 
 ![image](https://github.com/user-attachments/assets/9bec93dd-3ca2-4a63-b7a1-45c88f93e3ba)\
 [Video](https://down-bs-sg.vod.susercontent.com/api/v4/11110105/mms/sg-11110105-6kioy-m76ambgh42yj47.16000081741594026.mp4)
-
+- [Homepage](https://www.fnirsi.com/products/dso-tc4)
+- [Hướng dẫn sử dụng](https://cdn.shopify.com/s/files/1/0694/8310/2426/files/DSO-TC4_Manuals-V1.6-2025.03.10.pdf?v=1741599656)
 - [Mua săm](https://shopee.vn/Fnirsi-DSO-TC4-N%C3%A2ng-c%E1%BA%A5p-dao-%C4%91%E1%BB%99ng-k%E1%BB%B9-thu%E1%BA%ADt-s%E1%BB%91-3-trong-1-10-MHz-48Ms-s-Transistor-Tester-Thi%E1%BA%BFt-b%E1%BB%8B-ki%E1%BB%83m-tra-linh-ki%E1%BB%87n-%C4%91i%E1%BB%87n-t%E1%BB%AD-D%E1%BB%A5ng-c%E1%BB%A5-s%E1%BA%A1c-USB-i.1028315277.29129039852)
