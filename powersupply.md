@@ -5,7 +5,7 @@ Lượt mua 1\
 Lượt mua 2\
   [trái trên](#mp1584en-buck-hạ-áp-từ-24v12v9v5v-ra-3v3---đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp), [phải trên](#mô-đun-sạc-pin-lithium-giảm-xả-5v2a--24a--có-đầu-vàođầu-ra-thường-mở)\
   [trái giữa](mini560-buck-hạ-áp-đầu-ra-33v), [phải giữa](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)\
-  [trái dưới](#cr-1850s-buck-vào-65--16v-ra-5v-mô-đun-điều-chỉnh-điện-áp-chân-4a-18v-giá-trị-đỉnh-6a), [phải dưới](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)\
+  [trái dưới](#cr-1850s-buck-vào-45--18v-ra-3v3), [phải dưới](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)\
   ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)\
   
 - [IC nguồn AMS1117 và các module liên quan](#ic-nguồn-ams1117-và-các-module-liên-quan)
@@ -16,7 +16,7 @@ Lượt mua 2\
 - [Mini560 buck hạ áp đầu ra 3.3V](#mini560-buck-hạ-áp-đầu-ra-33v)
 - [Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)
 - [MP1584EN buck hạ áp từ 24V/12V/9V/5V ra 3v3 - Đầu ra có thể điều chỉnh (hoặc cố định áp)](#mp1584en-buck-hạ-áp-từ-24v12v9v5v-ra-3v3---đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp)
-- [CR-1850S buck vào 6,5 ~ 16V ra 5V Mô-đun điều chỉnh điện áp Chân 4A 18V Giá trị đỉnh 6A](#cr-1850s-buck-vào-65--16v-ra-5v-mô-đun-điều-chỉnh-điện-áp-chân-4a-18v-giá-trị-đỉnh-6a)
+- [CR-1850S buck vào 4,5 ~ 18V ra 3V3](#cr-1850s-buck-vào-45--18v-ra-3v3)
 - [Mô đun tăng áp 0.9-5V sang 5V](#module-tăng-áp-09-5v-sang-5v)
 - [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử)
@@ -173,7 +173,7 @@ Lượt mua 2\
 - Ở đầu vào, đã test cắm ngược cực In+, In- thì mạch sẽ bị nóng, nhưng không hỏng.
 - [Mua sắm](https://shopee.vn/Dc-dc-B%E1%BA%A3ng-b%C6%B0%E1%BB%9Bc-xu%E1%BB%91ng-3A-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p-M%C3%B4-%C4%91un-ngu%E1%BB%93n-24V-12V-9V-%C4%91%E1%BA%BFn-3.3V5V-%C4%90%E1%BA%A7u-ra-c%C3%B3-th%E1%BB%83-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-MP1584EN-i.1456687807.27374129575)
 
-## CR-1850S buck vào 6,5 ~ 16V ra 5V Mô-đun điều chỉnh điện áp Chân 4A 18V Giá trị đỉnh 6A
+## CR-1850S buck vào 4,5 ~ 18V ra 3V3 
 
 ![image](https://github.com/user-attachments/assets/c535385d-8c10-444f-92d6-34ddae2524c3)
 
