@@ -289,6 +289,12 @@ Và tham chiếu tới các trang khác:
 
 ## Thẻ NFC RFID
 
+- RC-522 - module đọc NFC 13.56Mhz
+  - Minh họa sử dụng ESP32-Dev-Kit với module:
+    ![ ](![image](https://github.com/user-attachments/assets/66991625-8106-44b3-bde3-d88501262904)\
+    [Xem video kết quả](https://youtu.be/VQAy33XYFEY?si=3vtoG_t9ghqNWzda)
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-%C4%91%E1%BB%8Dc-th%E1%BA%BB-RFID-13.56MHz-RC522-MFRC522-NFC-MFRC-522-RC-522-Arduino-PIC-i.578443443.10867340272?sp_atk=b5f5e2d3-e871-4cd5-8062-d1113a27a100&xptdk=b5f5e2d3-e871-4cd5-8062-d1113a27a100)
+
 - RDM6300 - module đọc RFID 125Khz
   - ![RDM6300](https://github.com/user-attachments/assets/d048636a-307d-4f5a-84ae-526e5a35391c)
   - Thông số:
