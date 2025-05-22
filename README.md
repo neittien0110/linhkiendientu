@@ -168,6 +168,23 @@ Và tham chiếu tới các trang khác:
   - [Trong thư viện JLCPCB](https://jlcpcb.com/partdetail/Jiangsu_HuanengElec-MLT8530/C94599)
   - [Mua sắm](https://shopee.vn/MLT-8530-Buzzer-passive-3.6V-2700Hz-8.5x8.5x3mm-i.501501433.23671510680)
 
+- Module ISD1820
+  - Chức năng: ghi âm giọng nói bảng thoại và phát ra loa, bao gồm sẵn cả mic rên board và loa nối dây.
+    ![image](https://github.com/user-attachments/assets/fdd89075-945c-46fd-8ed1-2ce419b35679)
+  - Thông số:
+    - Nguồn điện: 3-5V
+    - Các nút bấm và chân pin điều khiển đều tích cực mức cao.
+    - Nút/pin __REC__: điều khiển ghi âm, __nhấn giữ__ nút, hoặc tích cực chân pin trong toàn bộ thời gian ghi âm.
+    - Nút/pin __PLAYE__: phát lại âm thanh đã ghi trước đó. Tích cực theo sườn. Bấm không cần giữ.
+    - Nút/pin __PLAYL__: phát lại âm thanh đã ghi trước đó. Tích cực theo mức ==> Nhấn giữ để phát âm thanh, nhả nút là dừng. (_jumper không có tác dụng_)
+    - Jumper __P-E__ để lặp liên tục đoạn âm thanh nếu được nối (thay thế cho vai trò của các nút __PLAYE, PLAYL__)
+    - Jumper FT: từ mic khuyếch đại ra loa luôn.
+    - Tốc độ 3.2k mẫu/s.
+    - Thời gian ghi/phát mặc định 10s. Thay thế điện trở ROSC để có thời gian ghi dao động từ 8s tới 20s. Chi tiết trong file pdf bên dưới.
+  - [Schematic và hướng dẫn chi tiết. PDF](https://www.electroniclinic.com/wp-content/uploads/2020/01/isd1820-datasheet.pdf)
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-ghi-%C3%A2m-ISD1820-m%C3%B4-%C4%91un-gi%E1%BB%8Dng-n%C3%B3i-b%E1%BA%A3ng-tho%E1%BA%A1i-b%E1%BA%A3ng-m%C3%B4-%C4%91un-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-di-%C4%91%E1%BB%99ng-c%C3%B3-micr%C3%B4-Loa-i.770245757.42550598573?sp_atk=85d7cd2c-e491-495f-b2f3-beb54954713b&xptdk=85d7cd2c-e491-495f-b2f3-beb54954713b)
+  - [Code mẫu tham khảo của Dương Đăng Duy với ISD1820, PIR, ESP32 Dev Module](https://github.com/duongdangduy95/AuraAlert_esp32)
+
 ## Nhiệt độ Độ ẩm
 
 - Mô Đun Cảm Biến Nhiệt Độ Và Độ Ẩm Độ Chính Xác Cao aht10 aht20 aht30
