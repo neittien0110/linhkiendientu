@@ -141,7 +141,7 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
 - [Mua sắm](https://shopee.vn/B%E1%BB%99-thu-v%C3%A0-m%C3%B4-%C4%91un-ph%C3%A1t-kh%C3%B4ng-d%C3%A2y-RF-315Mhz-433MHZ-5V-DC-433MHZ-kh%C3%B4ng-d%C3%A2y-cho-Arduino-Raspberry-Pi-ARM-MCU-WL-B%E1%BB%99-t%E1%BB%B1-l%C3%A0m-i.578443443.29260588424?sp_atk=12f88405-d196-4787-814f-98ab2009db7c&xptdk=12f88405-d196-4787-814f-98ab2009db7c)
 
 
-# Mô-đun truyền phát RF 315 MHz 433 MHz truyền dẫn đường dài H34P H34S H34C H34A
+## Mô-đun truyền phát RF 315 MHz 433 MHz truyền dẫn đường dài H34P H34S H34C H34A
 
 ![image](https://github.com/user-attachments/assets/79a48f52-01da-4bca-9658-491f258f20f3)
 
@@ -182,3 +182,22 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
 - [Mua sắm, chọn đúng loại CH340E màu tím](https://shopee.vn/M%C3%B4-%C4%90un-Chuy%E1%BB%83n-%C4%90%E1%BB%95i-CH340E-CH340C-CH9340C-USB-Sang-TTL-5V-3.3V-CH340G-Chuy%C3%AAn-D%E1%BB%A5ng-Cho-Mini-i.578443443.16598012132). Lưu ý rằng loại CH340C màu đen thì có hiện tượng giao tiếp Serial với ESP32 được, nhưng không thể nạp code được
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Chuy%E1%BB%83n-%C4%90%E1%BB%95i-CH340E-CH340C-CH9340C-USB-Sang-TTL-5V-3.3V-CH340G-Chuy%C3%AAn-D%E1%BB%A5ng-Cho-Mini-i.578443443.16598012132)
 
+# I-BUS/S-BUS/PPM/PWM
+
+## JHEMCU 8CH Receiver PWM PPM SBUS 32bit Encoder Signal Conversion Module Converter
+
+  ![image](https://github.com/user-attachments/assets/2a812a26-9538-477a-b211-9ab5d2fe7d41)
+  ![image](https://github.com/user-attachments/assets/c69b275d-f855-4480-aa2d-a0beee87793c)
+
+
+- Thông số:
+  - Điện áp vào: 3v3~20v
+  - Dòng tiêu thụ: 15 mA
+  - Kích thước: 	21*21 mm
+  - Model Number	JHEMCU ACM0042
+  - Đầu vào và đầu ra kết hợp trong 1, tự động phát hiện đầu vào và từ đó biến 2 nguồn còn lại trở thành đầu ra.
+    + PPM (CPPM)
+    + PWM (common receiver signal)
+    + SBUS (including R7008SB series, FrSky, etc.)
+- [Homepage](https://www.jhemcu.com/e_productshow/?51-SPP-SBUS-PPM-PWM-signal-conversion-51.html)
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-chuy%E1%BB%83n-%C4%91%E1%BB%95i-3.3-20V-8CH-PWM-PPM-SBUS-cho-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-c%E1%BB%A7a-m%C3%A1y-bay-i.779640218.12094766747)
