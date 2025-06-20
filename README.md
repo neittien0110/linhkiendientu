@@ -185,6 +185,14 @@ Và tham chiếu tới các trang khác:
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-ghi-%C3%A2m-ISD1820-m%C3%B4-%C4%91un-gi%E1%BB%8Dng-n%C3%B3i-b%E1%BA%A3ng-tho%E1%BA%A1i-b%E1%BA%A3ng-m%C3%B4-%C4%91un-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-di-%C4%91%E1%BB%99ng-c%C3%B3-micr%C3%B4-Loa-i.770245757.42550598573?sp_atk=85d7cd2c-e491-495f-b2f3-beb54954713b&xptdk=85d7cd2c-e491-495f-b2f3-beb54954713b)
   - [Code mẫu tham khảo của Dương Đăng Duy với ISD1820, PIR, ESP32 Dev Module](https://github.com/duongdangduy95/AuraAlert_esp32)
 
+- Loa chủ động:
+  - Chức năng: phát âm thanh
+  - Phân loại:
+    - Điện áp: có loại 3v và 5V
+    - Kích thước: rất nhiều dạng
+  - Loa 9042: rất nhỏ, mỏng, không cùng cỡ chân pin với 12095 [Mua sắm](https://shopee.vn/Set-5-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-12095-12085-9042-3v-5v-12v-12-*-9.5mm-16R-12-*-8.5mm-i.778834786.19356518887)
+  - Loa 12095: loại phổ biến ở VN
+
 ## Nhiệt độ Độ ẩm
 
 - Mô Đun Cảm Biến Nhiệt Độ Và Độ Ẩm Độ Chính Xác Cao aht10 aht20 aht30
