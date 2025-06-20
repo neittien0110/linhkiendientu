@@ -186,12 +186,16 @@ Và tham chiếu tới các trang khác:
   - [Code mẫu tham khảo của Dương Đăng Duy với ISD1820, PIR, ESP32 Dev Module](https://github.com/duongdangduy95/AuraAlert_esp32)
 
 - Loa chủ động:
-  - Chức năng: phát âm thanh
+  - Chức năng: phát âm thanh. [Tool thử tần số online](https://www.szynalski.com/tone-generator/)
   - Phân loại:
     - Điện áp: có loại 3v và 5V
     - Kích thước: rất nhiều dạng
-  - Loa 9042: rất nhỏ, mỏng, không cùng cỡ chân pin với 12095 [Mua sắm](https://shopee.vn/Set-5-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-12095-12085-9042-3v-5v-12v-12-*-9.5mm-16R-12-*-8.5mm-i.778834786.19356518887)
-  - Loa 12095: loại phổ biến ở VN
+  - Loa 9042: rất nhỏ, mỏng, không cùng cỡ chân pin với 12095.  [Dataheet](https://lcsc.com/datasheet/lcsc_datasheet_2409302231_YUEXIN-YX-KC9042-16R_C781849.pdf)
+    - Khoảng cách 2 chân pin: 4mm. Có thể thiết kế connect 3pin thì loa này cắm vào pin 1 và pin 3 là phù hợp.
+    - Đường kính ngoài: 9mm.
+    - [LCSC](https://lcsc.com/product-detail/Buzzers_YUEXIN-YX-KC9042-16_C781849.html),  
+    - [Mua sắm](https://shopee.vn/Set-5-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-12095-12085-9042-3v-5v-12v-12-*-9.5mm-16R-12-*-8.5mm-i.778834786.19356518887)
+  - Loa 12095: loại phổ biến ở cửa hàng
 
 ## Nhiệt độ Độ ẩm
 
