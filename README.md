@@ -10,7 +10,7 @@
 - [Loa, còi](#loa-còi)
 - [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)
 - [Ánh sáng, hồng ngoại, uv](#ánh-sáng-hồng-ngoại-uv)
-- [Thẻ NFC, RFID](#thẻ-nfc-rfid)
+- [Định danh - Thẻ NFC, RFID, Vân tay](#thẻ-nfc-rfid)
 - [Relay](#relay)
 
 
@@ -336,6 +336,14 @@ Và tham chiếu tới các trang khác:
   - [Hướng dẫn sử dụng từ Nshop](https://nshopvn.com/product/module-thu-phat-rfid-rdm6300-rf-125khz-uart-noi-tiep-dau-ra/)
   - [Schematic](https://www.makershop.de/download/RDM-6300.pdf)
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-%C4%90%E1%BB%8Dc-RFID-125Khz-RDM6300-UART-Cho-arduino-i.578443443.20706992299)
+
+- Module cảm biến vân tay AS608
+  - Thông số:
+    - 162 vân tay
+    - giao tiếp UART, 57600 bps
+  - API, guide: [Datasheet](https://handsontec.com/dataspecs/sensor/AS608%20Finger%20print%20Sensor.pdf)
+  - [Tải về phần mềm SFG kết nối module](http://www.adafruit.com/datasheets/SFGDemoV2.0.rar)
+  - [Video demo sử dụng phần mềm SFG để lây ảnh vân tay, fingerprint](https://www.youtube.com/watch?v=9faXEHvMgMA)
 
 ## Relay
 
