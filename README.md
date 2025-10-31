@@ -1,5 +1,3 @@
-# LINH KIỆN ĐIỆN TỬ
-
 ## Mục lục
 
 - [Góc, gia tốc, la bàn](#mpu)
@@ -8,7 +6,8 @@
 - [Đo khoảng cách](#đo-khoảng-cách)
 - [Đo tốc độ](#đo-tốc-độ)
 - [Loa, còi](#loa-còi)
-- [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)
+- [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)]
+- [Bụi](#bui)
 - [Ánh sáng, hồng ngoại, uv](#ánh-sáng-hồng-ngoại-uv)
 - [Định danh - Thẻ NFC, RFID, Vân tay](#thẻ-nfc-rfid)
 - [Relay](#relay)
@@ -270,6 +269,50 @@ Và tham chiếu tới các trang khác:
     - Điện áp vào 5v thì tấm cho nhiệt khoảng 30-40 độ, tiêu thụ 0.3A \
       Điện áp vào 3v3 lấy trực tiếp từ pin lithium thì chỉ ấm một chút, hợp với sưởi ấm cơ thể
   - [Mua sắm](https://shopee.vn/t%E1%BA%A5m-nhi%E1%BB%87t-l%C3%A0m-n%C3%B3ng-3v-5v-h%C3%ACnh-tr%C3%B2n-3.5cm-i.523359606.25014804130)  
+
+## Bụi
+- Nova SDS011: bao gồm cả sensor, lồng đối lưu, quạt thông khí.
+  <img width="419" height="265" alt="SDS011" src="https://github.com/user-attachments/assets/8f656b4d-fc42-4040-8214-6b90ca5665fa" />
+  - Thông số:
+    -   Đo đồng thời P2.5 và P10
+    -   Điều kiện làm việc: __độ ẩm < 70%__
+    -   Tốc độ mẫu: 1 mẫu/giây
+  - Ý nghĩa của jack kết nối XH2.54 7 pin
+    | pin | Name | comment |
+    | :---: | :---: | :--- |
+    | 1 | CTL | control pin, backup |
+    | 2 | 1um | PM2.5 0-999 ug/m^3, PWM Ouput với chu kì 1004ms. Động rộng xung từ [2ms-1001ms] tương ứng với 0us-999u/m^3  |
+    | 3 | 5V | 5V Input |
+    | 4 | 25um | PM10 0-999 ug/m^3, PWM Output PWM Ouput với chu kì 1004ms. Động rộng xung từ [2ms-1001ms] tương ứng với 0us-999u/m^3 |
+    | 5 | GND | ground |
+    | 6 | R | RX of UART (TTL) |
+    | 7 | T | TX of UART (TTL) |
+  - Kết nối
+    - Có thể lấy số liệu dạng analog ở chân pin 2, 4 như bảng trên
+    - hoặc có thể lấy dữ liệu số qua giao tiếp serial:
+      - baudrate=9600 bps, 8-bit data, no parity bit, one stop bit.
+      - Cú pháp
+        | STT byte | Name | Content |
+        | :---: | :---: | :--- |
+        | 0 | Message header | AA |
+        | 1 | Commander No. | C0 |
+        | 2 | DATA 1 | PM2.5 Low byte |
+        | 3 | DATA 2 | PM2.5 High byte |
+        | 4 | DATA 3 | PM10 Low byte |
+        | 5 | DATA 4 | PM10 High byte |
+        | 6 | DATA 5 | ID byte 1 |
+        | 7 | DATA 6 | ID byte 2 |
+        | 8 | Check-sum | Check-sum |
+        | 9 | Message tail | AB |
+  - [Homepage](https://www.sdnf.com/?list_13/55.html)
+  - [Mua sắm](https://shopee.vn/NOVA-M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-Kh%C3%B4ng-Kh%C3%AD-Sds011-Pm2.5-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-i.578443443.15128384320)
+  - Tham khảo:
+    -   [Nguyên lý, kết nối, chương trình đọc dữ liệu trên PC, shematic, ](https://www.open-electronics.org/sds011-the-air-quality-sensor/)
+    -   [Code mẫu arduino từ nshop, đọc dữ liệu qua serial](https://nshopvn.com/product/module-cam-bien-bui-laser-sds011/)
+    -   [Interfacing SDS011 Air Quality Sensor with ESP8266: DIY Air Pollution Monitor Part1 | SDS011+ESP8266](https://electronicsinnovation.com/interfacing-sds011-air-quality-sensor-with-esp8266-diy-air-pollution-monitor-part1/)
+        <img width="768" height="886" alt="Interfacing SDS011 with ESP8266" src="https://github.com/user-attachments/assets/e0332006-ae4d-4db7-b2d9-4e53aa8fd0e0" />
+
+
 
 ## Ánh sáng, hồng ngoại. uv
 
