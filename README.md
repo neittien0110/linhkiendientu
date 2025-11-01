@@ -318,6 +318,8 @@ Và tham chiếu tới các trang khác:
   - Tham khảo:
     -   [Nguyên lý, kết nối, chương trình đọc dữ liệu trên PC, shematic, ](https://www.open-electronics.org/sds011-the-air-quality-sensor/)
     -   [Code mẫu arduino từ nshop, đọc dữ liệu qua serial](https://nshopvn.com/product/module-cam-bien-bui-laser-sds011/)
+    -   [Chương trình commandline và Local web đọc và hiển thị số liệu, python](https://github.com/neittien0110/linhkiendientu/tree/master/samples/sds011) \
+        <img width="675" height="311" alt="image" src="https://github.com/user-attachments/assets/10e48a75-15fe-4657-8709-de520961bb3f" />
     -   [Interfacing SDS011 Air Quality Sensor with ESP8266: DIY Air Pollution Monitor Part1 | SDS011+ESP8266](https://electronicsinnovation.com/interfacing-sds011-air-quality-sensor-with-esp8266-diy-air-pollution-monitor-part1/)
         <img width="768" height="886" alt="Interfacing SDS011 with ESP8266" src="https://github.com/user-attachments/assets/e0332006-ae4d-4db7-b2d9-4e53aa8fd0e0" />
 
