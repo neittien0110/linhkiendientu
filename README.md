@@ -7,7 +7,7 @@
 - [Đo tốc độ](#đo-tốc-độ)
 - [Loa, còi](#loa-còi)
 - [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)]
-- [Bụi](#bui)
+- [Bụi](#bụi)
 - [Ánh sáng, hồng ngoại, uv](#ánh-sáng-hồng-ngoại-uv)
 - [Định danh - Thẻ NFC, RFID, Vân tay](#thẻ-nfc-rfid)
 - [Relay](#relay)
@@ -306,6 +306,15 @@ Và tham chiếu tới các trang khác:
         | 9 | Message tail | AB |
   - [Homepage](https://www.sdnf.com/?list_13/55.html)
   - [Mua sắm](https://shopee.vn/NOVA-M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-Kh%C3%B4ng-Kh%C3%AD-Sds011-Pm2.5-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-i.578443443.15128384320)
+  - In 3d vỏ hộp:
+    - [Kết hợp với NodeMCU 30-pin thông thường, DHT22](https://www.thingiverse.com/thing:2503257) \
+      <img width="173" height="127" alt="image" src="https://github.com/user-attachments/assets/d6ebe74b-5e90-4e16-836b-f946cbebec2b" />
+    - [Kết hợp với NodeMCU Oled 0.96inch](https://www.thingiverse.com/thing:3342804) \
+      <img width="164" height="139" alt="NodeMCU Oled 0.96inch" src="https://github.com/user-attachments/assets/d2e53fd5-2bb3-4c15-b0c3-98779131c16a" />
+    - [Kết hợp với Wemos D1 R2 mini 8266](https://www.thingiverse.com/thing:4765880)   \
+      <img width="170" height="142" alt="Wemos D1 R2 mini 8266" src="https://github.com/user-attachments/assets/69b0d514-4a24-4160-8f75-d4b5daf30c42" />
+
+
   - Tham khảo:
     -   [Nguyên lý, kết nối, chương trình đọc dữ liệu trên PC, shematic, ](https://www.open-electronics.org/sds011-the-air-quality-sensor/)
     -   [Code mẫu arduino từ nshop, đọc dữ liệu qua serial](https://nshopvn.com/product/module-cam-bien-bui-laser-sds011/)
