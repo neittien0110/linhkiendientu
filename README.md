@@ -232,7 +232,7 @@ Và tham chiếu tới các trang khác:
   - [Hướng dẫn từ Nshop](https://nshopvn.com/product/cam-bien-nhiet-do-hong-ngoai-khong-tiep-xuc-gy-906-mx90614/)
   - [Mua sắm](https://shopee.vn/Gy-906-MLX90614ESF-M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-nhi%E1%BB%87t-%C4%91%E1%BB%99-kh%C3%B4ng-ti%E1%BA%BFp-x%C3%BAc-MLX90614-m%E1%BB%9Bi-cho-t%C6%B0%C6%A1ng-th%C3%ADch-Arduino-i.578443443.28358962552)
 
-- Mô-đun cảm biến khí SCD40 SCD41 Phát hiện cảm biến nhiệt độ và độ ẩm CO2 Carbon Dioxide Giao tiếp I2C
+- Mô-đun cảm biến khí SCD40 SCD41 Phát hiện cảm biến nhiệt độ và độ ẩm CO2 Carbon Dioxide Giao tiếp I2C\
   <img width="315" height="204" alt="SCD40" src="https://github.com/user-attachments/assets/599337a4-488b-417f-aaa1-348bcd5c16a0" />
   - Thông số:
     - Nguồn cấp: 2.5 ~ 5.5V
@@ -386,6 +386,35 @@ Kích thước bảng: 13,4X21,6mm
     - Loại module hình vuông có 3 chân kết nối theo thứ tự là: V- /  IN / V +
   - [Mua sắm](https://shopee.vn/Rgb-V%C3%B2ng-%C4%90%C3%A8n-led-1-3-4-7-8-9-12-16-24-32-Bit-ws2812-5050-rgb-T%E1%BB%B1-L%E1%BA%AFp-R%C3%A1p-arduino-i.972724310.22355750623?sp_atk=42bb5391-8d7c-40f4-923c-713457118980&xptdk=42bb5391-8d7c-40f4-923c-713457118980)
   - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-%C4%90%C3%A8n-LED-Nhi%E1%BB%81u-M%C3%A0u-S%E1%BA%AFc-4-16-25-64-bit-WS2812-5050-RGB-i.869927552.23538525625)
+
+- AS7341 - cảm biến quang phổ kế màu hồng ngoại nhìn thấy\
+  <img width="306" height="142" alt="image" src="https://github.com/user-attachments/assets/3fa7025b-f302-4e18-b0fa-811c6896d61c" />
+  <img width="251" height="203" alt="image" src="https://github.com/user-attachments/assets/1dcdf90d-5dcc-4896-bb37-2b635110536d" />
+  - Thông số:
+    - Gồm 11 kênh thông tin:
+      - 8 kênh khả kiến 6 kênh chứa thông tin màu sắc với 6 ADC 16-bit độc lập.
+        - F1: 405~425nm
+        - F2: 435~455mm
+        - F3: 470~490nm
+        - F4: 505~525nm
+        - F5: 545~565nm
+        - F6: 580~600nm
+        - F7: 620~640nm
+        - F8: 670~690nm
+      - 1 kênh __NIR_ giúp xác định điều kiện ánh sáng xung quanh, nguồn sáng.
+      - 1 kênh __flicker__ phát hiện nhấp nháy ánh sáng theo tần số 50-60Hz và lên tới 1.5kHz\
+    <img width="1024" height="487" alt="11 kênh" src="https://github.com/user-attachments/assets/84248956-fd28-4b4b-9bc6-581436e34943" />
+    - Dải bước song đo được: 350nm đến 1000nm\
+      <img width="604" height="674" alt="image" src="https://github.com/user-attachments/assets/e889b228-6977-4149-b7f5-c540a08f0e96" />
+    - Có thêm 1 đèn led để bổ sung nguồn sáng trong môi trường tối.
+    - Giao tiếp I2C: địa chỉ __0x39__
+    - Và thêm 2 chân nữa: 
+      - I=Interrupt
+      - G=GPIO, để đồng bộ quá trình đo đạc với các thiết bị khác. 
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-quang-ph%E1%BB%95-k%E1%BA%BF-m%C3%A0u-h%E1%BB%93ng-ngo%E1%BA%A1i-nh%C3%ACn-th%E1%BA%A5y-AS7341-i.578443443.26408191899)
+  - Tham khảo:
+    - [Kết nối với Arduino UNO, Pi, STM32](https://www.waveshare.com/wiki/AS7341_Spectral_Color_Sensor)
+    - [Kết nối với Arduino UNO](https://wiki.dfrobot.com/AS7341_Visible_Light_Sensor_SKU_SEN0365)
 
 ## Thẻ NFC RFID
 
