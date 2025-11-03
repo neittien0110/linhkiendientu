@@ -145,6 +145,8 @@ Và tham chiếu tới các trang khác:
     - Công suất đầu ra (tối thiểu): 13dBm EIRP
     - Điện áp hoạt động: 5V ± 0,25V
     - Dòng hoạt động (CW): tối đa 60mA, 37mA điển hình
+    - Đối tượng chuyển động trong phạm vi từ 8-20m, nhưng không qua 3-25m
+    - Chỉ đo được khi vận tốc trong khoảng 5-40km/h
     - phát sóng hài: < -10dBm
     - Chế độ xung:
     - dòng điện trung bình (5% DC): 2mA typ. chiều rộng 9 xung (Tối thiểu): 5uSec
