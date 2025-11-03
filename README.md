@@ -230,6 +230,21 @@ Và tham chiếu tới các trang khác:
   - [Hướng dẫn từ Nshop](https://nshopvn.com/product/cam-bien-nhiet-do-hong-ngoai-khong-tiep-xuc-gy-906-mx90614/)
   - [Mua sắm](https://shopee.vn/Gy-906-MLX90614ESF-M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-nhi%E1%BB%87t-%C4%91%E1%BB%99-kh%C3%B4ng-ti%E1%BA%BFp-x%C3%BAc-MLX90614-m%E1%BB%9Bi-cho-t%C6%B0%C6%A1ng-th%C3%ADch-Arduino-i.578443443.28358962552)
 
+- Mô-đun cảm biến khí SCD40 SCD41 Phát hiện cảm biến nhiệt độ và độ ẩm CO2 Carbon Dioxide Giao tiếp I2C
+  <img width="315" height="204" alt="SCD40" src="https://github.com/user-attachments/assets/599337a4-488b-417f-aaa1-348bcd5c16a0" />
+  - Thông số:
+    - Nguồn cấp: 2.5 ~ 5.5V
+    - Độ chính xác cao khi đo hàm lượng CO₂ (± (50 ppm + 5 %))
+    - Tốc độ mẫu: 1 mẫu/5 phút
+  - Chân giao tiếp:
+    - GND: Cổng đầu vào âm cấp nguồn
+    - VDD: Cổng đầu vào tích cực cấp nguồn
+    - SCL: Cổng đồng hồ I2C
+    - SDA: Cổng dữ liệu 12C
+
+Kích thước bảng: 13,4X21,6mm 
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-kh%C3%AD-SCD40-SCD41-Ph%C3%A1t-hi%E1%BB%87n-c%E1%BA%A3m-bi%E1%BA%BFn-nhi%E1%BB%87t-%C4%91%E1%BB%99-v%C3%A0-%C4%91%E1%BB%99-%E1%BA%A9m-CO2-Carbon-Dioxide-Giao-ti%E1%BA%BFp-I2C-i.770245757.41401245242)
+  
 - Module đốt nóng
 
    ![image](https://github.com/user-attachments/assets/393cdabb-d450-43a5-967e-fc19d7a00769)  ![image](https://github.com/user-attachments/assets/ee633705-5506-4531-87e0-ad67a2bf1e3f)  ![image](https://github.com/user-attachments/assets/38db4c11-80c4-4839-ba9f-d5dbddbf42de)
