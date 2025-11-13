@@ -197,6 +197,31 @@ Và tham chiếu tới các trang khác:
     - [LCSC](https://lcsc.com/product-detail/Buzzers_YUEXIN-YX-KC9042-16_C781849.html),  
     - [Mua sắm](https://shopee.vn/Set-5-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-12095-12085-9042-3v-5v-12v-12-*-9.5mm-16R-12-*-8.5mm-i.778834786.19356518887)
   - Loa 12095: loại phổ biến ở cửa hàng
+ 
+- Mic INMP441 \
+  <img width="958" height="719" alt="image" src="https://github.com/user-attachments/assets/a8ca4819-a8be-454f-90f5-416d742f8093" />\
+  _Nguồn: <https://dientuduchuy.com/products/inmp441-mach-cam-bien-am-thanh-micro-i2s-chip-thuong>_
+  - Thông số:
+    - Mẫu 24-bit
+    - Điệp áp hoạt động: 1v8~3v3
+    - Cụm 3 pin:
+      |Tên|Chức năng|Kết nối|
+      |--|--|--|
+      |L/R|=0 thì tín hiệu mic sẽ thuộc kênh trái của khung I2S, =1 thì thuộc kênh phải| Gắn cố định vào Vdd, Vcc |
+      |WS|Word select của I2S|GPIO của MCU|
+      |SCK| Clock của I2S | GPIO của MCU |
+   
+      
+      |Tên|Chức năng|Kết nối|
+      |--|--|--|
+      |SD|Serial Data Out của I2S|GPIO của MCU|
+      |VCC|Nguồn|3v3|
+      |GND|Nguồn|0v|       
+  - Sơ đồ khối chức năng:\
+    <img width="698" height="395" alt="image" src="https://github.com/user-attachments/assets/3e658b79-48b2-4000-8191-47cf166a8b32" />
+  - [Datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf)
+  - Giải thích về I2S và code mẫu esp32: <https://dronebotworkshop.com/esp32-i2s/>
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Micro-%C4%90a-H%C6%B0%E1%BB%9Bng-MH-ET-LIVE-Giao-Di%E1%BB%87n-I2S-INMP441-MEMS-C%C3%B4ng-Su%E1%BA%A5t-Th%E1%BA%A5p-Si%C3%AAu-Nh%E1%BB%8F-ESP3-i.770245757.23646935387)
 
 ## Nhiệt độ Độ ẩm
 
