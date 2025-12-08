@@ -412,6 +412,7 @@ Phiên bản cải tiến, không tự tắt
      - cắm pin vào mạch LX-LBC3 thì đầu ra vẫn đạt 5V. Qua mạch giảm áp Mini-360 thì vẫn có V đầu ra 3.7v nhưng khi có tải là nhảy áp liên tục.
      - cắm pin vào mạch LX-LBC3 thì đầu ra vẫn đạt 5V. Qua mạch giảm áp Mini-360 điều chỉnh ở mức 3.2v thì khi có tải sẽ dùng được lâu hơn.
       ![image](https://github.com/user-attachments/assets/67d65ffc-3ba4-4315-a1db-9d4e35186d34)
+     - Nếu đang sạc cho mạch LBC-3, mà lại ngắt nguồn cấp, thì LBC-3 sẽ chuyển sang sử dụng pin, nhưng KHÔNG ĐỦ NHANH và làm tải tiêu thụ (esp32, 8266) vẫn bị dừng tạm thời. 
 
 - Mô tả:
   - Sạc pin Lithium/18650, 
