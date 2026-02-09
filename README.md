@@ -24,7 +24,7 @@ Và tham chiếu tới các trang khác:
 8. [Mạch sạc pin Lithium](https://neittien0110.github.io/linhkiendientu/EasyEDA_Library.html#m%E1%BA%A1ch-s%E1%BA%A1c)
 9. [Module nguồn cấp](./powersupply.md)
 10. [Công cụ kiêm tra](./tools.md)
-11. []
+11. [Tài liệu tham khảo khác](#tài-liệu-khác)
 
 ## MPU
 
