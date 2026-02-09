@@ -24,6 +24,7 @@ Và tham chiếu tới các trang khác:
 8. [Mạch sạc pin Lithium](https://neittien0110.github.io/linhkiendientu/EasyEDA_Library.html#m%E1%BA%A1ch-s%E1%BA%A1c)
 9. [Module nguồn cấp](./powersupply.md)
 10. [Công cụ kiêm tra](./tools.md)
+11. []
 
 ## MPU
 
@@ -506,3 +507,7 @@ Kích thước bảng: 13,4X21,6mm
   
   - Nhược điểm: không lắp được nắp vào thân, vì relay cao quá. Khi dóng nắp thì ko thể bấm nút cấu hình, vì nút thấp ==> thay thế bằng nút có cán dài 11 mm
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367), Mua kèm với [bộ điều khiển từ xa 433MHz](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-kh%C3%B4ng-d%C3%A2y-4-k%C3%AAnh-4-Module-kh%C3%B4ng-d%C3%A2y-433MHZ-IC2262-2272-i.201091220.5212508592)
+
+## Tài liệu khác
+
+- [Vũ Tùng Lâm, Tìm hiểu hoạt động của một số linh kiện nhúng Capacitive Soil Moisture Sensor, Còi TMB12A03, Radar HLK-LD2420-v2.0, CO2 SCD40, ghi âm ISD1820](https://drive.google.com/drive/folders/156oJifPJHfz21E8KpB762wN0IRe0eWv7)
