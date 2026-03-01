@@ -1,6 +1,6 @@
 # THIẾT KẾ MODULE NGUỒN
 
-## Pin --> tăng áp 5V với LB-03 --> hạ áp cho điều khiển
+## CÔNG SUẤT: Pin --> tăng áp 5V với LB-03 --> hạ áp cho điều khiển
 
 Cơ bản: Dùng LX-03 (tăng áp lên 5V) rồi qua AMS1117-3.3 là phương án:
 ### Ưu điểm: 
@@ -91,3 +91,6 @@ Cơ bản: Dùng trực tiếp pin lithium rồi hạ áp bằng diot SS12/SS14
 ### Nhược điểm
 - Pin khai thác được khi >=3v5 
 - Nhiễu lớn hơn
+
+
+## TIẾT KIỆM: Pin --> tăng áp 5V với LB-03 --> hạ áp cho điều khiển
