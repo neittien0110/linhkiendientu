@@ -479,6 +479,25 @@ Kích thước bảng: 13,4X21,6mm
   - [Tải về phần mềm SFG kết nối module](http://www.adafruit.com/datasheets/SFGDemoV2.0.rar)
   - [Video demo sử dụng phần mềm SFG để lây ảnh vân tay, fingerprint](https://www.youtube.com/watch?v=9faXEHvMgMA)
 
+- MHET
+  ![alt text](./images/mhet_qrcode_v3.png)
+  - Các mã mạch đọc được: UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, Read barcode type (1D): UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, Korean 3 of 5, ISBT Concat
+    - QR codes, DataMatrix, PDF417, BooklandESE
+  - Kết nối:
+     ![pin](./images/mhet_qrcode_v3_pins.png)
+    1. HID USB. Lưu ý: có 2 hàng jumper cấu hình, phải chỉnh cặp jump nối về HID.
+    2. UART USB với CH340 driver ở tốc độ **9600**. Lưu ý: có 2 hàng jumper cấu hình, phải chỉnh cặp jump nối về UART.
+    3. UART với chân pin Tx/Rx trực tiếp, ở tốc độ **9600**. Lưu ý: có 2 hàng jumper cấu hình, lấy trực tiếp Tx/Rx từ hàng jumper này. Như vậy có thể dùng UART trực tiếp và HID USB đồng thời.
+    4. Giao tiếp I2C
+    - VDO, GND: nguồn cấp 3v3 hoặc 5v
+    - SCL, SDA: giao tiếp I2C
+    - RST: reset
+
+  ![uart](./images/mhet_qrcode_v3_uart.png)
+  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Qu%C3%A9t-M%C3%A3-Code-V3.0-1d-2d-giao-Di%E1%BB%87n-Cho-M%C3%A1y-Qu%C3%A9t-M%C3%A3-V3.0-i.148048328.7217099203)
+  - Kích thước: 65 x 28 x 13.5 mm
+  - [Tài liệu chi tiết](./docs/Scanner-v3-Manual.pdf), hoặc nguồn <https://ja-bots.com/wp-content/uploads/2025/04/Scanner-v3-Manual.pdf>
+
 ## Relay
 
 - Bộ tắt/bật AC-220V, điều khiển bằng RF 433MHz. Đã có sẵn chuyển đổi AC-DC để nuôi mạch RF nên không cần nguòn DC.\
