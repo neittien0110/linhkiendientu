@@ -23,11 +23,11 @@ Và tham chiếu tới các trang khác:
 5. [Nút bấm](./buttons.md)
 6. [Các linh vật tư phụ kiện như mạch in, dây dẫn, thiếc, vỏ hộp](./noname.md)
 7. [Linh kiện PCB để thiết kế board](./EasyEDA_Library.md)
-8. [Mạch sạc pin Lithium](https://neittien0110.github.io/linhkiendientu/EasyEDA_Library.html#m%E1%BA%A1ch-s%E1%BA%A1c)
-9. [Module nguồn cấp](./powersupply.md)
+8. [Module nguồn cấp](./powersupply.md)
+    - [Mạch sạc pin Lithium trên EasyEDA](./EasyEDA_Library.md)
     - [Schematic mạch nguồn](./powersupply_schematics.md)
-10. [Công cụ kiêm tra](./tools.md)
-11. [Tài liệu tham khảo khác](#tài-liệu-khác)
+9. [Công cụ kiêm tra](./tools.md)
+10. [Tài liệu tham khảo khác](#tài-liệu-khác)
 
 ## MPU
 
