@@ -13,6 +13,7 @@
 - [Ánh sáng, hồng ngoại, uv](#ánh-sáng-hồng-ngoại-uv)
 - [Định danh - Thẻ NFC, RFID, Vân tay](#thẻ-nfc-rfid)
 - [Relay](#relay)
+- [Thyristor](#thyristor)
 
 Và tham chiếu tới các trang khác:
 
@@ -533,6 +534,15 @@ Kích thước bảng: 13,4X21,6mm
     - nhấp nháy 3 lần chức năng liên động
   - Nhược điểm: không lắp được nắp vào thân, vì relay cao quá. Khi dóng nắp thì ko thể bấm nút cấu hình, vì nút thấp ==> thay thế bằng nút có cán dài 11 mm
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367), Mua kèm với [bộ điều khiển từ xa 433MHz](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-kh%C3%B4ng-d%C3%A2y-4-k%C3%AAnh-4-Module-kh%C3%B4ng-d%C3%A2y-433MHZ-IC2262-2272-i.201091220.5212508592)
+
+## Thyristor
+
+tên gọi khác là Silicon Controlled Rectifier.\
+![Thyristor](./images/thyristor.png)
+
+- MCR100-8 với dạng chân SOT-89 \
+   ![MCR100-8 ](./images/mcr100-8.png)
+  - [Mua sắm](https://shopee.vn/B%E1%BB%99-50-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-MCR100-8-SCR-SOT-23-SOT-89-i.762880341.19334396407)
 
 ## Tài liệu khác
 
