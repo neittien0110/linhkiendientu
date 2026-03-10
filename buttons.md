@@ -5,6 +5,7 @@
 3. [Công tắc gạt](#công-tắc-gạt)
 
 ![Nút bấm hoạt động](https://components101.com/sites/default/files/component_pin/Push-button-Pinout.gif)
+
 > Nguồn: <https://components101.com/switches/push-button>
 
 ## Nút bấm nhấn nhả
@@ -14,17 +15,17 @@
   - ![easyeda](https://github.com/user-attachments/assets/14a37b9a-07cd-4428-b8fc-3a796377e964)
   - [Mua sắm](https://shopee.vn/-G%C3%B3i-5-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-ngang-4-ch%C3%A2n-6x6x9mm-n%C3%BAt-nh%E1%BA%A5n-6x6-i.501501433.22747454038)
 
--  Nút nhấn SMD 4 chân 6x6x3.4mm đầu đỏ
-   - ![real](https://github.com/user-attachments/assets/e86edfa3-60f9-44da-918d-d7a2b1c30437)
-   - ![easyeda](https://github.com/user-attachments/assets/81b4f8b5-d5ed-4760-97b0-1b2c27ec149a)
-   - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-4-ch%C3%A2n-6x6x3.4mm-%C4%91%E1%BA%A7u-%C4%91%E1%BB%8F-i.501501433.20881026304)
+- Nút nhấn SMD 4 chân 6x6x3.4mm đầu đỏ
+  - ![real](https://github.com/user-attachments/assets/e86edfa3-60f9-44da-918d-d7a2b1c30437)
+  - ![easyeda](https://github.com/user-attachments/assets/81b4f8b5-d5ed-4760-97b0-1b2c27ec149a)
+  - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-4-ch%C3%A2n-6x6x3.4mm-%C4%91%E1%BA%A7u-%C4%91%E1%BB%8F-i.501501433.20881026304)
 
 - Nút nhấn SMD 2P 3x6x2.5mm
   - Chú ý: dài 6mm không bao gồm phần thòi của 2 pin. Nếu bao gồm thì độ dài 8.5mm
   - ![real](https://github.com/user-attachments/assets/c87c94cc-0d56-4816-854e-dc70bacc4ff4)
   - ![easyeda](https://github.com/user-attachments/assets/94650507-5919-4119-984b-d278679139ac)
-  - [Mua sắm nút trắng](https://shopee.vn/-D%C3%A2y-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-2P-3x6x2.5mm-tr%E1%BA%AFng-(%C4%91%C3%B3ng-d%C3%A2y)-i.501501433.20776433118?sp_atk=98647a4e-87bb-4900-ba9b-b15481fd6b63&xptdk=98647a4e-87bb-4900-ba9b-b15481fd6b63)
-  - [Mua sắm nút đỏ](https://shopee.vn/-D%C3%A2y-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-2-ch%C3%A2n-3x6x2.5mm-%C4%91%E1%BB%8F-(%C4%91%C3%B3ng-d%C3%A2y)-i.501501433.19081005300?sp_atk=d2497873-716f-4b51-b0cb-c0eec173dae8&xptdk=d2497873-716f-4b51-b0cb-c0eec173dae8)
+  - [Mua sắm nút trắng](<https://shopee.vn/-D%C3%A2y-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-2P-3x6x2.5mm-tr%E1%BA%AFng-(%C4%91%C3%B3ng-d%C3%A2y)-i.501501433.20776433118?sp_atk=98647a4e-87bb-4900-ba9b-b15481fd6b63&xptdk=98647a4e-87bb-4900-ba9b-b15481fd6b63>)
+  - [Mua sắm nút đỏ](<https://shopee.vn/-D%C3%A2y-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-2-ch%C3%A2n-3x6x2.5mm-%C4%91%E1%BB%8F-(%C4%91%C3%B3ng-d%C3%A2y)-i.501501433.19081005300?sp_atk=d2497873-716f-4b51-b0cb-c0eec173dae8&xptdk=d2497873-716f-4b51-b0cb-c0eec173dae8>)
 
 - B3U-1000P Nút nhấn SMD 2 chân 3x2.5x1.6mm
   - Chú ý, dài 2.5 mm không bao gồm phần thòi của 2 pin. Nếu bao gồm thì độ dài 4.2mm
@@ -32,41 +33,40 @@
   - ![easyeda](https://github.com/user-attachments/assets/dfc1ae8a-4443-4a6f-8901-9847db4247e0)
   - [Mua sắm](https://shopee.vn/B3U-1000P-N%C3%BAt-nh%E1%BA%A5n-SMD-2-ch%C3%A2n-3x2.5x1.6mm-i.501501433.17695115463)
 
-- SMD 2P 3x4x2H mm 
+- SMD 2P 3x4x2H mm
   - ![real](https://github.com/user-attachments/assets/6c88ef79-e14b-458c-ab2f-5206805e4f32)
   - ![easyeda](https://github.com/user-attachments/assets/563bf4be-2c86-4cd9-abdb-87cc3239cd16)
   - [Mua sắm nút trắng](https://shopee.vn/N%C3%BAt-nh%E1%BA%A5n-SMD-2P-2.9x3.9x2H-mm-%C4%90%E1%BA%A7u-tr%E1%BA%AFng-i.501501433.29500435053?sp_atk=6f209486-897c-4ebf-8cc4-5b0900ceb3a5&xptdk=6f209486-897c-4ebf-8cc4-5b0900ceb3a5)
   - [Mua sắm nút đen](https://shopee.vn/-D%C3%A2y-10-c%C3%A1i-N%C3%BAt-nh%E1%BA%A5n-SMD-2-ch%C3%A2n-3x4x2.5mm-n%C3%BAt-nh%E1%BA%A5n-3x4-i.501501433.18176448815?sp_atk=a975f816-4e6b-47af-b6f2-e2b1f04d04da&xptdk=a975f816-4e6b-47af-b6f2-e2b1f04d04da)
 
-## Nút bấm nhấn giữ 
+## Nút bấm nhấn giữ
 
 ## Công tắc gạt
 
 - MSK-12C02 Công tắc gạt SMD 7P
-   - ![real](https://github.com/user-attachments/assets/feea88b6-b17c-4495-9824-9d9332a95a53)
-   - ![easyeda](https://github.com/user-attachments/assets/0371c5b0-0954-47a7-9751-602006269951)
-   - [Mua sắm](https://shopee.vn/MSK-12C02-C%C3%B4ng-t%E1%BA%AFc-g%E1%BA%A1t-SMD-7P(10c)-i.501501433.23169346204)
+  - ![real](https://github.com/user-attachments/assets/feea88b6-b17c-4495-9824-9d9332a95a53)
+  - ![easyeda](https://github.com/user-attachments/assets/0371c5b0-0954-47a7-9751-602006269951)
+  - [Mua sắm](<https://shopee.vn/MSK-12C02-C%C3%B4ng-t%E1%BA%AFc-g%E1%BA%A1t-SMD-7P(10c)-i.501501433.23169346204>)
 
 - MSK-12D19(1P2T) Công tắc gạt
   - ![real](https://github.com/user-attachments/assets/a96fba43-53e9-4710-8d07-29ba6b47a2dc)
   - ![easyeda](https://github.com/user-attachments/assets/0bbbe0f0-b479-4c00-9a45-fa1ed45b3714)
-  - [Mua sắm](https://shopee.vn/MSK-12D19(1P2T)-C%C3%B4ng-t%E1%BA%AFc-g%E1%BA%A1t-i.501501433.21189931626)
+  - [Mua sắm](<https://shopee.vn/MSK-12D19(1P2T)-C%C3%B4ng-t%E1%BA%AFc-g%E1%BA%A1t-i.501501433.21189931626>)
 
-
- - Công tắc gạt SK12D07 Công tắc gạt 3P - chân cong thanh gạt 5mm DIP
-   - ![image](https://github.com/user-attachments/assets/c9f79a16-87be-440b-addd-01a05ec34ffd)
-   - ![easyeda](https://github.com/user-attachments/assets/e9f362ac-8b4a-4c7b-a024-4b8638e1763b)
-   - Thông số:
-     - 3 chân pin + 2 ngàm giữ
-     - chân cong
-     - khoảng cách 2 pin: **2.0mm**
-   - Footprint: \
-     ![image](https://github.com/user-attachments/assets/178ed339-b2c6-47ed-9bbb-966dbc547d3d)
-   - 3d model đã có sẵn \
-     ![image](https://github.com/user-attachments/assets/abf5cb07-5cb9-43e5-b774-a7c52cba224d)
-   - [LSCS](https://www.lcsc.com/product-detail/Slide-Switches_SHOU-HAN-SK12D07VG4_C393937.html)
-   - [Schematic](https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf)
-   - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-SK12D07-C%C3%B4ng-t%E1%BA%AFc-g%E1%BA%A1t-3P-ch%C3%A2n-cong-thanh-g%E1%BA%A1t-5mm-DIP-i.501501433.22545770618)
+- Công tắc gạt SK12D07 Công tắc gạt 3P - chân cong thanh gạt 5mm DIP
+  - ![image](https://github.com/user-attachments/assets/c9f79a16-87be-440b-addd-01a05ec34ffd)
+  - ![easyeda](https://github.com/user-attachments/assets/e9f362ac-8b4a-4c7b-a024-4b8638e1763b)
+  - Thông số:
+    - 3 chân pin + 2 ngàm giữ
+    - chân cong
+    - khoảng cách 2 pin: **2.0mm**
+  - Footprint: \
+    ![image](https://github.com/user-attachments/assets/178ed339-b2c6-47ed-9bbb-966dbc547d3d)
+  - 3d model đã có sẵn \
+    ![image](https://github.com/user-attachments/assets/abf5cb07-5cb9-43e5-b774-a7c52cba224d)
+  - [LSCS](https://www.lcsc.com/product-detail/Slide-Switches_SHOU-HAN-SK12D07VG4_C393937.html)
+  - [Schematic](https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_SHOU-HAN-SK12D07VG4_C393937.pdf)
+  - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-SK12D07-C%C3%B4ng-t%E1%BA%AFc-g%E1%BA%A1t-3P-ch%C3%A2n-cong-thanh-g%E1%BA%A1t-5mm-DIP-i.501501433.22545770618)
 
 - MSS22D18 Công tắc gạt 6 chân SMD - Cần gạt 2mm
   - ![real](https://github.com/user-attachments/assets/717cf151-c81e-4100-8ac2-796a09bea3fb)

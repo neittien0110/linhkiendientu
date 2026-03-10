@@ -43,7 +43,6 @@
 - Schematic và PCB: **OLED SSD1306 128x64**
   ![OLED SSD1306 128x64](https://github.com/neittien0110/linhkiendientu/assets/8079397/fa7c66af-ac25-4f57-953c-59c4e9b86707)
 
-  
 ## Màn OLED 1.3"
 
 ![Màn OLED 1.3"](https://github.com/neittien0110/linhkiendientu/assets/8079397/c3bbf91d-3621-4534-8dfb-2661fa2b4c89)
@@ -56,7 +55,7 @@
   - Độ rộng màn hình: 1.3 inch.
   - Màu hiển thị: Trắng / Xanh Dương.
   - Giao tiếp: I2C
-  - Driver: **SH1106**  (Chú ý rằng không phải SSD1306 như đa số các OLED cỡ nhỏ khác)
+  - Driver: **SH1106** (Chú ý rằng không phải SSD1306 như đa số các OLED cỡ nhỏ khác)
   - Thư viện lập trình: **U8g2** \
     ![U8g2](https://github.com/neittien0110/linhkiendientu/assets/8079397/2f046a60-5e7f-440e-a1b7-b5454e75b7e9)
 - [Mua sắm](https://nshopvn.com/product/man-hinh-oled-1-3-inch-giao-tiep-i2c-blue/)

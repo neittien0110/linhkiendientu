@@ -1,16 +1,19 @@
+# CÁC MODULE GIAO TIẾP
+
 ## NRF24L01
 
 NRF24L01 có các đặc tính gồm
+
 - truyền dữ liệu không dây
 - tần số 2.4 GHz
 - giao tiếp **SPI**
 - cự li 200m.
 - Điện áp: **3.3v**
-- Cho phép truyền từ xa như xây dựng xe điều khiển bằng sóng Radio trực tiếp 
+- Cho phép truyền từ xa như xây dựng xe điều khiển bằng sóng Radio trực tiếp
 
 ![Nhiều loại module](https://github.com/neittien0110/linhkiendientu/assets/8079397/4996a4d0-8c2c-4f1a-81ae-f3ddff203a02)
 
-- Pinout 
+- Pinout
   - VIN: Module power supply
   - GND: Ground
   - MOSI: Data transmit for SPI protocol
@@ -29,28 +32,28 @@ NRF24L01 có các đặc tính gồm
     ![Loại có 8 chân siêu nhỏ](https://github.com/neittien0110/linhkiendientu/assets/8079397/fb93ba72-3feb-4d96-b5eb-f20c87608d7c)\
     [Xem thêm tài liệu](https://howtomechatronics.com/tutorials/arduino/arduino-wireless-communication-nrf24l01-tutorial/#:~:text=The%20pins%20CSN%20and%20CE,t%20have%20to%20be%20used.)
 
-
 - Mô hình kết nôi. \
   ![Desktop-MCUs](https://github.com/neittien0110/linhkiendientu/assets/8079397/c1c8056c-a1c2-4c80-b323-5f125d5d3942)
-  > Chưa thành công: MCU-MCU thì okay,  Laptop-Laptop thì okay, nhưng Laptop-MCU thì không nhận được dữ liệu
 
+  > Chưa thành công: MCU-MCU thì okay, Laptop-Laptop thì okay, nhưng Laptop-MCU thì không nhận được dữ liệu
 
-- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-truy%E1%BB%81n-d%E1%BB%AF-li%E1%BB%87u-kh%C3%B4ng-d%C3%A2y-NRF24L01-2.4G-2.4GHz-NRF24L01-phi%C3%AAn-b%E1%BA%A3n-n%C3%A2ng-c%E1%BA%A5p-NRF24L01-PA-LNA-1000-GT24-i.812409307.20422229589).  Lưu ý cố thể mua loại SMD không hàn pin, để tiện hàn lên PCB nhưng loại này sử dụng chân 1.25 mm
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-truy%E1%BB%81n-d%E1%BB%AF-li%E1%BB%87u-kh%C3%B4ng-d%C3%A2y-NRF24L01-2.4G-2.4GHz-NRF24L01-phi%C3%AAn-b%E1%BA%A3n-n%C3%A2ng-c%E1%BA%A5p-NRF24L01-PA-LNA-1000-GT24-i.812409307.20422229589). Lưu ý cố thể mua loại SMD không hàn pin, để tiện hàn lên PCB nhưng loại này sử dụng chân 1.25 mm
 
 ## Module HC-12 RF UART 433Mhz
 
-  ![image](https://github.com/user-attachments/assets/b4852145-e92e-44f5-b1b2-8677865bb842)
+![image](https://github.com/user-attachments/assets/b4852145-e92e-44f5-b1b2-8677865bb842)
+
 - Thông số:
   - Khoảng cách tối đa: 1000m
-  - Điện áp hoạt động:	3.3V - 5V
-  - Dòng tiêu thụ chế độ chờ:	16mA
-  - Công suất:	80mW -200mW, có thể cài đặt
-  - Chuẩn giao tiếp:	UART
+  - Điện áp hoạt động: 3.3V - 5V
+  - Dòng tiêu thụ chế độ chờ: 16mA
+  - Công suất: 80mW -200mW, có thể cài đặt
+  - Chuẩn giao tiếp: UART
   - Tốc độ: 5 kbps
   - Tần số: 433.4 - 473.0MHz
   - Kích thước: 27.8mm × 14.4mm × 4mm
 - Các chân pin:
-  - Vcc  : Cấp nguồn 3.3V – 5V.
+  - Vcc : Cấp nguồn 3.3V – 5V.
   - GND: Cấp nguồn 0V
   - RXD : Nhận dữ liệu UART
   - TXD : Truyền dữ liệu UART
@@ -74,25 +77,27 @@ NRF24L01 có các đặc tính gồm
 
 ## Bộ thu không dây 4 kênh YK-04 433MHZ IC2262 / 2272
 
-  ![Ảnh minh họa](https://down-vn.img.susercontent.com/file/7e2c6c7ab361b8449ff05bbee8660e0f.webp)
- - Thông số
+![Ảnh minh họa](https://down-vn.img.susercontent.com/file/7e2c6c7ab361b8449ff05bbee8660e0f.webp)
+
+- Thông số
   1.Điện áp hoạt động: 5V
   2.Dòng điện hoạt điện: 10mA @ 12V
-  3. Công suất tăng: 10 mw @ 12V
-  4. Chế độ điều chế: ASK (Điều chế biên độ)
-  5. Tần số truyền: 433MHZ
-  6. Khoảng cách truyền tín hiệu: 50-100M (không gian mở, độ nhạy của máy thu là -100dbm)
-  7. Mã: mã cố định (tức là không [học được mã mới từ bộ điều khiển như bộ này](https://nshopvn.com/product/mach-thu-song-rf-315mhz-hoc-lenh-3891-s0/))
+
+3. Công suất tăng: 10 mw @ 12V
+4. Chế độ điều chế: ASK (Điều chế biên độ)
+5. Tần số truyền: 433MHZ
+6. Khoảng cách truyền tín hiệu: 50-100M (không gian mở, độ nhạy của máy thu là -100dbm)
+7. Mã: mã cố định (tức là không [học được mã mới từ bộ điều khiển như bộ này](https://nshopvn.com/product/mach-thu-song-rf-315mhz-hoc-lenh-3891-s0/))
+
 - Bộ điều khiển nhựa là đầu phát. Mạch PCB có mã YK-04 là bộ thu. 4 nút trên bộ điều khiển khi bấm sẽ tương ứng với 4 chân D0-D3 trên bộ thu
-   ![Ảnh mua sản phẩm](https://down-vn.img.susercontent.com/file/vn-11134103-7r98o-ltgf5k69uwi297.webp)
+  ![Ảnh mua sản phẩm](https://down-vn.img.susercontent.com/file/vn-11134103-7r98o-ltgf5k69uwi297.webp)
 - [Mua sắm](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-kh%C3%B4ng-d%C3%A2y-4-k%C3%AAnh-4-Module-kh%C3%B4ng-d%C3%A2y-433MHZ-IC2262-2272-i.201091220.5212508592)
 
-## Bộ thu không dây 1 kênh ZX-011 RF 433mHz-315Hz 
+## Bộ thu không dây 1 kênh ZX-011 RF 433mHz-315Hz
 
 ![image](https://github.com/user-attachments/assets/b46a5902-8aff-4595-83b5-49ce7d2aa89a)
 ![image](https://github.com/user-attachments/assets/78c6bda4-921c-43b2-93ae-cafdf543d14f)
 ![image](https://github.com/user-attachments/assets/eeef6e8f-e4f4-4e7d-9c03-a45419c238e8)
-
 
 - THÔNG SỐ KỸ THUẬT
   - Hỗ trợ chế độ điều chế ASK/OOK , độ nhạy thu đạt -108dBm ;
@@ -119,18 +124,18 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
 
 - Thông số mô-đun máy thu
   - Mã sản phẩm: MX-RM-5V
-  - Điện áp hoạt động: DC5V dòng tĩnh: 4MA                   
-  - Tần số nhận: 433,92mHz   
+  - Điện áp hoạt động: DC5V dòng tĩnh: 4MA
+  - Tần số nhận: 433,92mHz
   - Độ nhạy của máy thu: - 105DB
-  - Kích thước: Ăng-ten bên ngoài 30 * 14 * 7mm: Dây lõi đơn 32CM quấn thành hình xoắn ốc
+  - Kích thước: Ăng-ten bên ngoài 30 _ 14 _ 7mm: Dây lõi đơn 32CM quấn thành hình xoắn ốc
 
 - Thông số kỹ thuật của đầu máy phát
   - Mô hình sản phẩm: MX-FS
   - Khoảng cách phóng: 20 -200 mét (điện áp khác nhau, kết quả khác nhau)
   - Điện áp hoạt động: 3.5-12V
-  - Kích thước: 19 * 19mm
+  - Kích thước: 19 \* 19mm
   - Cách làm việc: Tốc độ truyền AM:
-  - Công suất truyền 4KB / S: 10mW              
+  - Công suất truyền 4KB / S: 10mW
   - Tần số truyền: 433M
   - Ăng-ten bên ngoài: 25cm dòng đa lõi hoặc lõi đơn thông thường
   - Sơ đồ chân từ trái → phải: (DATA; VCC; GND)
@@ -139,7 +144,6 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
 
 - [Code mẫu](http://arduino.vn/bai-viet/289-truyen-tin-hieu-voi-module-radio-frequence-433mhz)
 - [Mua sắm](https://shopee.vn/B%E1%BB%99-thu-v%C3%A0-m%C3%B4-%C4%91un-ph%C3%A1t-kh%C3%B4ng-d%C3%A2y-RF-315Mhz-433MHZ-5V-DC-433MHZ-kh%C3%B4ng-d%C3%A2y-cho-Arduino-Raspberry-Pi-ARM-MCU-WL-B%E1%BB%99-t%E1%BB%B1-l%C3%A0m-i.578443443.29260588424?sp_atk=12f88405-d196-4787-814f-98ab2009db7c&xptdk=12f88405-d196-4787-814f-98ab2009db7c)
-
 
 ## Mô-đun truyền phát RF 315 MHz 433 MHz truyền dẫn đường dài H34P H34S H34C H34A
 
@@ -156,25 +160,24 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
   - Sóng mang: 2.4GHz
 
 - [Datasheet](https://www.postavrobota.cz/fotky46704/fotov/_ps_2370JDY-41-Manual.pdf)
-  
+
 ![layout](https://github.com/user-attachments/assets/34a6fa4d-ea2d-44ba-b0d6-323e37e07f80)
 
 - [JDY-41 Shield](https://easyeda.com/editor#id=14db2118aee146ca99ca9489d7a761b9|85960bbc2d5c4422a18e05993adbe9b9)
-![Schematic](https://github.com/user-attachments/assets/3b0f69d8-b91b-4f27-8b1e-8977342b3108)
-![PCB](https://github.com/user-attachments/assets/7b6a13cc-7e3f-42cd-a130-23ba62fd04e6)
+  ![Schematic](https://github.com/user-attachments/assets/3b0f69d8-b91b-4f27-8b1e-8977342b3108)
+  ![PCB](https://github.com/user-attachments/assets/7b6a13cc-7e3f-42cd-a130-23ba62fd04e6)
 
+## Module CH340E BTE17-06B
 
-
-## Module CH340E BTE17-06B 
-  ![image](https://github.com/user-attachments/assets/7e47a6a2-754b-4d04-b720-af1ff082dcb8)
+![image](https://github.com/user-attachments/assets/7e47a6a2-754b-4d04-b720-af1ff082dcb8)
 
 - Thông số:
   - Có 2 chân nguồn cấp vào là VDD và 3v3. Trong đó VDD cho phép điện áp **3.3v tới 5v**, trong khi chân 3.3v có thẻ dùng để cấp cho mạch ngoài nhưng dòng tối đa 50mA.
 
 - EasyEDA lib:
-  - Footprint: __CH340E USB-TTL__\
+  - Footprint: **CH340E USB-TTL**\
     ![image](https://github.com/user-attachments/assets/df096895-0d4b-4c2a-ba06-ce1ca9a6970b)
-  - 3D model: __ImageToStl.com_ch340e (anytoutcourt)__\
+  - 3D model: **ImageToStl.com_ch340e (anytoutcourt)**\
     ![image](https://github.com/user-attachments/assets/1ad7cc83-465a-4636-bc9c-0e23cfe8f36c)
   - Thư viện:\
     ![image](https://github.com/user-attachments/assets/f45fc27f-4b63-4f25-891e-14a6a898d024)
@@ -186,18 +189,17 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
 
 ## JHEMCU 8CH Receiver PWM PPM SBUS 32bit Encoder Signal Conversion Module Converter
 
-  ![image](https://github.com/user-attachments/assets/2a812a26-9538-477a-b211-9ab5d2fe7d41)
-  ![image](https://github.com/user-attachments/assets/c69b275d-f855-4480-aa2d-a0beee87793c)
-
+![image](https://github.com/user-attachments/assets/2a812a26-9538-477a-b211-9ab5d2fe7d41)
+![image](https://github.com/user-attachments/assets/c69b275d-f855-4480-aa2d-a0beee87793c)
 
 - Thông số:
   - Điện áp vào: 3v3~20v
   - Dòng tiêu thụ: 15 mA
-  - Kích thước: 	21*21 mm
-  - Model Number	JHEMCU ACM0042
+  - Kích thước: 21\*21 mm
+  - Model Number JHEMCU ACM0042
   - Đầu vào và đầu ra kết hợp trong 1, tự động phát hiện đầu vào và từ đó biến 2 nguồn còn lại trở thành đầu ra.
-    + PPM (CPPM)
-    + PWM (common receiver signal)
-    + SBUS (including R7008SB series, FrSky, etc.)
+    - PPM (CPPM)
+    - PWM (common receiver signal)
+    - SBUS (including R7008SB series, FrSky, etc.)
 - [Homepage](https://www.jhemcu.com/e_productshow/?51-SPP-SBUS-PPM-PWM-signal-conversion-51.html)
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-chuy%E1%BB%83n-%C4%91%E1%BB%95i-3.3-20V-8CH-PWM-PPM-SBUS-cho-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-c%E1%BB%A7a-m%C3%A1y-bay-i.779640218.12094766747)
