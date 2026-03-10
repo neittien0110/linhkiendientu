@@ -25,8 +25,8 @@ Và tham chiếu tới các trang khác:
 6. [Các linh vật tư phụ kiện như mạch in, dây dẫn, thiếc, vỏ hộp](./noname.md)
 7. [Linh kiện PCB để thiết kế board](./EasyEDA_Library.md)
 8. [Module nguồn cấp](./powersupply.md)
-    - [Mạch sạc pin Lithium trên EasyEDA](./EasyEDA_Library.md)
-    - [Schematic mạch nguồn](./powersupply_schematics.md)
+   - [Mạch sạc pin Lithium trên EasyEDA](./EasyEDA_Library.md)
+   - [Schematic mạch nguồn](./powersupply_schematics.md)
 9. [Công cụ kiêm tra](./tools.md)
 10. [Tài liệu tham khảo khác](#tài-liệu-khác)
 
@@ -72,10 +72,12 @@ Và tham chiếu tới các trang khác:
   5. **FIFO Almost Full:**: Bộ đệm FIFO đã đầy. Bên ngoài cần đọc thông tin sớm để tránh bị MAX30102 đo tiếp và ghi đè.
 - [Tài liệu datasheet pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30102.pdf)
 - Lập trình:
+
   ```Arduino
     #define BLACK_MAX30102_WRITE_ADDRESS 0xAE  # Địa chỉ để thực hiện ghi dữ liệu vào device
     #define BLACK_MAX30102_WRITE_ADDRESS 0xAF  # Địa chỉ để thực hiện đọc dữ liệu từ device
   ```
+
   [Code mẫu EN](https://lastminuteengineers.com/max30102-pulse-oximeter-heart-rate-sensor-arduino-tutorial/)
   [Code mẫu VN](https://mecsu.vn/ho-tro-ky-thuat/may-do-oxy-xung-max30102-va-cam-bien-nhip-tim-voi-arduino.Db4)
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%E1%BA%A3m-Bi%E1%BA%BFn-Nh%E1%BB%8Bp-Tim-MAX30102-MAX30100-i.820808044.16479616248)
@@ -84,7 +86,7 @@ Và tham chiếu tới các trang khác:
 
 ![max30102](https://github.com/neittien0110/linhkiendientu/assets/8079397/a59436a9-4e5e-4eee-bc49-09aef0d442ab)
 
-```
+```plain
 Cảm biến nhịp tim và oxy trong máu MAX30102
 IC chính: MAX30102
 Đo được nhịp tim và nồng độ Oxy trong máu.
@@ -217,11 +219,12 @@ Kích thước: 1.4 cm x 1.4 cm x 0.3 cm
     - Mẫu 24-bit
     - Điệp áp hoạt động: 1v8~3v3
     - Cụm 3 pin:
+
       |Tên|Chức năng|Kết nối|
       |--|--|--|
-      |L/R|=0 thì tín hiệu mic sẽ thuộc kênh trái của khung I2S, =1 thì thuộc kênh phải| Gắn cố định vào Vdd, Vcc |
+      |L/R|=0 thì tín hiệu mic sẽ thuộc kênh trái của khung I2S, =1 thì thuộc kênh phải|Gắn cố định vào Vdd, Vcc|
       |WS|Word select của I2S|GPIO của MCU|
-      |SCK| Clock của I2S | GPIO của MCU |
+      |SCK|Clock của I2S|GPIO của MCU|
 
       | Tên | Chức năng               | Kết nối      |
       | --- | ----------------------- | ------------ |
@@ -241,15 +244,15 @@ Kích thước: 1.4 cm x 1.4 cm x 0.3 cm
   ![Mặt trước](https://github.com/user-attachments/assets/e1ba86c2-1a0d-4c61-a17c-387fae4a88ce)
   ![Mặt sau](https://github.com/user-attachments/assets/0d7a8347-51e7-4fd0-925d-e8af597059cd)
   - Thông số:
-    1.  Kích thước mô-đun: 16 \* 11 mm
-    2.  Loại giao diện: I2C
-    3.  Điện áp làm việc: 1,8-6,0 V
-    4.  Kích thước giao diện: 4 \* 2,54mm cao độ
-    5.  Độ ẩm chính xác: ± 2% điển hình
-    6.  Độ phân giải độ ẩm: 0,024%
-    7.  Độ chính xác nhiệt độ: điển hình ± 0,3 ° C
-    8.  Độ phân giải nhiệt độ: Tiêu chuẩn 0,01 °C
-    9.  Nhiệt độ làm việc: -40°C - 85°C
+    1. Kích thước mô-đun: 16 \* 11 mm
+    2. Loại giao diện: I2C
+    3. Điện áp làm việc: 1,8-6,0 V
+    4. Kích thước giao diện: 4 \* 2,54mm cao độ
+    5. Độ ẩm chính xác: ± 2% điển hình
+    6. Độ phân giải độ ẩm: 0,024%
+    7. Độ chính xác nhiệt độ: điển hình ± 0,3 ° C
+    8. Độ phân giải nhiệt độ: Tiêu chuẩn 0,01 °C
+    9. Nhiệt độ làm việc: -40°C - 85°C
   - Lập trình:
 
     ```C
@@ -326,13 +329,14 @@ Kích thước bảng: 13,4X21,6mm
 
 ## Bụi
 
-- Nova SDS011: bao gồm cả sensor, lồng đối lưu, quạt thông khí.
-  <img width="419" height="265" alt="SDS011" src="https://github.com/user-attachments/assets/8f656b4d-fc42-4040-8214-6b90ca5665fa" />
+- Nova SDS011: bao gồm cả sensor, lồng đối lưu, quạt thông khí.\
+  ![SDS011](./images/box-sds011-04.png)
   - Thông số:
     - Đo đồng thời P2.5 và P10
     - Điều kiện làm việc: **độ ẩm < 70%**
     - Tốc độ mẫu: 1 mẫu/giây
   - Ý nghĩa của jack kết nối XH2.54 7 pin
+
     | pin | Name | comment |
     | :---: | :---: | :--- |
     | 1 | CTL | control pin, backup |
@@ -342,11 +346,13 @@ Kích thước bảng: 13,4X21,6mm
     | 5 | GND | ground |
     | 6 | R | RX of UART (TTL) |
     | 7 | T | TX of UART (TTL) |
+
   - Kết nối
     - Có thể lấy số liệu dạng analog ở chân pin 2, 4 như bảng trên
     - hoặc có thể lấy dữ liệu số qua giao tiếp serial:
       - baudrate=9600 bps, 8-bit data, no parity bit, one stop bit.
       - Cú pháp
+
         | STT byte | Name | Content |
         | :---: | :---: | :--- |
         | 0 | Message header | AA |
@@ -359,18 +365,18 @@ Kích thước bảng: 13,4X21,6mm
         | 7 | DATA 6 | ID byte 2 |
         | 8 | Check-sum | Check-sum |
         | 9 | Message tail | AB |
+
   - [Homepage](https://www.sdnf.com/?list_13/55.html)
   - [Mua sắm](https://shopee.vn/NOVA-M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-Kh%C3%B4ng-Kh%C3%AD-Sds011-Pm2.5-Ch%E1%BA%A5t-L%C6%B0%E1%BB%A3ng-Cao-i.578443443.15128384320)
   - In 3d vỏ hộp:
     - [Kết hợp với NodeMCU 30-pin thông thường, DHT22](https://www.thingiverse.com/thing:2503257) \
-      <img width="173" height="127" alt="image" src="https://github.com/user-attachments/assets/d6ebe74b-5e90-4e16-836b-f946cbebec2b" />
+      ![NodeMCU Oled 0.96inch](./images/box-sds011-03.png)
     - [Kết hợp với NodeMCU Oled 0.96inch](https://www.thingiverse.com/thing:3342804) \
-      <img width="164" height="139" alt="NodeMCU Oled 0.96inch" src="https://github.com/user-attachments/assets/d2e53fd5-2bb3-4c15-b0c3-98779131c16a" />
+      ![NodeMCU Oled 0.96inch](./images/box-sds011-01.png)
     - [Kết hợp với Wemos D1 R2 mini 8266](https://www.thingiverse.com/thing:4765880) \
-      <img width="170" height="142" alt="Wemos D1 R2 mini 8266" src="https://github.com/user-attachments/assets/69b0d514-4a24-4160-8f75-d4b5daf30c42" />
-
+      ![Wemos D1 R2 mini 8266](./images/box-sds011-02.png)
   - Tham khảo:
-    - [Nguyên lý, kết nối, chương trình đọc dữ liệu trên PC, shematic, ](https://www.open-electronics.org/sds011-the-air-quality-sensor/)
+    - [Nguyên lý, kết nối, chương trình đọc dữ liệu trên PC, shematic](https://www.open-electronics.org/sds011-the-air-quality-sensor/)
     - [Code mẫu arduino từ nshop, đọc dữ liệu qua serial](https://nshopvn.com/product/module-cam-bien-bui-laser-sds011/)
     - [Chương trình commandline và Local web đọc và hiển thị số liệu, python](https://github.com/neittien0110/linhkiendientu/tree/master/samples/sds011) \
       <img width="675" height="311" alt="image" src="https://github.com/user-attachments/assets/10e48a75-15fe-4657-8709-de520961bb3f" />
@@ -382,10 +388,10 @@ Kích thước bảng: 13,4X21,6mm
 - Module cảm biến tia UV MCU-6075 I2C- CC3
   ![Mặt trước](https://github.com/user-attachments/assets/2be9052a-5fd1-4d27-a5b8-2123aa5a8886)
   - Thông số:
-    1.  Điện áp hoạt động: 3 – 5VDC
-    2.  Điện áp giao tiếp I2C: 3 – 5VDC
-    3.  Giao tiếp I2C, địa chỉ **0x10**
-    4.  Độ nhạy cao với tia UVA (320-400 nm) và UVB (280-320 nm)
+    1. Điện áp hoạt động: 3 – 5VDC
+    2. Điện áp giao tiếp I2C: 3 – 5VDC
+    3. Giao tiếp I2C, địa chỉ **0x10**
+    4. Độ nhạy cao với tia UVA (320-400 nm) và UVB (280-320 nm)
   - Lập trình:
 
     ```C
@@ -423,8 +429,8 @@ Kích thước bảng: 13,4X21,6mm
   - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-%C4%90%C3%A8n-LED-Nhi%E1%BB%81u-M%C3%A0u-S%E1%BA%AFc-4-16-25-64-bit-WS2812-5050-RGB-i.869927552.23538525625)
 
 - AS7341 - cảm biến quang phổ kế màu hồng ngoại nhìn thấy\
-  <img width="306" height="142" alt="image" src="https://github.com/user-attachments/assets/3fa7025b-f302-4e18-b0fa-811c6896d61c" />
-  <img width="251" height="203" alt="image" src="https://github.com/user-attachments/assets/1dcdf90d-5dcc-4896-bb37-2b635110536d" />
+  ![type 1](./images/AS7341.01.png)
+  ![type 2](./images/AS7341.02.png)
   - Thông số:
     - Gồm 11 kênh thông tin:
       - 8 kênh khả kiến 6 kênh chứa thông tin màu sắc với 6 ADC 16-bit độc lập.
@@ -438,9 +444,9 @@ Kích thước bảng: 13,4X21,6mm
         - F8: 670~690nm
       - 1 kênh \__NIR_ giúp xác định điều kiện ánh sáng xung quanh, nguồn sáng.
       - 1 kênh **flicker** phát hiện nhấp nháy ánh sáng theo tần số 50-60Hz và lên tới 1.5kHz\
-        <img width="1024" height="487" alt="11 kênh" src="https://github.com/user-attachments/assets/84248956-fd28-4b4b-9bc6-581436e34943" />
+        ![11 kênh](./images/AS7341.03.png)
     - Dải bước song đo được: 350nm đến 1000nm\
-      <img width="604" height="674" alt="image" src="https://github.com/user-attachments/assets/e889b228-6977-4149-b7f5-c540a08f0e96" />
+        ![11 kênh](./images/AS7341.04.png)
     - Có thêm 1 đèn led để bổ sung nguồn sáng trong môi trường tối.
     - Giao tiếp I2C: địa chỉ **0x39**
     - Và thêm 2 chân nữa:
@@ -485,7 +491,7 @@ Kích thước bảng: 13,4X21,6mm
   - Các mã mạch đọc được: UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, Read barcode type (1D): UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, Korean 3 of 5, ISBT Concat
     - QR codes, DataMatrix, PDF417, BooklandESE
   - Kết nối:
-     ![pin](./images/mhet_qrcode_v3_pins.png)
+    ![pin](./images/mhet_qrcode_v3_pins.png)
     1. HID USB. Lưu ý: có 2 hàng jumper cấu hình, phải chỉnh cặp jump nối về HID.
     2. UART USB với CH340 driver ở tốc độ **9600**. Lưu ý: có 2 hàng jumper cấu hình, phải chỉnh cặp jump nối về UART.
     3. UART với chân pin Tx/Rx trực tiếp, ở tốc độ **9600**. Lưu ý: có 2 hàng jumper cấu hình, lấy trực tiếp Tx/Rx từ hàng jumper này. Như vậy có thể dùng UART trực tiếp và HID USB đồng thời.
