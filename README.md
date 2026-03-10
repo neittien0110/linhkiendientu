@@ -479,7 +479,7 @@ Kích thước bảng: 13,4X21,6mm
   - [Tải về phần mềm SFG kết nối module](http://www.adafruit.com/datasheets/SFGDemoV2.0.rar)
   - [Video demo sử dụng phần mềm SFG để lây ảnh vân tay, fingerprint](https://www.youtube.com/watch?v=9faXEHvMgMA)
 
-- MHET
+- MHET QRCode Module v3.0\
   ![alt text](./images/mhet_qrcode_v3.png)
   - Các mã mạch đọc được: UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, Read barcode type (1D): UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, Korean 3 of 5, ISBT Concat
     - QR codes, DataMatrix, PDF417, BooklandESE
