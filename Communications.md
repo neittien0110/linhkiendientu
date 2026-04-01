@@ -1,5 +1,24 @@
 # CÁC MODULE GIAO TIẾP
 
+<!-- TOC -->
+
+- [NRF24L01](#nrf24l01)
+- [Module HC-12 RF UART 433Mhz](#module-hc-12-rf-uart-433mhz)
+- [Bộ thu không dây 4 kênh YK-04 433MHZ IC2262 / 2272](#b%E1%BB%99-thu-kh%C3%B4ng-d%C3%A2y-4-k%C3%AAnh-yk-04-433mhz-ic2262--2272)
+- [Bộ thu không dây 1 kênh ZX-011 RF 433mHz-315Hz](#b%E1%BB%99-thu-kh%C3%B4ng-d%C3%A2y-1-k%C3%AAnh-zx-011-rf-433mhz-315hz)
+- [Bộ thu không dây 1 kênh RXB12 433mHz-315Hz nhạy cao](#b%E1%BB%99-thu-kh%C3%B4ng-d%C3%A2y-1-k%C3%AAnh-rxb12-433mhz-315hz-nh%E1%BA%A1y-cao)
+- [Module thu phát RF 433Mhz](#module-thu-ph%C3%A1t-rf-433mhz)
+- [Mô-đun truyền phát RF 315 MHz 433 MHz truyền dẫn đường dài H34P H34S H34C H34A](#m%C3%B4-%C4%91un-truy%E1%BB%81n-ph%C3%A1t-rf-315-mhz-433-mhz-truy%E1%BB%81n-d%E1%BA%ABn-%C4%91%C6%B0%E1%BB%9Dng-d%C3%A0i-h34p-h34s-h34c-h34a)
+- [JDY-41](#jdy-41)
+- [Module CH340E BTE17-06B](#module-ch340e-bte17-06b)
+- [Module SYN480R với độ nhay thu -107db](#module-syn480r-v%E1%BB%9Bi-%C4%91%E1%BB%99-nhay-thu--107db)
+- [I-BUS/S-BUS/PPM/PWM](#i-buss-busppmpwm)
+    - [JHEMCU 8CH Receiver PWM PPM SBUS 32bit Encoder Signal Conversion Module Converter](#jhemcu-8ch-receiver-pwm-ppm-sbus-32bit-encoder-signal-conversion-module-converter)
+- [Phụ kiện](#ph%E1%BB%A5-ki%E1%BB%87n)
+    - [PT2272](#pt2272)
+
+<!-- /TOC -->
+
 ## NRF24L01
 
 NRF24L01 có các đặc tính gồm
@@ -116,6 +135,32 @@ NRF24L01 có các đặc tính gồm
   - Sản phẩm nhà thông minh
 - [Mua sắm](https://shopee.vn/M%E1%BA%A1ch-thu-ph%C3%A1t-t%C3%ADn-hi%E1%BB%87u-RF-433mhz-315Mhz-Ch%C6%B0a-gi%E1%BA%A3i-m%C3%A3-module-thu-ph%C3%A1t-kh%C3%B4ng-d%C3%A2y-s%C3%B3ng-RF-i.134796651.18903502931?sp_atk=6cc9abf7-a2bd-4805-9c67-f86a0cf05dc4&xptdk=6cc9abf7-a2bd-4805-9c67-f86a0cf05dc4)
 
+## Bộ thu không dây 1 kênh RXB12 433mHz-315Hz nhạy cao
+
+- Được đánh giá là nhạy hơn [Bộ thu không dây 1 kênh ZX-011 RF 433mHz-315Hz](#bộ-thu-không-dây-1-kênh-zx-011-rf-433mhz-315hz)
+- Vị trí chân pin y hệt **ZX-011**.
+- [Datasheet](http://www.datasheet.hk/view_download.php?id=2009988&file=0506%5Crxb12_7693552.pdf)
+- Pin Dimension:![RXB12_Pin](./images/RXB12_Pin.png)
+- Thông số:
+  - Độ nhạy nhận đạt -107dBm;
+  - Tần số hoạt động: 315 MHz; 433,92 MHz; (Tần số đặc biệt có thể được tùy chỉnh theo yêu cầu của khách hàng)
+  - Dải điện áp đầu vào nguồn điện: 3.3V-5.5V;
+  - Tiêu thụ điện năng thấp:
+    - 5,0V @ 433,92MHz, 3,8-4,1mA;
+    - 5,0V @ 315MHz, 2,5-2,8mA; 
+  - Tốc độ truyền dữ liệu liên tục đến 2,4K (mã Manchester)
+  - Khả năng chọn lọc tốt và triệt tiêu bức xạ đi lạc, dễ dàng vượt qua chứng nhận quốc tế CE / Fcc
+  - Khả năng triệt tiêu bức xạ dao động cục bộ tốt, có thể hoạt động cùng với nhiều mô-đun nhận (tức là, một lần chụp và nhiều lần nhận) mà không gây nhiễu lẫn nhau và việc sử dụng cùng nhau không ảnh hưởng đến khoảng cách nhận.
+  - Phạm vi nhiệt độ: -30-85°C lt có thể hoạt động bình thường ngay cả khi nhiệt độ môi trường khắc nghiệt.
+- Phạm vi ứng dụng:
+  - Công tắc cửa điều khiển từ xa trên ô tô (RKE);
+  - Dụng cụ mở cửa điều khiển từ xa;
+  - Báo động an ninh không dây;
+  - Chuông cửa không dây;
+  - Một bộ điều khiển không dây;
+  - Truyền dữ liệu không dây.
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-thu-superheterodyne-%C4%91%E1%BB%99-nh%E1%BA%A1y-cao-RXB12-m%C3%B4-%C4%91un-thu-kh%C3%B4ng-d%C3%A2y-k%C3%ADch-th%C6%B0%E1%BB%9Bc-si%C3%AAu-nh%E1%BB%8F-315Mhz-433Mhz-i.1057548384.25168731955)
+
 ## Module thu phát RF 433Mhz
 
 ![image](https://github.com/user-attachments/assets/e22a9361-875a-43cd-bb45-d933226c37d7)
@@ -185,9 +230,44 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
 - [Mua sắm, chọn đúng loại CH340E màu tím](https://shopee.vn/M%C3%B4-%C4%90un-Chuy%E1%BB%83n-%C4%90%E1%BB%95i-CH340E-CH340C-CH9340C-USB-Sang-TTL-5V-3.3V-CH340G-Chuy%C3%AAn-D%E1%BB%A5ng-Cho-Mini-i.578443443.16598012132). Lưu ý rằng loại CH340C màu đen thì có hiện tượng giao tiếp Serial với ESP32 được, nhưng không thể nạp code được
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Chuy%E1%BB%83n-%C4%90%E1%BB%95i-CH340E-CH340C-CH9340C-USB-Sang-TTL-5V-3.3V-CH340G-Chuy%C3%AAn-D%E1%BB%A5ng-Cho-Mini-i.578443443.16598012132)
 
-# I-BUS/S-BUS/PPM/PWM
+## Module SYN480R với độ nhay thu -107db
 
-## JHEMCU 8CH Receiver PWM PPM SBUS 32bit Encoder Signal Conversion Module Converter
+- Trên mặt board:
+  - nếu thạch anh là **6.7458MHz** thì đó là bản **433Mhz**.
+  - nếu thạch anh là **4.8970MHz** thì đó là bản **315MHz**.
+- Ăng-ten: Để thu xa (tầm 50-100m), phải hàn một sợi dây đồng đơn lõi dài đúng 17.3 cm vào chân ANT.
+- Nguồn cấp 3v3-5v
+
+
+- Code minh họa:
+
+    ```C
+    // Đấu nổi SYN480R: VCC: Nối 3.3V.
+    //                  GND: Nối Ground.
+    //                  DATA: Nối vào chân ngắt (Interrupt) của vi điều khiển (Ví dụ: Chân D2 trên Arduino).
+    #include <RCSwitch.h>
+
+    RCSwitch mySwitch = RCSwitch();
+
+    void setup() {
+      Serial.begin(9600);
+      // Cấu hình chân nhận tín hiệu là chân số 2 (ngắt 0)
+      mySwitch.enableReceive(0); 
+    }
+
+    void loop() {
+      if (mySwitch.available()) {
+        Serial.print("Nhan duoc ma: ");
+        Serial.println(mySwitch.getReceivedValue()); // In ra mã định danh của nút bấm
+        
+        mySwitch.resetAvailable(); // San sang nhan ma tiep theo
+      }
+    }
+  ```
+
+## I-BUS/S-BUS/PPM/PWM
+
+### JHEMCU 8CH Receiver PWM PPM SBUS 32bit Encoder Signal Conversion Module Converter
 
 ![image](https://github.com/user-attachments/assets/2a812a26-9538-477a-b211-9ab5d2fe7d41)
 ![image](https://github.com/user-attachments/assets/c69b275d-f855-4480-aa2d-a0beee87793c)
@@ -203,3 +283,21 @@ Video hướng dẫn![[Video hướng dẫn Video](https://www.youtube.com/watch
     - SBUS (including R7008SB series, FrSky, etc.)
 - [Homepage](https://www.jhemcu.com/e_productshow/?51-SPP-SBUS-PPM-PWM-signal-conversion-51.html)
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-chuy%E1%BB%83n-%C4%91%E1%BB%95i-3.3-20V-8CH-PWM-PPM-SBUS-cho-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-c%E1%BB%A7a-m%C3%A1y-bay-i.779640218.12094766747)
+
+## Phụ kiện
+
+### PT2272
+
+- Dùng trong các bộ thu RF để giải mã và so sánh. Đối lập với nó là IC mã hóa (**PT2262**). Cặp đôi này tạo ra bộ thu/phát không có chức năng học lệnh. Nói thêm là _Cặp IC EV1527 phát và  SYN480R thì cho phép học lệnh_.
+- Bản chất của **PT2272** là thanh ghi dịch Serial-to-Parallel kết hợp với một Bộ so sánh mã (Code Comparator).
+- Nguồn cấp ổn định: 5v (3v3 vẫn được nhưng sẽ dễ không nhận được mã)
+- 
+- Có 3 biến thể
+
+Mã|IC	Tên chế độ|Hành vi ngõ ra
+--|--|--
+M4|Momentary|Có nhấn có điện, buông là mất
+L4|Latching|Nhấn nút này tắt nút kia
+T4|Toggle|Nhấn lần 1 Bật, nhấn lần 2 Tắt
+
+- [Mua sắm](https://shopee.vn/IC-PT2272-T4-M4-L4-DIP18-Linh-ki%E1%BB%87n-%C4%91i%E1%BB%87n-t%E1%BB%AD-smd-ic-gi%E1%BA%A3-m%C3%A3-RF-4-k%C3%AAnh-i.134796651.22354043735?extraParams=%7B%22display_model_id%22%3A194564743313%2C%22model_selection_logic%22%3A3%7D&sp_atk=e41f733e-e904-4b56-8e0d-4c71e5805e3b&xptdk=e41f733e-e904-4b56-8e0d-4c71e5805e3b)

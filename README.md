@@ -2,18 +2,33 @@
 
 ## Mục lục
 
-- [Góc, gia tốc, la bàn](#mpu)
-- [Nhịp tim và SpO2](#nhịp-tim-và-spo2)
-- [Phím bấm, bàn phim](#bàn-phím)
-- [Đo khoảng cách](#đo-khoảng-cách)
-- [Đo tốc độ](#đo-tốc-độ)
-- [Loa, còi](#loa-còi)
-- [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)]
-- [Bụi](#bụi)
-- [Ánh sáng, hồng ngoại, uv](#ánh-sáng-hồng-ngoại-uv)
-- [Định danh - Thẻ NFC, RFID, Vân tay](#thẻ-nfc-rfid)
+<!-- TOC -->
+
+- [Mục lục](#m%E1%BB%A5c-l%E1%BB%A5c)
+- [MPU](#mpu)
+- [Nhịp tim và SpO2](#nh%E1%BB%8Bp-tim-v%C3%A0-spo2)
+    - [MH-ET MAX30102: Đo lượng oxi và nhịp tim MAX102 màu đen](#mh-et-max30102-%C4%90o-l%C6%B0%E1%BB%A3ng-oxi-v%C3%A0-nh%E1%BB%8Bp-tim-max102-m%C3%A0u-%C4%91en)
+    - [TÍM: Đo lượng oxi và nhịp tim MAX102](#t%C3%8Dm-%C4%90o-l%C6%B0%E1%BB%A3ng-oxi-v%C3%A0-nh%E1%BB%8Bp-tim-max102)
+- [Bàn phím](#b%C3%A0n-ph%C3%ADm)
+- [Đo khoảng cách](#%C4%90o-kho%E1%BA%A3ng-c%C3%A1ch)
+- [Đo tốc độ](#%C4%90o-t%E1%BB%91c-%C4%91%E1%BB%99)
+- [Loa còi](#loa-c%C3%B2i)
+- [Nhiệt độ Độ ẩm](#nhi%E1%BB%87t-%C4%91%E1%BB%99-%C4%90%E1%BB%99-%E1%BA%A9m)
+- [Bụi](#b%E1%BB%A5i)
+- [Ánh sáng, hồng ngoại. uv](#%C3%81nh-s%C3%A1ng-h%E1%BB%93ng-ngo%E1%BA%A1i-uv)
+- [Thẻ NFC RFID](#th%E1%BA%BB-nfc-rfid)
 - [Relay](#relay)
+- [Điện trở](#%C4%90i%E1%BB%87n-tr%E1%BB%9F)
+- [Tụ gốm](#t%E1%BB%A5-g%E1%BB%91m)
+- [Tụ hóa](#t%E1%BB%A5-h%C3%B3a)
+    - [Tụ nhôm](#t%E1%BB%A5-nh%C3%B4m)
+    - [Tụ Tantalum](#t%E1%BB%A5-tantalum)
+- [Diot](#diot)
+- [Transistor](#transistor)
 - [Thyristor](#thyristor)
+- [Tài liệu khác](#t%C3%A0i-li%E1%BB%87u-kh%C3%A1c)
+
+<!-- /TOC -->
 
 Và tham chiếu tới các trang khác:
 
@@ -39,7 +54,7 @@ Và tham chiếu tới các trang khác:
 
 ## Nhịp tim và SpO2
 
-### MH-ET MAX30102: Đo lượng oxi và nhịp tim MAX102 màu đen\
+### MH-ET MAX30102: Đo lượng oxi và nhịp tim MAX102 màu đen
 
 ![MAX30102 đen](https://github.com/neittien0110/linhkiendientu/assets/8079397/c281ac94-5d9c-4267-9074-5f8640a22af4)
 
@@ -101,7 +116,7 @@ Kích thước: 1.4 cm x 1.4 cm x 0.3 cm
 - [3d case 1](https://www.thingiverse.com/thing:4395147)
 - [3d case 2](https://www.thingiverse.com/thing:4847827)
 
-### Bàn phím
+## Bàn phím
 
 - Ky-023 Joystick Nút Điều Khiển JoyStick PS2 STM32 Cho Tay Cầm Chơi Game \
   ![Ky-023](https://github.com/neittien0110/linhkiendientu/assets/8079397/b2ae4aa5-44e2-4f26-aab2-f59fbf2aab3a)\
@@ -486,7 +501,7 @@ Kích thước bảng: 13,4X21,6mm
   - [Tải về phần mềm SFG kết nối module](http://www.adafruit.com/datasheets/SFGDemoV2.0.rar)
   - [Video demo sử dụng phần mềm SFG để lây ảnh vân tay, fingerprint](https://www.youtube.com/watch?v=9faXEHvMgMA)
 
-- MHET QRCode Module v3.0\
+- MHET QRCode Module v3.0 \
   ![alt text](./images/mhet_qrcode_v3.png)
   - Các mã mạch đọc được: UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, Read barcode type (1D): UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, Korean 3 of 5, ISBT Concat
     - QR codes, DataMatrix, PDF417, BooklandESE
@@ -540,6 +555,80 @@ Kích thước bảng: 13,4X21,6mm
     - nhấp nháy 3 lần chức năng liên động
   - Nhược điểm: không lắp được nắp vào thân, vì relay cao quá. Khi dóng nắp thì ko thể bấm nút cấu hình, vì nút thấp ==> thay thế bằng nút có cán dài 11 mm
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367), Mua kèm với [bộ điều khiển từ xa 433MHz](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-kh%C3%B4ng-d%C3%A2y-4-k%C3%AAnh-4-Module-kh%C3%B4ng-d%C3%A2y-433MHZ-IC2262-2272-i.201091220.5212508592)
+
+## Điện trở
+
+- **0805**: 0R,
+- **1206**: 0R, 330, 1k, 2k,3.3k,4.7k, 10k,  470R, 120R, 47R, 33R, 1.2M, 820k, 680k, 270k, 200k, 1/2M, 1.5M, 3.3M, 4.7M
+
+## Tụ gốm
+
+- **chân cắm**: 203pF, 3 pF, 100nF (tụ 104)
+- **1206**:  0.1u, 1u, 4.7u, 10u, 360PF ~ 100UF 360PF 470PF 560PF 820PF 1NF 2NF 3NF 4.7NF 8.2NF 10NF 47NF
+
+## Tụ hóa
+
+Gồm 2 loại là [tụ nhôm](#tụ-nhôm) và [tụ tantalum](#tụ-tantalum)
+
+### Tụ nhôm
+
+**Nhôm chân cắm:**
+
+![Tụ hóa nhôm ESR](./images/TuHoaNhom_ESR_Green.png)
+
+- **470uF**, ESR 25V, 8x12mm [Mua sắm](https://shopee.vn/T%E1%BB%A5-%C4%90i%E1%BB%87n-Nh%C3%B4m-T%E1%BA%A7n-S%E1%BB%91-Cao-25V-ESR-25V-10UF-47UF-100UF-220UF-330UF-470UF-680UF-1000UF-2200UF-4700UF-10000UF-i.762880341.17463873713)
+
+- **100uF**, ESR 16V 5x11mm [Mua sắm](https://shopee.vn/Set-100-T%E1%BB%A5-%C4%90i%E1%BB%87n-Nh%C3%B4m-16V-16V-100UF-220UF-470UF-680UF-1000UF-1500UF-2200UF-3300UF-4700UF-i.762880341.12091417167)
+
+=================================================================
+
+![Tụ nhôm trở kháng cực thấp Nippon](./images/TuHoaNhom_ESR_Nippon.png)
+
+- **470uF**, Very ESR 16V  8x12, của hãng Nippon Chemi-Con, tuổi thọ cao. [Mua sắm](https://shopee.vn/T%E1%BB%A5-%C4%90i%E1%BB%87n-Nh%C3%B4m-6.3V-10V-16V-25V-35V-50V-100V-22UF-47UF-100UF-220UFV-470UF-1000UF-Chuy%C3%AAn-D%E1%BB%A5ng-i.762880341.18155575785)
+
+=================================================================
+
+![Tụ nhôm vỏ nhôm](./images/TuHoaNhom_ESR_VoSat.png)
+
+- **220uF**, ESR, 16V  6x9mm, vỏ nhôm [Mua sắm](https://shopee.vn/5-Chi%E1%BA%BFc-DIP-Ch%E1%BA%AFc-Ch%E1%BA%AFn-%C4%90i%E1%BB%87n-Ph%C3%A2n-T%E1%BB%A5-Si%C3%AAu-Th%E1%BA%A5p-ESR-6.3V-10V-16V-25V-35V-50V-63V-470uF-330uF-220uF-100uF-47uF-%C4%90i%E1%BB%87n-Dung-i.1634073593.45452804127)
+
+**Nhôm chân dán:**
+
+![Tụ nhôm vỏ nhôm chân dán](./images/TuHoaNhom_ESR_VoNhom_SMD.png)
+
+- **470uF** 16v, 8*10.5mm [Mua sắm](https://shopee.vn/Set-20-T%E1%BB%A5-%C4%90i%E1%BB%87n-Nh%C3%B4m-6.3V-10V-16V-10UF-22UF-33UF-47UF-100UF-220UF-330UF-470UF-680UF-Chuy%C3%AAn-D%E1%BB%A5ng-i.762880341.11395058274)
+- **470uF** 6.3v, 6.3*7.7mm [Mua sắm](https://shopee.vn/Set-20-10-T%E1%BB%A5-%C4%90i%E1%BB%87n-Nh%C3%B4m-SMD-6.3V-10V-16V-25V-35V-50V-1UF-2.2UF-4.7UF-10UF-47UF-100UF-220UF-330UF-470UF-680UF-Chuy%C3%AAn-D%E1%BB%A5ng-i.832347222.23630963539)
+
+### Tụ Tantalum
+
+- **220uF**, 10V, ESR cực thấp, type C với kích thước 6.0 x 3.2 mm. [Mua sắm](https://shopee.vn/Set-10-T%E1%BB%A5-%C4%90i%E1%BB%87n-Lo%E1%BA%A1i-C-68UF-10UF-22UF-47UF-100UF-220UF-330UF-10V-4V-6.3V-16V-25V-35V-107-226-686-106-337-227-476-i.832347222.23235126173)
+
+## Diot
+
+- **1N4001 M1**, điot chỉnh lưu, chân dán SMD, dòng thuận tối đa 1A, điện áp ngược cực đại 50V, điện áp rơi 0.7~1v, tốc độ đáp ứng chậm
+  - Chống dòng ngược (Flyback Diode) khi mắc song song với Relay.
+  - bỏ qua
+- **1N5817**, chân cắm DO-41, còn lại thì giống y hệt **SS12**.
+  - [Mua sắm](https://shopee.vn/Set-100-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-1N4007-1N5819-1N4001Uf4007-FR107-FR157-FR207-1N4004-1N4937-HER107-RL207-1N5817-1N5399-1N60-1N914-i.1098096220.24707579370)
+- **SS12 = 1N5817L** , dòng thuận tối đa 1A, điện áp ngược cực đại 20V, điện áp rơi chỉ **0.45V đến 0.5V**, tốc độ đáp ứng nhanh
+  - Chữ "1" đại diện cho 1A và chữ "2" đại diện cho 20V.
+  - [Mua sắm](https://shopee.vn/Set-100-%C4%90i%E1%BB%91t-Ch%E1%BB%89nh-L%C6%B0u-m1-m4-m5-m7-ss12-ss14-ss16-ss24-ss26-ss34-ss36-ss110-ss210-S210-us1m-rs2m-es1d-Chuy%C3%AAn-D%E1%BB%A5ng-i.1098096220.23859425281)
+
+## Transistor
+
+- **MMBT2222A**, SOT-23, là phiên bản chân dán của 2N2222
+  - Dòng thu tối đa ($I_C$): 600mA (Đủ để kéo Relay, dải LED nhỏ hoặc làm mạch sạc pin).
+  - Điện áp ($V_{CEO}$): 40V.Công suất tiêu tán ($P_D$): Khoảng 350mW (Thấp hơn loại vỏ nhựa TO-92 một chút do kích thước nhỏ khó tản nhiệt).
+  - Sơ đồ chân:
+    - Chân 1 (Base - B): Cực nền (nằm bên trái phía dưới).
+    - Chân 2 (Emitter - E): Cực phát (nằm bên phải phía dưới).
+    - Chân 3 (Collector - C): Cực thu (nằm một mình ở phía trên).
+  - [Mua sắm](https://shopee.vn/100pcs-MMBT2222A-SOT-23-MMBT2222-2N2222-1P-SMD-General-Purpose-Transistors-NPN-40V-0.6A-mmbt2222-i.832347222.14496850735)
+  - ![MMBT2222A](./images/MMBT2222A.png)
+
+- **BCX56-16**, chân dán SOT-89, NPN, dòng tối đa 1A, điện áp 80V
+  - Thay thế cho 2N2222 / MMBT2222A và khỏe hơn
+  - [Mua sắm](https://shopee.vn/20-50-Chi%E1%BA%BFc-M%E1%BB%9Bi-BCX56-16-BL-SMD-Transistor-SOT-89-NPN-C%C3%B4ng-Su%E1%BA%A5t-V%E1%BB%ABa-Transistor-1A-80V-i.1553543597.41103177514)
 
 ## Thyristor
 

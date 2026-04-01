@@ -2,13 +2,19 @@
 
 ## Mục luc
 
-1. [Motor bước 28BYJ-48 5V](#motor-bước-28byj-48-5v)
-2. [Motor rung](#motor-rung)
-3. [Động cơ DC 130 kèm hộp số](#động-cơ-dc-130-kèm-hộp-số)
-4. [Tùy chỉnh thư viện Servo của Arduino](#tùy-chỉnh-thư-viện-servo-của-arduino)
-5. [Servo MG945](#servo-mg945)
-6. [Servo MG996](#servo-mg996)
-7. [Servo TD-8120mg](#servo-td-8120mg)
+<!-- TOC -->
+
+- [Mục luc](#m%E1%BB%A5c-luc)
+- [Motor bước 28BYJ-48 5V](#motor-b%C6%B0%E1%BB%9Bc-28byj-48-5v)
+- [Motor rung](#motor-rung)
+- [Động cơ DC 130 kèm hộp số](#%C4%90%E1%BB%99ng-c%C6%A1-dc-130-k%C3%A8m-h%E1%BB%99p-s%E1%BB%91)
+- [Tùy chỉnh thư viện Servo của Arduino](#t%C3%B9y-ch%E1%BB%89nh-th%C6%B0-vi%E1%BB%87n-servo-c%E1%BB%A7a-arduino)
+- [Servo MG945](#servo-mg945)
+- [Servo MG996](#servo-mg996)
+- [Servo TD-8120mg](#servo-td-8120mg)
+- [Động cơ cần đẩy giảm tốc hành tinh chính xác DC 3v](#%C4%90%E1%BB%99ng-c%C6%A1-c%E1%BA%A7n-%C4%91%E1%BA%A9y-gi%E1%BA%A3m-t%E1%BB%91c-h%C3%A0nh-tinh-ch%C3%ADnh-x%C3%A1c-dc-3v)
+
+<!-- /TOC -->
 
 ## Motor bước 28BYJ-48 5V
 
@@ -17,13 +23,13 @@
 - Ý nghĩa các dây dẫn \
   ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/9da96230-bcee-4116-bc9b-1090137d72a8)
 - Mapping các dây dẫn của motor với board điều khiển công suất\
-  |Màu dây của động cơ | Chân pin tren board công suất|
-  |--|--|
-  |Đỏ|Vdd|
-  |Cam|D|
-  |Vàng|C|
-  |Hồng|B|
-  |Xanh|A|
+      |Màu dây của động cơ | Chân pin tren board công suất|
+      |--|--|
+      |Đỏ|Vdd|
+      |Cam|D|
+      |Vàng|C|
+      |Hồng|B|
+      |Xanh|A|
 
 - Code minh họa
 
@@ -84,7 +90,7 @@
 
 ## Tùy chỉnh thư viện Servo của Arduino
 
-Cho phép khai báo chồng lên các khai báo sau trong [<Servo> của Arduino](https://www.arduino.cc/reference/en/libraries/servo/)
+Cho phép khai báo chồng lên các khai báo sau trong [Servo của Arduino](https://www.arduino.cc/reference/en/libraries/servo/)
 
 ```C
 #define MIN_PULSE_WIDTH       544     // Độ rộng xung, tính theo us, tương ứng với góc quay bé nhất
@@ -136,13 +142,13 @@ servo.attach(pin, min, max)
     ![ảnh 2](https://bizweb.dktcdn.net/100/190/540/files/td8120mg-2.png?v=1562724672885)
 - Cùng kích cỡ với MG945, MG995, MG996, TD-8120mg, TD-8125mg
 - Waveform điều khiển góc quay:
-  Góc | Chu kỳ | Độ rộng xung
-  --|--|--
-  90&deg;|20 ms| 1 ~ 2 ms
-  180&deg;|20 ms| 0.5 ~ 2.5 ms
-  270&deg;|20 ms| 0.5 ~ 2.5 ms
-  300&deg;|20 ms| 0.5 ~ 2.5 ms
-  300&deg; xoay tròn liên tục|20 ms| 1 ~ 2 ms
+      Góc | Chu kỳ | Độ rộng xung
+      --|--|--
+      90&deg;|20 ms| 1 ~ 2 ms
+      180&deg;|20 ms| 0.5 ~ 2.5 ms
+      270&deg;|20 ms| 0.5 ~ 2.5 ms
+      300&deg;|20 ms| 0.5 ~ 2.5 ms
+      300&deg; xoay tròn liên tục|20 ms| 1 ~ 2 ms
 
   Tham khảo [Tùy chỉnh thư viện Servo của Arduino](#tùy-chỉnh-thư-viện-servo-của-arduino)
 
@@ -150,3 +156,14 @@ servo.attach(pin, min, max)
 - Mua sắm:
   - [Shopee](https://shopee.vn/%C4%90%E1%BB%99ng-C%C6%A1-Servo-TD-8120MG-TD-8125MG-Ch%E1%BB%91ng-Th%E1%BA%A5m-N%C6%B0%E1%BB%9Bc-20kg-25KG-180-%C4%90%E1%BB%99-Cho-Xe-%C4%90i%E1%BB%81u-Khi%E1%BB%83n-T%E1%BB%AB-Xa-i.869927552.18967205624?xptdk=c181ea3a-975a-4477-8111-3e9fd9a2c57d)
   - [AliEx](https://vi.aliexpress.com/item/1005004532499687.html)
+
+## Động cơ cần đẩy giảm tốc hành tinh chính xác DC 3v
+  
+  ![Dong co buoc](./images/stepdc_3v_2phases4wires.png)
+
+- Kích thước: 34 \* 5mm / 34 \* 4,5mm
+- Điện áp: 3v
+- Chế độ cung cấp điện:
+- Động cơ bước 2 pha 4 dây được trang bị bộ giảm tốc bánh răng hành tinh, đầu thanh vít được trang bị vòng bi chính xác. ơTham khao
+- Hành trình tối đa của bàn trượt là 12mm
+- [Mua sắm](https://shopee.vn/YosunJon-%C4%90%E1%BB%99ng-c%C6%A1-c%E1%BA%A7n-%C4%91%E1%BA%A9y-gi%E1%BA%A3m-t%E1%BB%91c-h%C3%A0nh-tinh-ch%C3%ADnh-x%C3%A1c-DC3V-%C4%90%E1%BB%99ng-c%C6%A1-b%C6%B0%E1%BB%9Bc-tr%C6%B0%E1%BB%A3t-v%C3%ADt-%C4%90%E1%BB%99ng-c%C6%A1-thi%E1%BA%BFt-b%E1%BB%8B-truy%E1%BB%81n-%C4%91%E1%BB%99ng-tuy%E1%BA%BFn-t%C3%ADnh-d%C3%A0i-M%E1%BB%9AI-i.1280283180.29281847310)

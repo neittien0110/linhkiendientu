@@ -1,5 +1,45 @@
 # NGUỒN CẤP
 
+<!-- TOC -->
+
+- [IC nguồn AMS1117 và các module liên quan](#ic-ngu%E1%BB%93n-ams1117-v%C3%A0-c%C3%A1c-module-li%C3%AAn-quan)
+    - [Module nguôn ổn áp dùng AMS1117](#module-ngu%C3%B4n-%E1%BB%95n-%C3%A1p-d%C3%B9ng-ams1117)
+- [HT7333a](#ht7333a)
+- [RT9013-33](#rt9013-33)
+- [Module chuyển đổi AC 220V --> DC 5V/0.7A](#module-chuy%E1%BB%83n-%C4%91%E1%BB%95i-ac-220v----dc-5v07a)
+- [HW-626 module tăng áp 5V](#hw-626-module-t%C4%83ng-%C3%A1p-5v)
+- [Mini-360 module hạ áp có điều chỉnh bằng chiết áp](#mini-360-module-h%E1%BA%A1-%C3%A1p-c%C3%B3-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-b%E1%BA%B1ng-chi%E1%BA%BFt-%C3%A1p)
+- [Mini-360 module hạ áp có điều chỉnh bằng chiết áp một biến thể khác](#mini-360-module-h%E1%BA%A1-%C3%A1p-c%C3%B3-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-b%E1%BA%B1ng-chi%E1%BA%BFt-%C3%A1p-m%E1%BB%99t-bi%E1%BA%BFn-th%E1%BB%83-kh%C3%A1c)
+- [Mini560 buck hạ áp đầu ra 3.3V](#mini560-buck-h%E1%BA%A1-%C3%A1p-%C4%91%E1%BA%A7u-ra-33v)
+- [MP1584EN buck hạ áp từ 24V/12V/9V/5V ra 3v3 - Đầu ra có thể điều chỉnh hoặc cố định áp](#mp1584en-buck-h%E1%BA%A1-%C3%A1p-t%E1%BB%AB-24v12v9v5v-ra-3v3---%C4%90%E1%BA%A7u-ra-c%C3%B3-th%E1%BB%83-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-ho%E1%BA%B7c-c%E1%BB%91-%C4%91%E1%BB%8Bnh-%C3%A1p)
+- [CR-1850S buck vào 4,5 ~ 18V ra 3V3](#cr-1850s-buck-v%C3%A0o-45--18v-ra-3v3)
+- [Module tăng áp 0.9-5V sang 5V](#module-t%C4%83ng-%C3%A1p-09-5v-sang-5v)
+- [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#m%E1%BA%A1ch-s%E1%BA%A1c-b%E1%BA%A3o-v%E1%BB%87-pin-lithium-1-cell-c%E1%BB%95ng-usb-type-c)
+- [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#m%E1%BA%A1ch-s%E1%BA%A1c-lithium-bao-g%E1%BB%93m-m%C3%A0n-h%C3%ACnh-c%E1%BB%A7a-t%E1%BA%A9u-thu%E1%BB%91c-l%C3%A1-%C4%91i%E1%BB%87n-t%E1%BB%AD)
+- [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử Rifbar Turbo](#m%E1%BA%A1ch-s%E1%BA%A1c-lithium-bao-g%E1%BB%93m-m%C3%A0n-h%C3%ACnh-c%E1%BB%A7a-t%E1%BA%A9u-thu%E1%BB%91c-l%C3%A1-%C4%91i%E1%BB%87n-t%E1%BB%AD-rifbar-turbo)
+- [Mạch sạc Lithium có màn hình nhỏ](#m%E1%BA%A1ch-s%E1%BA%A1c-lithium-c%C3%B3-m%C3%A0n-h%C3%ACnh-nh%E1%BB%8F)
+- [Mạch sạc Lithium có màn hình nhỏ 2](#m%E1%BA%A1ch-s%E1%BA%A1c-lithium-c%C3%B3-m%C3%A0n-h%C3%ACnh-nh%E1%BB%8F-2)
+- [Mạch sạc MH-CD42 có nút Key nhưng không usb](#m%E1%BA%A1ch-s%E1%BA%A1c-mh-cd42-c%C3%B3-n%C3%BAt-key-nh%C6%B0ng-kh%C3%B4ng-usb)
+- [Module sạc xả pin Lithium với đầu ra 4.2v](#module-s%E1%BA%A1c-x%E1%BA%A3-pin-lithium-v%E1%BB%9Bi-%C4%91%E1%BA%A7u-ra-42v)
+- [Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A có đầu vào/đầu ra thường mở](#m%C3%B4-%C4%91un-s%E1%BA%A1c-pin-lithium-gi%E1%BA%A3m-x%E1%BA%A3-5v2a--24a-c%C3%B3-%C4%91%E1%BA%A7u-v%C3%A0o%C4%91%E1%BA%A7u-ra-th%C6%B0%E1%BB%9Dng-m%E1%BB%9F)
+- [Mạch sạc LX-LBC3](#m%E1%BA%A1ch-s%E1%BA%A1c-lx-lbc3)
+- [Mạch sạc pin type-C 3.7v](#m%E1%BA%A1ch-s%E1%BA%A1c-pin-type-c-37v)
+- [Sạc pin lithium cổng USB Type C ra 5V 2A có nút K](#s%E1%BA%A1c-pin-lithium-c%E1%BB%95ng-usb-type-c-ra-5v-2a-c%C3%B3-n%C3%BAt-k)
+- [LX-LCBST sạc pin lithium và kiêm xả pin có điều chỉnh điện áp](#lx-lcbst-s%E1%BA%A1c-pin-lithium-v%C3%A0-ki%C3%AAm-x%E1%BA%A3-pin-c%C3%B3-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-%C4%91i%E1%BB%87n-%C3%A1p)
+- [HW-357 Sạc pin lithium và kiêm tăng áp booster](#hw-357-s%E1%BA%A1c-pin-lithium-v%C3%A0-ki%C3%AAm-t%C4%83ng-%C3%A1p-booster)
+- [TP4056](#tp4056)
+- [Board điều khiển đèn pin sạc](#board-%C4%91i%E1%BB%81u-khi%E1%BB%83n-%C4%91%C3%A8n-pin-s%E1%BA%A1c)
+- [Đế pin và pin](#%C4%90%E1%BA%BF-pin-v%C3%A0-pin)
+    - [Pin 10440 và đế. Pin AAA](#pin-10440-v%C3%A0-%C4%91%E1%BA%BF-pin-aaa)
+    - [Pin 14250 và đế](#pin-14250-v%C3%A0-%C4%91%E1%BA%BF)
+    - [Pin 14500 và đế. Pin AA](#pin-14500-v%C3%A0-%C4%91%E1%BA%BF-pin-aa)
+    - [Pin 16430 và đế](#pin-16430-v%C3%A0-%C4%91%E1%BA%BF)
+    - [Pin 18650 và đế](#pin-18650-v%C3%A0-%C4%91%E1%BA%BF)
+
+<!-- /TOC -->
+
+[Xem thêm các module nguồn có thư viện easyeda, lcsc](./EasyEDA_Library.md)
+
 Lượt mua 1\
 ![5 loại mạch sạc](https://github.com/neittien0110/linhkiendientu/assets/8079397/0b6255f2-a802-4468-9825-3dca0ae40674)\
 Lượt mua 2\
@@ -7,39 +47,6 @@ Lượt mua 2\
  [trái giữa](mini560-buck-hạ-áp-đầu-ra-33v), [phải giữa](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)\
  [trái dưới](#cr-1850s-buck-vào-45--18v-ra-3v3), [phải dưới](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)\
  ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)\
-
-- [IC nguồn AMS1117 và các module liên quan](#ic-nguồn-ams1117-và-các-module-liên-quan)
-  - [Module nguồn ổn áp dùng AMS1117](#module-nguôn-ổn-áp-dùng-ams1117)
-- [Module chuyển đổi AC 220V --> DC 5V/0.7A](#module-chuyển-đổi-ac-220v----dc-5v07a)
-- [HW-626 module tăng áp 5V](#hw-626-module-tăng-áp-5v)
-- [Mini-360 module hạ áp có điều chỉnh bằng chiết áp](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp)
-- [Mini560 buck hạ áp đầu ra 3.3V](#mini560-buck-hạ-áp-đầu-ra-33v)
-- [Mini-360 module hạ áp có điều chỉnh bằng chiết áp (một biến thể khác)](#mini-360-module-hạ-áp-có-điều-chỉnh-bằng-chiết-áp-một-biến-thể-khác)
-- [MP1584EN buck hạ áp từ 24V/12V/9V/5V ra 3v3 - Đầu ra có thể điều chỉnh (hoặc cố định áp)](#mp1584en-buck-hạ-áp-từ-24v12v9v5v-ra-3v3---đầu-ra-có-thể-điều-chỉnh-hoặc-cố-định-áp)
-- [CR-1850S buck vào 4,5 ~ 18V ra 3V3](#cr-1850s-buck-vào-45--18v-ra-3v3)
-- [Mô đun tăng áp 0.9-5V sang 5V](#module-tăng-áp-09-5v-sang-5v)
-- [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#mạch-sạc-bảo-vệ-pin-lithium-1-cell-cổng-usb-type-c)
-- [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử)
-- [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử Rifbar Turbo](#mạch-sạc-lithium-bao-gồm-màn-hình-của-tẩu-thuốc-lá-điện-tử-rifbar-turbo)
-- [Mạch sạc Lithium có màn hình nhỏ](#mạch-sạc-lithium-có-màn-hình-nhỏ)
-- [Mạch sạc Lithium có màn hình nhỏ 2](#mạch-sạc-lithium-có-màn-hình-nhỏ-2)
-- [Mạch sạc MH-CD42 có nút Key nhưng không usb](#mạch-sạc-mh-cd42-có-nút-key-nhưng-không-usb)
-- [Module sạc xả pin Lithium với đầu ra 4.2v](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)
-- [Mô-đun sạc pin Lithium giảm xả 5V2A / 2.4A có đầu vào/đầu ra thường mở](#mô-đun-sạc-pin-lithium-giảm-xả-5v2a--24a--có-đầu-vàođầu-ra-thường-mở)
-- [Mạch sạc LX-LBC3 5v](#mạch-sạc-lbc3)
-- [Mạch sạc pin type-C 3.7v](#mạch-sạc-pin-type-c-37v)
-- [Sạc pin lithium cổng USB Type C ra 5V 2A có nút K](#sạc-pin-lithium-cổng-usb-type-c-ra-5v-2a-có-nút-k)
-- [LX-LCBST sạc pin lithium và kiêm xả pin có điều chỉnh điện áp](#lx-lcbst-sạc-pin-lithium-và-kiêm-xả-pin-có-điều-chỉnh-điện-áp)
-- [HW-357 Sạc pin lithium và kiêm tăng áp booster](#hw-357-sạc-pin-lithium-và-kiêm-tăng-áp-booster)
-- [Board điều khiển đèn pin sạc](#board-điều-khiển-đèn-pin-sạc)
-- [Đế pin và pin](#đế-pin-và-pin)
-  - [Pin 10440 và đế. Pin AAA](#pin-10440-và-đế-pin-aaa)
-  - [Pin 14250 và đế.](#pin-14250-và-đế)
-  - [Pin 14500 và đế. Pin AA](#pin-14500-và-đế-pin-aa)
-  - [Pin 16430 và đế.](#pin-16430-và-đế)
-  - [Pin 18650 và đế](#pin-18650-và-đế)
-
-[Xem thêm các module nguồn có thư viện easyeda, lcsc](./EasyEDA_Library.md)
 
 ## IC nguồn AMS1117 và các module liên quan
 
@@ -61,6 +68,20 @@ Lượt mua 2\
   [easyeda](https://easyeda.com/editor#id=83ae564cc18f40ada42dd9197d966455|508dd84037644c9a8733925a4745d4fd|7176a7f8643d4ade9dfa48dc8249514c)
   - [Mua sắm](https://shopee.vn/Ams1117-1.2V-1.5V-1.8V-2.5V-3.3V-5V-M%C3%B4-%C4%91un-c%E1%BA%A5p-ngu%E1%BB%93n-AMS1117-5.0V-M%C3%B4-%C4%91un-ngu%E1%BB%93n-AMS1117-3.3V-Cho-b%E1%BB%99-t%E1%BB%B1-l%C3%A0m-i.578443443.25185784279?sp_atk=12c5d8f2-042e-404b-ba21-18e91ceacc1b&xptdk=12c5d8f2-042e-404b-ba21-18e91ceacc1b)
     > Lưu ý: Đã ghi nhận module AMS1117 có sẵn trên các module ổn áp không đúng. Phải replace thì module mới chạy được.
+
+## HT7333a
+
+- HT7333-A thuộc dòng Low Power Consumption. Điểm mạnh nhất của nó không phải là sức mạnh, mà là nó "ăn" cực kỳ ít điện của pin.
+- Điểm yếu chí tử: Dòng ra tối đa chỉ **250mA**
+- Phù hợp để sau mạch sạc pin, chuyển từ 3v7 thành 3v3.
+- [Mua sắm](https://shopee.vn/10-C%C3%81I-HT7350-HT7333-HT7330-HT7350-A-HT7333-A-HT7330-A-SOT-89-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-tuy%E1%BA%BFn-t%C3%ADnh-th%E1%BA%A3-th%E1%BA%A5p-LDO-Chip-i.1634073593.53402919299)
+
+## RT9013-33
+
+- **Lực sĩ** cho ESP32
+- ESP32 khi bật Wi-Fi có thể tiêu thụ dòng đỉnh lên tới 400-500mA trong thời gian ngắn. RT9013 đáp ứng tốt mức này ($500mA$).
+- Ưu điểm: Có chân Enable, cho phép bạn dùng một cảm biến hoặc MCU khác để ngắt hoàn toàn nguồn của ESP32 khi không dùng đến để tiết kiệm điện.
+- [Mua sắm](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-SMD-LDO-%C4%91a-%C4%91i%E1%BB%87n-d%C3%B2ng-RT9013-(1.2V-1.5V-1.8V-%C4%91%E1%BA%BFn-3.3V)-trong-g%C3%B3i-SOT23-5-cho-c%C3%A1c-m%C3%B4-%C4%91un-c%C3%B4ng-nghi%E1%BB%87p-IoT-c%C3%B3-th%E1%BB%83-%C4%91eo-%C4%91%C6%B0%E1%BB%A3c-i.1553543597.44403172605)
 
 ## Module chuyển đổi AC 220V --> DC 5V/0.7A
 
@@ -517,6 +538,15 @@ Phiên bản cải tiến, không tự tắt
   - Dòng xả: Max. 2a
 - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-M%E1%BA%A1ch-S%E1%BA%A1c-Pin-Lithium-Li-ion-18650-3.7V-4.2V-TP4056-Chuy%C3%AAn-D%E1%BB%A5ng-i.578443443.16942863022)
 - [Mua sắm](https://shopee.vn/3.7v-9V-5V-2A-C%C3%B3-Th%E1%BB%83-%C4%90i%E1%BB%81u-Ch%E1%BB%89nh-B%C6%B0%E1%BB%9Bc-L%C3%AAn-Boost-18650-Pin-Lithium-S%E1%BA%A1c-M%C3%B4-%C4%90un-T%C3%ADch-H%E1%BB%A3p-4.3-27V-i.176393725.25221943887?xptdk=8afbbd9e-a9e2-4c5b-9a03-6b6297a9a4c8)
+
+## TP4056
+
+- Thông số:
+  - Dòng sạc tối đa: 1A (Có thể điều chỉnh bằng điện trở Rprog).
+  - Điện áp sạc đầy: Cố định ở 4.2V (Sai số cực thấp ±1%).
+  - Điện áp đầu vào Vcc: 4V đến 8V (Lý tưởng nhất là 5V từ sạc điện thoại).
+  - Kiểu vỏ SOP-8: Dạng dán SMD có 8 chân, dưới bụng thường có một miếng đồng (Thermal Pad) để tản nhiệt xuống mạch in.
+- [Mua sắm](https://shopee.vn/B%E1%BB%99-20-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-TP4056-TC4056-1A-SOP-8-i.762880341.18139846812)
 
 ## Board điều khiển đèn pin sạc
 
