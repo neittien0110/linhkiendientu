@@ -2,10 +2,10 @@
 
 <!-- TOC -->
 
-- [IC nguồn AMS1117 và các module liên quan](#ic-ngu%E1%BB%93n-ams1117-v%C3%A0-c%C3%A1c-module-li%C3%AAn-quan)
+- [Mạch ổn áp AMS1117 và các module liên quan](#m%E1%BA%A1ch-%E1%BB%95n-%C3%A1p-ams1117-v%C3%A0-c%C3%A1c-module-li%C3%AAn-quan)
     - [Module nguôn ổn áp dùng AMS1117](#module-ngu%C3%B4n-%E1%BB%95n-%C3%A1p-d%C3%B9ng-ams1117)
+- [Mạch ổn áp RT9013-33](#m%E1%BA%A1ch-%E1%BB%95n-%C3%A1p-rt9013-33)
 - [HT7333a](#ht7333a)
-- [RT9013-33](#rt9013-33)
 - [Module chuyển đổi AC 220V --> DC 5V/0.7A](#module-chuy%E1%BB%83n-%C4%91%E1%BB%95i-ac-220v----dc-5v07a)
 - [HW-626 module tăng áp 5V](#hw-626-module-t%C4%83ng-%C3%A1p-5v)
 - [Mini-360 module hạ áp có điều chỉnh bằng chiết áp](#mini-360-module-h%E1%BA%A1-%C3%A1p-c%C3%B3-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-b%E1%BA%B1ng-chi%E1%BA%BFt-%C3%A1p)
@@ -14,7 +14,7 @@
 - [MP1584EN buck hạ áp từ 24V/12V/9V/5V ra 3v3 - Đầu ra có thể điều chỉnh hoặc cố định áp](#mp1584en-buck-h%E1%BA%A1-%C3%A1p-t%E1%BB%AB-24v12v9v5v-ra-3v3---%C4%90%E1%BA%A7u-ra-c%C3%B3-th%E1%BB%83-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-ho%E1%BA%B7c-c%E1%BB%91-%C4%91%E1%BB%8Bnh-%C3%A1p)
 - [CR-1850S buck vào 4,5 ~ 18V ra 3V3](#cr-1850s-buck-v%C3%A0o-45--18v-ra-3v3)
 - [Module tăng áp 0.9-5V sang 5V](#module-t%C4%83ng-%C3%A1p-09-5v-sang-5v)
-- [Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C](#m%E1%BA%A1ch-s%E1%BA%A1c-b%E1%BA%A3o-v%E1%BB%87-pin-lithium-1-cell-c%E1%BB%95ng-usb-type-c)
+- [Mạch sạc IM126, bảo vệ pin lithium 1 cell, cổng usb type-C](#m%E1%BA%A1ch-s%E1%BA%A1c-im126-b%E1%BA%A3o-v%E1%BB%87-pin-lithium-1-cell-c%E1%BB%95ng-usb-type-c)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử](#m%E1%BA%A1ch-s%E1%BA%A1c-lithium-bao-g%E1%BB%93m-m%C3%A0n-h%C3%ACnh-c%E1%BB%A7a-t%E1%BA%A9u-thu%E1%BB%91c-l%C3%A1-%C4%91i%E1%BB%87n-t%E1%BB%AD)
 - [Mạch sạc Lithium bao gồm màn hình của tẩu thuốc lá điện tử Rifbar Turbo](#m%E1%BA%A1ch-s%E1%BA%A1c-lithium-bao-g%E1%BB%93m-m%C3%A0n-h%C3%ACnh-c%E1%BB%A7a-t%E1%BA%A9u-thu%E1%BB%91c-l%C3%A1-%C4%91i%E1%BB%87n-t%E1%BB%AD-rifbar-turbo)
 - [Mạch sạc Lithium có màn hình nhỏ](#m%E1%BA%A1ch-s%E1%BA%A1c-lithium-c%C3%B3-m%C3%A0n-h%C3%ACnh-nh%E1%BB%8F)
@@ -48,7 +48,7 @@ Lượt mua 2\
  [trái dưới](#cr-1850s-buck-vào-45--18v-ra-3v3), [phải dưới](#module-sạc-xả-pin-lithium-với-đầu-ra-42v)\
  ![6 loại module](https://github.com/user-attachments/assets/6bab7762-b1da-4cea-b58b-7382c279bbcc)\
 
-## IC nguồn AMS1117 và các module liên quan
+## Mạch ổn áp AMS1117 và các module liên quan
 
 ![image](https://github.com/user-attachments/assets/2e4109d8-ff87-4a24-9fa3-deb7e6ec5f16)
 
@@ -69,19 +69,28 @@ Lượt mua 2\
   - [Mua sắm](https://shopee.vn/Ams1117-1.2V-1.5V-1.8V-2.5V-3.3V-5V-M%C3%B4-%C4%91un-c%E1%BA%A5p-ngu%E1%BB%93n-AMS1117-5.0V-M%C3%B4-%C4%91un-ngu%E1%BB%93n-AMS1117-3.3V-Cho-b%E1%BB%99-t%E1%BB%B1-l%C3%A0m-i.578443443.25185784279?sp_atk=12c5d8f2-042e-404b-ba21-18e91ceacc1b&xptdk=12c5d8f2-042e-404b-ba21-18e91ceacc1b)
     > Lưu ý: Đã ghi nhận module AMS1117 có sẵn trên các module ổn áp không đúng. Phải replace thì module mới chạy được.
 
+## Mạch ổn áp RT9013-33
+
+- là **IC ổn áp LDO** cho ESP32
+- So sánh
+
+Đặc điểm|RT9193-33|AMS1117-3.3
+--|--|--
+Dòng ra tối đa|300--500 mA|800-1000 mA
+Dòng tĩnh Iq|Cực thấp ~90uA|Khá cao 5~10 mA
+Kích thước|iêu nhỏ (SOT-23-5)|Trung bình (SOT-223)
+Độ sụt áp (Dropout)|Rất thấp 200~300 mA|Khá cao ~1.1V
+
+- ESP32 khi bật Wi-Fi có thể tiêu thụ dòng đỉnh lên tới 400-500mA trong thời gian ngắn. RT9013 đáp ứng tốt mức này ($500mA$).
+- Ưu điểm: Có chân Enable, cho phép bạn dùng một cảm biến hoặc MCU khác để ngắt hoàn toàn nguồn của ESP32 khi không dùng đến để tiết kiệm điện.
+- [Mua sắm](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-SMD-LDO-%C4%91a-%C4%91i%E1%BB%87n-d%C3%B2ng-RT9013-(1.2V-1.5V-1.8V-%C4%91%E1%BA%BFn-3.3V)-trong-g%C3%B3i-SOT23-5-cho-c%C3%A1c-m%C3%B4-%C4%91un-c%C3%B4ng-nghi%E1%BB%87p-IoT-c%C3%B3-th%E1%BB%83-%C4%91eo-%C4%91%C6%B0%E1%BB%A3c-i.1553543597.44403172605)
+
 ## HT7333a
 
 - HT7333-A thuộc dòng Low Power Consumption. Điểm mạnh nhất của nó không phải là sức mạnh, mà là nó "ăn" cực kỳ ít điện của pin.
 - Điểm yếu chí tử: Dòng ra tối đa chỉ **250mA**
 - Phù hợp để sau mạch sạc pin, chuyển từ 3v7 thành 3v3.
 - [Mua sắm](https://shopee.vn/10-C%C3%81I-HT7350-HT7333-HT7330-HT7350-A-HT7333-A-HT7330-A-SOT-89-B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-tuy%E1%BA%BFn-t%C3%ADnh-th%E1%BA%A3-th%E1%BA%A5p-LDO-Chip-i.1634073593.53402919299)
-
-## RT9013-33
-
-- **Lực sĩ** cho ESP32
-- ESP32 khi bật Wi-Fi có thể tiêu thụ dòng đỉnh lên tới 400-500mA trong thời gian ngắn. RT9013 đáp ứng tốt mức này ($500mA$).
-- Ưu điểm: Có chân Enable, cho phép bạn dùng một cảm biến hoặc MCU khác để ngắt hoàn toàn nguồn của ESP32 khi không dùng đến để tiết kiệm điện.
-- [Mua sắm](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-ch%E1%BB%89nh-SMD-LDO-%C4%91a-%C4%91i%E1%BB%87n-d%C3%B2ng-RT9013-(1.2V-1.5V-1.8V-%C4%91%E1%BA%BFn-3.3V)-trong-g%C3%B3i-SOT23-5-cho-c%C3%A1c-m%C3%B4-%C4%91un-c%C3%B4ng-nghi%E1%BB%87p-IoT-c%C3%B3-th%E1%BB%83-%C4%91eo-%C4%91%C6%B0%E1%BB%A3c-i.1553543597.44403172605)
 
 ## Module chuyển đổi AC 220V --> DC 5V/0.7A
 
@@ -243,11 +252,13 @@ Lượt mua 2\
 - Kích thước: 11*10,5*7,5mm
 - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-t%C4%83ng-%C3%A1p-0.9-5V-sang-5V-1.5V-1.8V-2.5V-3V-3.3V-3.7V-4.2V-sang-5V-thay-th%E1%BA%BF-ti%E1%BB%87n-d%E1%BB%A5ng-i.578443443.11667335774)
 
-## Mạch sạc, bảo vệ pin lithium 1 cell, cổng usb type-C
+## Mạch sạc IM126, bảo vệ pin lithium 1 cell, cổng usb type-C  
 
 ![Mặt trước](https://github.com/user-attachments/assets/2380024b-18dc-442a-809f-6d27fc04010a) \
  ![Mặt sau](https://github.com/user-attachments/assets/cb8b3304-9575-4929-a528-08e374275941) \
 
+- _Có khả năng IC sạc là TP4054 hoặc LTC4054 với dòng xả 500~800 mA, dòng nạp thấp hơn TP4056._
+- Không có mạch bảo vệ xả cạn.
 - Có led báo tải đầu ra, màu trắng mờ là không tải, trắng sáng là tải cao.
 - Có 4 chân out, nhưng thực chất là từng cặp 2 pin được nối với nhau và đấu sẵn dây để nối pin lithium 1 cell. Điện áp sạc 4.0~4.2V
   ![trước](https://github.com/user-attachments/assets/a2aa2509-1192-416d-9f1b-86398889dac3)
