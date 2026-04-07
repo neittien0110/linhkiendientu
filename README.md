@@ -99,7 +99,7 @@ Và tham chiếu tới các trang khác:
 
 ### TÍM: Đo lượng oxi và nhịp tim MAX102
 
-![max30102](https://github.com/neittien0110/linhkiendientu/assets/8079397/a59436a9-4e5e-4eee-bc49-09aef0d442ab)
+![max30102](./images/gy-max3102.png)
 
 ```plain
 Cảm biến nhịp tim và oxy trong máu MAX30102
@@ -560,6 +560,7 @@ Kích thước bảng: 13,4X21,6mm
 
 - **0805**: 0R,
 - **1206**: 0R, 330, 1k, 2k,3.3k,4.7k, 10k,  470R, 120R, 47R, 33R, 1.2M, 820k, 680k, 270k, 200k, 1/2M, 1.5M, 3.3M, 4.7M
+  - [Mua sắm](https://shopee.vn/Set-2000-%C4%90i%E1%BB%87n-Tr%E1%BB%9F-10-ohm-910K-ohm-1206-SMD-5-80-Gi%C3%A1-Tr%E1%BB%8B-*-25-C%C3%A1i-SMD-10K-470-100-680-ohm-Chuy%C3%AAn-D%E1%BB%A5ng-i.832347222.18830390127)
 
 ## Tụ gốm
 
