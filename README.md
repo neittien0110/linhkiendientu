@@ -2,33 +2,7 @@
 
 ## Mục lục
 
-<!-- TOC -->
 
-- [Mục lục](#m%E1%BB%A5c-l%E1%BB%A5c)
-- [MPU](#mpu)
-- [Nhịp tim và SpO2](#nh%E1%BB%8Bp-tim-v%C3%A0-spo2)
-    - [MH-ET MAX30102: Đo lượng oxi và nhịp tim MAX102 màu đen](#mh-et-max30102-%C4%90o-l%C6%B0%E1%BB%A3ng-oxi-v%C3%A0-nh%E1%BB%8Bp-tim-max102-m%C3%A0u-%C4%91en)
-    - [TÍM: Đo lượng oxi và nhịp tim MAX102](#t%C3%8Dm-%C4%90o-l%C6%B0%E1%BB%A3ng-oxi-v%C3%A0-nh%E1%BB%8Bp-tim-max102)
-- [Bàn phím](#b%C3%A0n-ph%C3%ADm)
-- [Đo khoảng cách](#%C4%90o-kho%E1%BA%A3ng-c%C3%A1ch)
-- [Đo tốc độ](#%C4%90o-t%E1%BB%91c-%C4%91%E1%BB%99)
-- [Loa còi](#loa-c%C3%B2i)
-- [Nhiệt độ Độ ẩm](#nhi%E1%BB%87t-%C4%91%E1%BB%99-%C4%90%E1%BB%99-%E1%BA%A9m)
-- [Bụi](#b%E1%BB%A5i)
-- [Ánh sáng, hồng ngoại. uv](#%C3%81nh-s%C3%A1ng-h%E1%BB%93ng-ngo%E1%BA%A1i-uv)
-- [Thẻ NFC RFID](#th%E1%BA%BB-nfc-rfid)
-- [Relay](#relay)
-- [Điện trở](#%C4%90i%E1%BB%87n-tr%E1%BB%9F)
-- [Tụ gốm](#t%E1%BB%A5-g%E1%BB%91m)
-- [Tụ hóa](#t%E1%BB%A5-h%C3%B3a)
-    - [Tụ nhôm](#t%E1%BB%A5-nh%C3%B4m)
-    - [Tụ Tantalum](#t%E1%BB%A5-tantalum)
-- [Diot](#diot)
-- [Transistor](#transistor)
-- [Thyristor](#thyristor)
-- [Tài liệu khác](#t%C3%A0i-li%E1%BB%87u-kh%C3%A1c)
-
-<!-- /TOC -->
 
 Và tham chiếu tới các trang khác:
 
@@ -463,6 +437,7 @@ Kích thước bảng: 13,4X21,6mm
     - Dải bước song đo được: 350nm đến 1000nm\
         ![11 kênh](./images/AS7341.04.png)
     - Có thêm 1 đèn led để bổ sung nguồn sáng trong môi trường tối.
+    - Nguồn cấp: 3v3
     - Giao tiếp I2C: địa chỉ **0x39**
     - Và thêm 2 chân nữa:
       - I=Interrupt
@@ -471,6 +446,73 @@ Kích thước bảng: 13,4X21,6mm
   - Tham khảo:
     - [Kết nối với Arduino UNO, Pi, STM32](https://www.waveshare.com/wiki/AS7341_Spectral_Color_Sensor)
     - [Kết nối với Arduino UNO](https://wiki.dfrobot.com/AS7341_Visible_Light_Sensor_SKU_SEN0365)
+  - Code mẫu dùng thư viện Adafruit_AS7341 đã chạy thành công, và [video kết quả](https://youtu.be/o6jJbQNiZ8w)
+
+  ```C 
+  #include <Wire.h>
+  #include "Adafruit_AS7341.h"
+
+  Adafruit_AS7341 as7341;
+
+  void setup() {
+    Serial.begin(115200);
+
+    if (!as7341.begin()) {
+      Serial.println("Khong tim thay AS7341!");
+      while (1);
+    }
+
+    // Tắt bật led chieu sang va cuong do dong dien theo mA, từ 0-20
+    as7341.enableLED(false);
+    as7341.setLEDCurrent(0);
+
+    // ✅ Header (chỉ 1 lần)
+    Serial.println("F1,F2,F3,F4,F5,F6,F7,F8,CLEAR,NIR,FLICKER");
+  }
+
+  // Đọc flicker
+  uint8_t readFlickerRaw() {
+    Wire.beginTransmission(0x39);
+    Wire.write(0xDB);
+    Wire.endTransmission();
+
+    Wire.requestFrom(0x39, 1);
+
+    if (Wire.available()) return Wire.read();
+    return 0xFF;
+  }
+
+  void loop() {
+
+    if (!as7341.readAllChannels()) {
+      return; // ❗ KHÔNG in text lỗi khi plot
+    }
+
+    uint8_t flickerRaw = readFlickerRaw();
+
+    // ✅ Chuyển sang số
+    int flickerVal = 0;
+    if (flickerRaw == 0x25) flickerVal = 50;
+    else if (flickerRaw == 0x2A) flickerVal = 60;
+    else flickerVal = 0;
+
+    // ✅ Xuất CSV CHỈ TOÀN SỐ
+    Serial.print(as7341.getChannel(AS7341_CHANNEL_415nm_F1)); Serial.print(",");
+    Serial.print(as7341.getChannel(AS7341_CHANNEL_445nm_F2)); Serial.print(",");
+    Serial.print(as7341.getChannel(AS7341_CHANNEL_480nm_F3)); Serial.print(",");
+    Serial.print(as7341.getChannel(AS7341_CHANNEL_515nm_F4)); Serial.print(",");
+    Serial.print(as7341.getChannel(AS7341_CHANNEL_555nm_F5)); Serial.print(",");
+    Serial.print(as7341.getChannel(AS7341_CHANNEL_590nm_F6)); Serial.print(",");
+    Serial.print(as7341.getChannel(AS7341_CHANNEL_630nm_F7)); Serial.print(",");
+    Serial.print(as7341.getChannel(AS7341_CHANNEL_680nm_F8)); Serial.print(",");
+    Serial.print(as7341.getChannel(AS7341_CHANNEL_CLEAR)); Serial.print(",");
+    Serial.print(as7341.getChannel(AS7341_CHANNEL_NIR)); Serial.print(",");
+    Serial.println(flickerVal); // ✅ chỉ số
+
+    delay(200);
+  }
+
+  ```
 
 ## Thẻ NFC RFID
 
