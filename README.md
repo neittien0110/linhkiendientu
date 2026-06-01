@@ -2,23 +2,37 @@
 
 ## Mục lục
 
+<!-- TOC -->
 
+- [Mục lục](#mục-lục)
+- [MPU](#mpu)
+- [Nhịp tim và SpO2](#nhịp-tim-và-spo2)
+    - [MH-ET MAX30102: Đo lượng oxi và nhịp tim MAX102 màu đen](#mh-et-max30102-đo-lượng-oxi-và-nhịp-tim-max102-màu-đen)
+    - [TÍM: Đo lượng oxi và nhịp tim MAX102](#tím-đo-lượng-oxi-và-nhịp-tim-max102)
+- [Bàn phím](#bàn-phím)
+- [Đo khoảng cách](#đo-khoảng-cách)
+- [Đo tốc độ](#đo-tốc-độ)
+- [Loa còi](#loa-còi)
+- [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)
+- [Bụi](#bụi)
+- [Ánh sáng, hồng ngoại. uv](#ánh-sáng-hồng-ngoại-uv)
+- [Thẻ NFC RFID](#thẻ-nfc-rfid)
+- [Relay](#relay)
+- [Điện trở](#điện-trở)
+- [Tụ gốm](#tụ-gốm)
+- [Tụ hóa](#tụ-hóa)
+    - [Tụ nhôm](#tụ-nhôm)
+    - [Tụ Tantalum](#tụ-tantalum)
+- [Diot](#diot)
+- [Transistor](#transistor)
+    - [MMBT2222A](#mmbt2222a)
+    - [BCX56-16](#bcx56-16)
+    - [BCX53-16](#bcx53-16)
+    - [MOSTFET AO34xx](#mostfet-ao34xx)
+- [Thyristor](#thyristor)
+- [Tài liệu khác](#tài-liệu-khác)
 
-Và tham chiếu tới các trang khác:
-
-1. [Các shield mở rộng cho board dạng D1 mini](./D1mini.md)
-2. [Các loại motor](./Motors.md)
-3. [Các module truyền thông](./Communications.md)
-4. [Các màn hình hiển thị](./Screens.md)
-5. [Nút bấm](./buttons.md)
-6. [Các linh vật tư phụ kiện như mạch in, dây dẫn, thiếc, vỏ hộp](./noname.md)
-7. [Linh kiện PCB để thiết kế board](./EasyEDA_Library.md)
-8. [Module nguồn cấp](./powersupply.md)
-   - [Mạch sạc pin Lithium trên EasyEDA](./EasyEDA_Library.md)
-   - [Schematic mạch nguồn](./powersupply_schematics.md)
-9. [Công cụ kiêm tra](./tools.md)
-10. [Tài liệu tham khảo khác](#tài-liệu-khác)
-
+<!-- /TOC -->
 ## MPU
 
 - MPU**9250** / MPU**6500** / \
@@ -659,19 +673,61 @@ Gồm 2 loại là [tụ nhôm](#tụ-nhôm) và [tụ tantalum](#tụ-tantalum)
 
 ## Transistor
 
-- **MMBT2222A**, SOT-23, là phiên bản chân dán của 2N2222
-  - Dòng thu tối đa ($I_C$): 600mA (Đủ để kéo Relay, dải LED nhỏ hoặc làm mạch sạc pin).
-  - Điện áp ($V_{CEO}$): 40V.Công suất tiêu tán ($P_D$): Khoảng 350mW (Thấp hơn loại vỏ nhựa TO-92 một chút do kích thước nhỏ khó tản nhiệt).
-  - Sơ đồ chân:
-    - Chân 1 (Base - B): Cực nền (nằm bên trái phía dưới).
-    - Chân 2 (Emitter - E): Cực phát (nằm bên phải phía dưới).
-    - Chân 3 (Collector - C): Cực thu (nằm một mình ở phía trên).
-  - [Mua sắm](https://shopee.vn/100pcs-MMBT2222A-SOT-23-MMBT2222-2N2222-1P-SMD-General-Purpose-Transistors-NPN-40V-0.6A-mmbt2222-i.832347222.14496850735)
-  - ![MMBT2222A](./images/MMBT2222A.png)
+![Phân biệt họ BJT và Mosfet](images/BJTvsMosfet.png)
+![Phân biệt họ BJT và Mosfet về speed](images/BJTvsMosfet.speed.png)
 
-- **BCX56-16**, chân dán SOT-89, NPN, dòng tối đa 1A, điện áp 80V
-  - Thay thế cho 2N2222 / MMBT2222A và khỏe hơn
-  - [Mua sắm](https://shopee.vn/20-50-Chi%E1%BA%BFc-M%E1%BB%9Bi-BCX56-16-BL-SMD-Transistor-SOT-89-NPN-C%C3%B4ng-Su%E1%BA%A5t-V%E1%BB%ABa-Transistor-1A-80V-i.1553543597.41103177514)
+### MMBT2222A
+
+- SOT-23, là phiên bản chân dán của 2N2222
+- Dòng thu tối đa ($I_C$): 600mA (Đủ để kéo Relay, dải LED nhỏ hoặc làm mạch sạc pin).
+- Điện áp ($V_{CEO}$): 40V.Công suất tiêu tán ($P_D$): Khoảng 350mW (Thấp hơn loại vỏ nhựa TO-92 một chút do kích thước nhỏ khó tản nhiệt).
+- Sơ đồ chân:
+  - Chân 1 (Base - B): Cực nền (nằm bên trái phía dưới).
+  - Chân 2 (Emitter - E): Cực phát (nằm bên phải phía dưới).
+  - Chân 3 (Collector - C): Cực thu (nằm một mình ở phía trên).
+  - [Mua sắm](https://shopee.vn/100pcs-MMBT2222A-SOT-23-MMBT2222-2N2222-1P-SMD-General-Purpose-Transistors-NPN-40V-0.6A-mmbt2222-i.832347222.14496850735)
+![MMBT2222A](./images/MMBT2222A.png)
+
+### BCX56-16
+
+- chân dán SOT-89, **NPN**, dòng tối đa 1A, điện áp 80V
+- Thay thế cho 2N2222 / MMBT2222A và khỏe hơn. Tuy nhiên, nên sử dụng [AO304](#mostfet-ao34xx) sẽ đóng cắt nhanh, tiết kiệm điện hơn.
+- [Mua sắm](https://shopee.vn/20-50-Chi%E1%BA%BFc-M%E1%BB%9Bi-BCX56-16-BL-SMD-Transistor-SOT-89-NPN-C%C3%B4ng-Su%E1%BA%A5t-V%E1%BB%ABa-Transistor-1A-80V-i.1553543597.41103177514)
+- [Mua sắm](https://shopee.vn/-Combo-20-chi%E1%BA%BFc-BCX56-16-BCX56-BL-Transistor-NPN-1A-80V-SOT-89-i.10327067.4732876852)
+
+![bcx-56](images/bcx-56.png) ![bcx-56 pinout](images/bcx-56.01.png)
+
+### BCX53-16
+
+- chân dán SOT-89, **PNP**, dòng tối đa 1A, điện áp 80V.
+- Tuy nhiên, nên sử dụng [AO302](#mostfet-ao34xx) sẽ đóng cắt nhanh, tiết kiệm điện hơn.
+- [Mua sắm](https://shopee.vn/-Combo-20-chi%E1%BA%BFc-BCX53-16-BCX53-AL-Transistor-PNP-1A-80V-SOT-89-i.10327067.4732870378)
+
+![albcx-53](images/bcx-53.png)
+
+### MOSTFET AO34xx - AO3404 (N) AO3415 (P)
+
+> Tất cả các P-MOS đều có cùng footprint, thay thế được cho nhanh. Tương tự như vậy với N-MOS
+
+| Mã linh kiện | Loại kênh (Giới tính) | Điện áp tối đa (V_DS) | Dòng điện tối đa (I_D) | Điện trở nội (R_DS_on) | Ghi chú / Ứng dụng thực tế |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| AO3400 | Kênh N (NMOS) | 30V | 5.7A | ~33 mΩ | Dòng NMOS quốc dân, đóng ngắt cực âm (GND) |
+| AO3401 | Kênh P (PMOS) | -30V | -4.2A | ~50 mΩ | Đóng ngắt cực dương (VCC), chống ngược nguồn |
+| AO3402 | Kênh N (NMOS) | 30V | 4.0A | ~55 mΩ | Bản rút gọn của AO3400, dùng cho tải nhẹ |
+| **AO3404** | Kênh N (NMOS) | 30V | 5.8A | ~28 mΩ | Bản nâng cấp của AO3400, chạy mát nhất, xịn nhất |
+| **AO3415** | Kênh P (PMOS) | -30V | -4.0A | ~42 mΩ | Dòng PMOS cao cấp, điện trở nội rất thấp, đóng ngắt cực dương (VCC) chạy cực mát, chống ngược nguồn |
+| AO3406 | Kênh N (NMOS) | 30V | 3.6A | ~65 mΩ | Bản chịu dòng thấp hơn, dùng đóng ngắt tín hiệu |
+| AO3407 | Kênh P (PMOS) | -30V | -4.1A | ~64 mΩ | Bản kênh P phổ thông, đóng ngắt đường VCC |
+| SO3407 | Kênh P (PMOS) | -30V | -4.1A | ~64 mΩ | Thực chất là cách ký hiệu khác/hàng thay thế của AO3407 |
+| A09T | Kênh N (NMOS) | 30V | 5.7A | ~33 mΩ | Mã in trên lưng (Top Marking) của con **AO3400** |
+| A19T | Kênh P (PMOS) | -30V | -4.2A | ~50 mΩ | Mã in trên lưng (Top Marking) của con **AO3401** |
+| A29T | Kênh N (NMOS) | 30V | 4.0A | ~55 mΩ | Mã in trên lưng (Top Marking) của con **AO3402** |
+| A69T | Kênh N (NMOS) | 30V | 3.6A | ~65 mΩ | Mã in trên lưng (Top Marking) của con **AO3406** |
+
+
+- Dạng đóng gói: SOT23
+- [Mua sắm](https://shopee.vn/Set-50-Linh-Ki%E1%BB%87n-B%C3%A1n-D%E1%BA%ABn-AO3407-So3407-SOT23-AO3400-AO3401-AO3402-AO3404-AO3406-A09T-A19T-A29T-A69T-MOSFET-A79T-AO3413-AO3415AO3416-SOT-23-i.1137800761.25810919782?extraParams=%7B%22display_model_id%22%3A250276651599%2C%22model_selection_logic%22%3A3%7D&sp_atk=cb959464-5d61-492a-96e0-43505958ba6a&xptdk=cb959464-5d61-492a-96e0-43505958ba6a)
+
 
 ## Thyristor
 
