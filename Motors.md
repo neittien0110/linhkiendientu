@@ -4,15 +4,16 @@
 
 <!-- TOC -->
 
-- [Mục luc](#m%E1%BB%A5c-luc)
-- [Motor bước 28BYJ-48 5V](#motor-b%C6%B0%E1%BB%9Bc-28byj-48-5v)
+- [Mục luc](#mục-luc)
+- [Motor bước 28BYJ-48 5V](#motor-bước-28byj-48-5v)
 - [Motor rung](#motor-rung)
-- [Động cơ DC 130 kèm hộp số](#%C4%90%E1%BB%99ng-c%C6%A1-dc-130-k%C3%A8m-h%E1%BB%99p-s%E1%BB%91)
-- [Tùy chỉnh thư viện Servo của Arduino](#t%C3%B9y-ch%E1%BB%89nh-th%C6%B0-vi%E1%BB%87n-servo-c%E1%BB%A7a-arduino)
+- [Động cơ DC 130 kèm hộp số](#động-cơ-dc-130-kèm-hộp-số)
+- [Tùy chỉnh thư viện Servo của Arduino](#tùy-chỉnh-thư-viện-servo-của-arduino)
 - [Servo MG945](#servo-mg945)
 - [Servo MG996](#servo-mg996)
 - [Servo TD-8120mg](#servo-td-8120mg)
-- [Động cơ cần đẩy giảm tốc hành tinh chính xác DC 3v](#%C4%90%E1%BB%99ng-c%C6%A1-c%E1%BA%A7n-%C4%91%E1%BA%A9y-gi%E1%BA%A3m-t%E1%BB%91c-h%C3%A0nh-tinh-ch%C3%ADnh-x%C3%A1c-dc-3v)
+- [Động cơ cần đẩy giảm tốc hành tinh chính xác DC 3v](#động-cơ-cần-đẩy-giảm-tốc-hành-tinh-chính-xác-dc-3v)
+- [Quạt thổi Turbo Blower 3010 5v](#quạt-thổi-turbo-blower-3010-5v)
 
 <!-- /TOC -->
 
@@ -167,3 +168,28 @@ servo.attach(pin, min, max)
 - Động cơ bước 2 pha 4 dây được trang bị bộ giảm tốc bánh răng hành tinh, đầu thanh vít được trang bị vòng bi chính xác. ơTham khao
 - Hành trình tối đa của bàn trượt là 12mm
 - [Mua sắm](https://shopee.vn/YosunJon-%C4%90%E1%BB%99ng-c%C6%A1-c%E1%BA%A7n-%C4%91%E1%BA%A9y-gi%E1%BA%A3m-t%E1%BB%91c-h%C3%A0nh-tinh-ch%C3%ADnh-x%C3%A1c-DC3V-%C4%90%E1%BB%99ng-c%C6%A1-b%C6%B0%E1%BB%9Bc-tr%C6%B0%E1%BB%A3t-v%C3%ADt-%C4%90%E1%BB%99ng-c%C6%A1-thi%E1%BA%BFt-b%E1%BB%8B-truy%E1%BB%81n-%C4%91%E1%BB%99ng-tuy%E1%BA%BFn-t%C3%ADnh-d%C3%A0i-M%E1%BB%9AI-i.1280283180.29281847310)
+
+## Quạt thổi Turbo Blower 3010 5v
+
+![Fan Turbo Blower 3010](images/Fan_Turbo_Blower_3010.01.png)
+![Fan Turbo Blower 3010 package](images/Fan_Turbo_Blower_3010.02.png)
+
+- Còn gọi là **quạt sên/quạt ly tâm**
+- Thường dùng quạt thổi tản nhiệt cho RasberryPi khi kết hợp với hộp nhựa.
+- Thông số:
+  - Điện áp hoạt động: phù hợp với IoT là **5v**, ngoài ra còn có 12v, 24v.
+  - Kích thước quạt 3010: 30 mm x 30 mm (quạt vuông), bề dày 10mm
+- Dây nối
+
+  | Màu | Ý nghĩa |
+  | -- | -- |
+  | Đen | GND |
+  | Đỏ | 5V |
+  | Vàng | Tachometer, đo tốc độ vòng quay của quạt (xung phản hồi) |
+
+- [Mua sắm](https://shopee.vn/3010-V%C3%B2ng-bi-th%E1%BB%A7y-l%E1%BB%B1c-3CM-Turbo-Blower-24V-12V-5V-Ch%E1%BB%A9c-n%C4%83ng-%C4%91o-t%E1%BB%91c-%C4%91%E1%BB%99-Qu%E1%BA%A1t-si%C3%AAu-nh%E1%BB%8F-i.1234623316.29929273561)
+- [Mua sắm](https://vi.aliexpress.com/item/1005004832405335.html?gatewayAdapt=glo2vnm)
+
+![alt text](images/Fan_Turbo_Blower_3010.03.png)
+![alt text](images/Fan_Turbo_Blower_3010.04.png)
+![alt text](images/Fan_Turbo_Blower_3010.05.png)
