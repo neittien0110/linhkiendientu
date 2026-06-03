@@ -627,11 +627,11 @@ Kích thước bảng: 13,4X21,6mm
 
 | Thứ tự chân trên Jack SH1.0 | Màu dây | Kí hiệu kỹ thuật | Chức năng | Cách kết nối vào Module HX711 |
 | :---: | :--- | :---: | :--- | :--- |
-| **Chân 1** | Đen (Black) | **E-** (Excitation -) | Cấp nguồn âm cho mạch cầu | Nối vào chân **E-** của HX711 |
-| **Chân 2** | Vàng (Yellow) | **Shield / Earth** | Vỏ bọc chống nhiễu | Nối vào chân **GND** của HX711 (hoặc chân E-) |
-| **Chân 3** | Xanh lá (Green) | **S+** (Signal +) | Tín hiệu đầu ra dương | Nối vào chân **A+** của HX711 |
-| **Chân 4** | Trắng (White) | **S-** (Signal -) | Tín hiệu đầu ra âm | Nối vào chân **A-** của HX711 |
-| **Chân 5** | Đỏ (Red) | **E+** (Excitation +) | Cấp nguồn dương cho mạch cầu | Nối vào chân **E+** của HX711 |
+| **Chân 1** | <span style="color:black">Đen (Black)</span> | **E-** (Excitation -) | Cấp nguồn âm cho mạch cầu | Nối vào chân **E-** của HX711 |
+| **Chân 2** | <span style="color:#808000">Vàng (Yellow)</span> | **Shield / Earth** | Vỏ bọc chống nhiễu |<span style="color:#808000"> Nối vào chân **GND** của HX711 (hoặc chân E-)</span> |
+| **Chân 3** | <span style="color:green">Xanh lá</span> | **S+** (Signal +) | Tín hiệu đầu ra dương | <span style="color:green">Nối vào chân **A+** của HX711 </span>|
+| **Chân 4** | <span style="color:gray">Trắng</span> | **S-** (Signal -) | Tín hiệu đầu ra âm | <span style="color:gray">Nối vào chân **A-** của HX711</span> |
+| **Chân 5** | <span style="color:red">Đỏ</span> | **E+** (Excitation +) | Cấp nguồn dương cho mạch cầu | <span style="color:red">Nối vào chân **E+** của HX711</span>|
 
 - [Mua sắm](https://shopee.vn/C%E1%BA%A3m-Bi%E1%BA%BFn-L%E1%BB%B1c-Loadcell-50kg-Thanh-Nh%C3%B4m-K%C3%A8m-D%C3%A2y-Cho-C%C3%A2n-%C4%90i%E1%BB%87n-T%E1%BB%AD-C%C3%A2n-Th%C3%B4ng-Minh-Thi%E1%BA%BFt-B%E1%BB%8B-%C4%90o-L%E1%BB%B1c-T%C3%A1c-%C4%90%E1%BB%99ng-i.685450850.47508212255)
 
