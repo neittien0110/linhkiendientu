@@ -18,7 +18,11 @@
 - [Ánh sáng, hồng ngoại. uv](#ánh-sáng-hồng-ngoại-uv)
 - [Thẻ NFC RFID](#thẻ-nfc-rfid)
 - [Relay](#relay)
-- [Điện trở](#điện-trở)
+- [Loadcell](#loadcell)
+    - [Loadcell đơn điểm 50kg](#loadcell-đơn-điểm-50kg)
+- [Điện trở dán](#điện-trở-dán)
+    - [Kích thước 0805](#kích-thước-0805)
+    - [Kích thước 1206](#kích-thước-1206)
 - [Tụ gốm](#tụ-gốm)
 - [Tụ hóa](#tụ-hóa)
     - [Tụ nhôm](#tụ-nhôm)
@@ -28,7 +32,7 @@
     - [MMBT2222A](#mmbt2222a)
     - [BCX56-16](#bcx56-16)
     - [BCX53-16](#bcx53-16)
-    - [MOSTFET AO34xx](#mostfet-ao34xx)
+    - [MOSTFET AO34xx - AO3404 N AO3415 P](#mostfet-ao34xx---ao3404-n-ao3415-p)
 - [Thyristor](#thyristor)
 - [Tài liệu khác](#tài-liệu-khác)
 
@@ -612,11 +616,37 @@ Kích thước bảng: 13,4X21,6mm
   - Nhược điểm: không lắp được nắp vào thân, vì relay cao quá. Khi dóng nắp thì ko thể bấm nút cấu hình, vì nút thấp ==> thay thế bằng nút có cán dài 11 mm
   - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-C%C3%B4ng-T%E1%BA%AFc-Truy%E1%BB%81n-Nh%E1%BA%ADn-T%C3%ADn-Hi%E1%BB%87u-Kh%C3%B4ng-D%C3%A2y-RF-Dc-220V-1-K%C3%AAnh-433MHz-i.201091220.7509764367), Mua kèm với [bộ điều khiển từ xa 433MHz](https://shopee.vn/B%E1%BB%99-%C4%91i%E1%BB%81u-khi%E1%BB%83n-t%E1%BB%AB-xa-kh%C3%B4ng-d%C3%A2y-4-k%C3%AAnh-4-Module-kh%C3%B4ng-d%C3%A2y-433MHZ-IC2262-2272-i.201091220.5212508592)
 
-## Điện trở
+## Loadcell
 
-- **0805**: 0R,
-- **1206**: 0R, 330, 1k, 2k,3.3k,4.7k, 10k,  470R, 120R, 47R, 33R, 1.2M, 820k, 680k, 270k, 200k, 1/2M, 1.5M, 3.3M, 4.7M
-  - [Mua sắm](https://shopee.vn/Set-2000-%C4%90i%E1%BB%87n-Tr%E1%BB%9F-10-ohm-910K-ohm-1206-SMD-5-80-Gi%C3%A1-Tr%E1%BB%8B-*-25-C%C3%A1i-SMD-10K-470-100-680-ohm-Chuy%C3%AAn-D%E1%BB%A5ng-i.832347222.18830390127)
+### Loadcell đơn điểm 50kg
+
+![alt text](images/loadcell50kg.01.png)
+![alt text](images/loadcell50kg.02.png)
+
+- Connector: 5 sợi SH1.0
+
+| Thứ tự chân trên Jack SH1.0 | Màu dây | Kí hiệu kỹ thuật | Chức năng | Cách kết nối vào Module HX711 |
+| :---: | :--- | :---: | :--- | :--- |
+| **Chân 1** | Đen (Black) | **E-** (Excitation -) | Cấp nguồn âm cho mạch cầu | Nối vào chân **E-** của HX711 |
+| **Chân 2** | Vàng (Yellow) | **Shield / Earth** | Vỏ bọc chống nhiễu | Nối vào chân **GND** của HX711 (hoặc chân E-) |
+| **Chân 3** | Xanh lá (Green) | **S+** (Signal +) | Tín hiệu đầu ra dương | Nối vào chân **A+** của HX711 |
+| **Chân 4** | Trắng (White) | **S-** (Signal -) | Tín hiệu đầu ra âm | Nối vào chân **A-** của HX711 |
+| **Chân 5** | Đỏ (Red) | **E+** (Excitation +) | Cấp nguồn dương cho mạch cầu | Nối vào chân **E+** của HX711 |
+
+- [Mua sắm](https://shopee.vn/C%E1%BA%A3m-Bi%E1%BA%BFn-L%E1%BB%B1c-Loadcell-50kg-Thanh-Nh%C3%B4m-K%C3%A8m-D%C3%A2y-Cho-C%C3%A2n-%C4%90i%E1%BB%87n-T%E1%BB%AD-C%C3%A2n-Th%C3%B4ng-Minh-Thi%E1%BA%BFt-B%E1%BB%8B-%C4%90o-L%E1%BB%B1c-T%C3%A1c-%C4%90%E1%BB%99ng-i.685450850.47508212255)
+
+## Điện trở dán
+
+### Kích thước 0805
+
+- 0R
+
+### Kích thước 1206
+
+- 0R, 330, 470R, 120R, 47R, 33R
+- 1k, 2k,3.3k,4.7k, 10k, 820k, 680k, 270k, 200k 
+- 1.2M, 1/2M, 1.5M, 3.3M, 4.7M
+- [Mua sắm](https://shopee.vn/Set-2000-%C4%90i%E1%BB%87n-Tr%E1%BB%9F-10-ohm-910K-ohm-1206-SMD-5-80-Gi%C3%A1-Tr%E1%BB%8B-*-25-C%C3%A1i-SMD-10K-470-100-680-ohm-Chuy%C3%AAn-D%E1%BB%A5ng-i.832347222.18830390127)
 
 ## Tụ gốm
 
