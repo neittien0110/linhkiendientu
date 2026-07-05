@@ -9,14 +9,34 @@
 - [Nhịp tim và SpO2](#nhịp-tim-và-spo2)
     - [MH-ET MAX30102: Đo lượng oxi và nhịp tim MAX102 màu đen](#mh-et-max30102-đo-lượng-oxi-và-nhịp-tim-max102-màu-đen)
     - [TÍM: Đo lượng oxi và nhịp tim MAX102](#tím-đo-lượng-oxi-và-nhịp-tim-max102)
-- [Bàn phím](#bàn-phím)
+- [Nút bấm / Bàn phím](#nút-bấm--bàn-phím)
+    - [Ky-023 Joystick Nút Điều Khiển JoyStick PS2 STM32 Cho Tay Cầm Chơi Game](#ky-023-joystick-nút-điều-khiển-joystick-ps2-stm32-cho-tay-cầm-chơi-game)
+    - [Bàn phím ma trận 4x5, 4x4, 4x3](#bàn-phím-ma-trận-4x5-4x4-4x3)
+    - [Nắp nút nhấn B3F](#nắp-nút-nhấn-b3f)
+    - [Nắp nút nhấn 6x6](#nắp-nút-nhấn-6x6)
+    - [Nút 5 trạng thái](#nút-5-trạng-thái)
+    - [Module nút cảm ứng điện dung TTP223](#module-nút-cảm-ứng-điện-dung-ttp223)
 - [Đo khoảng cách](#đo-khoảng-cách)
+    - [Module SR-04 đo khoảng cách](#module-sr-04-đo-khoảng-cách)
+    - [Module cảm biến vật cản Radar RCWL-0516](#module-cảm-biến-vật-cản-radar-rcwl-0516)
 - [Đo tốc độ](#đo-tốc-độ)
-- [Loa còi](#loa-còi)
+    - [HB100 - Phát hiện và đo vận tốc chuyển động bằng microwave Doppler Radar](#hb100---phát-hiện-và-đo-vận-tốc-chuyển-động-bằng-microwave-doppler-radar)
+- [Âm thanh Loa còi](#âm-thanh-loa-còi)
+    - [Module ISD1820](#module-isd1820)
+    - [PAM8403 - mạch khuyếch đại 2 kênh 3W 5V](#pam8403---mạch-khuyếch-đại-2-kênh-3w-5v)
+    - [MLT-8530 - Còi Buzzer passive dạng SMD](#mlt-8530---còi-buzzer-passive-dạng-smd)
+    - [Loa chủ động](#loa-chủ-động)
+- [Mic INMP441](#mic-inmp441)
+    - [XY-BT-MINI / VHM-314](#xy-bt-mini--vhm-314)
 - [Nhiệt độ Độ ẩm](#nhiệt-độ-độ-ẩm)
 - [Bụi](#bụi)
 - [Ánh sáng, hồng ngoại. uv](#ánh-sáng-hồng-ngoại-uv)
 - [Thẻ NFC RFID](#thẻ-nfc-rfid)
+    - [RC-522 - module đọc NFC 13.56Mhz](#rc-522---module-đọc-nfc-1356mhz)
+    - [RDM6300 - module đọc RFID 125Khz](#rdm6300---module-đọc-rfid-125khz)
+    - [Module cảm biến vân tay AS608](#module-cảm-biến-vân-tay-as608)
+    - [MHET QRCode Module v3.0](#mhet-qrcode-module-v30)
+    - [SP2100-2D Máy đọc mã vạch 2 chiều UNIONNET](#sp2100-2d-máy-đọc-mã-vạch-2-chiều-unionnet)
 - [Relay](#relay)
 - [Loadcell](#loadcell)
     - [Loadcell đơn điểm 50kg](#loadcell-đơn-điểm-50kg)
@@ -108,9 +128,10 @@ Kích thước: 1.4 cm x 1.4 cm x 0.3 cm
 - [3d case 1](https://www.thingiverse.com/thing:4395147)
 - [3d case 2](https://www.thingiverse.com/thing:4847827)
 
-## Bàn phím
+## Nút bấm / Bàn phím
 
-- Ky-023 Joystick Nút Điều Khiển JoyStick PS2 STM32 Cho Tay Cầm Chơi Game \
+### Ky-023 Joystick Nút Điều Khiển JoyStick PS2 STM32 Cho Tay Cầm Chơi Game
+
   ![Ky-023](https://github.com/neittien0110/linhkiendientu/assets/8079397/b2ae4aa5-44e2-4f26-aab2-f59fbf2aab3a)\
 
   ```plain
@@ -119,131 +140,228 @@ Kích thước: 1.4 cm x 1.4 cm x 0.3 cm
   3. Pin SW: =1 nếu Joystick được bấm.
   ```
 
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-5-pin-tr%E1%BB%A5c-k%C3%A9p-X-Y-cho-tay-c%E1%BA%A7m-ch%C6%A1i-game-Ps2-Ky-023-i.148048328.7241683324)
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-c%E1%BA%A3m-bi%E1%BA%BFn-5-pin-tr%E1%BB%A5c-k%C3%A9p-X-Y-cho-tay-c%E1%BA%A7m-ch%C6%A1i-game-Ps2-Ky-023-i.148048328.7241683324)
 
-- Bàn phím ma trận 4x5, 4x4, 4x3\
-  ![Bàn phím ma trận](https://github.com/neittien0110/linhkiendientu/assets/8079397/93ed6070-e95a-4c00-bcd4-20367764aa88)
-  - [Hướng dẫn lập trình](http://arduino.vn/bai-viet/915-huong-dan-su-dung-module-ban-phim-4x4-voi-arduino)
-  - [Mua sắm](https://shopee.vn/B%C3%A0n-Ph%C3%ADm-16-Ph%C3%ADm-4x4-4x4-4-*-4-Matrix-Array-Matrix-i.81431289.20537984830)
+### Bàn phím ma trận 4x5, 4x4, 4x3
 
-- Nắp nút nhấn B3F\
-  ![Nắp nút nhấn B3F](https://github.com/neittien0110/linhkiendientu/assets/8079397/7379a7eb-b5bb-437f-bb3d-f6ef69ae43ec)
-  - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%E1%BA%AFp-n%C3%BAt-nh%E1%BA%A5n-B3F-tr%C3%B2n-Xanh-V%C3%A0ng-i.501501433.23969870578)
+![Bàn phím ma trận](https://github.com/neittien0110/linhkiendientu/assets/8079397/93ed6070-e95a-4c00-bcd4-20367764aa88)
 
-- Nắp nút nhấn 6x6\
+- [Hướng dẫn lập trình](http://arduino.vn/bai-viet/915-huong-dan-su-dung-module-ban-phim-4x4-voi-arduino)
+- [Mua sắm](https://shopee.vn/B%C3%A0n-Ph%C3%ADm-16-Ph%C3%ADm-4x4-4x4-4-*-4-Matrix-Array-Matrix-i.81431289.20537984830)
+
+### Nắp nút nhấn B3F
+
+![Nắp nút nhấn B3F](https://github.com/neittien0110/linhkiendientu/assets/8079397/7379a7eb-b5bb-437f-bb3d-f6ef69ae43ec)
+
+- [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%E1%BA%AFp-n%C3%BAt-nh%E1%BA%A5n-B3F-tr%C3%B2n-Xanh-V%C3%A0ng-i.501501433.23969870578)
+
+### Nắp nút nhấn 6x6
+
   ![Nắp nút nhấn](https://github.com/neittien0110/linhkiendientu/assets/8079397/232df378-91a4-46c1-985b-03a192abebee)
-  - Đường kính vỏ nhựa ngoài: 6mm
-  - Đường kính lỗ trong: 3mm
-  - [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%E1%BA%AFp-n%C3%BAt-nh%E1%BA%A5n-6x6-tr%C3%B2n-%C4%90%E1%BB%8F-V%C3%A0ng-Xanh-Tr%E1%BA%AFng-%C4%90en-i.501501433.14397655804)
+
+- Đường kính vỏ nhựa ngoài: 6mm
+- Đường kính lỗ trong: 3mm
+- [Mua sắm](https://shopee.vn/-G%C3%B3i-10-c%C3%A1i-N%E1%BA%AFp-n%C3%BAt-nh%E1%BA%A5n-6x6-tr%C3%B2n-%C4%90%E1%BB%8F-V%C3%A0ng-Xanh-Tr%E1%BA%AFng-%C4%90en-i.501501433.14397655804)
+
+### Nút 5 trạng thái
+
+![alt text](images/5d_button.png)
+
+- Mã TS-007: Kích thước 10 x 10 x 5 mm
+- Mã TS-006: Kích thước 7.5 x 7.5 x 5mm
+- [Mua sắm loại 10 x 10 x 9mm](https://shopee.vn/10-C%C3%81I-10X10X9MM-SMD-5-C%C3%B4ng-t%E1%BA%AFc-n%C4%83m-chi%E1%BB%81u-C%C3%B4ng-t%E1%BA%AFc-%C4%91a-h%C6%B0%E1%BB%9Bng-N%C3%BAt-%C4%91%E1%BA%B7t-l%E1%BA%A1i-c%E1%BA%A3m-%E1%BB%A9ng-C%C3%B4ng-t%E1%BA%AFc-%C4%91a-ch%E1%BB%A9c-n%C4%83ng-10-*-10-*-9mm-i.1137800761.40211722527)
+- [Mua sắm loại 7.5 x 7.5 x 5.0mm](https://shopee.vn/-KOQZM-10-C%C3%A1i-7.5x7.5MM-X%C3%BAc-gi%C3%A1c-H%C6%B0%E1%BB%9Bng-5-chi%E1%BB%81u-6Pin-N%C3%BAt-%E1%BA%A5n-Micro-%C4%90%E1%BA%B7t-l%E1%BA%A1i-C%C3%B4ng-t%E1%BA%AFc-Tact-m%E1%BB%9Bi--i.289668741.26937229122?extraParams=%7B%22display_model_id%22%3A295274945349%2C%22model_selection_logic%22%3A3%7D&sp_atk=48a51165-1d24-4267-9736-7272f1bf2b47&xptdk=48a51165-1d24-4267-9736-7272f1bf2b47)
+- [Mua sắm các loại](https://shopee.vn/C%C3%B4ng-t%E1%BA%AFc-n%C4%83m-chi%E1%BB%81u-7-*-7-10-*-10-5-7-9-10mm-Mi%E1%BA%BFng-d%C3%A1n-n%E1%BB%99i-tuy%E1%BA%BFn-C%E1%BA%A7n-%C4%91i%E1%BB%81u-khi%E1%BB%83n-N%C3%BAt-%C4%91i%E1%BB%81u-h%C6%B0%E1%BB%9Bng-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-di-%C4%91%E1%BB%99ng-C%C3%B4ng-t%E1%BA%AFc-%C4%91a-chi%E1%BB%81u-i.826078706.28534246855?extraParams=%7B%22display_model_id%22%3A258243440171%2C%22model_selection_logic%22%3A3%7D&sp_atk=57760c25-e278-477f-87b4-2bcefbf72e04&xptdk=57760c25-e278-477f-87b4-2bcefbf72e04)
+
+![Vị trí các chân](images/5d_button.2.png)
+
+### Module nút cảm ứng điện dung TTP223
+
+- [Mua sắm](https://shopee.vn/B%E1%BB%99-50-Ttp223-N%C3%BAt-C%E1%BA%A3m-%E1%BB%A8ng-M%C3%B4-%C4%90un-T%E1%BB%B1-Kh%C3%B3a-Ch%E1%BA%A1y-B%E1%BB%99-C%C3%B4ng-T%E1%BA%AFc-%C4%90i%E1%BB%87n-Dung-Chuy%E1%BB%83n-%C4%90%E1%BB%95i-M%E1%BB%99t-K%C3%AAnh-i.193005234.52156640119?extraParams=%7B%22display_model_id%22%3A320596205745%2C%22model_selection_logic%22%3A3%7D&sp_atk=f7139456-3170-4582-b03c-0b47af64da85&xptdk=f7139456-3170-4582-b03c-0b47af64da85)
+- [Video các mode hoạt động](https://www.youtube.com/watch?v=SwnSg61f9V8)
+
+![Module nút cảm ứng điện dung TTP223](images/nut_TTP223.png)
 
 ## Đo khoảng cách
 
-- Module SR-04 đo khoảng cách
-  - Ý nghĩa: đo khoảng cách bằng siêu âm\
-    ![HC SR-04](https://github.com/neittien0110/linhkiendientu/assets/8079397/7b263874-db23-4676-bda1-30a88b290205)
-  - Thông số:
-    - Điện áp hoạt động: 3.3-5V
-    - Góc hoạt động: 15\*
-    - Khoảng cách: 2-200cm
-    - Độ chính xác: 3mm (nhìn chung là thấp)
-    - Không ảnh hưởng bởi mặt trời như cách đo bằng hồng ngoài, nên phù hợp với đo ngoài trời
-  - Lập trình tham khảo: <https://nshopvn.com/product/cam-bien-sieu-am-hc-sr04/>
-  - [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-m%E1%BA%A1ch-ph%C3%A1t-hi%E1%BB%87n-s%C3%B3ng-si%C3%AAu-%C3%A2m-hc-sr04-hc-sr-04-cho-Arduino-i.395117932.9923497155)
+### Module SR-04 đo khoảng cách
+
+- Ý nghĩa: đo khoảng cách bằng siêu âm\
+  ![HC SR-04](https://github.com/neittien0110/linhkiendientu/assets/8079397/7b263874-db23-4676-bda1-30a88b290205)
+- Thông số:
+  - Điện áp hoạt động: 3.3-5V
+  - Góc hoạt động: 15\*
+  - Khoảng cách: 2-200cm
+  - Độ chính xác: 3mm (nhìn chung là thấp)
+  - Không ảnh hưởng bởi mặt trời như cách đo bằng hồng ngoài, nên phù hợp với đo ngoài trời
+- Lập trình tham khảo: <https://nshopvn.com/product/cam-bien-sieu-am-hc-sr04/>
+- [Mua sắm](https://shopee.vn/B%E1%BA%A3ng-m%E1%BA%A1ch-ph%C3%A1t-hi%E1%BB%87n-s%C3%B3ng-si%C3%AAu-%C3%A2m-hc-sr04-hc-sr-04-cho-Arduino-i.395117932.9923497155)
 
 <span style="color:red;">Khi SR-04 bị hỏng, khoảng cách distance trả về luôn = 0.</span>
 
-- Module cảm biến vật cản Radar RCWL-0516
-  ![Ảnh radar RCWL-516](https://nshopvn.com/wp-content/uploads/2019/03/tren-tay-module-cam-bien-vat-can-radar-rcwl-0516-qzl0-1-600x600.jpg)
-  - [Tài liệu, video hướng dẫn từ Nshop](https://nshopvn.com/product/module-cam-bien-vat-can-radar-rcwl-0516/)
+### Module cảm biến vật cản Radar RCWL-0516
+
+![Ảnh radar RCWL-516](https://nshopvn.com/wp-content/uploads/2019/03/tren-tay-module-cam-bien-vat-can-radar-rcwl-0516-qzl0-1-600x600.jpg)
+
+- [Tài liệu, video hướng dẫn từ Nshop](https://nshopvn.com/product/module-cam-bien-vat-can-radar-rcwl-0516/)
 
 ## Đo tốc độ
 
-- HB100 - Phát hiện và đo vận tốc chuyển động bằng microwave Doppler Radar
-  ![image](https://github.com/user-attachments/assets/c57a4aba-c76f-4d45-a75d-b0a5fec52eaa)
-  - Thông số:
-    - tần số truyền: 10,525 GHz
-    - Độ chính xác cài đặt tần số: 3MHz
-    - Công suất đầu ra (tối thiểu): 13dBm EIRP
-    - Điện áp hoạt động: 5V ± 0,25V
-    - Dòng hoạt động (CW): tối đa 60mA, 37mA điển hình
-    - Đối tượng chuyển động trong phạm vi từ 8-20m, nhưng không qua 3-25m
-    - Chỉ đo được khi vận tốc trong khoảng 5-40km/h
-    - phát sóng hài: < -10dBm
-    - Chế độ xung:
-    - dòng điện trung bình (5% DC): 2mA typ. chiều rộng 9 xung (Tối thiểu): 5uSec
-    - chu kỳ tải (Tối thiểu): 1%
-      ![image](https://github.com/user-attachments/assets/1b5d1354-4e16-480c-a4cd-069d83c0f535)
-  - [Minh họa với Arduino](https://medium.com/@benjamindavidfraser/arduino-intrusion-monitoring-system-5e2d8cacf82e)
-  - [Giải thích nguyên lý hoạt động và lắp breadboard](https://www.instructables.com/Easy-HB100-Amplifier/)
-  - [Mua sắm](https://shopee.vn/Hb100-Microwave-Doppler-Radar-M%C3%B4-%C4%91un-kh%C3%B4ng-d%C3%A2y-C%E1%BA%A3m-bi%E1%BA%BFn-chuy%E1%BB%83n-%C4%91%E1%BB%99ng-HB100-C%E1%BA%A3m-bi%E1%BA%BFn-chuy%E1%BB%83n-%C4%91%E1%BB%99ng-l%C3%B2-vi-s%C3%B3ng-M%C3%A1y-d%C3%B2-chuy%E1%BB%83n-%C4%91%E1%BB%99ng-i.578443443.28419956894)
+### HB100 - Phát hiện và đo vận tốc chuyển động bằng microwave Doppler Radar
 
-## Loa còi
+![image](https://github.com/user-attachments/assets/c57a4aba-c76f-4d45-a75d-b0a5fec52eaa)
 
-- Còi Buzzer passive dạng SMD: MLT-8530
-  ![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/30b6f6f7-93e1-41c9-a539-da11b584c6bb)
-  - Thông số:
-    - Điện áp tối đa: 3.6V
-    - Điện áp hoạt động: 2.5 ~ 4.5 V
-    - Phát âm thanh ở tần số: 2.7kHz
-      > Khoảng cách giữa 2 chân tin hiệu trùng khớp với loại còi Buzzer chân DIP thông thường
-  - [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811151451_Jiangsu-Huaneng-Elec-MLT-8530_C94599.pdf)
-  - [Trong thư viện JLCPCB](https://jlcpcb.com/partdetail/Jiangsu_HuanengElec-MLT8530/C94599)
-  - [Mua sắm](https://shopee.vn/MLT-8530-Buzzer-passive-3.6V-2700Hz-8.5x8.5x3mm-i.501501433.23671510680)
+- Thông số:
+  - tần số truyền: 10,525 GHz
+  - Độ chính xác cài đặt tần số: 3MHz
+  - Công suất đầu ra (tối thiểu): 13dBm EIRP
+  - Điện áp hoạt động: 5V ± 0,25V
+  - Dòng hoạt động (CW): tối đa 60mA, 37mA điển hình
+  - Đối tượng chuyển động trong phạm vi từ 8-20m, nhưng không qua 3-25m
+  - Chỉ đo được khi vận tốc trong khoảng 5-40km/h
+  - phát sóng hài: < -10dBm
+  - Chế độ xung:
+  - dòng điện trung bình (5% DC): 2mA typ. chiều rộng 9 xung (Tối thiểu): 5uSec
+  - chu kỳ tải (Tối thiểu): 1%
+    ![image](https://github.com/user-attachments/assets/1b5d1354-4e16-480c-a4cd-069d83c0f535)
+- [Minh họa với Arduino](https://medium.com/@benjamindavidfraser/arduino-intrusion-monitoring-system-5e2d8cacf82e)
+- [Giải thích nguyên lý hoạt động và lắp breadboard](https://www.instructables.com/Easy-HB100-Amplifier/)
+- [Mua sắm](https://shopee.vn/Hb100-Microwave-Doppler-Radar-M%C3%B4-%C4%91un-kh%C3%B4ng-d%C3%A2y-C%E1%BA%A3m-bi%E1%BA%BFn-chuy%E1%BB%83n-%C4%91%E1%BB%99ng-HB100-C%E1%BA%A3m-bi%E1%BA%BFn-chuy%E1%BB%83n-%C4%91%E1%BB%99ng-l%C3%B2-vi-s%C3%B3ng-M%C3%A1y-d%C3%B2-chuy%E1%BB%83n-%C4%91%E1%BB%99ng-i.578443443.28419956894)
 
-- Module ISD1820
-  - Chức năng: ghi âm giọng nói bảng thoại và phát ra loa, bao gồm sẵn cả mic rên board và loa nối dây.
-    ![image](https://github.com/user-attachments/assets/fdd89075-945c-46fd-8ed1-2ce419b35679)
-  - Thông số:
-    - Nguồn điện: 3-5V
-    - Các nút bấm và chân pin điều khiển đều tích cực mức cao.
-    - Nút/pin **REC**: điều khiển ghi âm, **nhấn giữ** nút, hoặc tích cực chân pin trong toàn bộ thời gian ghi âm.
-    - Nút/pin **PLAYE**: phát lại âm thanh đã ghi trước đó. Tích cực theo sườn. Bấm không cần giữ.
-    - Nút/pin **PLAYL**: phát lại âm thanh đã ghi trước đó. Tích cực theo mức ==> Nhấn giữ để phát âm thanh, nhả nút là dừng. (_jumper không có tác dụng_)
-    - Jumper **P-E** để lặp liên tục đoạn âm thanh nếu được nối (thay thế cho vai trò của các nút **PLAYE, PLAYL**)
-    - Jumper FT: từ mic khuyếch đại ra loa luôn.
-    - Tốc độ 3.2k mẫu/s.
-    - Thời gian ghi/phát mặc định 10s. Thay thế điện trở ROSC để có thời gian ghi dao động từ 8s tới 20s. Chi tiết trong file pdf bên dưới.
-  - [Schematic và hướng dẫn chi tiết. PDF](https://www.electroniclinic.com/wp-content/uploads/2020/01/isd1820-datasheet.pdf)
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-ghi-%C3%A2m-ISD1820-m%C3%B4-%C4%91un-gi%E1%BB%8Dng-n%C3%B3i-b%E1%BA%A3ng-tho%E1%BA%A1i-b%E1%BA%A3ng-m%C3%B4-%C4%91un-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-di-%C4%91%E1%BB%99ng-c%C3%B3-micr%C3%B4-Loa-i.770245757.42550598573?sp_atk=85d7cd2c-e491-495f-b2f3-beb54954713b&xptdk=85d7cd2c-e491-495f-b2f3-beb54954713b)
-  - [Code mẫu tham khảo của Dương Đăng Duy với ISD1820, PIR, ESP32 Dev Module](https://github.com/duongdangduy95/AuraAlert_esp32)
+## Âm thanh Loa còi
 
-- Loa chủ động:
-  - Chức năng: phát âm thanh. [Tool thử tần số online](https://www.szynalski.com/tone-generator/)
-  - Phân loại:
-    - Điện áp: có loại 3v và 5V
-    - Kích thước: rất nhiều dạng
-  - Loa 9042: rất nhỏ, mỏng, không cùng cỡ chân pin với 12095. [Dataheet](https://lcsc.com/datasheet/lcsc_datasheet_2409302231_YUEXIN-YX-KC9042-16R_C781849.pdf)
-    - Khoảng cách 2 chân pin: 4mm. Có thể thiết kế connect 3pin thì loa này cắm vào pin 1 và pin 3 là phù hợp.
-    - Đường kính ngoài: 9mm.
-    - [LCSC](https://lcsc.com/product-detail/Buzzers_YUEXIN-YX-KC9042-16_C781849.html),
-    - [Mua sắm](https://shopee.vn/Set-5-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-12095-12085-9042-3v-5v-12v-12-*-9.5mm-16R-12-*-8.5mm-i.778834786.19356518887)
-  - Loa 12095: loại phổ biến ở cửa hàng
+### Module ISD1820
 
-- Mic INMP441 \
-  <img width="958" height="719" alt="image" src="https://github.com/user-attachments/assets/a8ca4819-a8be-454f-90f5-416d742f8093" />\
-  _Nguồn: <https://dientuduchuy.com/products/inmp441-mach-cam-bien-am-thanh-micro-i2s-chip-thuong>_
-  - Thông số:
-    - Mẫu 24-bit
-    - Điệp áp hoạt động: 1v8~3v3
-    - Cụm 3 pin:
+![image](https://github.com/user-attachments/assets/fdd89075-945c-46fd-8ed1-2ce419b35679)
 
-      |Tên|Chức năng|Kết nối|
-      |--|--|--|
-      |L/R|=0 thì tín hiệu mic sẽ thuộc kênh trái của khung I2S, =1 thì thuộc kênh phải|Gắn cố định vào Vdd, Vcc|
-      |WS|Word select của I2S|GPIO của MCU|
-      |SCK|Clock của I2S|GPIO của MCU|
+- Chức năng: ghi âm giọng nói bảng thoại và phát ra loa, bao gồm sẵn cả mic rên board và loa nối dây.
+- Thông số:
+  - Nguồn điện: 3-5V
+  - Các nút bấm và chân pin điều khiển đều tích cực mức cao.
+  - Nút/pin **REC**: điều khiển ghi âm, **nhấn giữ** nút, hoặc tích cực chân pin trong toàn bộ thời gian ghi âm.
+  - Nút/pin **PLAYE**: phát lại âm thanh đã ghi trước đó. Tích cực theo sườn. Bấm không cần giữ.
+  - Nút/pin **PLAYL**: phát lại âm thanh đã ghi trước đó. Tích cực theo mức ==> Nhấn giữ để phát âm thanh, nhả nút là dừng. (_jumper ông có tác dụng_)
+  - Jumper **P-E** để lặp liên tục đoạn âm thanh nếu được nối (thay thế cho vai trò của các nút **PLAYE, PLAYL**)
+  - Jumper FT: từ mic khuyếch đại ra loa luôn.
+  - Tốc độ 3.2k mẫu/s.
+  - Thời gian ghi/phát mặc định 10s. Thay thế điện trở ROSC để có thời gian ghi dao động từ 8s tới 20s. Chi tiết trong file pdf bên ới.
+- [Schematic và hướng dẫn chi tiết. PDF](https://www.electroniclinic.com/wp-content/uploads/2020/01/isd1820-datasheet.pdf)
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-ghi-%C3%A2m-ISD1820-m%C3%B4-%C4%91un-gi%E1%BB%8Dng-n%C3%B3i-b%E1%BA%A3ng-tho%E1%BA%A1i-b%E1%BA%A3ng-m%C3%B4-%C4%91un-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-di-%C4%91%E1%BB%99ng-c%C3%B3-micr%C3%B4-Loa-i.770245757.42550598573?sp_atk=85d7cd2c-e491-495f-b2f3-beb54954713b&xptdk=85d7cd2c-e491-495f-b2f3-beb54954713b)
+- [Code mẫu tham khảo của Dương Đăng Duy với ISD1820, PIR, ESP32 Dev Module](https://github.com/duongdangduy95/AuraAlert_esp32)
 
-      | Tên | Chức năng               | Kết nối      |
-      | --- | ----------------------- | ------------ |
-      | SD  | Serial Data Out của I2S | GPIO của MCU |
-      | VCC | Nguồn                   | 3v3          |
-      | GND | Nguồn                   | 0v           |
+### PAM8403 - mạch khuyếch đại 2 kênh 3W 5V
 
-  - Sơ đồ khối chức năng:\
-    <img width="698" height="395" alt="image" src="https://github.com/user-attachments/assets/3e658b79-48b2-4000-8191-47cf166a8b32" />
-  - [Datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf)
-  - Giải thích về I2S và code mẫu esp32: <https://dronebotworkshop.com/esp32-i2s/>
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Micro-%C4%90a-H%C6%B0%E1%BB%9Bng-MH-ET-LIVE-Giao-Di%E1%BB%87n-I2S-INMP441-MEMS-C%C3%B4ng-Su%E1%BA%A5t-Th%E1%BA%A5p-Si%C3%AAu-Nh%E1%BB%8F-ESP3-i.770245757.23646935387)
+![](https://easyelecmodule.com/wp-content/uploads/PAW84031.png)
+![alt text](images/pam8403.png)
+
+- Thông số:
+  - ✔️Điện áp hoạt động : DC 3.5V-5.2V.
+  - ✔️Có thể cấp nguồn bằng cổng USB máy tính 5V.
+  - ✔️ Công suất loa : 2-8W.
+  - ✔️ Công suất đầu ra 3W (kênh trái) + 3W (kênh phải) trong điều kiện nguồn cung cấp 5V.
+  - ✔️ Loa đáp ứng : 4-8ohms (khuyến nghị: 4 ohms).
+- [Mua sắm](https://shopee.vn/-Stem-A-Z-148-M%E1%BA%A1ch-Khu%E1%BA%BFch-%C4%90%E1%BA%A1i-%C3%82m-Thanh-PAM8403-2x3W-5V-i.971933543.41758661077)
+
+### MLT-8530 - Còi Buzzer passive dạng SMD
+
+![image](https://github.com/neittien0110/linhkiendientu/assets/8079397/30b6f6f7-93e1-41c9-a539-da11b584c6bb)
+
+- Thông số:
+  - Điện áp tối đa: 3.6V
+  - Điện áp hoạt động: 2.5 ~ 4.5 V
+  - Phát âm thanh ở tần số: 2.7kHz
+    > Khoảng cách giữa 2 chân tin hiệu trùng khớp với loại còi Buzzer chân DIP thông thường
+- [Datasheet](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811151451_Jiangsu-Huaneng-Elec-MLT-8530_C94599.pdf)
+- [Trong thư viện JLCPCB](https://jlcpcb.com/partdetail/Jiangsu_HuanengElec-MLT8530/C94599)
+- [Mua sắm](https://linhkien.cxtvn.com/2723-mlt-8530-buzzer-passive-36v.html)
+
+### Loa chủ động
+
+- Chức năng: phát âm thanh. [Tool thử tần số online](https://www.szynalski.com/tone-generator/)
+- Phân loại:
+  - Điện áp: có loại 3v và 5V
+  - Kích thước: rất nhiều dạng
+- Loa 9042: rất nhỏ, mỏng, không cùng cỡ chân pin với 12095. [Dataheet](https://lcsc.com/datasheet/lcsc_datasheet_2409302231_YUEXIN-YX-KC9042-16R_C781849.pdf)
+  - Khoảng cách 2 chân pin: 4mm. Có thể thiết kế connect 3pin thì loa này cắm vào pin 1 và pin 3 là phù hợp.
+  - Đường kính ngoài: 9mm.
+  - [LCSC](https://lcsc.com/product-detail/Buzzers_YUEXIN-YX-KC9042-16_C781849.html),
+  - [Mua sắm](https://shopee.vn/Set-5-Linh-Ki%E1%BB%87n-%C4%90i%E1%BB%87n-T%E1%BB%AD-12095-12085-9042-3v-5v-12v-12-*-9.m-16R-12-*-8.5mm-i.778834786.19356518887)
+- Loa 12095: loại phổ biến ở cửa hàng
+
+## Mic INMP441
+
+<img width="958" height="719" alt="image" src="https://github.com/user-attachments/assets/a8ca4819-a8be-454f-90f5-416d742f8093" />\
+_Nguồn: <https://dientuduchuy.com/products/inmp441-mach-cam-bien-am-thanh-micro-i2s-chip-thuong>_
+
+- Thông số:
+  - Mẫu 24-bit
+  - Điệp áp hoạt động: 1v8~3v3
+  - Cụm 3 pin:
+
+    | Tên | Chức năng | Kết nối |
+    | :-- | :-- | :-- |
+    | L/R | =0 thì tín hiệu mic sẽ thuộc kênh trái của khung I2S, =1 thì thuộc kênh phải|Gắn cố định vào Vdd, Vcc |
+    | WS | Word select của I2S | GPIO của MCU |
+    | SCK | Clock của I2S | GPIO của MCU |
+    | Tên | Chức năng               | Kết nối      |
+    | --- | ----------------------- | ------------ |
+    | SD  | Serial Data Out của I2S | GPIO của MCU |
+    | VCC | Nguồn                   | 3v3          |
+    | GND | Nguồn                   | 0v           |
+
+![INMP441](images/INMP441.png)
+
+- Sơ đồ khối chức năng:\
+  <img width="698" height="395" alt="image" src="https://github.com/user-attachments/assets/3e658b79-48b2-4000-8191-47cf166a8b32" />
+- [Datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf)
+- Giải thích về I2S và code mẫu esp32: <https://dronebotworkshop.com/esp32-i2s/>
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Micro-%C4%90a-H%C6%B0%E1%BB%9Bng-MH-ET-LIVE-Giao-Di%E1%BB%87n-I2S-INMP441-MEMS-C%C3%B4ng-Su%E1%BA%A5t-Th%E1%BA%A5p-Si%C3%AAu-Nh%E1%BB%8F-ESP3-i.770245757.23646935387)
+
+### XY-BT-MINI / VHM-314
+  
+![Ảnh](https://bizweb.dktcdn.net/100/374/971/products/mach-giai-ma-am-thanh-ho-tro-bluetooth-5-0-xy-bt-mini-vhm-314.jpg?v=1655912002023)
+
+- Mạch nhỏ gọn, hỗ trợ Bluetooth phiên bản 5.0 tương thích ngược với các phiên bản trước, giải mã âm thanh Lossless MP3-FLAC-WAV-APE, ngõ ra Stereo
+- Là mạch giải mã để tạo ra tín hiệu âm thanh công suất thấp đủ cho headphone, nhưng không có khuyếch đại
+- Thông số:
+  - Điện áp sử dụng: 3.7~5V (pad hàn hoặc cổng MicroUSB)
+  - SNR: 90dB
+  - THD+N: -70dB
+  - Crosstalk: -86dB
+  - DNR: 91dB
+  - Hỗ trợ các cấu hình Bluetooth: A2DP/AVCTP/AVDTP/AVRCP/HFP
+  - Khoảng cách thu: >15 mét
+  - Đèn báo: màu xanh
+  - Kích thước 30x30mm
+- [Video khắc phục nhiễu gây tiếng sôi ở âm thanh](https://youtu.be/oQG651S3RfM?si=3LIm3h53lvi7uOJb)
+- [Video kết hợp với mạch khuếch đại](https://www.youtube.com/watch?v=djAwvEZoG-8)
+
+# PAM8403 - Module khuyếch đại âm thanh
+
+- Chức năng: khuyêch đại âm thanh
+- Phù hợp với loa 4ohm hoặ 8Ohm với công suất từ 3W và 5W
+- Minh họa ghép nối với Pi
+  - Cấp nguồn: Nối chân +5V và GND của mạch PAM8403 vào chân 5V và GND trên hàng GPIO của Raspberry Pi.
+  - Lấy tín hiệu: Bạn cắt một đầu của dây cáp AUX 3.5mm, tuốt lõi ra lấy 3 dây (Trái - Phải - Tiếp đất) hàn vào 3 chân L - R - GND (phần Audio Input) của PAM8403. Đầu giắc 3.5mm còn lại cắm thẳng vào lỗ âm thanh của Pi.
+  - Xuất ra loa: Chân L+ / L- hoặc R+ / R- trên mạch PAM8403 hàn thẳng vào 2 cực của chiếc loa 3W là xong.
+
+  ```plain
+    RASPBERRY PI 4                    MẠCH PAM8403                 LOA 3W (1 CHIẾC)
+    ================                  ============                 ================
+
+     [ Chân 5V ] ---------------------> [  +5V  ]
+     [ Chân GND ] --------------------> [  GND  ]
+
+                                        [   L   ] <--- (Bỏ trống hoặc nối nếu muốn nghe kênh Trái)
+     [ Cáp 3.5mm ] === (Dây Mass) ====> [   G   ]
+                                        [   R   ] <--- (Lõi dây màu Đỏ - Kênh Phải)
+
+                                        [ R+, R-] --------------------> [ Loa 1 (+)(-) ]
+                                        [ L+, L-] --------------------> [ Loa 2 (+)(-) ]                                        
+  ```
+  
+- [Mua sắm](https://shopee.vn/-L%E1%BA%ADp-Tr%C3%ACnh-Nh%C3%BAng-A-Z-148-M%E1%BA%A1ch-Khu%E1%BA%BFch-%C4%90%E1%BA%A1i-%C3%82m-Thanh-PAM8403-2x3W-5V-i.107147748.19033884600?extraParams=%7B%22display_model_id%22%3A117237617539%2C%22model_selection_logic%22%3A3%7D&sp_atk=8547b624-656d-4e82-9b97-0bd8ec4a4a48&xptdk=8547b624-656d-4e82-9b97-0bd8ec4a4a48)  
+- [Video kết hợp với mạch giải mã âm thanh](https://www.youtube.com/watch?v=djAwvEZoG-8)
 
 ## Nhiệt độ Độ ẩm
 
@@ -534,51 +652,99 @@ Kích thước bảng: 13,4X21,6mm
 
 ## Thẻ NFC RFID
 
-- RC-522 - module đọc NFC 13.56Mhz
-  - Minh họa sử dụng ESP32-Dev-Kit với module:
+### RC-522 - module đọc NFC 13.56Mhz
+
+- Minh họa sử dụng ESP32-Dev-Kit với module:
     ![ ](![image](https://github.com/user-attachments/assets/66991625-8106-44b3-bde3-d88501262904)\
     [Xem video kết quả](https://youtu.be/VQAy33XYFEY?si=3vtoG_t9ghqNWzda)
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-%C4%91%E1%BB%8Dc-th%E1%BA%BB-RFID-13.56MHz-RC522-MFRC522-NFC-MFRC-522-RC-522-Arduino-PIC-i.578443443.10867340272?sp_atk=b5f5e2d3-e871-4cd5-8062-d1113a27a100&xptdk=b5f5e2d3-e871-4cd5-8062-d1113a27a100)
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%91un-%C4%91%E1%BB%8Dc-th%E1%BA%BB-RFID-13.56MHz-RC522-MFRC522-NFC-MFRC-522-RC-522-Arduino-PIC-i.578443443.10867340272?sp_atk=b5f5e2d3-e871-4cd5-8062-d1113a27a100&xptdk=b5f5e2d3-e871-4cd5-8062-d1113a27a100)
 
-- RDM6300 - module đọc RFID 125Khz
-  - ![RDM6300](https://github.com/user-attachments/assets/d048636a-307d-4f5a-84ae-526e5a35391c)
-  - Thông số:
-    - Tần số thẻ RFID: **125KHz**
-    - Khoảng cách phát hiện: 2cm-5cm
-    - Giao tiếp: UART/Serial, 9600 bps
-    - Điện áp hoạt động: 5V
-    - Pin: ![image](https://github.com/user-attachments/assets/3f9aee53-54e3-4f3a-af4d-e136280307fd)
-    - Kết nối MCU: ![image](https://github.com/user-attachments/assets/a60ec624-418b-4b57-9f44-e1e6f95283e8)
-  - [Hướng dẫn sử dụng từ Nshop](https://nshopvn.com/product/module-thu-phat-rfid-rdm6300-rf-125khz-uart-noi-tiep-dau-ra/)
-  - [Schematic](https://www.makershop.de/download/RDM-6300.pdf)
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-%C4%90%E1%BB%8Dc-RFID-125Khz-RDM6300-UART-Cho-arduino-i.578443443.20706992299)
+### RDM6300 - module đọc RFID 125Khz
 
-- Module cảm biến vân tay AS608
-  - Thông số:
-    - 162 vân tay
-    - giao tiếp UART, 57600 bps
-  - API, guide: [Datasheet](https://handsontec.com/dataspecs/sensor/AS608%20Finger%20print%20Sensor.pdf)
-  - [Tải về phần mềm SFG kết nối module](http://www.adafruit.com/datasheets/SFGDemoV2.0.rar)
-  - [Video demo sử dụng phần mềm SFG để lây ảnh vân tay, fingerprint](https://www.youtube.com/watch?v=9faXEHvMgMA)
+- ![RDM6300](https://github.com/user-attachments/assets/d048636a-307d-4f5a-84ae-526e5a35391c)
+- Thông số:
+  - Tần số thẻ RFID: **125KHz**
+  - Khoảng cách phát hiện: 2cm-5cm
+  - Giao tiếp: UART/Serial, 9600 bps
+  - Điện áp hoạt động: 5V
+  - Pin: ![image](https://github.com/user-attachments/assets/3f9aee53-54e3-4f3a-af4d-e136280307fd)
+  - Kết nối MCU: ![image](https://github.com/user-attachments/assets/a60ec624-418b-4b57-9f44-e1e6f95283e8)
+- [Hướng dẫn sử dụng từ Nshop](https://nshopvn.com/product/module-thu-phat-rfid-rdm6300-rf-125khz-uart-noi-tiep-dau-ra/)
+- [Schematic](https://www.makershop.de/download/RDM-6300.pdf)
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-%C4%90%E1%BB%8Dc-RFID-125Khz-RDM6300-UART-Cho-arduino-i.578443443.20706992299)
 
-- MHET QRCode Module v3.0 \
+### Module cảm biến vân tay AS608
+
+- Thông số:
+  - 162 vân tay
+  - giao tiếp UART, 57600 bps
+- API, guide: [Datasheet](https://handsontec.com/dataspecs/sensor/AS608%20Finger%20print%20Sensor.pdf)
+- [Tải về phần mềm SFG kết nối module](http://www.adafruit.com/datasheets/SFGDemoV2.0.rar)
+- [Video demo sử dụng phần mềm SFG để lây ảnh vân tay, fingerprint](https://www.youtube.com/watch?v=9faXEHvMgMA)
+
+### MHET QRCode Module v3.0
+
   ![alt text](./images/mhet_qrcode_v3.png)
-  - Các mã mạch đọc được: UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, Read barcode type (1D): UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, Korean 3 of 5, ISBT Concat
-    - QR codes, DataMatrix, PDF417, BooklandESE
-  - Kết nối:
+
+- Các mã mạch đọc được: UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, Read barcode type (1D): UPC/EAN, UPC/EAN with supplementals, BooklandEAN, ISSN, UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full UCC Coupon Extended Code, Code 128, GS1-128, ISBT 128, Code 39, Code 39 Full ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved ASCII, Trioptic Code 39, Code 32, Code 93, Code 11, Matrix 2 of 5, Interleaved 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, 2 of 5, Discrete 2 of 5, Codabar, MSI, Chinese 2 of 5, GS1 DataBar variants, Korean 3 of 5, ISBT Concat
+  - QR codes, DataMatrix, PDF417, BooklandESE
+- Kết nối:
     ![pin](./images/mhet_qrcode_v3_pins.png)
-    1. HID USB. Lưu ý: có 2 hàng jumper cấu hình, phải chỉnh cặp jump nối về HID.
-    2. UART USB với CH340 driver ở tốc độ **9600**. Lưu ý: có 2 hàng jumper cấu hình, phải chỉnh cặp jump nối về UART.
-    3. UART với chân pin Tx/Rx trực tiếp, ở tốc độ **9600**. Lưu ý: có 2 hàng jumper cấu hình, lấy trực tiếp Tx/Rx từ hàng jumper này. Như vậy có thể dùng UART trực tiếp và HID USB đồng thời.
-    4. Giao tiếp I2C
-    - VDO, GND: nguồn cấp 3v3 hoặc 5v
-    - SCL, SDA: giao tiếp I2C
-    - RST: reset
+  1. HID USB. Lưu ý: có 2 hàng jumper cấu hình, phải chỉnh cặp jump nối về HID.
+  2. UART USB với CH340 driver ở tốc độ **9600**. Lưu ý: có 2 hàng jumper cấu hình, phải chỉnh cặp jump nối về UART.
+  3. UART với chân pin Tx/Rx trực tiếp, ở tốc độ **9600**. Lưu ý: có 2 hàng jumper cấu hình, lấy trực tiếp Tx/Rx từ hàng jumper này. Như vậy có thể dùng UART trực tiếp và HID USB đồng thời.
+  4. Giao tiếp I2C
+     - VDO, GND: nguồn cấp 3v3 hoặc 5v
+     - SCL, SDA: giao tiếp I2C
+     - RST: reset
 
   ![uart](./images/mhet_qrcode_v3_uart.png)
-  - [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Qu%C3%A9t-M%C3%A3-Code-V3.0-1d-2d-giao-Di%E1%BB%87n-Cho-M%C3%A1y-Qu%C3%A9t-M%C3%A3-V3.0-i.148048328.7217099203)
-  - Kích thước: 65 x 28 x 13.5 mm
-  - [Tài liệu chi tiết](./docs/Scanner-v3-Manual.pdf), hoặc nguồn <https://ja-bots.com/wp-content/uploads/2025/04/Scanner-v3-Manual.pdf>
+
+- [Mua sắm](https://shopee.vn/M%C3%B4-%C4%90un-Qu%C3%A9t-M%C3%A3-Code-V3.0-1d-2d-giao-Di%E1%BB%87n-Cho-M%C3%A1y-Qu%C3%A9t-M%C3%A3-V3.0-i.148048328.7217099203)
+- Kích thước: 65 x 28 x 13.5 mm
+- [Tài liệu chi tiết](./docs/Scanner-v3-Manual.pdf), hoặc nguồn <https://ja-bots.com/wp-content/uploads/2025/04/Scanner-v3-Manual.pdf>
+
+### SP2100-2D Máy đọc mã vạch 2 chiều UNIONNET
+
+![alt text](images/SP2100.1.png)
+
+- Nút (Chức năng):
+  - Một nút quét ở mặt trên
+  - Jai nút điều hướng ở mặt bên trái
+  - Nút reset: cạnh cổng microusb bên trái, phải dùng que chọc.
+- Quét mã:
+  - Loại quét:
+    - 1D: chụp ảnh tuyến tính
+    - 2D: chụp ảnh khu vực
+  - Tốc độ quét: 752 x 480 pixel
+  - Độ sâu trường ảnh:
+    - PDF 417 (10 triệu) 45mm-155mm
+    - PDF 417 (10 triệu) Ma trận dữ liệu 45mm-175mm
+    - (10 triệu) Ma trận dữ liệu 35mm-130mm
+    - (10 triệu) Mã QR 50mm-150mm
+    - (10 triệu) Mã QR 35mm-125mm
+    - (10 triệu) 50mm-160mm
+  - Các loại mã:
+    - 1D: Code128, EAN-13, EAN-8, Code39, UPC-A, UPS-E, Codabar, Interleaved2 of 5, ISBN, Code 93, UCC / EAN-128, GS1 Datarbar, v.v.
+    - 2D: PDF 417, Mã QR (Mẫu 1/2), Datamatrix (ECC200, ECC000,050080,100,140), Aztec, Maxicode, v.v.
+- Két nôi:
+  - MFi (Apple), Bluetooth-HID, Bluetooth-SPP, USB to PC,
+  - Bluetooth, hổ trợ cả classic và BLE, tuơng thích Android/MacOS/Windows
+  - Vùng phủ sóng: Bluetooth 2.1 + EDR Class 2, 10m (Tối đa 15m)
+  - UART qua cổng Micro USB, với đôc độ 9600 hoặc 115200
+  - Kết nối HID Bluetooth với máy tính Windows 11 thành công. Chú ý: thiết bị phải được chuyển mode HID, bằng 3 phím chức năng\
+    ![alt text](images/SP2100.bluetoothhid.png), ![alt text](images/SP2100.bluetoothhid2.png)
+- [Video](https://www.youtube.com/watch?v=Tjr_kRNZ8ZQ&t=9s)  
+- Thông số khác:
+  - CPU : ARM7 32 bit
+  - SRAM : 32KB (RAM) / FLASH : 256KB (ROM) / bên ngoài : 8MB (ROM)
+  - Màn hình oLed: 4 dòng / 2 màu
+  - Có thời gian thực RTC
+  - Pin: 1.450mAh, đủ cho 24h làm việc
+  - Khối lượng 80 gram bao gồm pin
+  - Kích thước: 89mm (L) x 43mm (W) x 19mm (H)
+  - Tự động ghép nối, chức năng tự động tắt nguồn,  
+  - [Tài liệu](./docs/SP-2100-2D-ReferenceManual.pdf), hoặc bản [online](http://www.gomaro.ch/ftproot/Reference%20Manual%20SP-2100-2D.pdf)
 
 ## Relay
 
