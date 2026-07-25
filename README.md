@@ -460,6 +460,7 @@ Kích thước bảng: 13,4X21,6mm
     - Đo đồng thời P2.5 và P10
     - Điều kiện làm việc: **độ ẩm < 70%**
     - Tốc độ mẫu: 1 mẫu/giây
+    - Sử dụng quạt 3507 với dây nối 3pin XH2.54 theo thứ tự (tín hiệu-GND-5v), hút gió bề mặt thổi ra hông
   - Ý nghĩa của jack kết nối XH2.54 7 pin
 
     | pin | Name | comment |
@@ -507,6 +508,9 @@ Kích thước bảng: 13,4X21,6mm
       <img width="675" height="311" alt="image" src="https://github.com/user-attachments/assets/10e48a75-15fe-4657-8709-de520961bb3f" />
     - [Interfacing SDS011 Air Quality Sensor with ESP8266: DIY Air Pollution Monitor Part1 | SDS011+ESP8266](https://electronicsinnovation.com/interfacing-sds011-air-quality-sensor-with-esp8266-diy-air-pollution-monitor-part1/)
       <img width="768" height="886" alt="Interfacing SDS011 with ESP8266" src="https://github.com/user-attachments/assets/e0332006-ae4d-4db7-b2d9-4e53aa8fd0e0" />
+
+- Vấn đề đã gặp:
+  - Quạt rú, kêu to: tiếp xúc 3 chân tín hiệu của quạt bị kém. Cần rút ra cắm lại.
 
 ## Ánh sáng, hồng ngoại. uv
 
