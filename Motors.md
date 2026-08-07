@@ -14,6 +14,7 @@
 - [Servo TD-8120mg](#servo-td-8120mg)
 - [Động cơ cần đẩy giảm tốc hành tinh chính xác DC 3v](#động-cơ-cần-đẩy-giảm-tốc-hành-tinh-chính-xác-dc-3v)
 - [Quạt thổi Turbo Blower 3010 5v](#quạt-thổi-turbo-blower-3010-5v)
+- [PCA9685](#pca9685)
 
 <!-- /TOC -->
 
@@ -193,3 +194,23 @@ servo.attach(pin, min, max)
 ![alt text](images/Fan_Turbo_Blower_3010.03.png)
 ![alt text](images/Fan_Turbo_Blower_3010.04.png)
 ![alt text](images/Fan_Turbo_Blower_3010.05.png)
+
+## PCA9685
+
+![pca9685](images/pca9685.png)
+
+- Số kênh: 16 kênh PWM.
+- Độ phân giải: 12-bit (4096 mức điều chỉnh từ 0% đến 100%).
+- Giao tiếp: I2C (hỗ trợ đổi địa chỉ để nối tiếp nhiều mạch).
+- Tần số PWM: 40Hz – 1.6kHz (phù hợp 50Hz–60Hz cho RC Servo).
+- Điện áp hoạt động: 2.3V – 5.5V (tương thích 3.3V và 5V)
+- Hướng dẫn kết nối cơ bản 6 chân 2.54
+  - Chân VCC: Nối với nguồn 3.3V hoặc 5V từ vi điều khiển (cấp nguồn cho IC).
+  - Chân GND: Nối chung GND với vi điều khiển.
+  - Chân SDA / SCL: Nối với chân I2C tương ứng của MPU 
+  - Chân V+ / GND (Terminal block): Cấp nguồn riêng cho động cơ Servo (tránh sụt áp hỏng vi điều khiển). 2 chân này thông với header xanh ở giữa module
+  - Chân OE = Output Enable, tích cực mức thấp, có thể bỏ qua vì có sẵn trở pulldown. Giúp tiết kiệm năng lượng
+- Một cách đầu nối đơn giản khi chỉ có vài servo SG90s.
+  - Cắm thêm jumper nôi trực tiếp VCC và V+
+  - Cấp nguồn 5V
+  ![Sử dụng pca9685](images/pca9685.2.png)
