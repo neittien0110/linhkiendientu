@@ -5,7 +5,9 @@
 <!-- TOC -->
 
 - [Mục lục](#mục-lục)
-- [MPU](#mpu)
+- [MPU - La bàn, gia tốc kế](#mpu---la-bàn-gia-tốc-kế)
+    - [MPU9250 / MPU6500](#mpu9250--mpu6500)
+    - [AS5600 cảm biến góc quay bằng từ trường không tiếp xúc](#as5600-cảm-biến-góc-quay-bằng-từ-trường-không-tiếp-xúc)
 - [Nhịp tim và SpO2](#nhịp-tim-và-spo2)
     - [MH-ET MAX30102: Đo lượng oxi và nhịp tim MAX102 màu đen](#mh-et-max30102-đo-lượng-oxi-và-nhịp-tim-max102-màu-đen)
     - [TÍM: Đo lượng oxi và nhịp tim MAX102](#tím-đo-lượng-oxi-và-nhịp-tim-max102)
@@ -57,12 +59,30 @@
 - [Tài liệu khác](#tài-liệu-khác)
 
 <!-- /TOC -->
-## MPU
+## MPU - La bàn, gia tốc kế
 
-- MPU**9250** / MPU**6500** / \
+### MPU**9250** / MPU**6500** 
+
   ![20240218_095519](https://github.com/neittien0110/linhkiendientu/assets/8079397/14b33c4d-9f34-4473-ab0b-366a25a4f8c2)
 
 - [Mua MPU 6500, mặc dù tên là 9250, nhưng thực tế là 6500](https://shopee.vn/M%C3%B4-%C4%90un-C%E1%BA%A3m-Bi%E1%BA%BFn-9-Tr%E1%BB%A5c-MPU-9250-GY-9250-I2C-SPI-Chuy%C3%AAn-D%E1%BB%A5ng-i.578443443.22041043458)
+
+### AS5600 cảm biến góc quay bằng từ trường không tiếp xúc
+
+- Điện áp hoạt động: 3.3 – 5VDC
+- Tự chuyển chế độ tiết kiệm điện
+- Ngõ ra: Analog, PWM, I2C ở địa chỉ 0x36 
+- Độ phân giải 12bit (4069points/360°)
+- Khoảng cách từ cảm biến đến nam châm: 0.5 – 3mm
+- Có thể cài đặt giới hạn góc quay từ 18° – 360°
+- Có chân ngõ ra lập trình được
+- **Lưu ý:**** để chính xác, phải dùng loại nam châm phân cực theo đường kính **diametric**, chứ không phải nam châm phân cực theo trục.\
+![alt text](images/as5600.3.png)
+- Cách lắp chuẩn: \
+[![alt text](images/as5600.2.png)](https://youtube.com/shorts/8xxZcyx5U_A?si=cDGRbhrU2Tk4nu3o)
+- cách lắp không chuẩn: chỉ dùng để đo tốc độ quay. \
+[![alt text](images/as5600.1.png)](https://youtube.com/shorts/fAxLF3SAqq4?si=2-QxSBdrDZ_TAY6y)
+- [Mua sắm](https://shopee.vn/Module-c%E1%BA%A3m-bi%E1%BA%BFn-g%C3%B3c-quay-b%E1%BA%B1ng-t%E1%BB%AB-tr%C6%B0%E1%BB%9Dng-AS5600-I2C-k%C3%A8m-nam-ch%C3%A2m-i.578443443.11880418419?extraParams=%7B%22display_model_id%22%3A58111161500%2C%22model_selection_logic%22%3A3%7D&image_ids=9b56339654194c33d7f226309c8ad942
 
 ## Nhịp tim và SpO2
 
